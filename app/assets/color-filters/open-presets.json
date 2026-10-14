@@ -1,0 +1,1724 @@
+{
+  "schema": 1,
+  "presets": [
+    {
+      "id": "lr-natural-skin",
+      "name": "LR 自然肤色",
+      "description": "干净肤色与自然环境色，适合日常人像。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 6,
+          "highlights": -32,
+          "shadows": 6,
+          "whites": 3,
+          "blacks": -2,
+          "saturation": 0.0,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "shadow_hue": 0.0,
+          "shadow_color": 0.0,
+          "highlight_hue": 0.0,
+          "highlight_color": 0.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 20,
+          "grading_warm_protect": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.1,
+              0.075
+            ],
+            [
+              0.25,
+              0.245
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.75,
+              0.79
+            ],
+            [
+              0.93,
+              0.95
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            0.0,
+            -8.0,
+            5.0
+          ],
+          "橙": [
+            0.0,
+            -10.0,
+            12.0
+          ],
+          "绿": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Natural Skin",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Mobile/Natural%20Skin.xmp",
+        "license": "MIT",
+        "sha256": "f5ad8495b303376144873cae98b2c5095e8f648106dd110d84367eb26f25eb8d"
+      }
+    },
+    {
+      "id": "lr-timeless-wedding",
+      "name": "LR 经典婚礼",
+      "description": "轻暖分级、自然肤色与明暗层次。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 8,
+          "highlights": -32,
+          "shadows": 6,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": 0.0,
+          "clarity": 0.0,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "shadow_hue": 50.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 40.0,
+          "highlight_color": 5.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 25
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.12,
+              0.105
+            ],
+            [
+              0.35,
+              0.375
+            ],
+            [
+              0.65,
+              0.685
+            ],
+            [
+              0.9,
+              0.915
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "绿": [
+            10.0,
+            -15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Classic Timeless Wedding",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Genre/Classic%20Timeless%20Wedding.xmp",
+        "license": "MIT",
+        "sha256": "cbe1757480a03d4e9d631ffbbb1a752bb309394c8c3ca6a68e8cd21ce15a09e8"
+      }
+    },
+    {
+      "id": "lr-sakura",
+      "name": "LR 樱花清透",
+      "description": "浅粉花色与清爽植被，保留阴影和黑位。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 5,
+          "highlights": -32,
+          "shadows": 4,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": -5.0,
+          "vibrance": 0.0,
+          "texture": 0,
+          "clarity": 0,
+          "dehaze": 0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 6.0,
+          "highlight_hue": 330.0,
+          "highlight_color": 8.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 25,
+          "grading_warm_protect": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.1,
+              0.075
+            ],
+            [
+              0.25,
+              0.245
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.75,
+              0.79
+            ],
+            [
+              0.93,
+              0.95
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            -10.0,
+            10.0
+          ],
+          "绿": [
+            10.0,
+            -25.0,
+            0.0
+          ],
+          "紫": [
+            0.0,
+            10.0,
+            0.0
+          ],
+          "洋红": [
+            0.0,
+            15.0,
+            10.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Sakura Season",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Geographic/Sakura%20Season.xmp",
+        "license": "MIT",
+        "sha256": "8f1b50744402aaeae6e2bde6055091500fe49d2f9e6fd364dc58006b6010721e"
+      }
+    },
+    {
+      "id": "lr-kyoto",
+      "name": "LR 京都青绿",
+      "description": "青绿植被、暖色光影与干净肤色。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 7,
+          "highlights": -32,
+          "shadows": 5,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": -5.0,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 6,
+          "grain_size": 2.75,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 70.0,
+          "grain_roughness": 45.0,
+          "shadow_hue": 45.0,
+          "shadow_color": 12.0,
+          "highlight_hue": 40.0,
+          "highlight_color": 8.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 25
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.12,
+              0.105
+            ],
+            [
+              0.35,
+              0.375
+            ],
+            [
+              0.65,
+              0.685
+            ],
+            [
+              0.9,
+              0.915
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            -10.0,
+            10.0
+          ],
+          "绿": [
+            20.0,
+            -25.0,
+            5.0
+          ],
+          "青": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -15.0,
+            0.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kyoto Temple",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Geographic/Kyoto%20Temple.xmp",
+        "license": "MIT",
+        "sha256": "e94d7e03bbeabd370f2ebb1a559ad27dc7b1af72f017e425e5a5e545539448b1"
+      }
+    },
+    {
+      "id": "lr-portra-160",
+      "name": "LR Portra 160",
+      "description": "柔和暖肤色与细腻色彩，保留暗部层次。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 6,
+          "highlights": -32,
+          "shadows": 7,
+          "whites": 2,
+          "blacks": -1,
+          "saturation": -10.0,
+          "vibrance": -5.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 11.0,
+          "grain_size": 2.575,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 45.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 5.0,
+          "highlight_hue": 50.0,
+          "highlight_color": 0.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 22
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.008
+            ],
+            [
+              0.12,
+              0.095
+            ],
+            [
+              0.35,
+              0.36
+            ],
+            [
+              0.65,
+              0.68
+            ],
+            [
+              0.9,
+              0.93
+            ],
+            [
+              1.0,
+              0.99
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            2.0,
+            -10.0,
+            0.0
+          ],
+          "橙": [
+            5.0,
+            -5.0,
+            15.0
+          ],
+          "黄": [
+            3.0,
+            -5.0,
+            0.0
+          ],
+          "绿": [
+            8.0,
+            -15.0,
+            -5.0
+          ],
+          "青": [
+            -5.0,
+            -15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -10.0,
+            -10.0
+          ],
+          "紫": [
+            0.0,
+            -20.0,
+            0.0
+          ],
+          "洋红": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kodak Portra 160",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Color-Negative/Kodak%20Portra%20160.xmp",
+        "license": "MIT",
+        "sha256": "6f3b13f2d79208e696b4fca05862954e5310cd18d3750adfaa1eeba8f8ec6d32"
+      }
+    },
+    {
+      "id": "lr-portra-400",
+      "name": "LR Portra 400",
+      "description": "暖高光、青色环境和收敛绿蓝色。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 7,
+          "highlights": -42,
+          "shadows": 8,
+          "whites": -2,
+          "blacks": -1,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 15.400000000000002,
+          "grain_size": 2.75,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 45.0,
+          "highlight_color": 9,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 22
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.008
+            ],
+            [
+              0.12,
+              0.095
+            ],
+            [
+              0.35,
+              0.36
+            ],
+            [
+              0.65,
+              0.68
+            ],
+            [
+              0.9,
+              0.93
+            ],
+            [
+              1.0,
+              0.99
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            -3,
+            -5,
+            8
+          ],
+          "黄": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "绿": [
+            15.0,
+            -22.5,
+            0.0
+          ],
+          "青": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "蓝": [
+            -5.0,
+            -15.0,
+            -10.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kodak Portra 400",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Color-Negative/Kodak%20Portra%20400.xmp",
+        "license": "MIT",
+        "sha256": "407cabfbc737d7aefa1441976ab0378bc5e96915a24d4806a77d372f32c0d05e"
+      }
+    },
+    {
+      "id": "lr-gold-200",
+      "name": "LR Gold 200",
+      "description": "金黄暖红、冷青暗部与细颗粒。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 8,
+          "highlights": -48,
+          "shadows": 7,
+          "whites": -3,
+          "blacks": -1,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 19.25,
+          "grain_size": 2.925,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 207.5,
+          "shadow_color": 17.5,
+          "highlight_hue": 50.0,
+          "highlight_color": 10,
+          "grading_balance": -30.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 25
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.008
+            ],
+            [
+              0.12,
+              0.095
+            ],
+            [
+              0.35,
+              0.36
+            ],
+            [
+              0.65,
+              0.68
+            ],
+            [
+              0.9,
+              0.93
+            ],
+            [
+              1.0,
+              0.99
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            7.5,
+            10.0,
+            0.0
+          ],
+          "橙": [
+            -2.5,
+            8,
+            7
+          ],
+          "黄": [
+            -12.5,
+            12,
+            4
+          ],
+          "绿": [
+            22.5,
+            -15.0,
+            -7.5
+          ],
+          "青": [
+            -12.5,
+            -5.0,
+            0.0
+          ],
+          "蓝": [
+            -10.0,
+            -15.0,
+            -10.0
+          ],
+          "紫": [
+            -15.0,
+            -22.5,
+            0.0
+          ],
+          "洋红": [
+            -15.0,
+            -22.5,
+            0.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kodak Gold 200",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Color-Negative/Kodak%20Gold%20200.xmp",
+        "license": "MIT",
+        "sha256": "cbd33e56827ae6df132198cdda3a512d5c02bdec938025dcef5cdf35b01bfe62"
+      }
+    },
+    {
+      "id": "lr-ektar-100",
+      "name": "LR Ektar 100",
+      "description": "清晰对比与鲜明色彩，适合旅行和环境人像。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 10,
+          "highlights": -32,
+          "shadows": 5,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": 5.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 2.75,
+          "grain_size": 1.7,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 9.0,
+          "highlight_hue": 45.0,
+          "highlight_color": 5.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 30
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.15,
+              0.105
+            ],
+            [
+              0.38,
+              0.34
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.9,
+              0.945
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            10.0,
+            21.0,
+            -10.0
+          ],
+          "橙": [
+            -2.5,
+            17.5,
+            -5.0
+          ],
+          "黄": [
+            0.0,
+            16.0,
+            10.0
+          ],
+          "绿": [
+            17.5,
+            25.0,
+            -15.0
+          ],
+          "青": [
+            5.0,
+            15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            17.5,
+            -15.0
+          ],
+          "紫": [
+            5.0,
+            7.5,
+            0.0
+          ],
+          "洋红": [
+            5.0,
+            7.5,
+            0.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kodak Ektar 100",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Color-Negative/Kodak%20Ektar%20100.xmp",
+        "license": "MIT",
+        "sha256": "bebd18625eb20a8042e0e76cd3f1f921923108ca5308b0f9e2c3f970facff368"
+      }
+    },
+    {
+      "id": "lr-teal-orange",
+      "name": "LR 青橙电影",
+      "description": "青色环境与暖色人物，明确的电影分级。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 14,
+          "highlights": -32,
+          "shadows": 5,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": 0.0,
+          "vignette": -10.0,
+          "grain": 8.25,
+          "grain_size": 2.75,
+          "midtone_hue": 35.0,
+          "midtone_color": 7.5,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 208.75,
+          "shadow_color": 20.0,
+          "highlight_hue": 35.75,
+          "highlight_color": 15.0,
+          "grading_balance": -30.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 30
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.15,
+              0.105
+            ],
+            [
+              0.38,
+              0.34
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.9,
+              0.945
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "绿": [
+            -60.0,
+            -40.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -20.0,
+            0.0
+          ]
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Cinematic Teal and Orange",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Creative/Cinematic%20Teal%20and%20Orange.xmp",
+        "license": "MIT",
+        "sha256": "babee626014d130547707febddd35e9fdd3cbf15ca1588cdcd20f579b4022b03"
+      }
+    },
+    {
+      "id": "lr-hp5",
+      "name": "LR HP5 银盐",
+      "description": "银盐灰阶、冷暖分级与细颗粒。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 8,
+          "highlights": -32,
+          "shadows": 5,
+          "whites": 2,
+          "blacks": -2,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "grain": 19.965,
+          "grain_size": 2.925,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 230.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 50.0,
+          "highlight_color": 5.0,
+          "grading_balance": -20.0,
+          "bw": 1,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 0
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.15,
+              0.105
+            ],
+            [
+              0.38,
+              0.34
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.9,
+              0.945
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "bw_mix": {
+          "红": 15.0,
+          "橙": 10.0,
+          "黄": 5.0,
+          "绿": -5.0,
+          "青": -10.0,
+          "蓝": -18.8,
+          "紫": 0.0,
+          "洋红": 0.0
+        }
+      },
+      "source": {
+        "label": "peva3/Lightroom-Presets · Ilford HP5 Plus",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Black-White/Ilford%20HP5%20Plus.xmp",
+        "license": "MIT",
+        "sha256": "e22f57a4d89cd7f3cca1505142e1b6ceee4f114982531caefbc7333ecb0b388f"
+      }
+    },
+    {
+      "id": "ofs-portra-160",
+      "name": "OFS Portra 160",
+      "description": "通道校准与绿蓝色彩分离的胶片配方。 开源XMP适配，Adobe配置未迁移。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 14,
+          "saturation": -9.0,
+          "vibrance": -5.0,
+          "cal_red_hue": 7,
+          "cal_red_sat": 0.0,
+          "cal_green_hue": 7,
+          "cal_green_sat": 0.0,
+          "cal_blue_hue": -5,
+          "cal_blue_sat": 0.0,
+          "curve_shadow": 0.0,
+          "curve_dark": 0.0,
+          "curve_light": 0.0,
+          "curve_highlight": 0.0,
+          "curve_split_shadow": 25.0,
+          "curve_split_mid": 50.0,
+          "curve_split_highlight": 75.0,
+          "cal_shadow_tint": 0.0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 28
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.11764705882352941,
+              0.050980392156862744
+            ],
+            [
+              0.25882352941176473,
+              0.2
+            ],
+            [
+              0.5176470588235295,
+              0.47843137254901963
+            ],
+            [
+              0.807843137254902,
+              0.8196078431372549
+            ],
+            [
+              1.0,
+              0.9529411764705882
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            3.0,
+            -14.0,
+            -9.0
+          ],
+          "橙": [
+            9.0,
+            -22.0,
+            6.0
+          ],
+          "黄": [
+            15.0,
+            -20.0,
+            10.0
+          ],
+          "绿": [
+            25.0,
+            -17.0,
+            23.0
+          ],
+          "青": [
+            19.0,
+            0.0,
+            10.0
+          ],
+          "蓝": [
+            4.0,
+            -1.0,
+            -4.0
+          ],
+          "紫": [
+            -6.0,
+            -49.0,
+            0.0
+          ],
+          "洋红": [
+            -5.0,
+            -36.0,
+            0.0
+          ]
+        }
+      },
+      "source": {
+        "label": "eliseomartelli/OpenFilmStocks · 2.1.4 Kodak Portra 160",
+        "url": "https://github.com/eliseomartelli/OpenFilmStocks/blob/master/OpenFilmStocks/2.1.4%20Kodak%20Portra%20160.xmp",
+        "license": "MIT",
+        "sha256": "e4241008358554d1a6eecee0bc055b600e306ad65b71c64579f6672ac76d8282"
+      }
+    },
+    {
+      "id": "taro-autumn",
+      "name": "Taro 秋日肖像",
+      "description": "暖色秋景、青绿阴影与人物色彩分离。依据作者原图／成片校准；支持 AI 分区参数与手动修补。",
+      "group": "开源精选",
+      "recipe": {
+        "values": {
+          "contrast": 5.5,
+          "highlights": -12.0,
+          "shadows": -20.0,
+          "whites": -10.0,
+          "blacks": 10.0,
+          "saturation": 11.25,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "vignette": -23.0,
+          "grain": 0.0,
+          "shadow_hue": 195,
+          "shadow_color": 3,
+          "highlight_hue": 0.0,
+          "highlight_color": 0.0,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 100.0,
+          "grading_balance": 0.0,
+          "cal_red_hue": -10.0,
+          "cal_red_sat": 0.0,
+          "cal_green_hue": 0.0,
+          "cal_green_sat": 0.0,
+          "cal_blue_hue": -7.5,
+          "cal_blue_sat": 0.0,
+          "curve_shadow": -12,
+          "curve_dark": -12.5,
+          "curve_light": 8,
+          "curve_highlight": -10,
+          "curve_split_shadow": 25.0,
+          "curve_split_mid": 50.0,
+          "curve_split_highlight": 75.0,
+          "vignette_midpoint": 50.0,
+          "vignette_roundness": 0.0,
+          "vignette_feather": 50.0,
+          "vignette_highlights": 0.0,
+          "vignette_style": 1.0,
+          "cal_shadow_tint": 0.0,
+          "temperature": 0.0,
+          "tint": 0.0,
+          "bw": 0,
+          "skin_protect": 25,
+          "hue_stability": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.015
+            ],
+            [
+              0.12,
+              0.1038
+            ],
+            [
+              0.35,
+              0.2825
+            ],
+            [
+              0.65,
+              0.6937
+            ],
+            [
+              0.85,
+              0.8688
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            0,
+            0,
+            0
+          ],
+          "橙": [
+            2.0,
+            30.0,
+            0
+          ],
+          "黄": [
+            -26.0,
+            3.0,
+            0
+          ],
+          "绿": [
+            -26.0,
+            -39.0,
+            0
+          ],
+          "青": [
+            0,
+            0,
+            0
+          ],
+          "蓝": [
+            -35.0,
+            -51.0,
+            0
+          ],
+          "紫": [
+            0,
+            0,
+            0
+          ],
+          "洋红": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "source": {
+        "label": "taro710/lightroom-presets · autumn-portrait",
+        "url": "https://github.com/taro710/lightroom-presets/blob/main/presets/autumn-portrait.xmp",
+        "license": "Unlicense",
+        "sha256": "375edb1a9bd83bc1b7d48b266b830951fc8d68cff8986b483b7373fd3a89bab8"
+      }
+    }
+  ]
+}

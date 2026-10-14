@@ -1,0 +1,420 @@
+2070	The Live Photo file is too large.
+2071	Incomplete media container ending.
+2072	Invalid media container size.
+2073	Unsupported media structure: 
+2074	Encoding time bases differ. Packaging was stopped.
+2075	This test version does not support HDR cover images.
+2076	This HEIC cover has no usable SDR ICC profile. Its color configuration is not supported in this test version.
+2077	Corrupt JPEG marker.
+2078	Invalid metadata working directory.
+2079	The filename contains an unsupported line break.
+2080	Unsupported XMP format.
+2081	Incomplete extended media container size.
+2082	Corrupt media offset table.
+2083	Media sample counts differ.
+2084	Media sample is out of bounds.
+2085	Could not read Live Photo metadata: 
+2086	Corrupt metadata index.
+2087	Clarity
+2088	Sharpening
+2089	Shadow luminance
+2090	Highlight luminance
+2091	Invalid local color adjustment version.
+2092	Invalid range mask type.
+2093	Invalid range mask combination.
+2094	Invalid mask component.
+2095	Invalid AI soft mask dimensions or precision.
+2096	AI soft masks require professional color adjustments.
+2097	Invalid mask and filter link.
+2098	Invalid AI region source record.
+2099	Invalid gradient mask.
+2100	The gradient range is too small.
+2101	Invalid luminance range.
+2102	Invalid mask component operation.
+2103	Invalid mask component inversion.
+2104	Full local recipes require professional color adjustments.
+2105	Invalid gradient position.
+2106	Unknown mask component.
+2107	Invalid soft brush path.
+2108	Invalid soft brush parameters.
+2109	Linear / radial gradients and range masks
+2110	Drag to create a linear gradient
+2111	Drag to create a radial gradient
+2112	Invert current gradient
+2113	Sample a range color from the photo
+2114	Local tone and detail
+2115	Convert legacy mask to professional adjustments…
+2116	Before range mask adjustment
+2117	Adjust local range mask
+2118	Before local adjustment conversion
+2119	Convert to professional local adjustments
+2120	Before gradient mask
+2121	Create gradient mask
+2122	Before gradient inversion
+2123	Invert gradient
+2124	Before color range sampling
+2125	Sample local color range
+2126	No range restriction
+2127	Select a mask to further limit its range by color or luminance.
+2128	Luminance transition
+2129	Hue range
+2130	Sample a range color from the photo first.
+2131	This mask already uses professional adjustments.
+2132	Convert local adjustments
+2133	Professional adjustments provide more controls, but existing exposure, color and processing order may change. This conversion can be undone. Continue?
+2134	The maximum number of masks has been reached.
+2135	The current mask has no gradient.
+2136	Ranges use the image before color adjustments. White retains the effect. Local controls remain independent; hold Compare to review.
+2137	Invalid manual retouch brush settings.
+2138	Invalid manual retouch sampling or tonal range.
+2139	Invalid sampling transform or repair mode.
+2140	Too many manual strokes. Save the project first.
+2141	Repair blending produced invalid values. Reduce the brush size.
+2142	Manual retouching requires a floating-point image.
+2143	Invalid manual retouch brush parameters.
+2144	Invalid manual retouch tool.
+2145	Invalid manual stroke visibility setting.
+2146	Invalid manual retouch stroke.
+2147	The stroke is too long. Split it into several strokes.
+2148	Invalid manual retouch coordinates.
+2149	The manual retouch position is outside the photo.
+2150	Invalid manual retouch sample coordinates.
+2151	The sample point is outside the photo. Sample again.
+2152	Current region mask
+2153	AI region masks · Combined or separate
+2154	Delete current region mask
+2155	Toggle region mask
+2156	Region mask parameters
+2157	Before mask generation
+2158	Delete region mask
+2159	No region mask generated yet
+2160	Combine
+2161	Separate
+2162	Add brush
+2163	Subtract brush
+2164	Local softening
+2165	Expand / contract (px)
+2166	Feather (px)
+2167	Mask effect strength
+2168	No reliable face was found to associate with the body. Confirm the person first.
+2169	AI is generating region masks…
+2170	Convert this legacy local mask to professional adjustments, or create a new mask.
+2171	Generate combined region mask
+2172	Generate separate region masks
+2173	All regions, including the body, belong to the selected person. Use the brush where overlap is ambiguous. These masks are independent of blemish selections.
+2174	Show overlay
+2175	Ctrl + wheel: brush size · Space: pan · Esc: browse. Edits affect only the current mask.
+2176	 / Body association was unreliable; no body mask generated
+2177	 / Not detected: 
+2178	The outline is too small to reshape.
+2179	Invalid facial mesh.
+2180	Invalid mobile repair cache location.
+2181	Mobile LUT
+2182	More than 300 desktop and mobile strokes combined. Split the work into projects; the original is retained.
+2183	Relighting model manifest version mismatch.
+2184	Relighting geometry is unavailable. No effect was applied.
+2185	Relighting depth contains invalid values.
+2186	MoGe-2 Small components are missing. Use the complete installation package.
+2187	Invalid relighting model path.
+2188	Geometry relighting
+2189	MoGe file verification failed: 
+2190	MoGe is analyzing depth and surface directions…
+2191	CUDA · MoGe-2 Small FP16 / FP32 compositing
+2192	Checking relighting geometry consistency…
+2193	GPU relighting analysis failed; using CPU: 
+2194	Two reliable vertical lines are required.
+2195	Full perspective correction requires two vertical and two horizontal lines.
+2196	Degenerate reference lines. Select them again.
+2197	The angle between horizontal and vertical lines is too small.
+2198	Perspective correction is too strong. Choose less extreme reference lines.
+2199	No reliable architectural horizontal lines found. Use guides.
+2200	Reference lines are too close to the vanishing point for reliable correction.
+2201	No reliable horizontal line found.
+2202	Invalid transferred repair list.
+2203	Not enough nearby samples. Reduce the circle size.
+2204	Invalid transferred repair mode.
+2205	Invalid transferred repair visibility setting.
+2206	Invalid transferred repair parameters.
+2207	Invalid transferred repair coordinates.
+2208	The transferred repair is outside the photo.
+2209	Confirm person across photos
+2210	No reliable person found. Individual adjustments cannot be synchronized.
+2211	Select and confirm the person. People are not matched automatically by position.
+2212	Choose the target person, or close this window and deselect photos without that person.
+2213	Select the target person
+2214	Confirm and continue
+2215	Person and body association
+2216	Outline model verification failed.
+2217	Incompatible outline buffer. Processing stopped.
+2218	Body detection canceled.
+2219	Photo mode requires one reliably detected person.
+2220	The face could not be reliably associated with the body. Reshaping was skipped.
+2221	Body reshaping awaits detection
+2222	These settings compress the mesh too much. The result was not applied.
+2223	Applied: 
+2224	; strength reduced to protect the background and edges
+2225	Detect body again
+2226	Body reshaping parameters
+2227	Photo mode: the first adjustment detects the body; later adjustments reuse the cache.
+2228	AI is detecting body landmarks and clothing outlines…
+2229	Photo body detection
+2230	Single-person photos: the body and clothing move together. Leg slimming and lengthening are skipped when feet are incomplete.
+2231	The face, head and background lines are protected automatically. Excessive strength is reduced. Nearby backgrounds may still bend. No AI inpainting is used.
+2232	Invalid RAW development parameters.
+2233	Invalid camera look setting.
+2234	Invalid camera style parameters.
+2235	Invalid RAW development engine.
+2236	Invalid RAW brightness baseline version.
+2237	Invalid RAW crop version.
+2238	Invalid professional RAW white balance or algorithm version.
+2239	Choose TIFF, PNG or JPEG as the export format.
+2240	The rendered image contains invalid pixels. Render again before exporting.
+2241	Reading professional floating-point RAW…
+2242	Cannot decode this RAW. The camera or compression format may be unsupported by this LibRaw version, or the file may be incomplete. Try the camera software or convert to TIFF.
+2243	Export floating-point HDR data as TIFF.
+2244	Output color conversion
+2245	16-bit output quantization
+2246	8-bit output quantization
+2247	Reading the camera-rendered image…
+2248	Preparing RAW development with 16-bit precision…
+2249	This version supports up to 110 megapixels. Crop first or save a smaller copy.
+2250	Style profiles are disabled. Using base camera color.
+2251	Multipage TIFF is not supported.
+2252	HDR output conversion
+2253	The photo exceeds 110 megapixels.
+2254	8/16-bit RGB TIFF is supported. Floating-point, grayscale and transparent TIFF are not supported.
+2255	RawTherapee · 16-bit RAW; 
+2256	User-selected compatibility development · LibRaw; no DCP applied. Camera style and colors may differ.
+2257	Legacy project compatibility · LibRaw; preserves the previous base RAW appearance.
+2258	RawTherapee · Camera-matched DCP → 16-bit RAW; proprietary camera beautification is not reproduced.
+2259	No DCP matched the as-shot style. Using base camera color.
+2260	. Import the DCP again or choose as-shot style matching.
+2261	No usable embedded preview. Using 16-bit RAW. Reason: 
+2262	Could not read the camera profile. Using base camera color.
+2263	Selected camera profile not found: 
+2264	Still photo edition
+2265	HEIC and Live Photos are not available in this edition. Export them as JPEG / PNG / TIFF before importing.
+2266	Video processing is not available in this edition.
+2267	The source photo has changed. Import it again before preflight. Existing edit records are retained.
+2268	The source photo was changed by another application. Save the existing editing project, remove the photo from the workspace, then import it again.
+2269	Skin and facial regions
+2270	MediaPipe multiclass segmentation + mesh regions; fine boundaries can be corrected manually
+2271	Segmentation requires an RGB photo.
+2272	Segmentation model class count mismatch.
+2273	The segmentation model returned invalid values.
+2274	The face region is empty.
+2275	Invalid facial mesh.
+2276	Segmentation model verification failed.
+2277	The segmentation result buffer is not contiguous.
+2278	Invalid curve channel
+2279	Invalid curve control points
+2280	Startup failed. See startup-error.log in the application directory for details.
+2281	Invalid LUT dimensions.
+2282	The compressed LUT is too large.
+2283	Invalid LUT checksum format.
+2284	Compressed LUT size mismatch.
+2285	LUT content verification failed.
+2286	Invalid LUT output range.
+2287	Unsupported LUT encoding.
+2288	Invalid compressed LUT.
+2289	LUT blending
+2290	GPU operation fallback
+2291	DAMO wrinkle repair region preparation canceled.
+2292	The selection is too large. Repair in batches of up to 96 overlapping tiles.
+2293	Repair tiles did not cover the entire selection. The result was not applied.
+2294	AI repair returned invalid pixels.
+2295	Incompatible body region buffer.
+2296	Preview preparation canceled.
+2297	Prepare current segment tracks
+2298	Manually check skin tone, texture, warping and consistency across the set. Current numerical checks cannot judge these qualities.
+2299	The result contains invalid pixels or dimensions. Render again.
+2300	The current source is an 8-bit embedded camera preview. A 16-bit export cannot restore RAW precision.
+2301	Skin engine: 
+2302	Rendering failed. An outdated preview cannot be delivered.
+2303	AI repair is still pending for newly added selections.
+2304	Warping is still pending. Finish processing first.
+2305	Legacy project compatibility mode; preserves the original skin processing.
+2306	Base / linear RAW development is active. The camera profile has not reproduced the as-shot style.
+2307	This camera, ISO and profile combination has not been validated against Adobe brightness. Check the base image.
+2308	Custom color temperature in base RAW is approximate. Check neutral gray and skin tones.
+2309	The input has no embedded ICC profile and is interpreted as sRGB. Verify its source color space.
+2310	Multiscale and detail protection; dark spot protection 
+2311	: zoom in to check hair, fingers, hat edges and background highlights.
+2312	Camera-matched profile applied: 
+2313	Input ICC converted: 
+2314	on.
+2315	off; mistaken selections can be removed manually.
+2316	Imported base image
+2317	Current result
+2318	Wait for rendering to finish before reviewing the result.
+2319	Status
+2320	Check result
+2321	Full frame
+2322	Review region
+2323	Zoom
+2324	Person 
+2325	Back to editing
+2326	At 100%, one source pixel equals one screen pixel. Both views scroll together. Numerical checks do not certify visual quality.
+2327	Mark pure white / black
+2328	 · Review the full current result; return to editing to adjust
+2329	Checked
+2330	Please review
+2331	The project already exists. Save with a new filename.
+2332	The legacy skin engine does not support dark spot protection.
+2333	Invalid manual retouch setting.
+2334	The project is too large or its format is invalid.
+2335	The project version or repair model is incompatible.
+2336	Invalid project skin engine version.
+2337	Invalid project dimensions.
+2338	Invalid manual retouch project version.
+2339	Invalid project liquify record flag.
+2340	Invalid project person list.
+2341	Invalid project detection threshold.
+2342	Invalid number of region masks.
+2343	Invalid project parameters.
+2344	Invalid project person region.
+2345	Invalid project brush parameters.
+2346	Invalid project mask.
+2347	The region mask is too large.
+2348	Invalid liquify brush parameters.
+2349	Invalid liquify density or rate.
+2350	Invalid liquify guide settings.
+2351	The liquify project is too large.
+2352	Invalid individual person parameters in the project.
+2353	Project mask dimensions do not match.
+2354	Invalid region mask data.
+2355	Invalid AI soft mask shape.
+2356	Region mask dimensions do not match.
+2357	Invalid AI soft mask data.
+2358	Source dimensions differ. A comparison preserving local edits cannot be generated.
+2359	Person counts differ after the source change. A reliable color comparison cannot be generated.
+2360	Decoding wide-gamut floating-point RAW…
+2361	Linear wide-gamut RAW · Preserves floating-point highlight headroom. Camera styles are available in compatibility development mode.
+2362	Base camera color (no DCP)
+2363	New development dimensions differ from the existing edits. Masks and local repairs cannot be preserved reliably. Existing edits are retained.
+2364	The embedded preview and RAW may use different lens corrections. Local edits cannot be preserved reliably. Existing edits are retained.
+2365	This Fujifilm RAW filter requires a linear DCP base, which the selected development cannot preserve. Existing edits are retained. Retry the original profile, or restore the state before the filter before switching.
+2366	The new development changed the person count. Individual edits cannot be preserved reliably. Existing edits are retained.
+2367	RAW development incomplete
+2368	Confirm RAW development change
+2369	Changing the camera profile may change color, brightness and contrast. Redevelop with the selected profile?
+2370	The compatibility engine uses base LibRaw development without DCP camera styles. Color, brightness and white balance may differ. Continue?
+2371	Unknown RAW recovery action.
+2372	Face positions changed in the new development. Individual edits cannot be preserved reliably. Existing edits are retained.
+2373	Person order changed in the new development. Individual local edits cannot be preserved reliably. Existing edits are retained.
+2374	The current image and edits are retained. Choose how to continue; they will be replaced only after success.
+2375	Retry
+2376	Choose another profile
+2377	Reading profiles for this photo's camera…
+2378	Open with compatibility engine
+2379	Cancel · Keep current edits
+2380	\n\nExposure, color, beauty and local edits will be retained where possible. The current result is replaced only after development and edit recovery succeed. If alignment is unreliable, existing edits are retained.
+2381	RAW development canceled. Current edits retained.
+2382	Select a profile.
+2383	Could not read the profile list. You can still try base camera color.
+2384	Camera profile
+2385	Use selected profile
+2386	Incomplete filter application canceled. Trying another development method.
+2387	Reusing the prepared RAW source and color; preparing current edits…
+2388	This RAW has no valid daylight white balance multipliers, so custom color temperature cannot be applied reliably. Use as-shot white balance or a camera profile.
+2389	Invalid autosave filename.
+2390	The recovery backup directory is outside the user data directory.
+2391	Invalid recovery backup path.
+2392	Anime Clear Sky
+2393	Zhuangzhuang Sight · Japanese anime color inspiration
+2394	Clear cyan blues, vivid grass and natural skin; brighter midtones and soft highlights. Suits sunny outdoor photos. Adjust subject and sky brightness separately as needed.
+2395	Airy Pastel Blue
+2396	LeoX Xiangjishi · Airy Ferris Wheel inspiration
+2397	Pale cyan skies, soft whites and gently warm midtones. Suits travel, architecture and high-contrast scenes.
+2398	Sunny Film Green
+2399	Danhuang · Japanese film look inspiration
+2400	Muted deep teal greens, warm orange skin and milky blue skies. Retains solid blacks and fine grain.
+2401	Sunlight Negative
+2402	Baiyuchuan Ycc · Digital film emulation inspiration
+2403	Cyan surroundings, naturally bright skin and rich shadows. Suits sunny street portraits.
+2404	Soft Overhead Light
+2405	Xingchuan Ming · Fresh Japanese overhead-light inspiration
+2406	Lifts shadowed skin with clear cyan blues and gently warm highlights. Applies color only; beauty edits and AI color matching from the reference post are separate.
+2407	Fresh Mint
+2408	Yuyu Retouching · Fresh Japanese look inspiration
+2409	Bright skin, teal greenery and intact blacks. Suits shade, backlight and portraits in natural surroundings.
+2410	Original AURA recipe (inspired by reference posts)
+2411	Xiaohongshu reference · 
+2412	Full-image sampling; composition and the proportions of object colors affect the match.
+2413	Unknown reference image region.
+2414	This region is too small or was not reliably detected. Change the person, region or sampling box.
+2415	Invalid reference image sampling box.
+2416	Detecting skin, hair and facial regions in the reference image…
+2417	The matched person is no longer available. Confirm the corresponding person again.
+2418	Confirm color match regions
+2419	Region unavailable
+2420	No person was detected in one of the photos, so body regions and background cannot be separated reliably. Choose Full image and limit the area with a sampling box.
+2421	Reference
+2422	Current photo
+2423	Enter bounds
+2424	Left, top, right and bottom percentages separated by spaces, for example: 20 20 80 80
+2425	Bounds updated.
+2426	Before color match region confirmation
+2427	Confirm reference and target regions
+2428	 · Regions confirmed
+2429	Drag boxes to limit reference sampling and target application. Green marks selected areas. Closing keeps the existing reference.
+2430	Person 1
+2431	Enter four numbers from 0 to 100. Right must exceed left; bottom must exceed top.
+2432	Confirm regions
+2433	Clear sampling box
+2434	Enter bounds…
+2435	Facial skin (including nose)
+2436	Body skin (including ears)
+2437	Eyebrows
+2438	Eye whites
+2439	Iris and pupils
+2440	Lips
+2441	Teeth
+2442	Clothing
+2443	Body region segmentation
+2444	Body segmentation model verification failed.
+2445	Invalid mask identifier.
+2446	Invalid mask name.
+2447	Invalid region mask dimensions.
+2448	Invalid mask toggle.
+2449	Incompatible region segmentation buffer. Processing stopped safely.
+2450	The AI soft mask aspect ratio differs from the photo.
+2451	Invalid detail mask person or type.
+2452	Invalid region mask parameters.
+2453	Relighting output contains invalid values.
+2454	Geometry relighting updated · Reused cached depth and normals
+2455	Refining facial lighting directions…
+2456	Updating 
+2457	Soft area light
+2458	Point light
+2459	Directional light
+2460	Rear rim light
+2461	Face and body skin
+2462	Person outline and clothing
+2463	Key light
+2464	Fill light
+2465	Invalid relighting light record.
+2466	Invalid light name.
+2467	Invalid light type or range.
+2468	A rear rim light must be behind the person, with depth below 0.
+2469	Invalid light color.
+2470	Invalid geometry relighting record version.
+2471	Each person requires 1–5 lights.
+2472	Invalid selected light index.
+2473	Rim light
+2474	Invalid light parameters: 
+2475	Select a light for this person
+2476	Geometry soft light · Current person
+2477	1 · Key light
+2478	Light position and range
+2479	Place this light on the photo
+2480	Finish placement · Browse
+2481	Light size
+2482	Highlights and facial lighting
+2483	Shadow, highlight and geometry protection
+2484	Updating lighting in the background… First use analyzes depth and surface directions.
+2485	Person geometry relighting parameters
+2486	Before adding a light
+2487	Add person light
+2488	Before deleting a light
+2489	Delete person light

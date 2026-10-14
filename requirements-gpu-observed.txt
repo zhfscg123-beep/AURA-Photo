@@ -1,0 +1,4 @@
+# Observed installed versions; see docs/BUILD.md before installation.
+onnx==1.17.0
+onnxruntime-gpu==1.30.0
+torch==2.14.1+cu130

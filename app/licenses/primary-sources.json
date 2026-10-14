@@ -1,0 +1,44 @@
+[
+  {
+    "file": "rawtherapee-5.13.tar.xz",
+    "url": "https://github.com/RawTherapee/RawTherapee/releases/download/5.13/rawtherapee-5.13.tar.xz",
+    "sha256": "23bdff4b1817e1274c11a94b11d21cac59e9c1b1d209795d3194710ee73e77bf",
+    "publisher_sha256_verified": true
+  },
+  {
+    "file": "rawpy-0.27.1.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/f3/ae/c1c7816ed3f3cbf7ca284a37371243500f4eb39b6a32f7368b585c4ef5c4/rawpy-0.27.1.tar.gz",
+    "sha256": "3194d64ff690ac945e1a43237edae8a18f1f493751924de1ae2bcef473c0fb79",
+    "publisher_sha256_verified": true
+  },
+  {
+    "file": "certifi-2026.7.22.tar.gz",
+    "url": "https://files.pythonhosted.org/packages/a3/c2/24167ea9858356b47a87a50d39908bfdb72ceeefe0041586e704e5376b3a/certifi-2026.7.22.tar.gz",
+    "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+    "publisher_sha256_verified": true
+  },
+  [
+    {
+      "file": "rawpy-git-a39c2e7a44911889c3360891012f862f904ba551.tar.gz",
+      "url": "https://api.github.com/repos/letmaik/rawpy/tarball/a39c2e7a44911889c3360891012f862f904ba551",
+      "sha256": "26f25fc03c0f1cbe78750a4cf38acb2ef904bee4aa70ced24488cb1e84833ebc",
+      "publisher_sha256_verified": false
+    },
+    {
+      "file": "LibRaw-b860248a89d9082b8e0a1e202e516f46af9adb29.tar.gz",
+      "url": "https://api.github.com/repos/LibRaw/LibRaw/tarball/b860248a89d9082b8e0a1e202e516f46af9adb29",
+      "sha256": "a140269cc6a2541eb4a415c5e771934eb6e6917d4dfe778002d3f48dc0f92009",
+      "publisher_sha256_verified": false,
+      "submodule": "external/LibRaw",
+      "commit": "b860248a89d9082b8e0a1e202e516f46af9adb29"
+    },
+    {
+      "file": "LibRaw-cmake-6e26c9e73677dc04f9eb236a97c6a4dc225ba7e8.tar.gz",
+      "url": "https://api.github.com/repos/LibRaw/LibRaw-cmake/tarball/6e26c9e73677dc04f9eb236a97c6a4dc225ba7e8",
+      "sha256": "2cddbf57f2f93bbf4ebe53e60c315b0eb40b8627809c110d7680c888fa808082",
+      "publisher_sha256_verified": false,
+      "submodule": "external/LibRaw-cmake",
+      "commit": "6e26c9e73677dc04f9eb236a97c6a4dc225ba7e8"
+    }
+  ]
+]

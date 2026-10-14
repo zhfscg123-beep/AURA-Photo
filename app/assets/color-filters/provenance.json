@@ -1,0 +1,5507 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "notice": "AURA parameter adaptations, not Adobe renderings or measured film-stock profiles.",
+  "presets": [
+    {
+      "id": "lr-natural-skin",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Natural Skin",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Mobile/Natural%20Skin.xmp",
+        "license": "MIT",
+        "sha256": "f5ad8495b303376144873cae98b2c5095e8f648106dd110d84367eb26f25eb8d"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": 5.0,
+          "highlights": -25.0,
+          "shadows": 25.0,
+          "whites": 10.0,
+          "blacks": 0.0,
+          "saturation": 0.0,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "shadow_hue": 0.0,
+          "shadow_color": 0.0,
+          "highlight_hue": 0.0,
+          "highlight_color": 0.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            0.0,
+            -8.0,
+            5.0
+          ],
+          "橙": [
+            0.0,
+            -10.0,
+            12.0
+          ],
+          "绿": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 6,
+          "highlights": -32,
+          "shadows": 6,
+          "whites": 3,
+          "blacks": -2,
+          "saturation": 0.0,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "shadow_hue": 0.0,
+          "shadow_color": 0.0,
+          "highlight_hue": 0.0,
+          "highlight_color": 0.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 20,
+          "grading_warm_protect": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.1,
+              0.075
+            ],
+            [
+              0.25,
+              0.245
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.75,
+              0.79
+            ],
+            [
+              0.93,
+              0.95
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            0.0,
+            -8.0,
+            5.0
+          ],
+          "橙": [
+            0.0,
+            -10.0,
+            12.0
+          ],
+          "绿": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "report": {
+        "name": "Natural Skin",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Dehaze",
+          "Exposure2012",
+          "Highlights2012",
+          "LuminanceAdjustmentOrange",
+          "LuminanceAdjustmentRed",
+          "LuminanceSmoothing",
+          "Saturation",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentRed",
+          "Shadows2012",
+          "Sharpness",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Vibrance",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.15,
+            "contrast": 5.0,
+            "highlights": -25.0,
+            "shadows": 25.0,
+            "whites": 10.0,
+            "blacks": 0.0,
+            "saturation": 0.0,
+            "vibrance": 0.0,
+            "texture": 0.0,
+            "clarity": 0.0,
+            "dehaze": 0.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 50.0,
+            "shadow_hue": 0.0,
+            "shadow_color": 0.0,
+            "highlight_hue": 0.0,
+            "highlight_color": 0.0,
+            "bw": 0
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "红": {
+              "1": -8.0,
+              "2": 5.0
+            },
+            "橙": {
+              "1": -10.0,
+              "2": 12.0
+            },
+            "绿": {
+              "1": -10.0
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-timeless-wedding",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Classic Timeless Wedding",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Genre/Classic%20Timeless%20Wedding.xmp",
+        "license": "MIT",
+        "sha256": "cbe1757480a03d4e9d631ffbbb1a752bb309394c8c3ca6a68e8cd21ce15a09e8"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": 10.0,
+          "highlights": -30.0,
+          "shadows": 20.0,
+          "whites": 5.0,
+          "blacks": 0.0,
+          "saturation": 0.0,
+          "clarity": 0.0,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "shadow_hue": 50.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 40.0,
+          "highlight_color": 5.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "绿": [
+            10.0,
+            -15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 8,
+          "highlights": -32,
+          "shadows": 6,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": 0.0,
+          "clarity": 0.0,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "shadow_hue": 50.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 40.0,
+          "highlight_color": 5.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 25
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.12,
+              0.105
+            ],
+            [
+              0.35,
+              0.375
+            ],
+            [
+              0.65,
+              0.685
+            ],
+            [
+              0.9,
+              0.915
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "绿": [
+            10.0,
+            -15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "report": {
+        "name": "Classic Timeless Wedding",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBalance",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightLum",
+          "ColorGradeHighlightSat",
+          "ColorGradeMidtoneHue",
+          "ColorGradeMidtoneLum",
+          "ColorGradeMidtoneSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowLum",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Exposure2012",
+          "Highlights2012",
+          "HueAdjustmentGreen",
+          "LuminanceAdjustmentOrange",
+          "Saturation",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "Shadows2012",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.15,
+            "contrast": 10.0,
+            "highlights": -30.0,
+            "shadows": 20.0,
+            "whites": 5.0,
+            "blacks": 0.0,
+            "saturation": 0.0,
+            "clarity": 0.0,
+            "midtone_hue": 0.0,
+            "midtone_color": 0.0,
+            "shadow_luma": 0.0,
+            "midtone_luma": 0.0,
+            "highlight_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 75.0,
+            "shadow_hue": 50.0,
+            "shadow_color": 8.0,
+            "highlight_hue": 40.0,
+            "highlight_color": 5.0,
+            "grading_balance": 0.0,
+            "bw": 0
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "橙": {
+              "2": 10.0
+            },
+            "绿": {
+              "0": 10.0,
+              "1": -15.0
+            },
+            "蓝": {
+              "1": -10.0
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "exposure"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-sakura",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Sakura Season",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Geographic/Sakura%20Season.xmp",
+        "license": "MIT",
+        "sha256": "8f1b50744402aaeae6e2bde6055091500fe49d2f9e6fd364dc58006b6010721e"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": -25.0,
+          "highlights": -50.0,
+          "shadows": 45.0,
+          "whites": 20.0,
+          "blacks": 20.0,
+          "saturation": -5.0,
+          "vibrance": 0.0,
+          "texture": -5.0,
+          "clarity": -15.0,
+          "dehaze": -12.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 6.0,
+          "highlight_hue": 330.0,
+          "highlight_color": 8.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            -10.0,
+            10.0
+          ],
+          "绿": [
+            10.0,
+            -25.0,
+            0.0
+          ],
+          "紫": [
+            0.0,
+            10.0,
+            0.0
+          ],
+          "洋红": [
+            0.0,
+            15.0,
+            10.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 5,
+          "highlights": -32,
+          "shadows": 4,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": -5.0,
+          "vibrance": 0.0,
+          "texture": 0,
+          "clarity": 0,
+          "dehaze": 0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 6.0,
+          "highlight_hue": 330.0,
+          "highlight_color": 8.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 25,
+          "grading_warm_protect": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.1,
+              0.075
+            ],
+            [
+              0.25,
+              0.245
+            ],
+            [
+              0.5,
+              0.55
+            ],
+            [
+              0.75,
+              0.79
+            ],
+            [
+              0.93,
+              0.95
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            -10.0,
+            10.0
+          ],
+          "绿": [
+            10.0,
+            -25.0,
+            0.0
+          ],
+          "紫": [
+            0.0,
+            10.0,
+            0.0
+          ],
+          "洋红": [
+            0.0,
+            15.0,
+            10.0
+          ]
+        }
+      },
+      "report": {
+        "name": "Sakura Season",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Dehaze",
+          "Exposure2012",
+          "Highlights2012",
+          "HueAdjustmentGreen",
+          "LuminanceAdjustmentMagenta",
+          "LuminanceAdjustmentOrange",
+          "LuminanceSmoothing",
+          "Saturation",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentMagenta",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentPurple",
+          "Shadows2012",
+          "Sharpness",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Vibrance",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.75,
+            "contrast": -25.0,
+            "highlights": -50.0,
+            "shadows": 45.0,
+            "whites": 20.0,
+            "blacks": 20.0,
+            "saturation": -5.0,
+            "vibrance": 0.0,
+            "texture": -5.0,
+            "clarity": -15.0,
+            "dehaze": -12.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 75.0,
+            "shadow_hue": 210.0,
+            "shadow_color": 6.0,
+            "highlight_hue": 330.0,
+            "highlight_color": 8.0,
+            "bw": 0
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "橙": {
+              "1": -10.0,
+              "2": 10.0
+            },
+            "绿": {
+              "0": 10.0,
+              "1": -25.0
+            },
+            "紫": {
+              "1": 10.0
+            },
+            "洋红": {
+              "1": 15.0,
+              "2": 10.0
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-kyoto",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kyoto Temple",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Geographic/Kyoto%20Temple.xmp",
+        "license": "MIT",
+        "sha256": "e94d7e03bbeabd370f2ebb1a559ad27dc7b1af72f017e425e5a5e545539448b1"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": -10.0,
+          "highlights": -35.0,
+          "shadows": 25.0,
+          "whites": 5.0,
+          "blacks": 10.0,
+          "saturation": -5.0,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 15.0,
+          "grain_size": 2.75,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 70.0,
+          "grain_roughness": 45.0,
+          "shadow_hue": 45.0,
+          "shadow_color": 12.0,
+          "highlight_hue": 40.0,
+          "highlight_color": 8.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            -10.0,
+            10.0
+          ],
+          "绿": [
+            20.0,
+            -25.0,
+            5.0
+          ],
+          "青": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -15.0,
+            0.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 7,
+          "highlights": -32,
+          "shadows": 5,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": -5.0,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 6,
+          "grain_size": 2.75,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 70.0,
+          "grain_roughness": 45.0,
+          "shadow_hue": 45.0,
+          "shadow_color": 12.0,
+          "highlight_hue": 40.0,
+          "highlight_color": 8.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 25
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.12,
+              0.105
+            ],
+            [
+              0.35,
+              0.375
+            ],
+            [
+              0.65,
+              0.685
+            ],
+            [
+              0.9,
+              0.915
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            -10.0,
+            10.0
+          ],
+          "绿": [
+            20.0,
+            -25.0,
+            5.0
+          ],
+          "青": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -15.0,
+            0.0
+          ]
+        }
+      },
+      "report": {
+        "name": "Kyoto Temple",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Dehaze",
+          "Exposure2012",
+          "GrainAmount",
+          "GrainFrequency",
+          "GrainSize",
+          "Highlights2012",
+          "HueAdjustmentGreen",
+          "LuminanceAdjustmentGreen",
+          "LuminanceAdjustmentOrange",
+          "LuminanceSmoothing",
+          "Saturation",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentOrange",
+          "Shadows2012",
+          "Sharpness",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Vibrance",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [
+          "GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。"
+        ],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.1,
+            "contrast": -10.0,
+            "highlights": -35.0,
+            "shadows": 25.0,
+            "whites": 5.0,
+            "blacks": 10.0,
+            "saturation": -5.0,
+            "vibrance": 0.0,
+            "texture": 0.0,
+            "clarity": 0.0,
+            "dehaze": 0.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "grain": 15.0,
+            "grain_size": 2.75,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 70.0,
+            "grain_roughness": 45.0,
+            "shadow_hue": 45.0,
+            "shadow_color": 12.0,
+            "highlight_hue": 40.0,
+            "highlight_color": 8.0,
+            "bw": 0,
+            "grain_model": 1
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "橙": {
+              "1": -10.0,
+              "2": 10.0
+            },
+            "绿": {
+              "0": 20.0,
+              "1": -25.0,
+              "2": 5.0
+            },
+            "青": {
+              "1": -10.0
+            },
+            "蓝": {
+              "1": -15.0
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-portra-160",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kodak Portra 160",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Color-Negative/Kodak%20Portra%20160.xmp",
+        "license": "MIT",
+        "sha256": "6f3b13f2d79208e696b4fca05862954e5310cd18d3750adfaa1eeba8f8ec6d32"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": -15.0,
+          "highlights": -25.0,
+          "shadows": 30.0,
+          "whites": -10.0,
+          "blacks": 20.0,
+          "saturation": -10.0,
+          "vibrance": -5.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 20.0,
+          "grain_size": 2.575,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 45.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 5.0,
+          "highlight_hue": 50.0,
+          "highlight_color": 0.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            2.0,
+            -10.0,
+            0.0
+          ],
+          "橙": [
+            5.0,
+            -5.0,
+            15.0
+          ],
+          "黄": [
+            3.0,
+            -5.0,
+            0.0
+          ],
+          "绿": [
+            8.0,
+            -15.0,
+            -5.0
+          ],
+          "青": [
+            -5.0,
+            -15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -10.0,
+            -10.0
+          ],
+          "紫": [
+            0.0,
+            -20.0,
+            0.0
+          ],
+          "洋红": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 6,
+          "highlights": -32,
+          "shadows": 7,
+          "whites": 2,
+          "blacks": -1,
+          "saturation": -10.0,
+          "vibrance": -5.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 11.0,
+          "grain_size": 2.575,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 45.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 5.0,
+          "highlight_hue": 50.0,
+          "highlight_color": 0.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 22
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.008
+            ],
+            [
+              0.12,
+              0.095
+            ],
+            [
+              0.35,
+              0.36
+            ],
+            [
+              0.65,
+              0.68
+            ],
+            [
+              0.9,
+              0.93
+            ],
+            [
+              1.0,
+              0.99
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            2.0,
+            -10.0,
+            0.0
+          ],
+          "橙": [
+            5.0,
+            -5.0,
+            15.0
+          ],
+          "黄": [
+            3.0,
+            -5.0,
+            0.0
+          ],
+          "绿": [
+            8.0,
+            -15.0,
+            -5.0
+          ],
+          "青": [
+            -5.0,
+            -15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -10.0,
+            -10.0
+          ],
+          "紫": [
+            0.0,
+            -20.0,
+            0.0
+          ],
+          "洋红": [
+            0.0,
+            -10.0,
+            0.0
+          ]
+        }
+      },
+      "report": {
+        "name": "02 Kodak Portra 160",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBalance",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightLum",
+          "ColorGradeHighlightSat",
+          "ColorGradeMidtoneHue",
+          "ColorGradeMidtoneLum",
+          "ColorGradeMidtoneSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowLum",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Dehaze",
+          "Exposure2012",
+          "GrainAmount",
+          "GrainFrequency",
+          "GrainSize",
+          "Highlights2012",
+          "HueAdjustmentAqua",
+          "HueAdjustmentGreen",
+          "HueAdjustmentOrange",
+          "HueAdjustmentRed",
+          "HueAdjustmentYellow",
+          "LuminanceAdjustmentBlue",
+          "LuminanceAdjustmentGreen",
+          "LuminanceAdjustmentOrange",
+          "LuminanceSmoothing",
+          "Saturation",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentMagenta",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentPurple",
+          "SaturationAdjustmentRed",
+          "SaturationAdjustmentYellow",
+          "Shadows2012",
+          "Sharpness",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Vibrance",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [
+          "GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。"
+        ],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.5,
+            "contrast": -15.0,
+            "highlights": -25.0,
+            "shadows": 30.0,
+            "whites": -10.0,
+            "blacks": 20.0,
+            "saturation": -10.0,
+            "vibrance": -5.0,
+            "texture": 0.0,
+            "clarity": 0.0,
+            "dehaze": 0.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "grain": 20.0,
+            "grain_size": 2.575,
+            "midtone_hue": 0.0,
+            "midtone_color": 0.0,
+            "shadow_luma": 0.0,
+            "midtone_luma": 0.0,
+            "highlight_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 50.0,
+            "grain_roughness": 45.0,
+            "shadow_hue": 210.0,
+            "shadow_color": 5.0,
+            "highlight_hue": 50.0,
+            "highlight_color": 0.0,
+            "grading_balance": 0.0,
+            "bw": 0,
+            "grain_model": 1
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "红": {
+              "0": 2.0,
+              "1": -10.0
+            },
+            "橙": {
+              "0": 5.0,
+              "1": -5.0,
+              "2": 15.0
+            },
+            "黄": {
+              "0": 3.0,
+              "1": -5.0
+            },
+            "绿": {
+              "0": 8.0,
+              "1": -15.0,
+              "2": -5.0
+            },
+            "青": {
+              "0": -5.0,
+              "1": -15.0
+            },
+            "蓝": {
+              "1": -10.0,
+              "2": -10.0
+            },
+            "紫": {
+              "1": -20.0
+            },
+            "洋红": {
+              "1": -10.0
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-portra-400",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kodak Portra 400",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Color-Negative/Kodak%20Portra%20400.xmp",
+        "license": "MIT",
+        "sha256": "407cabfbc737d7aefa1441976ab0378bc5e96915a24d4806a77d372f32c0d05e"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": -7.5,
+          "highlights": -55.0,
+          "shadows": 32.0,
+          "whites": -2.0,
+          "blacks": 12.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 28.0,
+          "grain_size": 2.75,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 45.0,
+          "highlight_color": 12.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            -3.0,
+            -5.0,
+            15.0
+          ],
+          "黄": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "绿": [
+            15.0,
+            -22.5,
+            0.0
+          ],
+          "青": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "蓝": [
+            -5.0,
+            -15.0,
+            -10.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 7,
+          "highlights": -42,
+          "shadows": 8,
+          "whites": -2,
+          "blacks": -1,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 15.400000000000002,
+          "grain_size": 2.75,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 45.0,
+          "highlight_color": 9,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 22
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.008
+            ],
+            [
+              0.12,
+              0.095
+            ],
+            [
+              0.35,
+              0.36
+            ],
+            [
+              0.65,
+              0.68
+            ],
+            [
+              0.9,
+              0.93
+            ],
+            [
+              1.0,
+              0.99
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            -3,
+            -5,
+            8
+          ],
+          "黄": [
+            -8.0,
+            0.0,
+            0.0
+          ],
+          "绿": [
+            15.0,
+            -22.5,
+            0.0
+          ],
+          "青": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "蓝": [
+            -5.0,
+            -15.0,
+            -10.0
+          ]
+        }
+      },
+      "report": {
+        "name": "02 Kodak Portra 400",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBalance",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightLum",
+          "ColorGradeHighlightSat",
+          "ColorGradeMidtoneHue",
+          "ColorGradeMidtoneLum",
+          "ColorGradeMidtoneSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowLum",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Dehaze",
+          "Exposure2012",
+          "GrainAmount",
+          "GrainFrequency",
+          "GrainSize",
+          "Highlights2012",
+          "HueAdjustmentBlue",
+          "HueAdjustmentGreen",
+          "HueAdjustmentOrange",
+          "HueAdjustmentYellow",
+          "LuminanceAdjustmentBlue",
+          "LuminanceAdjustmentOrange",
+          "LuminanceSmoothing",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentOrange",
+          "Shadows2012",
+          "Sharpness",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [
+          "GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。"
+        ],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.5,
+            "contrast": -7.5,
+            "highlights": -55.0,
+            "shadows": 32.0,
+            "whites": -2.0,
+            "blacks": 12.0,
+            "texture": 0.0,
+            "clarity": 0.0,
+            "dehaze": 0.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "grain": 28.0,
+            "grain_size": 2.75,
+            "midtone_hue": 0.0,
+            "midtone_color": 0.0,
+            "shadow_luma": 0.0,
+            "midtone_luma": 0.0,
+            "highlight_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 50.0,
+            "grain_roughness": 50.0,
+            "shadow_hue": 210.0,
+            "shadow_color": 8.0,
+            "highlight_hue": 45.0,
+            "highlight_color": 12.0,
+            "grading_balance": 0.0,
+            "bw": 0,
+            "grain_model": 1
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "橙": {
+              "0": -3.0,
+              "1": -5.0,
+              "2": 15.0
+            },
+            "黄": {
+              "0": -8.0
+            },
+            "绿": {
+              "0": 15.0,
+              "1": -22.5
+            },
+            "青": {
+              "1": -10.0
+            },
+            "蓝": {
+              "0": -5.0,
+              "1": -15.0,
+              "2": -10.0
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-gold-200",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kodak Gold 200",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Color-Negative/Kodak%20Gold%20200.xmp",
+        "license": "MIT",
+        "sha256": "cbd33e56827ae6df132198cdda3a512d5c02bdec938025dcef5cdf35b01bfe62"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": -12.5,
+          "highlights": -50.0,
+          "shadows": 27.5,
+          "whites": -20.0,
+          "blacks": 20.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 35.0,
+          "grain_size": 2.925,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 207.5,
+          "shadow_color": 17.5,
+          "highlight_hue": 50.0,
+          "highlight_color": 15.0,
+          "grading_balance": -30.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            7.5,
+            10.0,
+            0.0
+          ],
+          "橙": [
+            -2.5,
+            15.0,
+            15.0
+          ],
+          "黄": [
+            -12.5,
+            20.0,
+            10.0
+          ],
+          "绿": [
+            22.5,
+            -15.0,
+            -7.5
+          ],
+          "青": [
+            -12.5,
+            -5.0,
+            0.0
+          ],
+          "蓝": [
+            -10.0,
+            -15.0,
+            -10.0
+          ],
+          "紫": [
+            -15.0,
+            -22.5,
+            0.0
+          ],
+          "洋红": [
+            -15.0,
+            -22.5,
+            0.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 8,
+          "highlights": -48,
+          "shadows": 7,
+          "whites": -3,
+          "blacks": -1,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 19.25,
+          "grain_size": 2.925,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 207.5,
+          "shadow_color": 17.5,
+          "highlight_hue": 50.0,
+          "highlight_color": 10,
+          "grading_balance": -30.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 25
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.008
+            ],
+            [
+              0.12,
+              0.095
+            ],
+            [
+              0.35,
+              0.36
+            ],
+            [
+              0.65,
+              0.68
+            ],
+            [
+              0.9,
+              0.93
+            ],
+            [
+              1.0,
+              0.99
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            7.5,
+            10.0,
+            0.0
+          ],
+          "橙": [
+            -2.5,
+            8,
+            7
+          ],
+          "黄": [
+            -12.5,
+            12,
+            4
+          ],
+          "绿": [
+            22.5,
+            -15.0,
+            -7.5
+          ],
+          "青": [
+            -12.5,
+            -5.0,
+            0.0
+          ],
+          "蓝": [
+            -10.0,
+            -15.0,
+            -10.0
+          ],
+          "紫": [
+            -15.0,
+            -22.5,
+            0.0
+          ],
+          "洋红": [
+            -15.0,
+            -22.5,
+            0.0
+          ]
+        }
+      },
+      "report": {
+        "name": "03 Kodak Gold 200",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBalance",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightLum",
+          "ColorGradeHighlightSat",
+          "ColorGradeMidtoneHue",
+          "ColorGradeMidtoneLum",
+          "ColorGradeMidtoneSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowLum",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Dehaze",
+          "Exposure2012",
+          "GrainAmount",
+          "GrainFrequency",
+          "GrainSize",
+          "Highlights2012",
+          "HueAdjustmentAqua",
+          "HueAdjustmentBlue",
+          "HueAdjustmentGreen",
+          "HueAdjustmentMagenta",
+          "HueAdjustmentOrange",
+          "HueAdjustmentPurple",
+          "HueAdjustmentRed",
+          "HueAdjustmentYellow",
+          "LuminanceAdjustmentBlue",
+          "LuminanceAdjustmentGreen",
+          "LuminanceAdjustmentOrange",
+          "LuminanceAdjustmentYellow",
+          "LuminanceSmoothing",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentMagenta",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentPurple",
+          "SaturationAdjustmentRed",
+          "SaturationAdjustmentYellow",
+          "Shadows2012",
+          "Sharpness",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [
+          "GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。"
+        ],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.15,
+            "contrast": -12.5,
+            "highlights": -50.0,
+            "shadows": 27.5,
+            "whites": -20.0,
+            "blacks": 20.0,
+            "texture": 0.0,
+            "clarity": 0.0,
+            "dehaze": 0.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "grain": 35.0,
+            "grain_size": 2.925,
+            "midtone_hue": 0.0,
+            "midtone_color": 0.0,
+            "shadow_luma": 0.0,
+            "midtone_luma": 0.0,
+            "highlight_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 50.0,
+            "grain_roughness": 50.0,
+            "shadow_hue": 207.5,
+            "shadow_color": 17.5,
+            "highlight_hue": 50.0,
+            "highlight_color": 15.0,
+            "grading_balance": -30.0,
+            "bw": 0,
+            "grain_model": 1
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "红": {
+              "0": 7.5,
+              "1": 10.0
+            },
+            "橙": {
+              "0": -2.5,
+              "1": 15.0,
+              "2": 15.0
+            },
+            "黄": {
+              "0": -12.5,
+              "1": 20.0,
+              "2": 10.0
+            },
+            "绿": {
+              "0": 22.5,
+              "1": -15.0,
+              "2": -7.5
+            },
+            "青": {
+              "0": -12.5,
+              "1": -5.0
+            },
+            "蓝": {
+              "0": -10.0,
+              "1": -15.0,
+              "2": -10.0
+            },
+            "紫": {
+              "0": -15.0,
+              "1": -22.5
+            },
+            "洋红": {
+              "0": -15.0,
+              "1": -22.5
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-ektar-100",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Kodak Ektar 100",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Color-Negative/Kodak%20Ektar%20100.xmp",
+        "license": "MIT",
+        "sha256": "bebd18625eb20a8042e0e76cd3f1f921923108ca5308b0f9e2c3f970facff368"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": 32.0,
+          "highlights": -30.0,
+          "shadows": 22.0,
+          "whites": 8.0,
+          "blacks": -19.0,
+          "saturation": 5.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 5.0,
+          "grain_size": 1.7,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 9.0,
+          "highlight_hue": 45.0,
+          "highlight_color": 5.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            10.0,
+            21.0,
+            -10.0
+          ],
+          "橙": [
+            -2.5,
+            17.5,
+            -5.0
+          ],
+          "黄": [
+            0.0,
+            16.0,
+            10.0
+          ],
+          "绿": [
+            17.5,
+            25.0,
+            -15.0
+          ],
+          "青": [
+            5.0,
+            15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            17.5,
+            -15.0
+          ],
+          "紫": [
+            5.0,
+            7.5,
+            0.0
+          ],
+          "洋红": [
+            5.0,
+            7.5,
+            0.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 10,
+          "highlights": -32,
+          "shadows": 5,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": 5.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "grain": 2.75,
+          "grain_size": 1.7,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 210.0,
+          "shadow_color": 9.0,
+          "highlight_hue": 45.0,
+          "highlight_color": 5.0,
+          "grading_balance": 0.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 30
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.15,
+              0.105
+            ],
+            [
+              0.38,
+              0.34
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.9,
+              0.945
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            10.0,
+            21.0,
+            -10.0
+          ],
+          "橙": [
+            -2.5,
+            17.5,
+            -5.0
+          ],
+          "黄": [
+            0.0,
+            16.0,
+            10.0
+          ],
+          "绿": [
+            17.5,
+            25.0,
+            -15.0
+          ],
+          "青": [
+            5.0,
+            15.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            17.5,
+            -15.0
+          ],
+          "紫": [
+            5.0,
+            7.5,
+            0.0
+          ],
+          "洋红": [
+            5.0,
+            7.5,
+            0.0
+          ]
+        }
+      },
+      "report": {
+        "name": "08 Kodak Ektar 100",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBalance",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightLum",
+          "ColorGradeHighlightSat",
+          "ColorGradeMidtoneHue",
+          "ColorGradeMidtoneLum",
+          "ColorGradeMidtoneSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowLum",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Dehaze",
+          "Exposure2012",
+          "GrainAmount",
+          "GrainFrequency",
+          "GrainSize",
+          "Highlights2012",
+          "HueAdjustmentAqua",
+          "HueAdjustmentGreen",
+          "HueAdjustmentMagenta",
+          "HueAdjustmentOrange",
+          "HueAdjustmentPurple",
+          "HueAdjustmentRed",
+          "LuminanceAdjustmentBlue",
+          "LuminanceAdjustmentGreen",
+          "LuminanceAdjustmentOrange",
+          "LuminanceAdjustmentRed",
+          "LuminanceAdjustmentYellow",
+          "LuminanceSmoothing",
+          "Saturation",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentMagenta",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentPurple",
+          "SaturationAdjustmentRed",
+          "SaturationAdjustmentYellow",
+          "Shadows2012",
+          "Sharpness",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [
+          "GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。"
+        ],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.15,
+            "contrast": 32.0,
+            "highlights": -30.0,
+            "shadows": 22.0,
+            "whites": 8.0,
+            "blacks": -19.0,
+            "saturation": 5.0,
+            "texture": 0.0,
+            "clarity": 0.0,
+            "dehaze": 0.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "grain": 5.0,
+            "grain_size": 1.7,
+            "midtone_hue": 0.0,
+            "midtone_color": 0.0,
+            "shadow_luma": 0.0,
+            "midtone_luma": 0.0,
+            "highlight_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 50.0,
+            "grain_roughness": 50.0,
+            "shadow_hue": 210.0,
+            "shadow_color": 9.0,
+            "highlight_hue": 45.0,
+            "highlight_color": 5.0,
+            "grading_balance": 0.0,
+            "bw": 0,
+            "grain_model": 1
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "红": {
+              "0": 10.0,
+              "1": 21.0,
+              "2": -10.0
+            },
+            "橙": {
+              "0": -2.5,
+              "1": 17.5,
+              "2": -5.0
+            },
+            "黄": {
+              "1": 16.0,
+              "2": 10.0
+            },
+            "绿": {
+              "0": 17.5,
+              "1": 25.0,
+              "2": -15.0
+            },
+            "青": {
+              "0": 5.0,
+              "1": 15.0
+            },
+            "蓝": {
+              "1": 17.5,
+              "2": -15.0
+            },
+            "紫": {
+              "0": 5.0,
+              "1": 7.5
+            },
+            "洋红": {
+              "0": 5.0,
+              "1": 7.5
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-teal-orange",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Cinematic Teal and Orange",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Creative/Cinematic%20Teal%20and%20Orange.xmp",
+        "license": "MIT",
+        "sha256": "babee626014d130547707febddd35e9fdd3cbf15ca1588cdcd20f579b4022b03"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": 23.75,
+          "highlights": -40.0,
+          "shadows": 30.0,
+          "whites": 15.0,
+          "blacks": 0.0,
+          "saturation": 0.0,
+          "vignette": -10.0,
+          "grain": 15.0,
+          "grain_size": 2.75,
+          "midtone_hue": 35.0,
+          "midtone_color": 7.5,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 208.75,
+          "shadow_color": 20.0,
+          "highlight_hue": 35.75,
+          "highlight_color": 15.0,
+          "grading_balance": -30.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "绿": [
+            -60.0,
+            -40.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -20.0,
+            0.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 14,
+          "highlights": -32,
+          "shadows": 5,
+          "whites": 2,
+          "blacks": -2,
+          "saturation": 0.0,
+          "vignette": -10.0,
+          "grain": 8.25,
+          "grain_size": 2.75,
+          "midtone_hue": 35.0,
+          "midtone_color": 7.5,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 75.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 208.75,
+          "shadow_color": 20.0,
+          "highlight_hue": 35.75,
+          "highlight_color": 15.0,
+          "grading_balance": -30.0,
+          "bw": 0,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 30
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.15,
+              0.105
+            ],
+            [
+              0.38,
+              0.34
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.9,
+              0.945
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0784313725490196
+            ],
+            [
+              0.25098039215686274,
+              0.21568627450980393
+            ],
+            [
+              0.5019607843137255,
+              0.5019607843137255
+            ],
+            [
+              0.7529411764705882,
+              0.7686274509803922
+            ],
+            [
+              1.0,
+              0.9215686274509803
+            ]
+          ]
+        },
+        "hsl": {
+          "橙": [
+            0.0,
+            0.0,
+            10.0
+          ],
+          "绿": [
+            -60.0,
+            -40.0,
+            0.0
+          ],
+          "蓝": [
+            0.0,
+            -20.0,
+            0.0
+          ]
+        }
+      },
+      "report": {
+        "name": "02 Cinematic Teal and Orange",
+        "mapped": [
+          "Blacks2012",
+          "ColorGradeBalance",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightLum",
+          "ColorGradeHighlightSat",
+          "ColorGradeMidtoneHue",
+          "ColorGradeMidtoneLum",
+          "ColorGradeMidtoneSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowLum",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "Exposure2012",
+          "GrainAmount",
+          "GrainFrequency",
+          "GrainSize",
+          "Highlights2012",
+          "HueAdjustmentGreen",
+          "LuminanceAdjustmentOrange",
+          "LuminanceSmoothing",
+          "PostCropVignetteAmount",
+          "Saturation",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "Shadows2012",
+          "Sharpness",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Treatment",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [
+          "GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。"
+        ],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": -0.1,
+            "contrast": 23.75,
+            "highlights": -40.0,
+            "shadows": 30.0,
+            "whites": 15.0,
+            "blacks": 0.0,
+            "saturation": 0.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "vignette": -10.0,
+            "grain": 15.0,
+            "grain_size": 2.75,
+            "midtone_hue": 35.0,
+            "midtone_color": 7.5,
+            "shadow_luma": 0.0,
+            "midtone_luma": 0.0,
+            "highlight_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 75.0,
+            "grain_roughness": 50.0,
+            "shadow_hue": 208.75,
+            "shadow_color": 20.0,
+            "highlight_hue": 35.75,
+            "highlight_color": 15.0,
+            "grading_balance": -30.0,
+            "bw": 0,
+            "grain_model": 1
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0784313725490196
+              ],
+              [
+                0.25098039215686274,
+                0.21568627450980393
+              ],
+              [
+                0.5019607843137255,
+                0.5019607843137255
+              ],
+              [
+                0.7529411764705882,
+                0.7686274509803922
+              ],
+              [
+                1.0,
+                0.9215686274509803
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "橙": {
+              "2": 10.0
+            },
+            "绿": {
+              "0": -60.0,
+              "1": -40.0
+            },
+            "蓝": {
+              "1": -20.0
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "lr-hp5",
+      "source": {
+        "label": "peva3/Lightroom-Presets · Ilford HP5 Plus",
+        "url": "https://github.com/peva3/Lightroom-Presets/blob/main/Presets/Black-White/Ilford%20HP5%20Plus.xmp",
+        "license": "MIT",
+        "sha256": "e22f57a4d89cd7f3cca1505142e1b6ceee4f114982531caefbc7333ecb0b388f"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": 7.5,
+          "highlights": -23.8,
+          "shadows": 16.3,
+          "whites": 5.0,
+          "blacks": -11.3,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "grain": 36.3,
+          "grain_size": 2.925,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 230.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 50.0,
+          "highlight_color": 5.0,
+          "grading_balance": -20.0,
+          "bw": 1,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "bw_mix": {
+          "红": 15.0,
+          "橙": 10.0,
+          "黄": 5.0,
+          "绿": -5.0,
+          "青": -10.0,
+          "蓝": -18.8,
+          "紫": 0.0,
+          "洋红": 0.0
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 8,
+          "highlights": -32,
+          "shadows": 5,
+          "whites": 2,
+          "blacks": -2,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "grain": 19.965,
+          "grain_size": 2.925,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 50.0,
+          "grain_roughness": 50.0,
+          "shadow_hue": 230.0,
+          "shadow_color": 8.0,
+          "highlight_hue": 50.0,
+          "highlight_color": 5.0,
+          "grading_balance": -20.0,
+          "bw": 1,
+          "grain_model": 1,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 0
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.15,
+              0.105
+            ],
+            [
+              0.38,
+              0.34
+            ],
+            [
+              0.65,
+              0.7
+            ],
+            [
+              0.9,
+              0.945
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "bw_mix": {
+          "红": 15.0,
+          "橙": 10.0,
+          "黄": 5.0,
+          "绿": -5.0,
+          "青": -10.0,
+          "蓝": -18.8,
+          "紫": 0.0,
+          "洋红": 0.0
+        }
+      },
+      "report": {
+        "name": "06 Ilford HP5 Plus",
+        "mapped": [
+          "Blacks2012",
+          "Clarity2012",
+          "ColorGradeBalance",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightHue",
+          "ColorGradeHighlightLum",
+          "ColorGradeHighlightSat",
+          "ColorGradeMidtoneHue",
+          "ColorGradeMidtoneLum",
+          "ColorGradeMidtoneSat",
+          "ColorGradeShadowHue",
+          "ColorGradeShadowLum",
+          "ColorGradeShadowSat",
+          "Contrast2012",
+          "ConvertToGrayscale",
+          "GrainAmount",
+          "GrainFrequency",
+          "GrainSize",
+          "GrayMixerAqua",
+          "GrayMixerBlue",
+          "GrayMixerGreen",
+          "GrayMixerMagenta",
+          "GrayMixerOrange",
+          "GrayMixerPurple",
+          "GrayMixerRed",
+          "GrayMixerYellow",
+          "Highlights2012",
+          "LuminanceSmoothing",
+          "Shadows2012",
+          "Sharpness",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "Group",
+          "Look",
+          "PresetType",
+          "RequiresRenditionBehavior",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred",
+          "Treatment"
+        ],
+        "warnings": [
+          "GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。"
+        ],
+        "profile_dependencies": [
+          "Adobe Monochrome"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "contrast": 7.5,
+            "highlights": -23.8,
+            "shadows": 16.3,
+            "whites": 5.0,
+            "blacks": -11.3,
+            "texture": 0.0,
+            "clarity": 0.0,
+            "sharpen": 10.0,
+            "denoise_luma": 0.0,
+            "grain": 36.3,
+            "grain_size": 2.925,
+            "midtone_hue": 0.0,
+            "midtone_color": 0.0,
+            "shadow_luma": 0.0,
+            "midtone_luma": 0.0,
+            "highlight_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 50.0,
+            "grain_roughness": 50.0,
+            "shadow_hue": 230.0,
+            "shadow_color": 8.0,
+            "highlight_hue": 50.0,
+            "highlight_color": 5.0,
+            "grading_balance": -20.0,
+            "bw": 1,
+            "grain_model": 1
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ]
+          },
+          "bw_mix": {
+            "红": 15.0,
+            "橙": 10.0,
+            "黄": 5.0,
+            "绿": -5.0,
+            "青": -10.0,
+            "蓝": -18.8,
+            "紫": 0.0,
+            "洋红": 0.0
+          },
+          "hsl": {}
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_luma",
+          "sharpen"
+        ],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "ofs-portra-160",
+      "source": {
+        "label": "eliseomartelli/OpenFilmStocks · 2.1.4 Kodak Portra 160",
+        "url": "https://github.com/eliseomartelli/OpenFilmStocks/blob/master/OpenFilmStocks/2.1.4%20Kodak%20Portra%20160.xmp",
+        "license": "MIT",
+        "sha256": "e4241008358554d1a6eecee0bc055b600e306ad65b71c64579f6672ac76d8282"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": 74.0,
+          "saturation": -9.0,
+          "vibrance": -5.0,
+          "cal_red_hue": 15.0,
+          "cal_red_sat": 0.0,
+          "cal_green_hue": 15.0,
+          "cal_green_sat": 0.0,
+          "cal_blue_hue": -10.0,
+          "cal_blue_sat": 0.0,
+          "curve_shadow": 0.0,
+          "curve_dark": 0.0,
+          "curve_light": 0.0,
+          "curve_highlight": 0.0,
+          "curve_split_shadow": 25.0,
+          "curve_split_mid": 50.0,
+          "curve_split_highlight": 75.0,
+          "cal_shadow_tint": 0.0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.11764705882352941,
+              0.050980392156862744
+            ],
+            [
+              0.25882352941176473,
+              0.2
+            ],
+            [
+              0.5176470588235295,
+              0.47843137254901963
+            ],
+            [
+              0.807843137254902,
+              0.8196078431372549
+            ],
+            [
+              1.0,
+              0.9529411764705882
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            3.0,
+            -14.0,
+            -9.0
+          ],
+          "橙": [
+            9.0,
+            -22.0,
+            6.0
+          ],
+          "黄": [
+            15.0,
+            -20.0,
+            10.0
+          ],
+          "绿": [
+            25.0,
+            -17.0,
+            23.0
+          ],
+          "青": [
+            19.0,
+            0.0,
+            10.0
+          ],
+          "蓝": [
+            4.0,
+            -1.0,
+            -4.0
+          ],
+          "紫": [
+            -6.0,
+            -49.0,
+            0.0
+          ],
+          "洋红": [
+            -5.0,
+            -36.0,
+            0.0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 14,
+          "saturation": -9.0,
+          "vibrance": -5.0,
+          "cal_red_hue": 7,
+          "cal_red_sat": 0.0,
+          "cal_green_hue": 7,
+          "cal_green_sat": 0.0,
+          "cal_blue_hue": -5,
+          "cal_blue_sat": 0.0,
+          "curve_shadow": 0.0,
+          "curve_dark": 0.0,
+          "curve_light": 0.0,
+          "curve_highlight": 0.0,
+          "curve_split_shadow": 25.0,
+          "curve_split_mid": 50.0,
+          "curve_split_highlight": 75.0,
+          "cal_shadow_tint": 0.0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100,
+          "skin_protect": 28
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.11764705882352941,
+              0.050980392156862744
+            ],
+            [
+              0.25882352941176473,
+              0.2
+            ],
+            [
+              0.5176470588235295,
+              0.47843137254901963
+            ],
+            [
+              0.807843137254902,
+              0.8196078431372549
+            ],
+            [
+              1.0,
+              0.9529411764705882
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            3.0,
+            -14.0,
+            -9.0
+          ],
+          "橙": [
+            9.0,
+            -22.0,
+            6.0
+          ],
+          "黄": [
+            15.0,
+            -20.0,
+            10.0
+          ],
+          "绿": [
+            25.0,
+            -17.0,
+            23.0
+          ],
+          "青": [
+            19.0,
+            0.0,
+            10.0
+          ],
+          "蓝": [
+            4.0,
+            -1.0,
+            -4.0
+          ],
+          "紫": [
+            -6.0,
+            -49.0,
+            0.0
+          ],
+          "洋红": [
+            -5.0,
+            -36.0,
+            0.0
+          ]
+        }
+      },
+      "report": {
+        "name": "2.1.4 Kodak Portra 160",
+        "mapped": [
+          "BlueHue",
+          "BlueSaturation",
+          "Contrast2012",
+          "GreenHue",
+          "GreenSaturation",
+          "HueAdjustmentAqua",
+          "HueAdjustmentBlue",
+          "HueAdjustmentGreen",
+          "HueAdjustmentMagenta",
+          "HueAdjustmentOrange",
+          "HueAdjustmentPurple",
+          "HueAdjustmentRed",
+          "HueAdjustmentYellow",
+          "LuminanceAdjustmentAqua",
+          "LuminanceAdjustmentBlue",
+          "LuminanceAdjustmentGreen",
+          "LuminanceAdjustmentMagenta",
+          "LuminanceAdjustmentOrange",
+          "LuminanceAdjustmentPurple",
+          "LuminanceAdjustmentRed",
+          "LuminanceAdjustmentYellow",
+          "ParametricDarks",
+          "ParametricHighlightSplit",
+          "ParametricHighlights",
+          "ParametricLights",
+          "ParametricMidtoneSplit",
+          "ParametricShadowSplit",
+          "ParametricShadows",
+          "RedHue",
+          "RedSaturation",
+          "Saturation",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentMagenta",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentPurple",
+          "SaturationAdjustmentRed",
+          "SaturationAdjustmentYellow",
+          "ShadowTint",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Vibrance"
+        ],
+        "unsupported": [
+          "CameraModelRestriction",
+          "Cluster",
+          "ContactInfo",
+          "Copyright",
+          "Description",
+          "Group",
+          "Look",
+          "PresetType",
+          "ShortName",
+          "SortName",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [],
+        "profile_dependencies": [
+          "Adobe Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "contrast": 74.0,
+            "saturation": -9.0,
+            "vibrance": -5.0,
+            "cal_red_hue": 15.0,
+            "cal_red_sat": 0.0,
+            "cal_green_hue": 15.0,
+            "cal_green_sat": 0.0,
+            "cal_blue_hue": -10.0,
+            "cal_blue_sat": 0.0,
+            "curve_shadow": 0.0,
+            "curve_dark": 0.0,
+            "curve_light": 0.0,
+            "curve_highlight": 0.0,
+            "curve_split_shadow": 25.0,
+            "curve_split_mid": 50.0,
+            "curve_split_highlight": 75.0,
+            "cal_shadow_tint": 0.0
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.11764705882352941,
+                0.050980392156862744
+              ],
+              [
+                0.25882352941176473,
+                0.2
+              ],
+              [
+                0.5176470588235295,
+                0.47843137254901963
+              ],
+              [
+                0.807843137254902,
+                0.8196078431372549
+              ],
+              [
+                1.0,
+                0.9529411764705882
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "红": {
+              "0": 3.0,
+              "1": -14.0,
+              "2": -9.0
+            },
+            "橙": {
+              "0": 9.0,
+              "1": -22.0,
+              "2": 6.0
+            },
+            "黄": {
+              "0": 15.0,
+              "1": -20.0,
+              "2": 10.0
+            },
+            "绿": {
+              "0": 25.0,
+              "1": -17.0,
+              "2": 23.0
+            },
+            "青": {
+              "0": 19.0,
+              "1": 0.0,
+              "2": 10.0
+            },
+            "蓝": {
+              "0": 4.0,
+              "1": -1.0,
+              "2": -4.0
+            },
+            "紫": {
+              "0": -6.0,
+              "1": -49.0,
+              "2": 0.0
+            },
+            "洋红": {
+              "0": -5.0,
+              "1": -36.0,
+              "2": 0.0
+            }
+          }
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [],
+        "optics_imported": false
+      }
+    },
+    {
+      "id": "taro-autumn",
+      "source": {
+        "label": "taro710/lightroom-presets · autumn-portrait",
+        "url": "https://github.com/taro710/lightroom-presets/blob/main/presets/autumn-portrait.xmp",
+        "license": "Unlicense",
+        "sha256": "375edb1a9bd83bc1b7d48b266b830951fc8d68cff8986b483b7373fd3a89bab8"
+      },
+      "original_recipe": {
+        "values": {
+          "contrast": 0.0,
+          "highlights": 0.0,
+          "shadows": 0.0,
+          "whites": 0.0,
+          "blacks": 0.0,
+          "saturation": -5.0,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "vignette": -23.0,
+          "grain": 0.0,
+          "shadow_hue": 202.0,
+          "shadow_color": 0.0,
+          "highlight_hue": 0.0,
+          "highlight_color": 0.0,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 100.0,
+          "grading_balance": 0.0,
+          "cal_red_hue": 35.0,
+          "cal_red_sat": 0.0,
+          "cal_green_hue": 0.0,
+          "cal_green_sat": 0.0,
+          "cal_blue_hue": -100.0,
+          "cal_blue_sat": 0.0,
+          "curve_shadow": -23.0,
+          "curve_dark": -74.0,
+          "curve_light": 11.0,
+          "curve_highlight": -15.0,
+          "curve_split_shadow": 25.0,
+          "curve_split_mid": 50.0,
+          "curve_split_highlight": 75.0,
+          "vignette_midpoint": 50.0,
+          "vignette_roundness": 0.0,
+          "vignette_feather": 50.0,
+          "vignette_highlights": 0.0,
+          "vignette_style": 1.0,
+          "cal_shadow_tint": 0.0,
+          "temperature": 0.0,
+          "tint": 0.0,
+          "bw": 0,
+          "hue_stability": 100,
+          "channel_curve_saturation": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.10980392156862745
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            0,
+            0,
+            0
+          ],
+          "橙": [
+            28.0,
+            0.0,
+            0.0
+          ],
+          "黄": [
+            0,
+            0,
+            0
+          ],
+          "绿": [
+            0,
+            0,
+            0
+          ],
+          "青": [
+            0,
+            0,
+            0
+          ],
+          "蓝": [
+            -21.0,
+            -66.0,
+            0.0
+          ],
+          "紫": [
+            0,
+            0,
+            0
+          ],
+          "洋红": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "adapted_recipe": {
+        "values": {
+          "contrast": 5.5,
+          "highlights": -12.0,
+          "shadows": -20.0,
+          "whites": -10.0,
+          "blacks": 10.0,
+          "saturation": 11.25,
+          "vibrance": 0.0,
+          "texture": 0.0,
+          "clarity": 0.0,
+          "dehaze": 0.0,
+          "vignette": -23.0,
+          "grain": 0.0,
+          "shadow_hue": 195,
+          "shadow_color": 3,
+          "highlight_hue": 0.0,
+          "highlight_color": 0.0,
+          "midtone_hue": 0.0,
+          "midtone_color": 0.0,
+          "shadow_luma": 0.0,
+          "midtone_luma": 0.0,
+          "highlight_luma": 0.0,
+          "global_hue": 0.0,
+          "global_color": 0.0,
+          "grading_blend": 100.0,
+          "grading_balance": 0.0,
+          "cal_red_hue": -10.0,
+          "cal_red_sat": 0.0,
+          "cal_green_hue": 0.0,
+          "cal_green_sat": 0.0,
+          "cal_blue_hue": -7.5,
+          "cal_blue_sat": 0.0,
+          "curve_shadow": -12,
+          "curve_dark": -12.5,
+          "curve_light": 8,
+          "curve_highlight": -10,
+          "curve_split_shadow": 25.0,
+          "curve_split_mid": 50.0,
+          "curve_split_highlight": 75.0,
+          "vignette_midpoint": 50.0,
+          "vignette_roundness": 0.0,
+          "vignette_feather": 50.0,
+          "vignette_highlights": 0.0,
+          "vignette_style": 1.0,
+          "cal_shadow_tint": 0.0,
+          "temperature": 0.0,
+          "tint": 0.0,
+          "bw": 0,
+          "skin_protect": 25,
+          "hue_stability": 100
+        },
+        "points": {
+          "rgb": [
+            [
+              0.0,
+              0.015
+            ],
+            [
+              0.12,
+              0.1038
+            ],
+            [
+              0.35,
+              0.2825
+            ],
+            [
+              0.65,
+              0.6937
+            ],
+            [
+              0.85,
+              0.8688
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "r": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "g": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ],
+          "b": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "hsl": {
+          "红": [
+            0,
+            0,
+            0
+          ],
+          "橙": [
+            2.0,
+            30.0,
+            0
+          ],
+          "黄": [
+            -26.0,
+            3.0,
+            0
+          ],
+          "绿": [
+            -26.0,
+            -39.0,
+            0
+          ],
+          "青": [
+            0,
+            0,
+            0
+          ],
+          "蓝": [
+            -35.0,
+            -51.0,
+            0
+          ],
+          "紫": [
+            0,
+            0,
+            0
+          ],
+          "洋红": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "report": {
+        "name": "autumn-portrait",
+        "mapped": [
+          "Blacks2012",
+          "BlueHue",
+          "BlueSaturation",
+          "Clarity2012",
+          "ColorGradeBlending",
+          "ColorGradeGlobalHue",
+          "ColorGradeGlobalSat",
+          "ColorGradeHighlightLum",
+          "ColorGradeMidtoneHue",
+          "ColorGradeMidtoneLum",
+          "ColorGradeMidtoneSat",
+          "ColorGradeShadowLum",
+          "ColorNoiseReduction",
+          "Contrast2012",
+          "ConvertToGrayscale",
+          "Dehaze",
+          "Exposure2012",
+          "GrainAmount",
+          "GreenHue",
+          "GreenSaturation",
+          "Highlights2012",
+          "HueAdjustmentAqua",
+          "HueAdjustmentBlue",
+          "HueAdjustmentGreen",
+          "HueAdjustmentMagenta",
+          "HueAdjustmentOrange",
+          "HueAdjustmentPurple",
+          "HueAdjustmentRed",
+          "HueAdjustmentYellow",
+          "IncrementalTemperature",
+          "IncrementalTint",
+          "LensManualDistortionAmount",
+          "LuminanceAdjustmentAqua",
+          "LuminanceAdjustmentBlue",
+          "LuminanceAdjustmentGreen",
+          "LuminanceAdjustmentMagenta",
+          "LuminanceAdjustmentOrange",
+          "LuminanceAdjustmentPurple",
+          "LuminanceAdjustmentRed",
+          "LuminanceAdjustmentYellow",
+          "LuminanceSmoothing",
+          "ParametricDarks",
+          "ParametricHighlightSplit",
+          "ParametricHighlights",
+          "ParametricLights",
+          "ParametricMidtoneSplit",
+          "ParametricShadowSplit",
+          "ParametricShadows",
+          "PostCropVignetteAmount",
+          "PostCropVignetteFeather",
+          "PostCropVignetteHighlightContrast",
+          "PostCropVignetteMidpoint",
+          "PostCropVignetteRoundness",
+          "PostCropVignetteStyle",
+          "RedHue",
+          "RedSaturation",
+          "Saturation",
+          "SaturationAdjustmentAqua",
+          "SaturationAdjustmentBlue",
+          "SaturationAdjustmentGreen",
+          "SaturationAdjustmentMagenta",
+          "SaturationAdjustmentOrange",
+          "SaturationAdjustmentPurple",
+          "SaturationAdjustmentRed",
+          "SaturationAdjustmentYellow",
+          "ShadowTint",
+          "Shadows2012",
+          "Sharpness",
+          "SplitToningBalance",
+          "SplitToningHighlightHue",
+          "SplitToningHighlightSaturation",
+          "SplitToningShadowHue",
+          "SplitToningShadowSaturation",
+          "Texture",
+          "ToneCurvePV2012",
+          "ToneCurvePV2012Blue",
+          "ToneCurvePV2012Green",
+          "ToneCurvePV2012Red",
+          "Vibrance",
+          "VignetteAmount",
+          "Whites2012"
+        ],
+        "unsupported": [
+          "AutoLateralCA",
+          "CameraModelRestriction",
+          "CameraProfile",
+          "Cluster",
+          "ColorGradeGlobalLum",
+          "ContactInfo",
+          "Copyright",
+          "CropConstrainToWarp",
+          "CurveRefineSaturation",
+          "DefringeGreenAmount",
+          "DefringeGreenHueHi",
+          "DefringeGreenHueLo",
+          "DefringePurpleAmount",
+          "DefringePurpleHueHi",
+          "DefringePurpleHueLo",
+          "Description",
+          "Group",
+          "HDREditMode",
+          "OverrideLookVignette",
+          "PointColors",
+          "PresetType",
+          "RequiresRGBTables",
+          "ShortName",
+          "SortName",
+          "SupportsAmount2",
+          "SupportsHighDynamicRange",
+          "SupportsNormalDynamicRange",
+          "SupportsOutputReferred",
+          "SupportsSceneReferred"
+        ],
+        "warnings": [],
+        "profile_dependencies": [
+          "Default Color"
+        ],
+        "notice": "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。",
+        "patch": {
+          "values": {
+            "exposure": 0.0,
+            "contrast": 0.0,
+            "highlights": 0.0,
+            "shadows": 0.0,
+            "whites": 0.0,
+            "blacks": 0.0,
+            "saturation": -5.0,
+            "vibrance": 0.0,
+            "texture": 0.0,
+            "clarity": 0.0,
+            "dehaze": 0.0,
+            "sharpen": 0.0,
+            "denoise_luma": 0.0,
+            "denoise_chroma": 0.0,
+            "vignette": -23.0,
+            "grain": 0.0,
+            "shadow_hue": 202.0,
+            "shadow_color": 0.0,
+            "highlight_hue": 0.0,
+            "highlight_color": 0.0,
+            "midtone_hue": 0.0,
+            "midtone_color": 0.0,
+            "shadow_luma": 0.0,
+            "midtone_luma": 0.0,
+            "highlight_luma": 0.0,
+            "global_hue": 0.0,
+            "global_color": 0.0,
+            "grading_blend": 100.0,
+            "grading_balance": 0.0,
+            "cal_red_hue": 35.0,
+            "cal_red_sat": 0.0,
+            "cal_green_hue": 0.0,
+            "cal_green_sat": 0.0,
+            "cal_blue_hue": -100.0,
+            "cal_blue_sat": 0.0,
+            "curve_shadow": -23.0,
+            "curve_dark": -74.0,
+            "curve_light": 11.0,
+            "curve_highlight": -15.0,
+            "curve_split_shadow": 25.0,
+            "curve_split_mid": 50.0,
+            "curve_split_highlight": 75.0,
+            "vignette_midpoint": 50.0,
+            "vignette_roundness": 0.0,
+            "vignette_feather": 50.0,
+            "vignette_highlights": 0.0,
+            "vignette_style": 1.0,
+            "cal_shadow_tint": 0.0,
+            "temperature": 0.0,
+            "tint": 0.0,
+            "bw": 0
+          },
+          "points": {
+            "rgb": [
+              [
+                0.0,
+                0.10980392156862745
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "r": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "g": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ],
+            "b": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.0
+              ]
+            ]
+          },
+          "bw_mix": {},
+          "hsl": {
+            "红": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 0.0
+            },
+            "橙": {
+              "0": 28.0,
+              "1": 0.0,
+              "2": 0.0
+            },
+            "黄": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 0.0
+            },
+            "绿": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 0.0
+            },
+            "青": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 0.0
+            },
+            "蓝": {
+              "0": -21.0,
+              "1": -66.0,
+              "2": 0.0
+            },
+            "紫": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 0.0
+            },
+            "洋红": {
+              "0": 0.0,
+              "1": 0.0,
+              "2": 0.0
+            }
+          }
+        },
+        "optics": {
+          "distortion": 0.0,
+          "lens_vignette": 0.0,
+          "ca_red": 0,
+          "ca_blue": 0,
+          "defringe": 0,
+          "vertical": 0,
+          "horizontal": 0,
+          "rotation": 0,
+          "aspect": 0,
+          "scale": 100,
+          "shift_x": 0,
+          "shift_y": 0,
+          "crop_factor": 1,
+          "focal": 50,
+          "aperture": 5.6,
+          "enabled": false,
+          "profile": "",
+          "constrain": true,
+          "homography": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "guides": [],
+          "upright_mode": "off"
+        },
+        "optics_patch": {
+          "distortion": 0.0,
+          "lens_vignette": 0.0
+        },
+        "aura_color_protection": {
+          "neutral_hue": true,
+          "identical_channel_curves": true
+        },
+        "preserved_photo_fields": [
+          "denoise_chroma",
+          "denoise_luma",
+          "exposure",
+          "sharpen"
+        ],
+        "optics_imported": false
+      },
+      "calibration": {
+        "date": "2026-10-10",
+        "reference_repo": "taro710/lightroom-presets",
+        "reference_commit": "7c77e4ed658e140d61a1141a8331915312271772",
+        "reference_files": [
+          "assets/autumn-portrait-before.JPG",
+          "assets/autumn-portrait-after.JPG"
+        ],
+        "neutral_sky_HSL_luminance_removed": true,
+        "scope": "Editable global and regional controls fitted to paired JPEGs; no Adobe rendering equivalence."
+      }
+    }
+  ]
+}

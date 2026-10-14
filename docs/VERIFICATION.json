@@ -1,0 +1,79 @@
+{
+  "files": 529,
+  "bytes": 15020566,
+  "max_file_bytes": 3476420,
+  "syntax_passed": true,
+  "no_runtime_or_weights": true,
+  "no_detected_credentials": true,
+  "project_license_pending": false,
+  "installation": {
+    "installed_files_verified": 17023,
+    "project_license_bundled": true,
+    "installer_license_configured": true,
+    "english_default": true,
+    "no_personal_data_bundled": true,
+    "isolated_GPU_CPU_launchers": true,
+    "unicode_relocation": true,
+    "RAW_and_TIFF16_export": true,
+    "test_installation_uninstalled": true,
+    "seconds": 299.03100000000086
+  },
+  "installer_upgrade": {
+    "identity": "2D2F9D02-EB19-4C97-9FCC-757C767DF7F5",
+    "english_first_launch": true,
+    "chinese_first_launch": true,
+    "user_language_survives_upgrade": true,
+    "settings_preserved": true,
+    "photo_project_preserved": true,
+    "explicit_DIR_cannot_fork": true,
+    "running_app_blocks_install": true,
+    "test_uninstalled": true
+  },
+  "original_project_files_unchanged": 318,
+  "source_runtime_smoke": true,
+  "source_runtime_smoke_basis": "Previous source-copy self-test retained; legacy demo file selection changed and separately tested; current rebuilt application passed GPU/CPU/RAW/export installation checks",
+  "source_installer_tool_compiled": true,
+  "source_installer_tool_compile_basis": "Current public build tool compiled a fixture including LICENSE-AURA.txt successfully",
+  "app_implementation_unchanged_since_source_smoke": false,
+  "project_license": "AURA Noncommercial Use and Personal Free Sharing License 1.0",
+  "licensor_github": "zhfscg123-beep",
+  "source_available": true,
+  "documentation_update": {
+    "date": "2026-10-13",
+    "readme_languages": [
+      "zh-CN",
+      "en"
+    ],
+    "github_about_snippets": true,
+    "model_acknowledgements": true,
+    "public_facing_product_description": true,
+    "active_model_file_entries_credited": 10,
+    "local_document_links_verified": 28,
+    "application_and_license_unchanged": true,
+    "installer_unchanged": true,
+    "runtime_tests": "Existing 0.2.0 license-release results retained; documentation-only update"
+  },
+  "privacy_review": {
+    "date": "2026-10-13",
+    "hardcoded_sample_path_removed": true,
+    "preflight_expanded": true,
+    "asset_metadata_reviewed": true,
+    "authorized_public_github_identity_retained": true,
+    "findings_report": "SOURCE-PRIVACY-REVIEW.txt",
+    "focused_tests": {
+      "privacy_detection_cases": 8,
+      "safe_text_cases": 5,
+      "demo_entry_cases": 5,
+      "passed": true
+    },
+    "scope": "Static release source and archive plus targeted tests; not a comprehensive security guarantee"
+  },
+  "report_scope": "Local build and installation validation; publication status is available on GitHub Releases.",
+  "github_repository": "https://github.com/zhfscg123-beep/AURA-Photo",
+  "identity_correction": {
+    "date": "2026-10-14",
+    "verified_github_login": "zhfscg123-beep",
+    "account_id": 248486874,
+    "installer_rebuilt_and_verified": true
+  }
+}

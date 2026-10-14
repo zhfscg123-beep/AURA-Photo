@@ -1,0 +1,19 @@
+DAMO learned blend U-Net used by AURA regional facial wrinkle controls.
+Official model: https://www.modelscope.cn/models/damo/cv_unet_skin-retouching/summary
+Artifact: pytorch_model.pt, revision 72b82f86fb9720b0e2adf05be0a0ea47cc6f329d
+SHA256: 760d0c0b95c4e0a692165677fe2b82dbdf8fbbd4a3780ca966599c627b082993
+Installed filename: models/damo_blend.pth
+Official model card: Apache License 2.0.
+Architecture: ModelScope 1.40.1, modelscope/models/cv/skin_retouching/unet_deploy.py.
+Source notice/license: ModelScope-APACHE-2.0.txt; vendor/damo/sources.json.
+
+AURA runs the reviewed network locally with torch.load(weights_only=True),
+strict state dictionaries, evaluation mode and FP32 inference.
+The learned 512px blend map is interpolated and applied to current pre-wrinkle
+original-resolution FP32 RGB with eye/lash/brow/hair/dark-mark protection.
+No extra whitening, old eye luminance-lift formula, cheek-colour transfer,
+or uint8 rounding is applied by this stage. All wrinkle strengths default to 0.
+This is a bounded regional adaptation, not the entire ABPN pyramid pipeline,
+not a dedicated newly trained wrinkle classifier, and not PixCake private code.
+The update does not establish unrestricted commercial rights for other AURA
+models, libraries or assets; their separate notices remain applicable.

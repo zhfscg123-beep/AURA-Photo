@@ -1,0 +1,17 @@
+PROJECT LICENSE
+
+AURA Noncommercial Use and Personal Free Sharing License 1.0
+Licensor identity: GitHub user zhfscg123-beep
+https://github.com/zhfscg123-beep
+
+Read LICENSE (or LICENSE-AURA.txt in the installation). This is a custom
+source-available license. Personal noncommercial use and free redistribution
+are permitted without a download-count cap; commercial use and the defined
+bulk distribution / centralized deployment activities require prior written
+permission. Public GitHub forking rights and third-party licenses are preserved.
+No email address is provided. Do not label this project MIT, Apache, GPL, or OSI open source.
+
+项目许可已按所有者选择确定，公开身份为 GitHub 用户 zhfscg123-beep。
+这是源码可见许可：允许个人非商业使用和免费分享；商业使用及所定义的批量
+分发/集中部署须另行书面授权。个人分享不按下载次数限制。详情以 LICENSE 为准。
+第三方组件及 GitHub 平台权利保留。

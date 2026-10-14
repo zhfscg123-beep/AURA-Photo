@@ -1,0 +1,41 @@
+AURA Photo 0.2.0 — Third-party notices / 第三方声明
+核验日期：2026-10-13
+
+各组件版权归各自作者所有。本文件是索引，完整许可原文优先；没有将 NVIDIA 专有运行库重新授予开源许可证。第三方组件按各自许可提供，通常不附带担保。
+
+1. RawTherapee 5.13
+Copyright RawTherapee contributors. GPL-3.0，全文 licenses/RawTherapee-GPL-3.0.txt。以独立 rawtherapee-cli.exe 进程处理输入输出文件，未修改其二进制。
+完整官方源码 rawtherapee-5.13.tar.xz 同包提供，发布者 SHA-256 已匹配。官方项目 https://github.com/RawTherapee/RawTherapee 。
+随附运行库实际依赖闭包为 54 个 DLL，逐一与 MSYS2 UCRT64 官方二进制包内容 SHA-256 匹配，归属 39 个包；每包对应完整源码归档、PKGBUILD、补丁与构建信息随包提供。详见 licenses/rawtherapee-dependencies.json、licenses/msys2 和 third-party-sources。
+该集合包括 GPL、LGPL、MIT、BSD、Apache、OpenSSL、Zlib 等许可证，不可仅标记为“免费库”。
+Lensfun 库采用 LGPL-3.0，镜头数据库采用 CC-BY-SA-3.0；作者与原文见对应目录。Little CMS 采用 MIT 许可。
+开源库保留为可替换 DLL，允许依照 LGPL 修改、替换库并为调试这些修改进行逆向工程。本包没有阻止替换库的签名校验或混淆限制。
+
+2. rawpy / LibRaw / certifi
+rawpy 0.27.1：MIT；LibRaw 0.22.1：本包采用 LGPL-2.1 选项，不启用 GPL demosaic 扩展包。提供 rawpy 发布源码、对应 Git 提交及 LibRaw / LibRaw-cmake 子模块源码。原文在 Python 包元数据与源码内。
+certifi 证书数据采用 MPL-2.0，完整源包同附。
+
+3. 模型与适配代码
+MediaPipe face/pose/selfie multiclass：Apache-2.0；DAMO skin retouching 与 LaMa：Apache-2.0；YuNet、MoGe-2 Small、Sky U2Net-small：MIT。逐文件来源、模型卡和 SHA-256 见 models-manifest.json；原文与模型卡见 licenses、vendor 及模型目录。
+新增 MediaPipe 网格适配替代原 SPIGA/面部语义解析；未分发 spiga_wflw.pt、face_parsing.onnx、face_parsing_resnet34.onnx 或 person-lraspp.pth。未附富士 LUT / DCP 资产。
+DAMO 等少量上游代码的导入适配变更已记录在 vendor 内来源文件；独立版功能改动日期为 2026-10-13。
+
+4. Python 与其他运行库
+Python、NumPy、SciPy、OpenCV、Pillow、PyTorch、ONNX、ONNX Runtime、CuPy、MediaPipe 等完整发行包原有 LICENSE / NOTICE 保留在其安装目录。
+licenses/runtime-inventory.json 列出 CPU/GPU 两套运行环境的发行版元数据及许可文件路径。模型许可与推理框架许可分别核验。
+ExifTool Copyright Phil Harvey，按 Perl 的 Artistic / GPL 双许可发布；本包保留 Perl 代码。Oliver Betz Windows launcher 为 CC0，Strawberry Perl 的许可集合在 ExifTool 随附目录中。以这些文件内具体条款为准。
+
+5. NVIDIA GPU 组件
+CUDA / cuDNN 属于 NVIDIA 专有组件；按其 SDK 许可的运行库再分发条款随本应用提供，不作为独立 SDK 发布。保留原文件名与版权声明，安装于本程序私有目录。
+完整许可：licenses/NVIDIA/CUDA-EULA.html、cuDNN-EULA.html 及 gpu-render-deps-cuda130 下 NVIDIA 包的 dist-info/licenses。
+使用这些组件须遵守 NVIDIA 对使用、复制、分发、修改、逆向工程及出口等的适用限制；依法或第三方开源许可另有允许的除外。不得删除 NVIDIA 声明，也不得把其二进制作为本项目的开源代码再授权。这些限制仅涉及相应 NVIDIA 组件，不削减 GPL/LGPL 等组件授予的权利。
+不附 CUDA 开发头文件与静态开发库；首次 GPU 渲染初始化经接收者同意，从 NVIDIA 官方 Python 包获取所需头文件，在接收者本机使用。重新打包前排除整个 .aura-photo-data。
+官方许可来源：https://docs.nvidia.com/cuda/eula/index.html 和 https://docs.nvidia.com/deeplearning/cudnn/backend/latest/reference/eula.html 。
+
+6. 再分发与源码
+随二进制保留完整 licenses、third-party-sources、模型声明和本文件。45 份源码归档及其 SHA-256 见 licenses/source-checksums.json。替换或升级第三方库后，应同步更新对应源码、许可证与清单。
+本材料记录了本次文件核验与分发安排，不声称已获得另行购买的授权，也不代替对特定商业销售方式的法律审查。
+
+7. 安装器 / Installer
+Inno Setup: Copyright Jordan Russell and Martijn Laan. License: licenses/installer/Inno-Setup-license.txt.
+Chinese Simplified installer translation: Copyright (c) 2019 - 2020 kirakira, MIT. Source: https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation . License: licenses/installer/ChineseSimplified-LICENSE.txt.

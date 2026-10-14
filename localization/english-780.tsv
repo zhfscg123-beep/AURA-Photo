@@ -1,0 +1,420 @@
+780	\nFujifilm sRGB LUT look. RAW uses a matching linear DCP; ordinary photos apply it directly, with results influenced by existing color adjustments.
+781	\nOriginal AURA recipe. Curves, HSL and grading remain adjustable.
+782	Filter not deleted
+783	Preview unfinished. Click a filter to apply it directly.
+784	Category
+785	Search
+786	Filter 
+787	 · Fine-tuned
+788	 Global color is currently disabled. Enable it in Effects.
+789	Up to 100 personal filters are allowed.
+790	No matching filters. Change the category or search terms.
+791	 The color strength in Effects is reducing the filter's effect.
+792	\nLicense: 
+793	Click a Fujifilm RAW style to prepare its base and apply it automatically. Initial preparation takes time.
+794	Current photo · 100% look preview · Click to apply
+795	Filter preview
+796	Japanese-inspired
+797	Japanese references
+798	Film
+799	Cinema
+800	Landscape
+801	Black & White
+802	Open-source selections
+803	Fujifilm
+804	Invalid filter recipe format.
+805	Invalid filter record.
+806	Fujifilm RAW
+807	Invalid filter category.
+808	Filter strength must be 0–200.
+809	Invalid project filter record.
+810	Invalid original filter state.
+811	Original filter state is incomplete.
+812	Invalid filter strength.
+813	Filter parameter validation failed.
+814	Personal look; retains exposure and as-shot white balance, including any applied LUT.
+815	Invalid open-source filter collection format.
+816	Duplicate open-source filter ID.
+817	Invalid filter name or description.
+818	Invalid RAW filter base.
+819	Invalid filter provenance record.
+820	Invalid filter source URL.
+821	Filter source validation failed.
+822	Invalid original filter parameters.
+823	Original filter parameters are incomplete.
+824	Personal filter library exceeds 48 MB.
+825	Personal filter library is too large.
+826	Invalid personal filter library format.
+827	Duplicate personal filter ID.
+828	Invalid favorites record.
+829	Could not read personal filter library. Original file retained: 
+830	Skin sampling / Eight skin tones · Current person
+831	Clear skin-tone choice
+832	Eyedropper · Click the photo
+833	Sampled RGB · Editable
+834	Before skin-tone selection
+835	Choose skin tone
+836	Not selected
+837	Before sampling
+838	Sample original developed skin tone
+839	No sample yet · Strength defaults to 0
+840	Sample 
+841	Sampling reads the median color near the selected point in the original developed image. Adjust face and body strengths separately. Selecting or sampling a color does not raise strength automatically. Body controls affect confirmed body skin for this person. Matching makes limited color and brightness shifts while preserving tonal texture.
+842	Choose color
+843	Apply color
+844	Cancel
+845	Enter #RRGGBB, for example #B4415F
+846	RGB values must be integers from 0 to 255
+847	Basic
+848	Adjustments applied. Continue editing or return.
+849	AURA · Color Workspace
+850	Curves
+851	Color
+852	Grading
+853	Detail
+854	Effects
+855	Optics
+856	Presets
+857	Reference
+858	Output
+859	Legacy
+860	Before opening color workspace
+861	Color overlay
+862	Original split comparison
+863	Apply color workspace
+864	Unapplied adjustments
+865	Back
+866	Apply
+867	Open a photo and wait for processing to finish before entering the color workspace.
+868	Wait for processing to finish before applying adjustments.
+869	Finishing color processing; the workspace will remain open.
+870	Color update failed and was not applied. Correct the parameters and retry.
+871	Wait for processing to finish before returning.
+872	Keep editing
+873	Finish processing or release the drag before returning to the main window.
+874	Finishing color processing, then returning to the main window…
+875	Color update failed. Correct the parameters or cancel these adjustments.
+876	Original
+877	Before opening
+878	Side by side
+879	Switch to Current Result or Split Comparison to edit directly on the photo.
+880	Before perspective guides
+881	Before direct photo adjustment
+882	Direct photo adjustment
+883	Before-opening split comparison
+884	Split comparison
+885	Left: original / Right: current result
+886	Current result
+887	Comparison preview is unfinished. Switch back to original split comparison; see color-workbench-error.log for details.
+888	Professional floating-point color
+889	The left side shows the original. Sample or paint on the right result side, or move the comparison slider fully left.
+890	Add perspective guide
+891	Left: before opening / Right: current result · 
+892	Color preview is unfinished; the full photo updates on release.
+893	CPU · User preference
+894	Color workspace
+895	Cancel unapplied changes
+896	Clipping
+897	Center
+898	Check parameter entries that have not been confirmed.
+899	What would you like to do with unapplied adjustments?
+900	Previously applied adjustments will be retained.
+901	Apply and return
+902	Discard unapplied changes
+903	Up to four guides are allowed. Clear existing guides first.
+904	 · Full photo updates on release
+905	Color preview sampling
+906	Hue
+907	Saturation
+908	Luminance
+909	 / Right: current result · 
+910	Color preview · 
+911	CPU fallback: 
+912	Color preview sampling fell back to CPU: 
+913	Left: original
+914	Left: before opening
+915	Vertical line
+916	Local masks
+917	AI regions
+918	Brush and range
+919	Local color
+920	Regional color strength %
+921	Local shadow and highlight colors
+922	Local HSL colors
+923	Before AI regional adjustment
+924	Preparing AI subject and sky regions…
+925	Before local color adjustment
+926	Before unlinking regional filter
+927	Unlink regional filter
+928	Before resetting local color
+929	Reset current mask color
+930	Current mask color reset. Area, edge adjustments and opacity retained.
+931	Before switching local mask
+932	Before removing last mask stroke
+933	Remove last mask stroke
+934	Before creating local mask
+935	Before deleting mask component
+936	Before inverting mask component
+937	Invert mask component
+938	Luminance range
+939	Soft brush
+940	Before adding mask component
+941	Add mask component
+942	Color range
+943	Before painting mask component
+944	Subject
+945	Sky
+946	AI generate editable masks
+947	AI apply this filter's regional settings
+948	Detect regions again (keep color settings)
+949	Cancel detection
+950	Subject, sky and background receive separate soft-edge masks. Six Japanese reference looks and Open-source selections → Taro Autumn Portrait support regional settings. Each region can be fine-tuned and refined with a brush.
+951	Add
+952	Add brush
+953	Erase brush
+954	Subtract
+955	Combine
+956	Shape
+957	Add component on photo
+958	Brush radius / original pixels
+959	Brush feather
+960	Flow
+961	Density
+962	Luminance minimum
+963	Luminance maximum
+964	Range transition
+965	Unlink current mask from filter
+966	No mask created yet
+967	No added components
+968	This mask has independent color settings; global parameters are retained.
+969	Select at least one of Subject, Sky or Background.
+970	This filter has no dedicated regional settings. Generate masks and adjust color manually.
+971	Maximum mask count reached. Delete unused masks first.
+972	Convert the legacy mask to professional color processing first.
+973	Result only
+974	This mask has no manual strokes yet.
+975	Current mask: brush uses original pixels. Right-click temporarily erases, Space pans, Ctrl + wheel zooms.
+976	Adjust gradient endpoints
+977	Black-and-white mask
+978	Intersect
+979	Linear gradient
+980	Radial gradient
+981	Photo changed; AI masks for the previous photo were not applied.
+982	Apply regional filter with AI
+983	Luminance minimum must be below maximum.
+984	; click the button again to exit.
+985	Inspect mask area
+986	Undo last stroke on current mask
+987	New mask
+988	Delete mask
+989	Enable current mask
+990	Delete selected component
+991	Invert selected component
+992	Enter a 1-pixel radius for fine edges. Right-click temporarily erases, Space + drag pans, Ctrl + wheel zooms.
+993	Reset color adjustments for current mask
+994	Show mask area
+995	Drag gradient endpoints directly or enter values with the keyboard. Add, Subtract and Intersect combine components in order.
+996	AI detect regions again
+997	AI generate region masks
+998	AI base regions updated. Color settings and added refinement components retained.
+999	Existing regions and mask refinements are reused.
+1000	Local color 
+1001	On the photo, 
+1002	Mask opacity
+1003	Edge protection
+1004	Expand / contract edge (pixels)
+1005	Edge feather (pixels)
+1006	 · Not detected: 
+1007	AI detection 
+1008	Reuse existing masks
+1009	click to sample color
+1010	Before gradient endpoint adjustment
+1011	AI regional settings applied. Adjust each mask in the list.
+1012	drag to draw
+1013	AI regions detected again. Local color and added components retained.
+1014	AI masks generated. Adjust color and refine each independently.
+1015	Before color wheel adjustment
+1016	Before parametric curve boundaries
+1017	Color wheel adjustment
+1018	Center is neutral · Left/right changes hue · Up/down changes strength
+1019	No reliable face located. Manual AI repair remains available.
+1020	Original
+1021	Custom
+1022	Invalid camera crop area.
+1023	Invalid composition parameters.
+1024	Invalid fixed-aspect toggle.
+1025	Invalid composition parameter: 
+1026	Export crop and straightening
+1027	Angle
+1028	Reset crop and angle
+1029	Restore full frame (keep repairs)
+1030	Restore camera crop
+1031	Drag along a horizontal reference in the photo and release to straighten. Click the button again to cancel.
+1032	Before crop ratio change
+1033	Composition settings
+1034	Full frame restored; repairs and masks retained
+1035	Lock aspect ratio · Turn off for free crop
+1036	Draw line to straighten
+1037	Straightening tool closed; returned to Browse. Edits retained.
+1038	Actual export crop preview
+1039	Export composition
+1040	Show composition guides
+1041	Drag edges or corners to crop, inside to move, or outside to rotate. Angles accept two decimal places. Draw a horizontal reference line to straighten. Turn off aspect lock to adjust width and height freely.
+1042	Preview is reduced. Final export uses full resolution.
+1043	Export path exists. Choose a new filename.
+1044	Choose a PNG, JPEG or TIFF extension.
+1045	Local landmark model missing. Run the setup script.
+1046	The first edition supports only 8-bit photos. Export sRGB JPEG / PNG / 8-bit RGB TIFF from Lightroom.
+1047	Open JPEG, PNG or 8-bit RGB TIFF. Export RAW from Lightroom first.
+1048	Composite transparent PNG onto a background first. This edition processes opaque photos.
+1049	16-bit TIFF is not supported here. Export an 8-bit sRGB copy.
+1050	Export a photo no larger than 60 megapixels first.
+1051	Multipage photos are not supported here.
+1052	16-bit PNG is not supported here. Export an 8-bit sRGB copy.
+1053	Small-face detector checksum failed.
+1054	Red
+1055	Purple
+1056	Magenta
+1057	Exposure
+1058	Contrast
+1059	Highlights
+1060	Shadows
+1061	Whites
+1062	Blacks
+1063	Temperature
+1064	Tint
+1065	Vibrance
+1066	Shadow hue
+1067	Shadow tinting
+1068	Highlight hue
+1069	Highlight tinting
+1070	LUT strength
+1071	Color skin protection
+1072	Unknown color parameter.
+1073	Curve boundaries must increase in order.
+1074	Invalid curve parameters.
+1075	Invalid color processing version.
+1076	Invalid black-and-white mix parameters.
+1077	LUT file is too large. Standard 3D .cube LUTs of size 2–33 are supported.
+1078	Invalid LUT size, point count or range.
+1079	The reference region is too small or was not detected reliably. Choose another region or reference photo.
+1080	Color mode must be an integer.
+1081	Invalid HSL parameters.
+1082	Invalid LUT data.
+1083	Invalid LUT range.
+1084	Invalid white balance sample.
+1085	Use a standard 3D .cube LUT. 1D and mixed LUTs are not supported.
+1086	Invalid LUT row format.
+1087	Invalid color parameter: 
+1088	Reference matching area
+1089	Global color and style
+1090	Tone curve
+1091	Drag on photo to adjust brightness
+1092	Parametric curve and luminance boundaries
+1093	Legacy five-part curve (project compatibility)
+1094	HSL color
+1095	Sample photo color to locate HSL
+1096	Drag on photo to adjust color
+1097	Reference color matching
+1098	Import and analyze reference
+1099	Use current result as reference
+1100	Match color
+1101	Match tones
+1102	Import LUT (keep current strength)
+1103	Before restoring global color
+1104	Restore global color
+1105	Region changed. Select the reference image again.
+1106	Adjust reference color match
+1107	Before importing color preset
+1108	Apply color preset
+1109	No LUT loaded
+1110	No reference selected
+1111	Basic tones
+1112	Legacy shadow and highlight tinting
+1113	LUT and skin protection
+1114	Legacy relative temperature
+1115	Legacy relative tint
+1116	Black point
+1117	Midtones
+1118	White point
+1119	Save complete color settings
+1120	Apply complete color settings
+1121	Select and analyze a reference image first.
+1122	AURA-color.aura-style.json
+1123	Could not load preset
+1124	This matching preset contains people or sampling boxes from the original photo. Import the reference again and confirm regions on this photo.
+1125	Import 3D .cube LUT
+1126	Could not load LUT
+1127	Preset not saved
+1128	Invalid RAW base record.
+1129	Complete settings include exposure, white balance, optics and reference settings. Filter-library looks retain photo exposure and as-shot white balance. To reuse only the look, save to My Presets.
+1130	Adjustments default to zero. Skin protection affects tinting, HSL and LUT; tones are independent. Standard 3D .cube LUTs of size 2–33 are supported.
+1131	After import, confirm regions and corresponding people in both photos. Drag a box to limit sampling. If regions are wrong, refine skin selections first, then confirm the reference again.
+1132	Reference photo
+1133	AURA color preset
+1134	Complete color settings; strength and restore cover all color parameters. Optics and reference settings are independent.
+1135	Soft fill light
+1136	Light horizontal position
+1137	Light vertical position
+1138	Light softness
+1139	Fill-light temperature
+1140	Reduce fine clothing wrinkles
+1141	Protect fabric texture
+1142	Clothing AI cleanup strength
+1143	Lip color strength
+1144	Blush strength
+1145	Hair color strength
+1146	Clothing recolor strength
+1147	Background exposure
+1148	Background temperature
+1149	Background saturation
+1150	Background softness
+1151	Background AI cleanup strength
+1152	Invalid portrait creative color.
+1153	Invalid portrait creative parameter: 
+1154	Clothing refinement · Current person
+1155	Use current mask for clothing
+1156	Makeup and hair color · Current person
+1157	Clothing recolor · Current person
+1158	Recolor strength
+1159	Clothing color
+1160	Background refinement
+1161	View / edit background area
+1162	Use current mask for background
+1163	Clothing and background · AI cleanup
+1164	Paint the area to clean
+1165	AI clean selected area
+1166	Clear pending selection
+1167	Background refinement settings
+1168	Inspect background area
+1169	Before creative selection
+1170	Paint creative cleanup selection
+1171	Clear pending cleanup selection
+1172	Before AI creative cleanup
+1173	Light placed; returned to Browse. Adjust fill strength in this panel.
+1174	Paint a selection, then run AI cleanup
+1175	Lip color
+1176	Blush
+1177	Hair color
+1178	Strength
+1179	RGB values (precise input)
+1180	Selection brush radius
+1181	Before color selection
+1182	Current person settings
+1183	Generate or select a part mask first.
+1184	 as the creative area
+1185	Finish face reshaping and disable experimental body reshaping before selecting.
+1186	Paint the area to clean first.
+1187	Selection is outside the confirmed target. Check or assign a background / clothing mask first.
+1188	Selection spans too large an area. Reduce it or clean in separate regions.
+1189	Cleanup complete. Adjust strength or erase back in Effects.
+1190	Repair source changed. Apply AI cleanup again.
+1191	Paint a selection, then run AI cleanup. Existing results support strength adjustment and erase-back.
+1192	Clothing color 
+1193	Color 
+1194	Assign 
+1195	Background refinement area
+1196	AI cleanup 
+1197	Fine wrinkles use subtle color-difference smoothing while preserving high-frequency fabric texture. Use AI cleanup for complex patterns or deep folds and inspect the result. Erase back the clothing effect in Effects where needed.
+1198	Off by default and independent for each person. Uses part masks for color and slight brightness changes while retaining texture. Does not generate hairstyles or facial features.
+1199	Changes only the current person's clothing color. Clothing wrinkle refinement is in this module; selected-area AI cleanup is in Repair.

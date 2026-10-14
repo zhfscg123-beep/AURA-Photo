@@ -1,0 +1,2802 @@
+0	请使用 PortraitAISession 的 DAMO 检测实现。	ai_engine.py:49
+1	修复选区尺寸不匹配。	ai_engine.py:67
+2	选区过大，请分批修复；每批最多96个局部区域。	ai_engine.py:76
+3	已取消 AI 修复；照片未改变。	ai_engine.py:79
+4	AI 模型返回非有限像素，未应用修复。	ai_engine.py:90
+5	背景补全	ai_engine.py:26
+6	缺少本地 AI 模型：	ai_engine.py:24
+7	模型文件校验失败：	ai_engine.py:25
+8	AI 人物	ai_region_filters.py:7
+9	AI 天空	ai_region_filters.py:7
+10	AI 背景	ai_region_filters.py:7
+11	橙	ai_region_filters.py:9
+12	黄	ai_region_filters.py:9
+13	蓝	ai_region_filters.py:10
+14	青	ai_region_filters.py:10
+15	绿	ai_region_filters.py:11
+16	AI：自动选择 GPU / CPU	ai_runtime.py:53
+17	计算模式无效。	ai_runtime.py:16
+18	祛痘检测/修复	ai_runtime.py:47
+19	CUDA 执行接口不可用或加载失败，使用 CPU	ai_runtime.py:130
+20	补光GPU法线FP16；照片合成FP32；TF32关闭	ai_runtime.py:56
+21	GPU 推理失败，已重试 CPU：	ai_runtime.py:89
+22	GPU 模型初始化失败，使用 CPU：	ai_runtime.py:125
+23	CUDA 不可用，使用 CPU	ai_runtime.py:39
+24	CUDA DLL 加载失败：	ai_runtime.py:121
+25	GPU 检测失败，使用 CPU：	ai_runtime.py:40
+26	AI 分区照片格式无效。	ai_scene_masks.py:90
+27	人物/天空分区蒙版	ai_scene_masks.py:125
+28	已取消 AI 分区，保留原有蒙版。	ai_scene_masks.py:93
+29	AI 正在识别人物与天空 · 	ai_scene_masks.py:95
+30	GPU 分区失败，已使用 CPU：	ai_scene_masks.py:124
+31	天空模型缺少输出。	ai_scene_models.py:66
+32	缺少 AI 分区模型：	ai_scene_models.py:20
+33	AI 分区模型校验失败：	ai_scene_models.py:21
+34	天空模型图结构无效。	ai_scene_models.py:29
+35	天空模型权重长度无效。	ai_scene_models.py:44
+36	天空模型算子无效。	ai_scene_models.py:34
+37	天空模型权重编码无效。	ai_scene_models.py:39
+38	天空模型激活类型无效。	ai_scene_models.py:54
+39	自动推荐开关无效。	app_preferences.py:22
+40	本地人像美颜 v0.2 · AI识别与修复	app_v2.py:20
+41	自动识别优先	app_v2.py:43
+42	重新 AI 识别（保留手动补选 / 排除）	app_v2.py:44
+43	检测阈值：降低可增加候选	app_v2.py:45
+44	AI 修复当前选区	app_v2.py:49
+45	恢复 AI 推荐参数	app_v2.py:50
+46	视图	app_v2.py:58
+47	补选漏点 / 排除误检	app_v2.py:62
+48	画笔 / 点击圈选半径（原图像素）	app_v2.py:65
+49	恢复自动选区（清除手动修改）	app_v2.py:71
+50	读取照片并加载本地 AI 模型…	app_v2.py:136
+51	打开照片	app_v2.py:25
+52	导出新副本	app_v2.py:26
+53	缩放 100%	app_v2.py:39
+54	打开照片后自动识别并修复。	app_v2.py:39
+55	当前阈值 0.35	app_v2.py:47
+56	祛痘：修复明显痘点	app_v2.py:51
+57	磨皮：柔化细小不平整	app_v2.py:51
+58	美白：提亮皮肤	app_v2.py:51
+59	纹理：50保留 / 更高增强	app_v2.py:51
+60	前后分界：左原图 / 右结果	app_v2.py:51
+61	全图	app_v2.py:59
+62	面部	app_v2.py:59
+63	圈选	app_v2.py:63
+64	画笔	app_v2.py:63
+65	橡皮	app_v2.py:63
+66	移动	app_v2.py:63
+67	撤销	app_v2.py:69
+68	重做	app_v2.py:69
+69	打开照片开始。检测、皮肤分割和修复均在本机完成。	app_v2.py:79
+70	取消处理	app_v2.py:81
+71	有选区尚未修复	app_v2.py:276
+72	请先点击「AI 修复当前选区」，再导出。	app_v2.py:276
+73	有新增选区待 AI 修复	app_v2.py:170
+74	当前选区已完成 AI 修复	app_v2.py:170
+75	 | 新选区待 AI 修复	app_v2.py:171
+76	 | 参数可手动微调	app_v2.py:171
+77	画布呈现	app_v2.py:243
+78	-AI自然美颜.png	app_v2.py:277
+79	已导出新副本：	app_v2.py:280
+80	本地人像美颜 v0.2	app_v2.py:23
+81	离线 AI 识别与修复	app_v2.py:24
+82	显示修复选区	app_v2.py:57
+83	滚轮：以鼠标位置缩放\n空格 + 拖动 / 中键：移动画面	app_v2.py:61
+84	圈选：点击一个痘点，或从中心向外拖动\n画笔：按住左键涂抹；右键随时擦除\n橙色为 AI 候选，蓝色为手动补选	app_v2.py:67
+85	打开照片即生成推荐美颜版本。参数由 AI 检测结果与皮肤亮度、粗糙度估算，可手动调整。\n模型仍可能选到痣或雀斑。\nJPEG / PNG / 8位 TIFF；RAW 请从 Lr 导出。	app_v2.py:72
+86	照片	app_v2.py:95
+87	已取消，保留此前状态。	app_v2.py:105
+88	橙：AI 选区 / 蓝：手动补选	app_v2.py:273
+89	左原图 / 右结果	app_v2.py:273
+90	修复结果	app_v2.py:273
+91	PNG 无损	app_v2.py:277
+92	TIFF 8位	app_v2.py:277
+93	处理失败	app_v2.py:125
+94	显示失败	app_v2.py:131
+95	橙：AI 选区 / 蓝：手动补选 / 红：已取消	app_v3.py:82
+96	\n再次点击工具退出 · 空格平移 · Esc 退出	app_v3.py:915
+97	应用美颜参数	app_v3.py:1288
+98	身体美型已关闭。	app_v3.py:1431
+99	AURA Photo · 独立静态照片版	app_v3.py:87
+100	导航器	app_v3.py:144
+101	照片信息	app_v3.py:152
+102	操作记录	app_v3.py:154
+103	独立调色工作台	app_v3.py:182
+104	直方图	app_v3.py:185
+105	机内效果 / RAW 显影	app_v3.py:187
+106	导入此机型 DCP 配置	app_v3.py:191
+107	相机设置导入详情	app_v3.py:193
+108	成片检查	app_v3.py:194
+109	RAW 自定义色温 K	app_v3.py:199
+110	RAW 绿／洋红偏色	app_v3.py:200
+111	曝光补偿	app_v3.py:202
+112	应用来源设置	app_v3.py:203
+113	AI 人像 · 面部与身体美颜	app_v3.py:204
+114	使用推荐参数	app_v3.py:211
+115	导出当前人像美颜配置	app_v3.py:212
+116	应用美颜配置文件	app_v3.py:213
+117	使用说明	app_v3.py:216
+118	人像从画面左侧向右编号。基础磨皮、美白与纹理覆盖脸、耳朵、脖子及身体皮肤；祛痘检测针对面部。	app_v3.py:217
+119	基础美颜遵循皮肤范围；升级皮肤引擎避开五官细节。唇周与眼眶皮肤可处理，祛痘保护正常五官。	app_v3.py:218
+120	点击数值可直接输入；Enter 应用，Esc 取消。拖动滑块时更新数值，松开后应用。	app_v3.py:219
+121	配置默认应用到当前人像，仅复用参数。新照片仍需识别；本图缓存可直接复用。	app_v3.py:220
+122	皮肤质感与肤色 · 当前人像	app_v3.py:224
+123	分区域祛纹 · 当前人像	app_v3.py:237
+124	唇纹轻修	app_v3.py:240
+125	唇纹修整	app_v3.py:241
+126	局部修复 · 选择工具后补选	app_v3.py:244
+127	大小 / 原图半径（像素）	app_v3.py:255
+128	羽化	app_v3.py:257
+129	迁移不透明度	app_v3.py:258
+130	删除当前迁移修复	app_v3.py:259
+131	识别与对比	app_v3.py:267
+132	检测阈值	app_v3.py:268
+133	重新 AI 识别	app_v3.py:269
+134	恢复自动选区	app_v3.py:269
+135	皮肤质感选择	app_v3.py:455
+136	人像参数微调	app_v3.py:494
+137	读取原图，准备显影与 AI 检测…	app_v3.py:532
+138	机内图像 · 8位（TIFF 不恢复 RAW 色阶）	app_v3.py:804
+139	深色点保护调整前	app_v3.py:863
+140	补选：Ctrl＋滚轮调大小	app_v3.py:906
+141	吸管：点击原显影图取样，强度不自动增加	app_v3.py:907
+142	液化：向前变形拖动推拉；重建、径向与平滑画笔可按住累积。右键临时重建。	app_v3.py:908
+143	左推：上拖向左，下拖向右；Alt 反向。	app_v3.py:909
+144	拖动结果侧辅助线节点直接微调；智能参数在右侧。	app_v3.py:910
+145	手动修饰：按住涂画，Alt＋点击取样；右键恢复手动效果。	app_v3.py:911
+146	\nCtrl＋滚轮缩放	app_v3.py:916
+147	\nCtrl＋滚轮调大小	app_v3.py:916
+148	删除迁移修复	app_v3.py:943
+149	快捷键	app_v3.py:1192
+150	Ctrl＋K：搜索功能与参数\nCtrl＋Z：撤销选区或美颜参数调整\nCtrl＋Y / Ctrl＋Shift＋Z：重做\nCtrl＋O：打开照片\nCtrl＋S：保存项目\nEsc：返回浏览（搜索中关闭搜索）\n空格＋拖动 / 中键拖动：临时平移\n浏览时 Ctrl＋滚轮：缩放照片\n修复时 Ctrl＋滚轮：调整工具大小\n取消AI / 恢复AI 时 Shift＋点击：处理整块自动选区	app_v3.py:1192
+151	参数微调	app_v3.py:1256
+152	使用当前人像推荐参数	app_v3.py:1267
+153	应用美颜参数前	app_v3.py:1295
+154	 / 8位机内源	app_v3.py:1519
+155	浏览：拖动平移 · Ctrl＋滚轮缩放	app_v3.py:92
+156	读取照片时检查 GPU；GPU 不可用自动使用 CPU。	app_v3.py:94
+157	机内白平衡	app_v3.py:96
+158	适合	app_v3.py:96
+159	打开照片，自动生成美颜版本。	app_v3.py:96
+160	机型配置文件 · RAW16	app_v3.py:98
+161	按拍摄风格匹配	app_v3.py:98
+162	尚未打开照片	app_v3.py:100
+163	打开 RAW 或照片开始。	app_v3.py:100
+164	尚未识别人像	app_v3.py:101
+165	文件	app_v3.py:128
+166	编辑	app_v3.py:129
+167	工具	app_v3.py:131
+168	照片库	app_v3.py:132
+169	设置	app_v3.py:133
+170	搜索功能  Ctrl+K	app_v3.py:135
+171	拖动平移 · Ctrl＋滚轮缩放\n补选时 Ctrl＋滚轮调大小\n空格临时平移 · Esc 返回浏览	app_v3.py:155
+172	人像	app_v3.py:173
+173	应用相机风格（默认）	app_v3.py:188
+174	打开 RAW 后检查内嵌机内预览	app_v3.py:192
+175	祛痘	app_v3.py:207
+176	磨皮	app_v3.py:207
+177	美白	app_v3.py:207
+178	纹理	app_v3.py:207
+179	保护深色点 · 当前照片（可选）	app_v3.py:208
+180	无	app_v3.py:228
+181	哑光	app_v3.py:228
+182	缎面	app_v3.py:228
+183	水光	app_v3.py:228
+184	浏览	app_v3.py:246
+185	圆框	app_v3.py:246
+186	擦除	app_v3.py:246
+187	取消AI	app_v3.py:249
+188	恢复AI	app_v3.py:249
+189	迁移修复	app_v3.py:252
+190	仿制	app_v3.py:252
+191	撤销 Ctrl+Z	app_v3.py:263
+192	重做 Ctrl+Y	app_v3.py:263
+193	最近打开的照片会显示在这里	app_v3.py:292
+194	已退出工具，返回浏览；已有修改保留。	app_v3.py:328
+195	；下次启动生效，当前编辑继续保留。	app_v3.py:337
+196	专业线性显影	app_v3.py:386
+197	请拖入 RAW、JPEG、PNG 或 TIFF 照片；暂不接受文件夹。	app_v3.py:413
+198	导入照片（Ctrl / Shift 可多选）	app_v3.py:429
+199	导入对应机型的 DCP	app_v3.py:439
+200	配置已导入，请点击「应用来源设置」。	app_v3.py:450
+201	\n来源：RAW 内嵌机内图像\n8位源；16位导出不恢复 RAW 色阶	app_v3.py:645
+202	\n机内裁切作为默认构图；完整 RAW 画幅可在构图模块恢复。	app_v3.py:656
+203	\n皮肤引擎：	app_v3.py:657
+204	身体美型未启用。	app_v3.py:798
+205	未定位到可靠人脸，未自动美颜。\n可手动补选修复；遮挡、模糊或极小脸仍可能漏检。	app_v3.py:801
+206	面部祛纹参数	app_v3.py:824
+207	绘制、取样或液化前，请先重置照片身体美型，保持编辑坐标一致。	app_v3.py:877
+208	补选漏识别皮肤	app_v3.py:913
+209	；右键临时擦除。松开后应用当前参数。	app_v3.py:914
+210	构图	app_v3.py:1057
+211	绘制、取样或液化前，请先将照片身体美型四项归零，保持编辑坐标一致。	app_v3.py:1066
+212	编辑原图选区或取样前，请在“手动液化”中暂时关闭液化。	app_v3.py:1085
+213	补选或取样前请在面部重塑选择“无”，并将双下巴及腋下形变暂调为0，保持原图坐标一致。	app_v3.py:1087
+214	部位蒙版编辑前	app_v3.py:1092
+215	手动补选	app_v3.py:1164
+216	撤销后	app_v3.py:1257
+217	后续新导入照片：	app_v3.py:1272
+218	；复用参数，不复制照片选区或人物位置。	app_v3.py:1280
+219	应用美颜配置到当前照片	app_v3.py:1283
+220	应用配置：	app_v3.py:1287
+221	旧缓存的人像设置不完整，请将该图移出视图区再重新导入；原照片未改变。	app_v3.py:1428
+222	  /  已恢复缓存与参数	app_v3.py:1460
+223	进入照片设置	app_v3.py:1476
+224	复制当前人像美颜参数	app_v3.py:1477
+225	粘贴美颜参数到当前人像	app_v3.py:1479
+226	粘贴美颜参数到全部人像	app_v3.py:1480
+227	从视图区移除（保留原文件）	app_v3.py:1481
+228	已复制美颜参数（不复制 RAW 配置或选区）	app_v3.py:1486
+229	已移出视图区，原文件仍保留。	app_v3.py:1508
+230	选区待处理	app_v3.py:1513
+231	请先点击 AI 修复当前选区。	app_v3.py:1513
+232	面部重塑待处理	app_v3.py:1514
+233	请等待校准与形变完成；取消后可点击“重新校准轮廓”重试。	app_v3.py:1514
+234	TIFF · HDR浮点32位 	app_v3.py:1518
+235	TIFF · 16位 	app_v3.py:1518
+236	请等待校准与形变完成后保存；取消后可点击“重新校准轮廓”重试。	app_v3.py:1529
+237	保存项目	app_v3.py:1534
+238	自动 · CPU＋GPU	app_v3.py:95
+239	仅 CPU	app_v3.py:95
+240	机内预览 · 8位	app_v3.py:189
+241	自动白平衡	app_v3.py:197
+242	日光白平衡	app_v3.py:197
+243	自定义色温	app_v3.py:197
+244	兼容相机风格显影	app_v3.py:198
+245	已保存计算模式：	app_v3.py:337
+246	此配置文件属于另一机型，不能套用。	app_v3.py:443
+247	已有同名配置。请在列表中选择，或使用不同名称的DCP。	app_v3.py:444
+248	无法导入	app_v3.py:451
+249	未检测到人像 · 可手动修复	app_v3.py:483
+250	正在恢复已处理照片与设置…	app_v3.py:513
+251	机内预览与 RAW 尺寸不同，无法保留局部修复与蒙版。请先保存项目，再重新打开照片切换来源。	app_v3.py:552
+252	机内图像可能包含镜头校正，局部修复与蒙版不能保证与 RAW 对齐。请先保存项目，再重新打开照片切换来源。	app_v3.py:553
+253	AI 正在确认各人物的身体皮肤…	app_v3.py:562
+254	\n无颜色配置：按 sRGB 显示	app_v3.py:646
+255	多尺度与细节保护	app_v3.py:657
+256	旧项目兼容模式	app_v3.py:657
+257	有新选区等待 AI 修复	app_v3.py:800
+258	已生成美颜版本，可微调	app_v3.py:800
+259	  /  补选后请执行 AI 修复	app_v3.py:805
+260	 / 面部重塑待校准与生成	app_v3.py:806
+261	 / 局部形变待处理或部位不可见：请检查实验组。	app_v3.py:807
+262	 / 有细节候选待处理：请点 AI 应用面部细节修复。	app_v3.py:808
+263	 / 身体祛瑕待处理：请点 AI 应用身体祛瑕 / 修复。	app_v3.py:809
+264	  /  已保留手动取消的 AI 选区	app_v3.py:816
+265	当前为旧项目兼容模式；新导入照片支持可选深色点保护。	app_v3.py:860
+266	开启深色点保护	app_v3.py:873
+267	关闭深色点保护	app_v3.py:873
+268	圆框：按住左键拖动，固定大小沿路径连续补选；右键拖动擦除。	app_v3.py:906
+269	添加当前部位蒙版；右键临时减去	app_v3.py:906
+270	减去当前部位蒙版	app_v3.py:906
+271	取消AI：涂抹取消局部，Shift＋点击取消整块	app_v3.py:906
+272	恢复AI：涂抹恢复局部，Shift＋点击恢复整块	app_v3.py:906
+273	点击新增修复；拖动＋取样圆调整复制来源，拖动修复圆调整目标。松开应用，右键删除。	app_v3.py:906
+274	点击新增仿制；拖动＋取样圆调整复制来源，拖动修复圆调整目标。松开应用，右键删除。	app_v3.py:906
+275	局部恢复原AI范围	app_v3.py:913
+276	擦除AI和手动美颜范围	app_v3.py:913
+277	美颜范围：	app_v3.py:914
+278	请等待形变画面更新完成后绘制范围。	app_v3.py:1069
+279	请等待脸型校准；实验身体形变需先暂时关闭。	app_v3.py:1083
+280	移动取样前	app_v3.py:1098
+281	单图最多500处迁移修复。	app_v3.py:1105
+282	新增迁移修复	app_v3.py:1112
+283	新增仿制	app_v3.py:1112
+284	取消整块 AI 选区	app_v3.py:1118
+285	恢复整块 AI 选区	app_v3.py:1118
+286	无法保存全局设置	app_v3.py:1271
+287	自动使用推荐美颜	app_v3.py:1272
+288	仅识别，暂不应用美颜；可点击使用推荐参数	app_v3.py:1272
+289	无法导出配置	app_v3.py:1279
+290	已导出美颜配置：	app_v3.py:1280
+291	无法读取配置	app_v3.py:1286
+292	配置会改变已有形变的坐标基础。请先恢复画笔形变并清除冻结保护，再应用此配置。	app_v3.py:1294
+293	导航图	app_v3.py:1322
+294	直方图采样	app_v3.py:1390
+295	照片缩略图	app_v3.py:1410
+296	粘贴当前人像美颜参数	app_v3.py:1498
+297	已导出：	app_v3.py:1523
+298	导出 	app_v3.py:1523
+299	项目已保存：	app_v3.py:1534
+300	原图内容已改变，不能可靠恢复此项目。	app_v3.py:1551
+301	在独立窗口中调整影调、颜色与RAW显影，再返回人像美颜。	app_v3.py:183
+302	打开调色工作台	app_v3.py:184
+303	DCP 按机型校验，保留16位显影精度。相机专有美颜不属于色彩配置。	app_v3.py:195
+304	白平衡	app_v3.py:196
+305	专业线性模式保留宽色域与高光余量；相机DCP风格选择兼容模式。	app_v3.py:201
+306	按当前人物独立调参；身体专项在“身体”模块中调整。	app_v3.py:205
+307	配置应用到本图全部人像	app_v3.py:215
+308	新增参数默认0。根据 AI 皮肤区域做明暗、频率与颜色调整；保留原始细节。	app_v3.py:236
+309	首次开启任一祛纹参数后，自动准备该人物的 AI 修补；完成后调整各区强度直接复用缓存。默认全部为0。眼周纹包含眼下细纹，保护眼球、睫毛边缘与主体头发。	app_v3.py:238
+310	唇纹轻修使用局部明暗平滑，强度默认0；不使用上述分区域AI祛纹模型。	app_v3.py:242
+311	大小只用于下一处新修复；已有迁移圆框保持原尺寸。	app_v3.py:256
+312	关闭工具 · 返回浏览	app_v3.py:265
+313	取消AI / 恢复AI：涂抹修改局部，Shift＋点击处理整块自动选区；蓝色补选保留。\n右键临时擦除 · 补选后点 AI 修复\n羽化仅影响手动选区的修复边缘	app_v3.py:266
+314	修改照片	app_v3.py:277
+315	前后对比	app_v3.py:282
+316	当前工具	app_v3.py:331
+317	；再次点击该按钮或按 Esc 返回浏览。	app_v3.py:332
+318	计算模式保存失败：	app_v3.py:336
+319	部分照片未导入	app_v3.py:405
+320	导入失败：	app_v3.py:423
+321	RAW 与照片	app_v3.py:429
+322	所有文件	app_v3.py:429
+323	DNG 相机配置文件	app_v3.py:439
+324	项目的人脸位置与当前定位不同，已拒绝把设置应用到其他人。	app_v3.py:473
+325	项目的机内图像来源改变，无法可靠恢复。	app_v3.py:549
+326	项目的机内/RAW 来源不匹配。	app_v3.py:550
+327	项目的DCP配置文件内容已改变。	app_v3.py:551
+328	原图与项目尺寸不匹配。	app_v3.py:568
+329	\n16位 RAW 显影；机型严格匹配	app_v3.py:650
+330	RGB 照片：保留文件中已有色彩和修饰	app_v3.py:652
+331	移动复制来源	app_v3.py:1161
+332	移动修复目标	app_v3.py:1161
+333	添加部位蒙版	app_v3.py:1164
+334	减去部位蒙版	app_v3.py:1164
+335	排除选区	app_v3.py:1164
+336	取消部分 AI 选区	app_v3.py:1164
+337	恢复部分 AI 选区	app_v3.py:1164
+338	人像美颜配置	app_v3.py:1276
+339	JSON 配置	app_v3.py:1283
+340	让每一张人像，自然出彩	app_v3.py:1339
+341	将照片拖入此处，或 文件 → 导入照片    ·    Ctrl＋O	app_v3.py:1340
+342	本功能关闭对比 · 	app_v3.py:1349
+343	PNG · 8位	app_v3.py:1520
+344	JPEG · 高质量	app_v3.py:1520
+345	本地美颜项目	app_v3.py:1531
+346	AURA照片项目	app_v3.py:1544
+347	安卓照片项目	app_v3.py:1544
+348	原图已移动，请选择项目对应的原图	app_v3.py:1556
+349	原图不匹配	app_v3.py:1559
+350	所选文件内容与项目记录不符。	app_v3.py:1559
+351	已启用	app_v3.py:332
+352	无法切换照片	app_v3.py:512
+353	\n拍摄风格：	app_v3.py:649
+354	未知	app_v3.py:649
+355	已应用 	app_v3.py:650
+356	RAW 原始数据 → 16 位显影	app_v3.py:651
+357	打开项目	app_v3.py:669
+358	取样	app_v3.py:1376
+359	修复	app_v3.py:1376
+360	打开 	app_v3.py:669
+361	 · 开	app_v3.py:900
+362	圆框大小只用于下一处新修复；已建立的修复区域保持不变。	app_v3.py:1052
+363	英文目录入口需要可写的本地磁盘；不会创建虚拟盘符。	ascii_paths.py:34
+364	无法准备 GPU/开发工具的英文目录入口；不会创建虚拟盘符。	ascii_paths.py:71
+365	MCP 修改前	aura_automation.py:348
+366	MCP 蒙版前	aura_automation.py:509
+367	MCP 局部蒙版	aura_automation.py:510
+368	蒙版目标应为 selection、layer:N 或 extension:KEY。	aura_automation.py:530
+369	MCP 绘制蒙版前	aura_automation.py:535
+370	MCP 绘制蒙版	aura_automation.py:556
+371	MCP 液化前	aura_automation.py:580
+372	MCP 液化笔画	aura_automation.py:580
+373	请先通过 aura_open 打开照片。	aura_automation.py:183
+374	未知美颜参数。	aura_automation.py:269
+375	参数版本已变化，请重新读取。	aura_automation.py:279
+376	changes 必须为非空路径/值对象。	aura_automation.py:281
+377	不能修改人物数量。	aura_automation.py:304
+378	人物编号无效。	aura_automation.py:306
+379	蒙版编号无效。	aura_automation.py:307
+380	请使用 aura_layer 添加或删除蒙版。	aura_automation.py:313
+381	未知 RAW 参数。	aura_automation.py:333
+382	液化设置字段无效。	aura_automation.py:337
+383	当前照片不是 RAW。	aura_automation.py:342
+384	RAW 重新显影必须独立提交，再修改其他参数。	aura_automation.py:344
+385	MCP 修改参数	aura_automation.py:386
+386	参数目录查询无效。	aura_automation.py:402
+387	paths 需为1–100个参数路径。	aura_automation.py:410
+388	文件不存在。	aura_automation.py:422
+389	输出扩展名无效。	aura_automation.py:443
+390	不能覆盖原照片。	aura_automation.py:444
+391	输出文件已存在，请使用新文件名。	aura_automation.py:445
+392	形变尚未完成。	aura_automation.py:451
+393	MCP 保存项目	aura_automation.py:455
+394	修复或形变尚未完成，请先 aura_action repair / calibrate。	aura_automation.py:461
+395	预览来源无效。	aura_automation.py:473
+396	预览 max_edge 需为64–4096。	aura_automation.py:485
+397	液化笔画无效。	aura_automation.py:569
+398	液化坐标无效。	aura_automation.py:571
+399	液化参数无效。	aura_automation.py:574
+400	液化网格发生折叠。	aura_automation.py:579
+401	部位名称无效。	aura_automation.py:593
+402	未识别到可靠人物。	aura_automation.py:594
+403	预设类型无效。	aura_automation.py:601
+404	预设文件或动作无效。	aura_automation.py:615
+405	预设过大。	aura_automation.py:628
+406	调色预设格式无效。	aura_automation.py:630
+407	参考追色区域属于原照片，请在目标照片重新确认。	aura_automation.py:638
+408	参考图或范围无效。	aura_automation.py:644
+409	追色强度无效。	aura_automation.py:646
+410	MCP 参考图追色	aura_automation.py:664
+411	媒体模块无效。	aura_automation.py:669
+412	媒体模块正在处理，请先等待。	aura_automation.py:672
+413	已有液化或冻结保护；请先恢复液化并清除保护，再改变形变坐标基础。	aura_automation.py:322
+414	液化开关无效。	aura_automation.py:339
+415	未知 AURA 操作：	aura_automation.py:395
+416	auto_recommend 必须为 boolean。	aura_automation.py:425
+417	未知动作。可用：	aura_automation.py:434
+418	MCP 导出照片	aura_automation.py:465
+419	裁切需为整数 [left,top,right,bottom]。	aura_automation.py:479
+420	预览裁切超出照片。	aura_automation.py:481
+421	蒙版键无效。	aura_automation.py:523
+422	媒体参数名称无效。	aura_automation.py:681
+423	媒体选项无效。	aura_automation.py:684
+424	媒体文件不存在。	aura_automation.py:718
+425	参数列表编号无效：	aura_automation.py:61
+426	参数路径不是可编辑对象：	aura_automation.py:72
+427	美颜参数超范围：	aura_automation.py:273
+428	已停用参数不能启用：	aura_automation.py:274
+429	蒙版请使用专用接口。	aura_automation.py:300
+430	未知参数字段：	aura_automation.py:332
+431	液化参数无效：	aura_automation.py:341
+432	恢复	aura_automation.py:389
+433	蒙版不存在。	aura_automation.py:526
+434	蒙版数量已达上限。	aura_automation.py:527
+435	MCP 人像参数	aura_automation.py:607
+436	现有 AURA 不支持导出 XMP。	aura_automation.py:613
+437	参考图未识别到人像，请选择全图取样。	aura_automation.py:658
+438	视频选项无效。	aura_automation.py:687
+439	预览质量无效。	aura_automation.py:688
+440	实况选项无效。	aura_automation.py:693
+441	实况平台无效。	aura_automation.py:694
+442	配对视频不存在。	aura_automation.py:695
+443	请先打开视频。	aura_automation.py:730
+444	请先打开封面。	aura_automation.py:733
+445	未知参数路径：	aura_automation.py:70
+446	参数渲染失败。	aura_automation.py:134
+447	控件不存在或只读：	aura_automation.py:287
+448	控件选项无效：	aura_automation.py:296
+449	未知参数域：	aura_automation.py:299
+450	MCP 回滚	aura_automation.py:389
+451	蒙版操作无效。	aura_automation.py:508
+452	快速预览 · 540p	aura_automation.py:688
+453	原始清晰度 · 当前帧	aura_automation.py:688
+454	时间位置无效。	aura_automation.py:691
+455	iPhone 配对照片＋MOV	aura_automation.py:694
+456	安卓 JPEG／HEIC 实况照片	aura_automation.py:694
+457	实况输出目录已存在。	aura_automation.py:743
+458	实况原件不完整。	aura_automation.py:746
+459	开关必须为 boolean：	aura_automation.py:290
+460	需要有限数值：	aura_automation.py:292
+461	需要整数：	aura_automation.py:293
+462	控件参数超范围：	aura_automation.py:294
+463	需要字符串：	aura_automation.py:295
+464	蒙版图必须与原图尺寸一致。	aura_automation.py:543
+465	笔画无效。	aura_automation.py:547
+466	笔画半径无效。	aura_automation.py:548
+467	笔画坐标超出原图。	aura_automation.py:550
+468	媒体动作无效。	aura_automation.py:761
+469	请先更新媒体预览。	aura_automation.py:758
+470	AURA 尚未开启本地控制接口。请启动更新后的 AURA。	aura_bridge.py:138
+471	AURA 本地连接失败；请确认更新后的 AURA 正在运行。	aura_bridge.py:152
+472	AURA 启动尚未完成；可稍后调用 aura_status，诊断见 .aura-data/automation/host-start.log。	aura_mcp.py:110
+473	人物肤色	aura_mcp.py:57
+474	面部皮肤	aura_mcp.py:57
+475	身体皮肤	aura_mcp.py:57
+476	衣物	aura_mcp.py:57
+477	头发	aura_mcp.py:57
+478	整个人物	aura_mcp.py:57
+479	背景	aura_mcp.py:57
+480	预检已取消。	batch_preflight.py:12
+481	全局调色	batch_preflight.py:20
+482	此照片启用了 HDR，请使用 TIFF 导出。	batch_preflight.py:43
+483	打光与改色	batch_preflight.py:34
+484	未识别到人物，无法同步人物打光与改色。	batch_preflight.py:35
+485	照片的人物设置不完整，请重新导入后再同步。	batch_preflight.py:28
+486	已有画笔液化，请先恢复形变与保护，再同步脸型参数。	batch_preflight.py:33
+487	缺少此机型的滤镜显影配置，请先导入匹配配置。	batch_preflight.py:41
+488	 MB），请调整尺寸或目录。	batch_preflight.py:60
+489	输出目录无法检查：	batch_preflight.py:62
+490	输出磁盘可用空间低于保守估算（约 	batch_preflight.py:60
+491	批量同步与导出	batch_ui.py:20
+492	未选择（可直接导出）	batch_ui.py:33
+493	正在预检文件、人物对应、调色兼容性与输出设置…	batch_ui.py:109
+494	失败	batch_ui.py:156
+495	批量处理	batch_ui.py:14
+496	请先导入要处理的照片。	batch_ui.py:14
+497	对应人物	batch_ui.py:37
+498	照片（Ctrl / Shift 多选）	batch_ui.py:38
+499	处理状态	batch_ui.py:38
+500	同步类别	batch_ui.py:42
+501	导出	batch_ui.py:56
+502	TIFF · 16位	batch_ui.py:57
+503	准备就绪	batch_ui.py:66
+504	只同步	batch_ui.py:94
+505	只导出	batch_ui.py:94
+506	同步并导出	batch_ui.py:94
+507	预检同步与导出	batch_ui.py:96
+508	继续未完成	batch_ui.py:98
+509	重试失败项	batch_ui.py:98
+510	检查所选照片	batch_ui.py:98
+511	请选择一张照片进入成片检查。	batch_ui.py:141
+512	数值与来源检查记录；不代表肤色、蒙版边缘或审美已通过人工检查。	batch_ui.py:171
+513	正在保存当前照片的恢复记录，再继续下一张…	batch_ui.py:178
+514	正在处理	batch_ui.py:227
+515	恢复记录未保存	batch_ui.py:304
+516	已完成	batch_ui.py:304
+517	正在停止，保留已完成文件…	batch_ui.py:104
+518	照片未能准备，请查看处理提示。	batch_ui.py:148
+519	AURA-交付检查-	batch_ui.py:167
+520	\n恢复记录保存失败，请先手动保存当前照片：	batch_ui.py:208
+521	导入失败	batch_ui.py:230
+522	当前照片渲染失败，未导出旧预览。	batch_ui.py:273
+523	同步所选类别或直接导出；每张照片保留自身的识别范围。检查目标照片不会改变来源。	batch_ui.py:35
+524	待确认	batch_ui.py:40
+525	待处理	batch_ui.py:40
+526	镜头自动匹配与复制参数二选一；透视可独立同步。旧调色引擎不支持的参数会报告失败并保留原设置。	batch_ui.py:52
+527	确认所选照片的人物对应	batch_ui.py:54
+528	单人同步先确认每张照片的对应人物。液化笔画、修复取样位置和手绘蒙版保持各图独立。	batch_ui.py:55
+529	长边像素，0为原尺寸	batch_ui.py:59
+530	选择目录	batch_ui.py:65
+531	请选择一个导出文件夹。	batch_ui.py:74
+532	请选择照片。	batch_ui.py:76
+533	请先选择来源照片，或使用“只导出”。	batch_ui.py:78
+534	自动匹配各图镜头	batch_ui.py:79
+535	复制镜头校正参数	batch_ui.py:79
+536	请选择镜头自动匹配或复制参数其中一种。	batch_ui.py:79
+537	请选择需要同步的类别。	batch_ui.py:80
+538	请先确认所选照片的人物对应，或明确勾选应用到全部人物。	batch_ui.py:81
+539	来源照片未识别到人物，无法作为人像参数来源。	batch_ui.py:82
+540	停止 / 关闭	batch_ui.py:106
+541	预检通过	batch_ui.py:114
+542	无需对应	batch_ui.py:115
+543	照片准备超时，请关闭批量窗口后重新打开照片。	batch_ui.py:146
+544	未完成，可继续	batch_ui.py:202
+545	\n已保存交付检查记录：	batch_ui.py:211
+546	\n检查记录保存失败：	batch_ui.py:212
+547	批量分项同步	batch_ui.py:269
+548	仍有待处理选区或形变，请先完成后再导出。	batch_ui.py:275
+549	已导出	batch_ui.py:284
+550	此照片启用了 HDR，请选择 TIFF 导出。	batch_ui.py:287
+551	同步来源（打开窗口时的参数）：	batch_ui.py:34
+552	基础美颜	batch_ui.py:45
+553	肤色与质感	batch_ui.py:45
+554	JPEG · 8位	batch_ui.py:58
+555	批量-%Y%m%d-%H%M%S	batch_ui.py:60
+556	预检失败：	batch_ui.py:114
+557	全部人物	batch_ui.py:116
+558	预检通过，尚未同步或导出。	batch_ui.py:206
+559	预检未通过，尚未同步或导出。	batch_ui.py:206
+560	身体美颜	batch_workflow.py:11
+561	分区域祛纹	batch_workflow.py:12
+562	瑕疵与保护	batch_workflow.py:13
+563	光影丰盈	batch_workflow.py:14
+564	脸型与五官	batch_workflow.py:15
+565	基本影调与白平衡	batch_workflow.py:19
+566	曲线与HSL	batch_workflow.py:20
+567	点颜色与分级	batch_workflow.py:21
+568	全图细节与效果	batch_workflow.py:22
+569	透视与构图	batch_workflow.py:25
+570	色彩输出设置	batch_workflow.py:26
+571	镜头与透视	batch_workflow.py:31
+572	镜头自动匹配与复制来源参数不能同时选择。	batch_workflow.py:43
+573	目标照片没有所选人物编号，请确认人物对应关系。	batch_workflow.py:82
+574	批量导出格式无效。	batch_workflow.py:135
+575	导出长边需在0–16000像素范围。	batch_workflow.py:142
+576	点颜色	batch_workflow.py:47
+577	黑白混合	batch_workflow.py:48
+578	参考追色指定了单图人物或取样框，请逐图确认区域后再应用；不能直接复制到其他照片。	batch_workflow.py:96
+579	。请先在调色工作台切换为专业调色并确认效果，再重新同步。	batch_workflow.py:49
+580	目标照片使用旧调色引擎，无法同步：	batch_workflow.py:49
+581	当前照片没有唯一匹配的镜头配置，已保留原设置；请手动选择镜头配置后重试。	batch_workflow.py:68
+582	画笔恢复自动范围	beauty_mask_ui.py:30
+583	更新当前范围	beauty_mask_ui.py:31
+584	恢复自动范围 · 清除手动编辑	beauty_mask_ui.py:34
+585	返回浏览	beauty_mask_ui.py:35
+586	补画脖颈、手臂等漏识别皮肤，再点击更新应用身体参数。面部与其他已确认人物保持保护。	beauty_mask_ui.py:36
+587	补画刘海、发丝附近漏识别的可见皮肤，再点击更新应用面部参数。眼球保持保护；只作用于当前人物面部范围，不会自动去除头发。	beauty_mask_ui.py:36
+588	更新美颜范围前	beauty_mask_ui.py:57
+589	美颜范围编辑前	beauty_mask_ui.py:65
+590	范围已绘制，尚未应用。完成后点击“更新当前范围”。	beauty_mask_ui.py:87
+591	清除美颜补选前	beauty_mask_ui.py:91
+592	身体	beauty_mask_ui.py:96
+593	身体皮肤范围补选	beauty_mask_ui.py:16
+594	美颜范围补选	beauty_mask_ui.py:16
+595	画笔补选	beauty_mask_ui.py:21
+596	擦除范围	beauty_mask_ui.py:21
+597	画笔半径 / 原图像素	beauty_mask_ui.py:24
+598	显示 AI 自动皮肤范围（绿色）	beauty_mask_ui.py:26
+599	范围已更新	beauty_mask_ui.py:32
+600	当前范围没有待更新的修改。	beauty_mask_ui.py:58
+601	范围	beauty_mask_ui.py:61
+602	请先导入并识别人物。	beauty_mask_ui.py:63
+603	请等待人物形变完成后补选。	beauty_mask_ui.py:64
+604	蒙版数量已达上限，请清理不需要的效果蒙版。	beauty_mask_ui.py:66
+605	范围 · 恢复自动范围	beauty_mask_ui.py:94
+606	范围有未应用修改 · 点击“更新当前范围”	beauty_mask_ui.py:44
+607	手动更新	beauty_mask_ui.py:61
+608	范围 · 	beauty_mask_ui.py:86
+609	美颜	beauty_mask_ui.py:133
+610	显示当前人物补选范围	beauty_mask_ui.py:25
+611	擦除识别范围	beauty_mask_ui.py:86
+612	恢复自动范围	beauty_mask_ui.py:86
+613	擦除可排除AI自动范围；恢复画笔局部恢复原自动范围。边缘自动渐淡。右键临时擦除，Ctrl＋滚轮调大小，空格平移，Esc返回浏览。	beauty_mask_ui.py:37
+614	绿色为自动范围，青色为补选，红色为已擦除。	beauty_mask_ui.py:37
+615	配置中没有美颜参数。	beauty_preset.py:11
+616	配置文件已存在，请另存新文件名。	beauty_preset.py:24
+617	配置文件过大。	beauty_preset.py:30
+618	这不是受支持的人像美颜配置；照片项目请使用“打开项目”。	beauty_preset.py:33
+619	配置含当前版本不支持的参数：	beauty_preset.py:13
+620	美颜参数超出范围：	beauty_preset.py:18
+621	明暗平整	beauty_settings.py:5
+622	低频磨皮	beauty_settings.py:5
+623	肤色均匀	beauty_settings.py:5
+624	减淡油光	beauty_settings.py:6
+625	光泽度	beauty_settings.py:6
+626	皮肤清晰度	beauty_settings.py:6
+627	皮肤红润（旧配置兼容）	beauty_settings.py:7
+628	肤色色温	beauty_settings.py:7
+629	肤色红润 / 色调	beauty_settings.py:7
+630	肤色透亮	beauty_settings.py:8
+631	水润柔化	beauty_settings.py:8
+632	面部补光	beauty_settings.py:9
+633	柔化面部阴影	beauty_settings.py:9
+634	向多人共同肤色靠拢	beauty_settings.py:9
+635	抬头纹	beauty_settings.py:10
+636	眉间纹	beauty_settings.py:10
+637	眼周纹（含眼下细纹）	beauty_settings.py:10
+638	法令纹 · 人物左侧	beauty_settings.py:11
+639	法令纹 · 人物右侧	beauty_settings.py:11
+640	嘴周纹	beauty_settings.py:11
+641	鼻背纹	beauty_settings.py:12
+642	脸颊纹	beauty_settings.py:12
+643	木偶纹	beauty_settings.py:12
+644	已取消身体修复。	body_details.py:115
+645	身体范围蒙版为空或已关闭，请检查蒙版	body_details.py:157
+646	未找到可用身体皮肤，请补选范围	body_details.py:157
+647	身体区域较大，请分批使用局部修复。	body_details.py:67
+648	已取消身体处理。	body_details.py:68
+649	RAW16：拍摄白平衡与风格导入情况见详情；机内锐化、降噪、DRO、美颜等参数仅记录，不复刻厂商处理。	camera_import.py:38
+650	机内对比度	camera_import.py:2
+651	机内饱和度	camera_import.py:2
+652	机内锐化	camera_import.py:2
+653	机内亮度	camera_import.py:2
+654	图片配置／伽马	camera_import.py:2
+655	图片效果	camera_import.py:2
+656	动态范围优化	camera_import.py:2
+657	机内 HDR	camera_import.py:2
+658	高 ISO 降噪	camera_import.py:2
+659	长曝光降噪	camera_import.py:2
+660	机内美颜	camera_import.py:2
+661	拍摄曝光补偿（EV）	camera_import.py:10
+662	已包含在机内预览中	camera_import.py:11
+663	拍摄白平衡	camera_import.py:12
+664	机内色温	camera_import.py:13
+665	只显示相机记录，不推测自动白平衡的色温	camera_import.py:13
+666	未提供	camera_import.py:21
+667	拍摄风格	camera_import.py:28
+668	默认构图使用机内裁切；RAW 完整画幅保留	camera_import.py:29
+669	相机画幅／裁切	camera_import.py:30
+670	方向	camera_import.py:31
+671	显影时按 RAW 方向应用	camera_import.py:31
+672	机内预览保留已渲染外观；8位像素，不能恢复 RAW 精度。	camera_import.py:37
+673	显影引擎	camera_import.py:7
+674	机型	camera_import.py:8
+675	镜头	camera_import.py:8
+676	光圈	camera_import.py:9
+677	快门（秒）	camera_import.py:9
+678	焦距（mm）	camera_import.py:9
+679	拍摄数据已包含在 RAW 中，不重复施加	camera_import.py:9
+680	拍摄曝光效果已包含在 RAW 中；保留，不重复叠加	camera_import.py:10
+681	元数据未提供	camera_import.py:10
+682	使用 RAW 拍摄白平衡	camera_import.py:11
+683	已记录；当前白平衡已由用户切换	camera_import.py:11
+684	RAW 拍摄白平衡增益	camera_import.py:12
+685	自定义白平衡	camera_import.py:15
+686	已应用；基础 RAW 色温为近似值，尚未与 Adobe 校准	camera_import.py:15
+687	显影白平衡增益	camera_import.py:17
+688	读取本次显影实际使用的增益	camera_import.py:17
+689	AURA 额外亮度补偿	camera_import.py:20
+690	使用所选相机配置；不额外施加固定曝光补偿	camera_import.py:20
+691	使用机型匹配 DCP 近似拍摄风格	camera_import.py:23
+692	已按 RAW 裁切数据应用	camera_import.py:29
+693	保持有效画幅；未额外裁切	camera_import.py:29
+694	RAW 有效传感器画幅	camera_import.py:30
+695	已包含在机内预览像素中	camera_import.py:33
+696	参数已记录；厂商专有处理未复刻	camera_import.py:33
+697	相机记录	camera_import.py:48
+698	AURA 导入状态	camera_import.py:48
+699	旧项目兼容，保留原显影结果	camera_import.py:7
+700	当前实际显影路径	camera_import.py:7
+701	已读取	camera_import.py:8
+702	已记录；当前使用用户选择的配置／滤镜基底	camera_import.py:24
+703	元数据未提供；不猜测设置	camera_import.py:34
+704	已读取；当前为线性显影，未套用拍摄风格	camera_import.py:25
+705	关闭	camera_import.py:51
+706	已读取；用户未启用相机风格	camera_import.py:26
+707	已读取；未找到可用的机型风格配置	camera_import.py:27
+708	机内预览格式不支持。	camera_native.py:26
+709	保留机内已渲染效果；不推断美颜开关。	camera_native.py:36
+710	机内预览超过1.1亿像素。	camera_native.py:15
+711	机内预览不是支持的8位 RGB 图像。	camera_native.py:24
+712	 未标记颜色配置，按 sRGB 显示。	camera_native.py:36
+713	缺少本地工具：	camera_profiles.py:14
+714	相机元数据读取失败：	camera_profiles.py:27
+715	DCP无效	camera_profiles.py:41
+716	DCP目录无效	camera_profiles.py:43
+717	DCP目录过大	camera_profiles.py:45
+718	所选 DCP 文件不存在，请重新导入配置。	camera_profiles.py:92
+719	DCP机型不匹配，已拒绝套用。	camera_profiles.py:93
+720	，输出16位…	camera_profiles.py:94
+721	RAW显影未返回16位 RGB。	camera_profiles.py:112
+722	正在使用 RawTherapee 显影：	camera_profiles.py:94
+723	RawTherapee 显影失败，未切换其他引擎：	camera_profiles.py:108
+724	RAW显影缺少输出色彩配置。	camera_profiles.py:111
+725	DCP标签无效	camera_profiles.py:51
+726	线性基底 · 	camera_profiles.py:66
+727	基础相机色彩	camera_profiles.py:94
+728	\n导入后在「我的」点击套用；保留照片曝光、拍摄白平衡、光学校正和美颜。	color_filters_ui.py:243
+729	已选 · 	color_filters_ui.py:20
+730	收藏	color_filters_ui.py:20
+731	滤镜 · 成品风格	color_filters_ui.py:39
+732	滤镜强度 %	color_filters_ui.py:45
+733	保存当前风格到「我的」	color_filters_ui.py:66
+734	XMP 导入到滤镜库（多选）	color_filters_ui.py:67
+735	查看当前滤镜来源	color_filters_ui.py:68
+736	AI 分区调色（蒙版工作台）	color_filters_ui.py:69
+737	删除当前个人滤镜	color_filters_ui.py:70
+738	 开源精选未加载，请检查资源。	color_filters_ui.py:72
+739	套用滤镜前	color_filters_ui.py:122
+740	调整滤镜强度前	color_filters_ui.py:138
+741	移除滤镜前	color_filters_ui.py:153
+742	恢复套用前调色	color_filters_ui.py:158
+743	保存个人滤镜	color_filters_ui.py:198
+744	滤镜名称（最多 30 字）：	color_filters_ui.py:198
+745	我的	color_filters_ui.py:209
+746	Lightroom滤镜导入	color_filters_ui.py:221
+747	滤镜来源	color_filters_ui.py:260
+748	已从个人滤镜库删除；当前照片的调色仍保留。	color_filters_ui.py:270
+749	正在生成当前照片的滤镜预览…	color_filters_ui.py:303
+750	全部	color_filters_ui.py:29
+751	未套用滤镜	color_filters_ui.py:30
+752	基于当前照片预览。点击滤镜套用，再微调曲线、HSL 和影调。	color_filters_ui.py:31
+753	打开照片后生成滤镜预览	color_filters_ui.py:32
+754	收藏当前滤镜	color_filters_ui.py:33
+755	恢复套用前	color_filters_ui.py:47
+756	上一页	color_filters_ui.py:62
+757	下一页	color_filters_ui.py:64
+758	请先打开照片并等待处理完成。	color_filters_ui.py:109
+759	蒙版	color_filters_ui.py:114
+760	套用滤镜 	color_filters_ui.py:126
+761	当前调色已微调，请重新选择滤镜后调整强度。	color_filters_ui.py:132
+762	滤镜强度 	color_filters_ui.py:142
+763	当前没有可恢复的滤镜记录。	color_filters_ui.py:147
+764	请先选择一个滤镜。	color_filters_ui.py:187
+765	此个人滤镜已从库中删除，请先重新保存风格。	color_filters_ui.py:189
+766	滤镜未保存	color_filters_ui.py:202
+767	名称须为 1–30 字，个人滤镜最多 100 款。	color_filters_ui.py:202
+768	个人滤镜已保存：	color_filters_ui.py:209
+769	导入Lightroom滤镜（可多选）	color_filters_ui.py:213
+770	\n部分预设包含未迁移内容，无法保证Lr原效果：	color_filters_ui.py:244
+771	小红书参考	color_filters_ui.py:255
+772	\n按帖子构思制作的AURA原创配方，并非作者预设。曝光、拍摄白平衡、天空蒙版及人像美颜需要按照片另行调整。	color_filters_ui.py:256
+773	\n这是AURA的参数适配版本，Adobe配置、AI蒙版和原生渲染没有迁移。	color_filters_ui.py:257
+774	请先套用要删除的个人滤镜。	color_filters_ui.py:265
+775	个人滤镜库读取失败，原文件已保留。	color_filters_ui.py:293
+776	取消收藏当前滤镜	color_filters_ui.py:173
+777	\n点击自动准备基底	color_filters_ui.py:182
+778	收藏未保存	color_filters_ui.py:193
+779	滤镜导入未保存	color_filters_ui.py:218
+780	\n富士sRGB LUT风格。RAW使用匹配的线性DCP；普通照片直接套用，效果受原图调色影响。	color_filters_ui.py:258
+781	\nAURA原创配方，可继续调整曲线、HSL与分级。	color_filters_ui.py:259
+782	滤镜未删除	color_filters_ui.py:269
+783	预览未完成，可点击滤镜直接套用。	color_filters_ui.py:278
+784	分类	color_filters_ui.py:51
+785	搜索	color_filters_ui.py:56
+786	滤镜 	color_filters_ui.py:95
+787	 · 已微调	color_filters_ui.py:167
+788	 全局调色效果当前已关闭，请在效果管理中启用。	color_filters_ui.py:171
+789	个人滤镜最多100款。	color_filters_ui.py:232
+790	没有匹配滤镜，请换分类或搜索词。	color_filters_ui.py:98
+791	 效果管理中的调色强度正在减弱滤镜。	color_filters_ui.py:172
+792	\n许可：	color_filters_ui.py:254
+793	点击富士 RAW 风格会自动准备基底并套用；首次需要等待。	color_filters_ui.py:288
+794	当前照片 · 100% 风格预览 · 点击套用	color_filters_ui.py:289
+795	滤镜预览	color_filters_ui.py:322
+796	日系	color_presets.py:22
+797	日系参考	color_presets.py:22
+798	胶片	color_presets.py:22
+799	电影	color_presets.py:22
+800	风光	color_presets.py:22
+801	黑白	color_presets.py:22
+802	开源精选	color_presets.py:22
+803	富士	color_presets.py:40
+804	滤镜配方格式无效。	color_presets.py:30
+805	滤镜记录无效。	color_presets.py:37
+806	富士RAW	color_presets.py:40
+807	滤镜分类无效。	color_presets.py:41
+808	滤镜强度须为 0–200。	color_presets.py:112
+809	滤镜项目记录无效。	color_presets.py:171
+810	滤镜原始状态无效。	color_presets.py:173
+811	滤镜原始状态不完整。	color_presets.py:175
+812	滤镜强度无效。	color_presets.py:179
+813	滤镜参数校验无效。	color_presets.py:180
+814	个人风格；保留曝光与拍摄白平衡，包含已使用的LUT。	color_presets.py:224
+815	开源滤镜集格式无效。	color_presets.py:260
+816	开源滤镜编号重复。	color_presets.py:262
+817	滤镜名称或说明无效。	color_presets.py:39
+818	RAW滤镜基底无效。	color_presets.py:44
+819	滤镜来源记录无效。	color_presets.py:51
+820	滤镜来源网址无效。	color_presets.py:54
+821	滤镜来源校验无效。	color_presets.py:55
+822	滤镜原始参数无效。	color_presets.py:177
+823	滤镜原始参数不完整。	color_presets.py:178
+824	个人滤镜库超过48MB。	color_presets.py:248
+825	个人滤镜库过大。	color_presets.py:234
+826	个人滤镜库格式无效。	color_presets.py:236
+827	个人滤镜编号重复。	color_presets.py:239
+828	收藏记录无效。	color_presets.py:241
+829	个人滤镜库读取失败，已保留原文件：	color_presets.py:245
+830	肤色取样 / 八种肤色 · 当前人像	color_ui.py:10
+831	取消肤色方案	color_ui.py:14
+832	吸管取样 · 点击照片	color_ui.py:16
+833	取样色 RGB · 可手动输入	color_ui.py:17
+834	选择肤色前	color_ui.py:23
+835	选择肤色方案	color_ui.py:23
+836	未选择	color_ui.py:26
+837	取样前	color_ui.py:32
+838	原显影肤色取样	color_ui.py:34
+839	尚未取样 · 强度默认0	color_ui.py:8
+840	取样 	color_ui.py:18
+841	取样读取原显影图附近像素的中位色，分别调面部/身体强度。选颜色和取样均不自动增加强度。身体参数在身体组，调整后直接应用于当前人像已确认的身体皮肤。匹配只作有限度的色调及亮度平移，保留明暗纹理。	color_ui.py:20
+842	选择颜色	color_widgets.py:56
+843	应用颜色	color_widgets.py:74
+844	取消	color_widgets.py:74
+845	请输入 #RRGGBB，例如 #B4415F	color_widgets.py:98
+846	RGB应为0–255整数	color_widgets.py:103
+847	基本	color_workbench.py:20
+848	调整已应用；可继续编辑或返回。	color_workbench.py:194
+849	AURA · 调色工作台	color_workbench.py:28
+850	曲线	color_workbench.py:43
+851	颜色	color_workbench.py:43
+852	分级	color_workbench.py:43
+853	细节	color_workbench.py:43
+854	效果	color_workbench.py:43
+855	光学	color_workbench.py:43
+856	预设	color_workbench.py:43
+857	参考	color_workbench.py:43
+858	输出	color_workbench.py:43
+859	兼容	color_workbench.py:43
+860	打开调色工作台前	color_workbench.py:149
+861	彩色叠加	color_workbench.py:156
+862	原图滑动对比	color_workbench.py:163
+863	应用调色工作台	color_workbench.py:192
+864	尚有未应用的调整	color_workbench.py:207
+865	返回	color_workbench.py:34
+866	应用	color_workbench.py:35
+867	请先打开照片并等待当前处理完成，再进入调色工作台。	color_workbench.py:148
+868	请等待当前处理完成，再应用调整。	color_workbench.py:181
+869	正在完成调色；完成后保留在工作台。	color_workbench.py:187
+870	调色更新失败，尚未应用。请修正参数后重试。	color_workbench.py:191
+871	请等待当前处理完成，再返回。	color_workbench.py:203
+872	继续编辑	color_workbench.py:220
+873	请完成当前处理或松开拖动，再返回主界面。	color_workbench.py:228
+874	正在完成调色，随后返回主界面…	color_workbench.py:235
+875	调色更新失败，请修正参数或取消本次调整。	color_workbench.py:237
+876	原图	color_workbench.py:272
+877	打开前	color_workbench.py:292
+878	左右并排	color_workbench.py:292
+879	切换到当前效果或划分对比后，可在照片上调整。	color_workbench.py:293
+880	透视引导线前	color_workbench.py:299
+881	照片直接调整前	color_workbench.py:303
+882	照片直接调整	color_workbench.py:360
+883	打开前滑动对比	color_workbench.py:367
+884	划分对比	color_workbench.py:367
+885	左：原图 / 右：当前效果	color_workbench.py:395
+886	当前效果	color_workbench.py:402
+887	对比预览未完成，请切回原图滑动对比；详情见 color-workbench-error.log。	color_workbench.py:460
+888	专业浮点调色	color_workbench.py:484
+889	左侧是原图对比区；请在右侧结果区取色或绘制，或将对比滑块移到最左。	color_workbench.py:291
+890	添加透视引导线	color_workbench.py:359
+891	左：打开前 / 右：当前效果 · 	color_workbench.py:447
+892	调色预览暂未完成；松开后更新完整照片。	color_workbench.py:470
+893	CPU · 用户设置	color_workbench.py:492
+894	调色工作台	color_workbench.py:32
+895	取消未应用调整	color_workbench.py:36
+896	曝光溢出	color_workbench.py:60
+897	居中	color_workbench.py:64
+898	请检查尚未确认的参数输入。	color_workbench.py:185
+899	如何处理未应用的调整？	color_workbench.py:210
+900	已经应用的调整会保留。	color_workbench.py:211
+901	应用后返回	color_workbench.py:218
+902	放弃未应用调整	color_workbench.py:219
+903	最多四条引导线；请先清除。	color_workbench.py:356
+904	 · 松开后更新完整照片	color_workbench.py:469
+905	调色预览采样	color_workbench.py:510
+906	色相	color_workbench.py:309
+907	饱和度	color_workbench.py:309
+908	明亮度	color_workbench.py:309
+909	 / 右：当前效果 · 	color_workbench.py:448
+910	调色预览 · 	color_workbench.py:469
+911	CPU回退：	color_workbench.py:496
+912	调色预览采样使用CPU回退：	color_workbench.py:510
+913	左：原图	color_workbench.py:448
+914	左：打开前	color_workbench.py:448
+915	垂直线	color_workbench.py:358
+916	局部蒙版	color_workbench_masks.py:24
+917	AI 分区	color_workbench_masks.py:32
+918	笔刷与范围	color_workbench_masks.py:62
+919	局部调色	color_workbench_masks.py:67
+920	分区调色强度 %	color_workbench_masks.py:73
+921	局部阴影与高光颜色	color_workbench_masks.py:76
+922	局部 HSL 颜色	color_workbench_masks.py:81
+923	AI 分区调整前	color_workbench_masks.py:130
+924	AI 正在准备人物与天空分区…	color_workbench_masks.py:155
+925	局部颜色调整前	color_workbench_masks.py:176
+926	解除分区滤镜联动前	color_workbench_masks.py:182
+927	解除分区滤镜联动	color_workbench_masks.py:183
+928	重置局部调色前	color_workbench_masks.py:188
+929	重置当前蒙版调色	color_workbench_masks.py:192
+930	当前蒙版调色已重置，保留范围、边缘修正和不透明度。	color_workbench_masks.py:193
+931	切换局部蒙版前	color_workbench_masks.py:197
+932	移除蒙版最后一笔前	color_workbench_masks.py:207
+933	移除蒙版最后一笔	color_workbench_masks.py:208
+934	新建局部蒙版前	color_workbench_masks.py:212
+935	删除蒙版组件前	color_workbench_masks.py:221
+936	反转蒙版组件前	color_workbench_masks.py:226
+937	反转蒙版组件	color_workbench_masks.py:226
+938	亮度范围	color_workbench_masks.py:234
+939	软画笔	color_workbench_masks.py:245
+940	添加蒙版组件前	color_workbench_masks.py:254
+941	添加蒙版组件	color_workbench_masks.py:256
+942	颜色范围	color_workbench_masks.py:270
+943	绘制蒙版组件前	color_workbench_masks.py:277
+944	人物	color_workbench_masks.py:35
+945	天空	color_workbench_masks.py:35
+946	AI 生成可编辑蒙版	color_workbench_masks.py:36
+947	AI 套用当前滤镜的分区参数	color_workbench_masks.py:37
+948	重新识别分区范围（保留调色）	color_workbench_masks.py:38
+949	取消识别	color_workbench_masks.py:39
+950	人物、天空和背景分别生成柔边蒙版。六款“日系参考”和“开源精选 → Taro 秋日肖像”支持分区参数，均可独立微调和画笔修补。	color_workbench_masks.py:40
+951	添加	color_workbench_masks.py:48
+952	补选画笔	color_workbench_masks.py:51
+953	擦除画笔	color_workbench_masks.py:51
+954	减去	color_workbench_masks.py:51
+955	组合	color_workbench_masks.py:53
+956	形状	color_workbench_masks.py:53
+957	在照片上添加组件	color_workbench_masks.py:55
+958	笔刷半径 / 原图像素	color_workbench_masks.py:65
+959	笔刷羽化	color_workbench_masks.py:65
+960	流量	color_workbench_masks.py:65
+961	密度	color_workbench_masks.py:65
+962	亮度下界	color_workbench_masks.py:65
+963	亮度上界	color_workbench_masks.py:65
+964	范围过渡	color_workbench_masks.py:65
+965	解除当前蒙版与滤镜联动	color_workbench_masks.py:75
+966	尚未创建蒙版	color_workbench_masks.py:108
+967	尚无附加组件	color_workbench_masks.py:111
+968	当前蒙版独立调色；不会覆盖全局参数。	color_workbench_masks.py:115
+969	请至少选择人物、天空或背景中的一项。	color_workbench_masks.py:123
+970	当前滤镜暂无专属分区参数；可先生成蒙版手动调色。	color_workbench_masks.py:125
+971	蒙版数量已达上限，请先删除不需要的蒙版。	color_workbench_masks.py:129
+972	请先将旧蒙版转换为专业调色。	color_workbench_masks.py:173
+973	仅看成片	color_workbench_masks.py:199
+974	当前蒙版尚无手动笔画。	color_workbench_masks.py:206
+975	当前蒙版：原图像素笔刷；右键临时擦除，空格平移，Ctrl＋滚轮缩放。	color_workbench_masks.py:247
+976	调整渐变端点	color_workbench_masks.py:294
+977	黑白蒙版	color_workbench_masks.py:28
+978	交集	color_workbench_masks.py:53
+979	线性渐变	color_workbench_masks.py:53
+980	径向渐变	color_workbench_masks.py:53
+981	照片已改变，未写入旧照片的 AI 蒙版。	color_workbench_masks.py:133
+982	AI 分区套用滤镜	color_workbench_masks.py:149
+983	亮度下界需小于上界。	color_workbench_masks.py:235
+984	；再次点击按钮退出。	color_workbench_masks.py:238
+985	检查蒙版范围	color_workbench_masks.py:27
+986	撤销当前蒙版最后一笔	color_workbench_masks.py:30
+987	新建蒙版	color_workbench_masks.py:45
+988	删除蒙版	color_workbench_masks.py:46
+989	启用当前蒙版	color_workbench_masks.py:47
+990	删除选中组件	color_workbench_masks.py:58
+991	反转选中组件	color_workbench_masks.py:59
+992	可输入 1 像素半径修细边；右键临时擦除，空格拖动平移，Ctrl＋滚轮缩放。	color_workbench_masks.py:66
+993	重置当前蒙版的调色	color_workbench_masks.py:85
+994	显示蒙版范围	color_workbench_masks.py:86
+995	渐变端点可直接拖动；参数数值提供键盘操作。添加、减去与交集按组件顺序组合。	color_workbench_masks.py:87
+996	AI 重新识别分区范围	color_workbench_masks.py:149
+997	AI 生成分区蒙版	color_workbench_masks.py:149
+998	已更新 AI 基础范围，保留调色及附加修补组件。	color_workbench_masks.py:152
+999	已有分区会复用并保留范围修补。	color_workbench_masks.py:152
+1000	局部调色 	color_workbench_masks.py:213
+1001	在照片上	color_workbench_masks.py:238
+1002	蒙版不透明度	color_workbench_masks.py:71
+1003	边缘保护	color_workbench_masks.py:71
+1004	边缘扩展 / 收缩（像素）	color_workbench_masks.py:71
+1005	边缘羽化（像素）	color_workbench_masks.py:71
+1006	 · 未检出：	color_workbench_masks.py:151
+1007	AI 识别 	color_workbench_masks.py:152
+1008	复用已有蒙版	color_workbench_masks.py:154
+1009	点击取色	color_workbench_masks.py:238
+1010	渐变端点调整前	color_workbench_masks.py:267
+1011	AI 分区参数已套用，可在蒙版列表逐项调整。	color_workbench_masks.py:151
+1012	拖动绘制	color_workbench_masks.py:238
+1013	AI 分区范围已重新识别，保留局部调色和附加组件。	color_workbench_masks.py:151
+1014	AI 蒙版已生成，可独立调色和修补。	color_workbench_masks.py:151
+1015	色轮调整前	color_workbench_widgets.py:46
+1016	参数曲线分界前	color_workbench_widgets.py:79
+1017	色轮调整	color_workbench_widgets.py:50
+1018	色轮中心为中性 · 左右键色相 · 上下键强度	color_workbench_widgets.py:21
+1019	未定位到可靠面部，保留手动 AI 修复。	complexion.py:84
+1020	原始	composition.py:4
+1021	自定义	composition.py:4
+1022	相机构图范围无效。	composition.py:9
+1023	构图参数无效。	composition.py:13
+1024	固定比例开关无效。	composition.py:14
+1025	构图参数无效：	composition.py:17
+1026	导出构图与水平校正	composition_ui.py:18
+1027	角度	composition_ui.py:23
+1028	重置裁剪与角度	composition_ui.py:26
+1029	恢复完整画幅（保留修复）	composition_ui.py:27
+1030	恢复机内构图	composition_ui.py:28
+1031	在画面中沿水平参考线拖动，松开完成校正；再次点击按钮取消。	composition_ui.py:34
+1032	裁剪比例切换前	composition_ui.py:41
+1033	构图设置	composition_ui.py:60
+1034	恢复完整画幅，修复与蒙版保留	composition_ui.py:80
+1035	固定比例 · 关闭后可自由裁剪	composition_ui.py:21
+1036	拉线校正水平	composition_ui.py:25
+1037	已退出拉线校正，返回浏览；已有修改保留。	composition_ui.py:33
+1038	实际导出构图预览	composition_ui.py:109
+1039	导出构图	composition_ui.py:75
+1040	显示构图辅助线	composition_ui.py:19
+1041	拖动边角裁剪，框内移动，框外拖动自由旋转；角度可输入两位小数。拉线校正：沿画面中的水平参考线拖动。关闭固定比例可自由调整宽高。	composition_ui.py:29
+1042	预览已缩小；正式导出使用完整分辨率。	composition_ui.py:111
+1043	导出路径已存在，请选择新文件名。	core.py:49
+1044	请选择 PNG、JPEG 或 TIFF 扩展名。	core.py:51
+1045	缺少本地关键点模型，请运行安装脚本。	core.py:112
+1046	第一版只支持 8 位照片；请从 Lightroom 导出 sRGB JPEG / PNG / 8位 RGB TIFF。	core.py:18
+1047	请打开 JPEG、PNG 或 8位 RGB TIFF；RAW 需先从 Lightroom 导出。	core.py:20
+1048	请先将透明 PNG 合成到背景；此版本处理不透明照片。	core.py:29
+1049	暂不支持16位 TIFF；请导出8位 sRGB 副本。	core.py:38
+1050	请先导出不超过6000万像素的照片。	core.py:40
+1051	暂不支持多页照片。	core.py:27
+1052	暂不支持16位 PNG；请导出8位 sRGB 副本。	core.py:33
+1053	小脸定位模型校验失败。	core.py:127
+1054	红	creative_color.py:10
+1055	紫	creative_color.py:10
+1056	洋红	creative_color.py:10
+1057	曝光	creative_color.py:5
+1058	对比度	creative_color.py:5
+1059	高光	creative_color.py:5
+1060	阴影	creative_color.py:6
+1061	白色色阶	creative_color.py:6
+1062	黑色色阶	creative_color.py:6
+1063	色温	creative_color.py:7
+1064	色调	creative_color.py:7
+1065	自然饱和度	creative_color.py:7
+1066	阴影色相	creative_color.py:8
+1067	阴影染色	creative_color.py:8
+1068	高光色相	creative_color.py:8
+1069	高光染色	creative_color.py:8
+1070	LUT强度	creative_color.py:9
+1071	调色肤色保护	creative_color.py:9
+1072	未知调色参数。	creative_color.py:20
+1073	曲线分界需依次递增。	creative_color.py:21
+1074	曲线参数无效。	creative_color.py:25
+1075	调色算法版本无效。	creative_color.py:37
+1076	黑白混色参数无效。	creative_color.py:39
+1077	LUT文件过大；当前支持2–33阶3D .cube。	creative_color.py:49
+1078	LUT尺寸、点数或范围无效。	creative_color.py:61
+1079	所选参考区域过小或未可靠识别，请换区域或参考照片。	creative_color.py:154
+1080	调色模式需为整数。	creative_color.py:23
+1081	HSL参数无效。	creative_color.py:27
+1082	LUT数据无效。	creative_color.py:32
+1083	LUT范围无效。	creative_color.py:34
+1084	白平衡取样无效。	creative_color.py:43
+1085	请使用标准3D .cube；暂不支持1D或混合LUT。	creative_color.py:58
+1086	LUT行格式无效。	creative_color.py:59
+1087	调色参数无效：	creative_color.py:19
+1088	参考图匹配范围	creative_color_ui.py:73
+1089	全局调色与风格	creative_color_ui.py:24
+1090	色调曲线	creative_color_ui.py:36
+1091	在照片上拖动调整亮度	creative_color_ui.py:41
+1092	参数曲线与亮度分界	creative_color_ui.py:42
+1093	旧版五段曲线（项目兼容）	creative_color_ui.py:46
+1094	HSL 色彩	creative_color_ui.py:48
+1095	在照片上取色定位 HSL	creative_color_ui.py:55
+1096	在照片上拖动调整颜色	creative_color_ui.py:58
+1097	参考图追色	creative_color_ui.py:70
+1098	导入参考图并分析	creative_color_ui.py:74
+1099	将当前效果作为参考	creative_color_ui.py:74
+1100	匹配颜色	creative_color_ui.py:76
+1101	匹配影调	creative_color_ui.py:76
+1102	导入 LUT（强度保持当前值）	creative_color_ui.py:132
+1103	恢复全局调色前	creative_color_ui.py:135
+1104	恢复全局调色	creative_color_ui.py:136
+1105	区域已更改，请重新选择参考图	creative_color_ui.py:139
+1106	调整参考图追色	creative_color_ui.py:173
+1107	导入调色预设前	creative_color_ui.py:222
+1108	应用调色预设	creative_color_ui.py:237
+1109	尚未加载 LUT	creative_color_ui.py:18
+1110	尚未选择参考图	creative_color_ui.py:18
+1111	基本影调	creative_color_ui.py:25
+1112	旧版阴影与高光染色	creative_color_ui.py:25
+1113	LUT 与肤色保护	creative_color_ui.py:25
+1114	旧版相对色温	creative_color_ui.py:34
+1115	旧版相对色调	creative_color_ui.py:34
+1116	黑点	creative_color_ui.py:47
+1117	中间调	creative_color_ui.py:47
+1118	白点	creative_color_ui.py:47
+1119	保存完整调色文件	creative_color_ui.py:61
+1120	应用完整调色文件	creative_color_ui.py:61
+1121	请先选择并分析参考图。	creative_color_ui.py:172
+1122	AURA调色.aura-style.json	creative_color_ui.py:184
+1123	预设无法加载	creative_color_ui.py:213
+1124	该追色预设包含原照片的人物或取样框，请在当前照片重新导入参考图并确认区域。	creative_color_ui.py:213
+1125	导入 3D .cube LUT	creative_color_ui.py:32
+1126	LUT无法加载	creative_color_ui.py:131
+1127	预设未保存	creative_color_ui.py:192
+1128	RAW基底记录无效。	creative_color_ui.py:219
+1129	完整文件包含曝光、白平衡、光学与参考图设置。滤镜库风格保留照片曝光与拍摄白平衡；仅复用风格请在“预设”保存到“我的”。	creative_color_ui.py:62
+1130	默认零调整；肤色保护用于染色、HSL与LUT，影调独立。支持2–33阶标准3D .cube。	creative_color_ui.py:63
+1131	导入后分别确认两张图的范围和对应人物，可拖框限制取样。范围错误时先用美颜补选修正，再重新确认参考图。	creative_color_ui.py:77
+1132	参考照片	creative_color_ui.py:145
+1133	AURA调色预设	creative_color_ui.py:194
+1134	完整调色文件；强度与恢复包含全部调色参数。光学与参考图设置独立。	creative_color_ui.py:231
+1135	柔光补光	creative_portrait.py:6
+1136	光源横向位置	creative_portrait.py:6
+1137	光源纵向位置	creative_portrait.py:6
+1138	光源柔和程度	creative_portrait.py:7
+1139	补光色温	creative_portrait.py:7
+1140	衣物细褶皱淡化	creative_portrait.py:8
+1141	衣物纹理保护	creative_portrait.py:8
+1142	衣物 AI 清理强度	creative_portrait.py:9
+1143	唇色强度	creative_portrait.py:9
+1144	腮红强度	creative_portrait.py:9
+1145	发色强度	creative_portrait.py:10
+1146	衣物改色强度	creative_portrait.py:10
+1147	背景曝光	creative_portrait.py:13
+1148	背景色温	creative_portrait.py:13
+1149	背景饱和度	creative_portrait.py:13
+1150	背景柔化	creative_portrait.py:13
+1151	背景 AI 清理强度	creative_portrait.py:13
+1152	人像创作颜色无效。	creative_portrait.py:22
+1153	人像创作参数无效：	creative_portrait.py:19
+1154	衣物整理 · 当前人物	creative_scene_ui.py:21
+1155	当前蒙版作为衣物范围	creative_scene_ui.py:23
+1156	轻妆与发色 · 当前人物	creative_scene_ui.py:25
+1157	衣物改色 · 当前人物	creative_scene_ui.py:32
+1158	改色强度	creative_scene_ui.py:33
+1159	衣物颜色	creative_scene_ui.py:34
+1160	背景精修	creative_scene_ui.py:37
+1161	查看 / 编辑背景范围	creative_scene_ui.py:39
+1162	当前蒙版作为背景范围	creative_scene_ui.py:40
+1163	衣物与背景 · 选区AI清理	creative_scene_ui.py:42
+1164	涂抹需要清理的区域	creative_scene_ui.py:45
+1165	AI 清理所选区域	creative_scene_ui.py:46
+1166	清除待处理选区	creative_scene_ui.py:47
+1167	背景精修参数	creative_scene_ui.py:73
+1168	检查背景范围	creative_scene_ui.py:104
+1169	创作选区前	creative_scene_ui.py:109
+1170	绘制创作清理选区	creative_scene_ui.py:113
+1171	清除待处理清理选区	creative_scene_ui.py:115
+1172	AI创作清理前	creative_scene_ui.py:127
+1173	光源已放置，已返回浏览；可在本面板调节补光强度。	creative_scene_ui.py:186
+1174	涂抹选区后执行 AI 清理	creative_scene_ui.py:17
+1175	唇色	creative_scene_ui.py:26
+1176	腮红	creative_scene_ui.py:26
+1177	发色	creative_scene_ui.py:26
+1178	强度	creative_scene_ui.py:27
+1179	RGB数值（精确输入）	creative_scene_ui.py:29
+1180	选区画笔半径	creative_scene_ui.py:44
+1181	选择颜色前	creative_scene_ui.py:63
+1182	当前人物参数	creative_scene_ui.py:70
+1183	请先生成或选择部位蒙版。	creative_scene_ui.py:87
+1184	 为创作范围	creative_scene_ui.py:91
+1185	请完成面部形变并关闭实验身体形变后选区。	creative_scene_ui.py:107
+1186	请先涂抹需要清理的区域。	creative_scene_ui.py:119
+1187	所选区域不在已确认的目标范围。请先检查或指定背景/衣物蒙版。	creative_scene_ui.py:122
+1188	选区跨距过大，请缩小范围或分图清理。	creative_scene_ui.py:126
+1189	已清理；可调强度或在效果管理中擦回。	creative_scene_ui.py:139
+1190	修复来源已改变，请重新应用 AI 清理。	creative_scene_ui.py:161
+1191	涂抹选区后执行 AI 清理；已有结果可调强度与擦回。	creative_scene_ui.py:161
+1192	衣物颜色 	creative_scene_ui.py:35
+1193	颜色 	creative_scene_ui.py:54
+1194	指定 	creative_scene_ui.py:91
+1195	背景精修范围	creative_scene_ui.py:103
+1196	AI 清理 	creative_scene_ui.py:139
+1197	细褶皱使用保留高频纹理的浅色差处理；复杂图案、大折痕请选区AI清理并检查。需要保留的地方可在效果管理中擦回衣物效果。	creative_scene_ui.py:24
+1198	默认关闭，按人物独立；使用部位蒙版调整颜色与少量明亮度，保留原纹理，不生成发型或五官。	creative_scene_ui.py:31
+1199	只改变当前人物衣物颜色；衣物褶皱整理在同一模块，选区AI清理在“修复”模块。	creative_scene_ui.py:36
+1200	先查看背景范围并修正遗漏，再调整曝光、色温或均匀柔化。主体与背景分别处理。	creative_scene_ui.py:41
+1201	显示待处理选区	creative_scene_ui.py:48
+1202	选择颜色  	creative_scene_ui.py:56
+1203	妆发	creative_scene_ui.py:70
+1204	人像补光参数	creative_scene_ui.py:70
+1205	妆发参数	creative_scene_ui.py:70
+1206	衣物参数	creative_scene_ui.py:70
+1207	GPU 渲染尚未初始化；请重新启动并选择下载 GPU 编译组件，或使用 CPU。	cuda_headers.py:16
+1208	启用 GPU 渲染	cuda_headers.py:45
+1209	GPU 推理运行库已就绪。GPU 照片渲染还需首次联网下载少量 NVIDIA 编译文件，之后可离线使用。\n\n组件来自 NVIDIA 官方发布的 Python 包，按 NVIDIA CUDA 许可使用；许可全文位于程序目录 licenses/NVIDIA。\n\n是否下载并启用？选择“否”仍可使用 GPU 推理和 CPU 渲染。	cuda_headers.py:46
+1210	GPU 初始化文件校验失败。	cuda_headers.py:26
+1211	GPU 编译文件不完整。	cuda_headers.py:37
+1212	正在初始化 GPU	cuda_headers.py:50
+1213	GPU 初始化文件路径无效。	cuda_headers.py:32
+1214	GPU 初始化未完成	cuda_headers.py:53
+1215	正在从 NVIDIA 官方发布包下载编译文件，请稍候……	cuda_headers.py:50
+1216	已保留 CPU 渲染，可稍后重新启动重试。\n	cuda_headers.py:53
+1217	共享 CUDA 运行库不完整，请重新安装完整包：	cuda_runtime.py:26
+1218	重置曲线前	curve_editor.py:86
+1219	输入	curve_editor.py:19
+1220	255 输入	curve_editor.py:51
+1221	点曲线调整前	curve_editor.py:62
+1222	调整点曲线 	curve_editor.py:72
+1223	删除曲线点前	curve_editor.py:75
+1224	曲线数值调整前	curve_editor.py:83
+1225	曲线坐标应为0–255，输入坐标需保持点的顺序。	curve_editor.py:84
+1226	点曲线通道	curve_editor.py:13
+1227	恢复本通道	curve_editor.py:21
+1228	左：暗部 → 右：亮部；上移提亮，下移压暗。点击加点，拖动调整，右键删点。	curve_editor.py:22
+1229	DAMO分区域祛纹	damo_blend_engine.py:16
+1230	DAMO祛纹输入图像无效。	damo_blend_engine.py:73
+1231	DAMO祛纹图层范围不一致。	damo_blend_engine.py:88
+1232	DAMO祛纹匀肤模型校验失败。	damo_blend_engine.py:26
+1233	DAMO祛纹模型返回无效混合图层。	damo_blend_engine.py:63
+1234	缺少本地 DAMO 祛纹匀肤模型：	damo_blend_engine.py:25
+1235	GPU匀肤失败，已重试CPU：	damo_blend_engine.py:62
+1236	皮肤引擎版本无效。	damo_engine.py:163
+1237	选区与照片尺寸不匹配。	damo_engine.py:165
+1238	选区过大，请分批修复。	damo_engine.py:186
+1239	深色点保护开关无效。	damo_engine.py:90
+1240	已取消，未应用修复。	damo_engine.py:189
+1241	DAMO模型校验失败。	damo_engine.py:25
+1242	AI 输出像素无效，未应用结果。	damo_engine.py:173
+1243	AI 正在分割皮肤、头发和五官…	damo_engine.py:104
+1244	人像美肤模型正在检测痘点与局部瑕疵…	damo_engine.py:125
+1245	 · 当前人像	dark_ui.py:168
+1246	参数曲线阴影	develop_advanced.py:10
+1247	参数曲线暗调	develop_advanced.py:10
+1248	参数曲线亮调	develop_advanced.py:10
+1249	参数曲线高光	develop_advanced.py:10
+1250	阴影分界 %	develop_advanced.py:11
+1251	中调分界 %	develop_advanced.py:11
+1252	高光分界 %	develop_advanced.py:11
+1253	暗角中点	develop_advanced.py:12
+1254	暗角圆度	develop_advanced.py:12
+1255	暗角羽化	develop_advanced.py:12
+1256	暗角高光保护	develop_advanced.py:12
+1257	暗角模式	develop_advanced.py:12
+1258	颗粒粗糙度	develop_advanced.py:13
+1259	胶片颗粒模式	develop_advanced.py:13
+1260	明度细节保留	develop_advanced.py:14
+1261	明度对比保留	develop_advanced.py:14
+1262	颜色细节保留	develop_advanced.py:14
+1263	颜色平滑	develop_advanced.py:14
+1264	校准阴影偏色	develop_advanced.py:15
+1265	调色输出包含无效数值。	develop_engine.py:225
+1266	手动畸变	develop_optics.py:5
+1267	镜头暗角补偿	develop_optics.py:5
+1268	红色色差	develop_optics.py:5
+1269	蓝色色差	develop_optics.py:5
+1270	紫绿边去除	develop_optics.py:6
+1271	垂直透视	develop_optics.py:6
+1272	水平透视	develop_optics.py:6
+1273	微调旋转	develop_optics.py:6
+1274	纵横比例	develop_optics.py:7
+1275	变换缩放	develop_optics.py:7
+1276	水平位移	develop_optics.py:7
+1277	垂直位移	develop_optics.py:7
+1278	传感器倍率	develop_optics.py:8
+1279	焦距 mm	develop_optics.py:8
+1280	镜头与变换参数无效。	develop_optics.py:23
+1281	镜头配置名称无效。	develop_optics.py:27
+1282	透视矩阵无效。	develop_optics.py:32
+1283	透视校正模式无效。	develop_optics.py:33
+1284	最多四条透视引导线。	develop_optics.py:34
+1285	镜头开关无效。	develop_optics.py:26
+1286	透视引导线无效。	develop_optics.py:37
+1287	镜头参数超范围：	develop_optics.py:30
+1288	镜头校正	develop_optics_ui.py:13
+1289	按相机与镜头信息匹配	develop_optics_ui.py:15
+1290	载入镜头配置列表	develop_optics_ui.py:17
+1291	变换 · 透视与水平	develop_optics_ui.py:20
+1292	自动水平	develop_optics_ui.py:23
+1293	在照片上绘制引导线	develop_optics_ui.py:26
+1294	应用引导线校正	develop_optics_ui.py:27
+1295	清除引导与自动透视	develop_optics_ui.py:28
+1296	镜头与变换前	develop_optics_ui.py:41
+1297	镜头与透视变换	develop_optics_ui.py:42
+1298	已载入实测镜头列表；请选择实际使用的镜头。	develop_optics_ui.py:45
+1299	自动透视前	develop_optics_ui.py:73
+1300	自动透视校正	develop_optics_ui.py:74
+1301	引导透视前	develop_optics_ui.py:81
+1302	引导透视校正	develop_optics_ui.py:81
+1303	清除透视前	develop_optics_ui.py:84
+1304	新导入 RAW 自动启用唯一匹配的镜头配置；也可手动选择。	develop_optics_ui.py:11
+1305	启用镜头配置校正	develop_optics_ui.py:14
+1306	约束边缘 · 自动缩放避免黑边	develop_optics_ui.py:22
+1307	自动垂直校正	develop_optics_ui.py:24
+1308	自动完整透视	develop_optics_ui.py:24
+1309	请先匹配或选择镜头配置。	develop_optics_ui.py:40
+1310	没有唯一匹配的配置，请手动选择实际镜头。	develop_optics_ui.py:50
+1311	已匹配：	develop_optics_ui.py:54
+1312	未检测到足够可靠的水平线，请手动调整。	develop_optics_ui.py:65
+1313	水平线	develop_optics_ui.py:25
+1314	未找到唯一匹配的镜头配置；可载入列表选择实际镜头。	develop_optics_ui.py:37
+1315	已启用：	develop_optics_ui.py:36
+1316	已选择，校正关闭：	develop_optics_ui.py:36
+1317	色彩输出设置无效。	develop_output.py:33
+1318	色彩空间或呈色意图无效。	develop_output.py:35
+1319	请先选择软打样ICC；当前显示正常预览。	develop_output.py:29
+1320	输出预览开关无效。	develop_output.py:37
+1321	ICC路径无效。	develop_output.py:39
+1322	显示器ICC不可用，已暂用sRGB显示；可重新选择。	develop_output.py:24
+1323	软打样ICC不可用，已暂时停用；输出色彩设置保留。	develop_output.py:28
+1324	色彩输出与软打样	develop_output_ui.py:13
+1325	选择软打样 ICC	develop_output_ui.py:17
+1326	恢复当前照片打样预览	develop_output_ui.py:18
+1327	本机显示器 · 立即生效	develop_output_ui.py:20
+1328	使用系统显示器 ICC	develop_output_ui.py:22
+1329	手动选择显示器 ICC	develop_output_ui.py:23
+1330	显示器恢复 sRGB	develop_output_ui.py:24
+1331	色彩输出设置前	develop_output_ui.py:32
+1332	ICC设置前	develop_output_ui.py:44
+1333	已使用本机显示器ICC；此设置不随照片同步。	develop_output_ui.py:52
+1334	本机显示器已恢复 sRGB；照片的软打样与输出设置保持不变。	develop_output_ui.py:56
+1335	恢复打样预览前	develop_output_ui.py:58
+1336	显示预览和导出像素分别处理；软打样不写入照片。	develop_output_ui.py:11
+1337	HDR 浮点TIFF输出	develop_output_ui.py:15
+1338	SDR 高光映射预览	develop_output_ui.py:15
+1339	启用软打样	develop_output_ui.py:15
+1340	显示所选输出空间的超色域区域	develop_output_ui.py:15
+1341	HDR为浮点TIFF；当前窗口采用SDR显示。	develop_output_ui.py:27
+1342	ICC转换保留浮点精度；软打样只影响预览。	develop_output_ui.py:27
+1343	设置ICC 	develop_output_ui.py:46
+1344	系统未提供显示器ICC，可以手动选择。	develop_output_ui.py:50
+1345	ICC无法使用	develop_output_ui.py:40
+1346	以下设置影响本机所有照片；立即保存，不受工作台应用或取消控制，不随照片同步。	develop_output_ui.py:21
+1347	ICC 色彩配置	develop_output_ui.py:36
+1348	色温 K	develop_settings.py:2
+1349	白平衡偏色	develop_settings.py:2
+1350	中间调色相	develop_settings.py:3
+1351	中间调饱和度	develop_settings.py:3
+1352	全局分级色相	develop_settings.py:4
+1353	全局分级饱和度	develop_settings.py:4
+1354	阴影分级明度	develop_settings.py:5
+1355	中间调分级明度	develop_settings.py:5
+1356	高光分级明度	develop_settings.py:5
+1357	分级平衡	develop_settings.py:6
+1358	分级混合	develop_settings.py:6
+1359	暖色分级保护	develop_settings.py:6
+1360	曲线保色	develop_settings.py:7
+1361	通道曲线保色	develop_settings.py:7
+1362	低饱和保护	develop_settings.py:7
+1363	全图纹理	develop_settings.py:7
+1364	全图清晰度	develop_settings.py:7
+1365	去朦胧	develop_settings.py:7
+1366	明度降噪	develop_settings.py:8
+1367	颜色降噪	develop_settings.py:8
+1368	锐化量	develop_settings.py:9
+1369	锐化半径	develop_settings.py:9
+1370	锐化细节	develop_settings.py:9
+1371	锐化蒙版	develop_settings.py:9
+1372	黑白转换	develop_settings.py:10
+1373	红原色色相	develop_settings.py:10
+1374	红原色饱和度	develop_settings.py:10
+1375	绿原色色相	develop_settings.py:11
+1376	绿原色饱和度	develop_settings.py:11
+1377	蓝原色色相	develop_settings.py:11
+1378	蓝原色饱和度	develop_settings.py:11
+1379	后期暗角	develop_settings.py:12
+1380	颗粒	develop_settings.py:12
+1381	颗粒大小	develop_settings.py:12
+1382	点颜色最多8组。	develop_settings.py:19
+1383	点颜色记录无效。	develop_settings.py:24
+1384	点颜色范围无效：	develop_settings.py:28
+1385	白平衡 · 色温与中性取样	develop_ui.py:32
+1386	在照片上取中性灰 / 白	develop_ui.py:36
+1387	清除中性取样	develop_ui.py:37
+1388	自动影调	develop_ui.py:38
+1389	XMP 参数应用到当前照片	develop_ui.py:39
+1390	导出 XMP 调色设置	develop_ui.py:40
+1391	色彩分级 · 三向与全局	develop_ui.py:41
+1392	点颜色 · 可调颜色范围	develop_ui.py:54
+1393	在照片上添加颜色取样	develop_ui.py:56
+1394	颜色离散程度	develop_ui.py:60
+1395	预览受影响颜色范围	develop_ui.py:61
+1396	删除当前点颜色	develop_ui.py:62
+1397	全图质感、降噪与锐化	develop_ui.py:63
+1398	黑白混色	develop_ui.py:66
+1399	黑白转换：0关闭 / 1开启	develop_ui.py:68
+1400	RGB 原色校准	develop_ui.py:70
+1401	曲线保色、暗角与颗粒	develop_ui.py:75
+1402	白平衡方案前	develop_ui.py:112
+1403	点颜色调整前	develop_ui.py:135
+1404	删除点颜色前	develop_ui.py:140
+1405	删除点颜色	develop_ui.py:140
+1406	清除白平衡取样前	develop_ui.py:147
+1407	清除白平衡取样	develop_ui.py:147
+1408	调色取样前	develop_ui.py:154
+1409	调色取样	develop_ui.py:170
+1410	XMP映射结果	develop_ui.py:197
+1411	自动影调前	develop_ui.py:221
+1412	尚未取样	develop_ui.py:18
+1413	原始拍摄	develop_ui.py:22
+1414	色温参考 K	develop_ui.py:35
+1415	绿／洋红偏色	develop_ui.py:35
+1416	全局	develop_ui.py:48
+1417	选择分级颜色	develop_ui.py:52
+1418	色相变化	develop_ui.py:59
+1419	饱和度变化	develop_ui.py:59
+1420	明度变化	develop_ui.py:59
+1421	色相范围	develop_ui.py:59
+1422	饱和度范围	develop_ui.py:59
+1423	明度范围	develop_ui.py:59
+1424	高光优先	develop_ui.py:78
+1425	胶片颗粒 · 随原图比例缩放	develop_ui.py:82
+1426	兼容旧项目算法	develop_ui.py:96
+1427	自动	develop_ui.py:114
+1428	白平衡方案 	develop_ui.py:120
+1429	请先在照片上添加点颜色取样。	develop_ui.py:134
+1430	已按中性取样校正白平衡，可继续微调冷暖。	develop_ui.py:158
+1431	XMP导入前	develop_ui.py:190
+1432	XMP参数映射 	develop_ui.py:196
+1433	导出调色XMP	develop_ui.py:203
+1434	XMP已导出。	develop_ui.py:208
+1435	分级颜色前	develop_ui.py:214
+1436	分级颜色 · 	develop_ui.py:215
+1437	日光	develop_ui.py:34
+1438	阴天	develop_ui.py:34
+1439	钨丝灯	develop_ui.py:34
+1440	荧光灯	develop_ui.py:34
+1441	闪光灯	develop_ui.py:34
+1442	明度	develop_ui.py:69
+1443	颜色优先	develop_ui.py:79
+1444	叠色	develop_ui.py:79
+1445	XMP无法导入	develop_ui.py:177
+1446	XMP未导出	develop_ui.py:207
+1447	中心为中性 · 左右键调整色相 · 上下键调整强度	develop_ui.py:47
+1448	已定位HSL：	develop_ui.py:162
+1449	点颜色最多8组，请先删除不需要的取样。	develop_ui.py:165
+1450	\n未导入：	develop_ui.py:197
+1451	编辑记录	edit_records_ui.py:12
+1452	修饰记录	edit_records_ui.py:16
+1453	显示	edit_records_ui.py:16
+1454	不透明度	edit_records_ui.py:16
+1455	编辑修饰记录前	edit_records_ui.py:33
+1456	已更新；Ctrl＋Z可撤销。	edit_records_ui.py:36
+1457	删除修饰记录	edit_records_ui.py:36
+1458	调整修饰记录	edit_records_ui.py:36
+1459	按原始顺序重放；隐藏或删除一笔后，后续修复会重新取样。	edit_records_ui.py:15
+1460	不透明度请输入0–100	edit_records_ui.py:32
+1461	删除所选	edit_records_ui.py:39
+1462	迁移	edit_records_ui.py:22
+1463	是	edit_records_ui.py:23
+1464	否	edit_records_ui.py:23
+1465	AURA Photo · 独立版说明	edition_update_ui.py:12
+1466	支持静态照片与 RAW 编辑。\n附带 NVIDIA GPU 推理与渲染运行库；不可用时回退 CPU。\n首次启用 GPU 渲染需同意联网初始化，之后可离线使用。\n面部定位：MediaPipe 网格适配。\n皮肤 / 人物分割：MediaPipe 多类模型。\n眼、眉、唇：网格区域，可手动修边。\n不含富士滤镜、HEIC、实况照片及视频。\n细发丝、遮挡和侧脸请检查蒙版。\n完整许可见程序目录 THIRD_PARTY_NOTICES.txt。	edition_update_ui.py:13
+1467	AURA Photo 0.1.0 · 独立静态照片版\n配置与缓存保存在本版目录，不读取旧版设置。\n更新方式：下载独立版 ZIP，解压到新的目录。\n本版不调用旧版安装器。	edition_update_ui.py:9
+1468	本版功能与模型说明	edition_update_ui.py:10
+1469	手机修补缓存	effect_controls.py:3
+1470	自动祛瑕	effect_controls.py:3
+1471	基础肤质 · 脸与身体	effect_controls.py:3
+1472	面部细节	effect_controls.py:4
+1473	面部肤色	effect_controls.py:4
+1474	身体专项	effect_controls.py:5
+1475	部位蒙版调色	effect_controls.py:5
+1476	迁移与仿制	effect_controls.py:5
+1477	手动修饰	effect_controls.py:5
+1478	全局调色与追色	effect_controls.py:5
+1479	人像柔光	effect_controls.py:5
+1480	衣物整理	effect_controls.py:5
+1481	轻妆与发色	effect_controls.py:5
+1482	调色与创作	effect_controls.py:5
+1483	效果开关或强度无效。	effect_controls.py:10
+1484	效果管理与局部擦回	effect_ui.py:16
+1485	所选效果强度	effect_ui.py:20
+1486	清除所选效果的擦回区域	effect_ui.py:26
+1487	擦回效果前	effect_ui.py:61
+1488	清除效果擦回区域	effect_ui.py:71
+1489	显示所选效果	effect_ui.py:19
+1490	擦回此效果	effect_ui.py:22
+1491	恢复此效果	effect_ui.py:22
+1492	擦回半径 / 原图像素	effect_ui.py:24
+1493	调整效果 · 	effect_ui.py:39
+1494	请等待形变完成后擦回。	effect_ui.py:59
+1495	请先关闭实验身体形变，再擦回效果。	effect_ui.py:60
+1496	局部擦回 · 	effect_ui.py:69
+1497	显示擦回区域	effect_ui.py:25
+1498	擦回只影响所选处理阶段，保留其他调整；智能脸型和液化通过原工具恢复。画笔在原图坐标记录，可跟随已完成的面部液化。	effect_ui.py:27
+1499	已取消，未应用面部细节。	face_details.py:70
+1500	面部重塑定位	face_reshape.py:105
+1501	复用已有 MediaPipe 网格定位	face_reshape.py:105
+1502	已取消面部重塑，照片未改变。	face_reshape.py:13
+1503	独立版使用 MediaPipe 网格定位。	face_reshape.py:101
+1504	本图形变范围过密，请降低强度或先调整单侧。	face_reshape.py:195
+1505	相邻人物的形变过密，请降低强度。	face_reshape.py:229
+1506	多人物形变发生过度压缩，请降低相邻人物的强度。	face_reshape.py:263
+1507	重置功能前	feature_actions_ui.py:270
+1508	正在准备首次对比；松开立即恢复，完成后会提示。	feature_actions_ui.py:221
+1509	当前效果已恢复；对比仍在准备，完成后会提示。	feature_actions_ui.py:263
+1510	重置本功能 · 	feature_actions_ui.py:335
+1511	当前效果已恢复。	feature_actions_ui.py:33
+1512	重置本功能	feature_actions_ui.py:49
+1513	关闭效果 · 松开恢复	feature_actions_ui.py:218
+1514	对比准备中…	feature_actions_ui.py:220
+1515	对比未生成：	feature_actions_ui.py:238
+1516	对比已准备完成；按住查看，松开恢复当前效果。	feature_actions_ui.py:250
+1517	按住对比	feature_actions_ui.py:258
+1518	笔刷设置	feature_actions_ui.py:42
+1519	取样变换	feature_actions_ui.py:42
+1520	RAW中性显影尺寸不同，请先统一RAW来源。	feature_actions_ui.py:163
+1521	重置所有光源	feature_actions_ui.py:49
+1522	重置此灯灯位	feature_actions_ui.py:49
+1523	重置此灯受光	feature_actions_ui.py:49
+1524	重置此灯保护	feature_actions_ui.py:49
+1525	清除渐变与范围	feature_actions_ui.py:49
+1526	身体美颜范围	feature_catalog.py:32
+1527	祛斑祛痘	feature_catalog.py:2
+1528	祛斑点候选	feature_catalog.py:2
+1529	祛深色点 / 痣点候选	feature_catalog.py:3
+1530	祛汗珠亮点	feature_catalog.py:3
+1531	鼻部细小瑕疵	feature_catalog.py:4
+1532	减淡胡须 / 唇毛	feature_catalog.py:4
+1533	修复质感保留	feature_catalog.py:5
+1534	淡化眼袋光影	feature_catalog.py:5
+1535	下颌线光影增强	feature_catalog.py:6
+1536	胡须保护	feature_catalog.py:7
+1537	妆容色彩保护	feature_catalog.py:7
+1538	身体祛瑕疵	feature_catalog.py:8
+1539	身体深色点候选	feature_catalog.py:8
+1540	纹身候选修复 · 实验	feature_catalog.py:8
+1541	身体质感磨皮	feature_catalog.py:9
+1542	身体高频纹理	feature_catalog.py:9
+1543	身体低频平整	feature_catalog.py:9
+1544	身体水润柔化	feature_catalog.py:10
+1545	身体美白	feature_catalog.py:10
+1546	身体肤色透亮	feature_catalog.py:10
+1547	身体肤色均匀	feature_catalog.py:11
+1548	身体向面部肤色靠拢	feature_catalog.py:11
+1549	身体红润（旧配置兼容）	feature_catalog.py:12
+1550	身体色温	feature_catalog.py:12
+1551	身体红润 / 色调	feature_catalog.py:12
+1552	颈纹淡化	feature_catalog.py:13
+1553	身体细纹 / 妊娠纹 · 实验	feature_catalog.py:13
+1554	锁骨光影增强 · 实验	feature_catalog.py:13
+1555	身体取样肤色匹配	feature_catalog.py:14
+1556	身体肤色方案强度	feature_catalog.py:14
+1557	身体向最亮面部肤色靠拢	feature_catalog.py:14
+1558	面部肤色方案强度	feature_catalog.py:15
+1559	面部取样肤色匹配	feature_catalog.py:15
+1560	面部向最亮肤色靠拢	feature_catalog.py:16
+1561	面部高频纹理增强	feature_catalog.py:16
+1562	肤色方案编号	feature_catalog.py:17
+1563	取样R	feature_catalog.py:17
+1564	取样G	feature_catalog.py:17
+1565	取样B	feature_catalog.py:17
+1566	自动瘦身	feature_catalog.py:19
+1567	自动瘦腰	feature_catalog.py:19
+1568	自动瘦腿	feature_catalog.py:19
+1569	拉腿	feature_catalog.py:19
+1570	中性灰立体 · 五官	feature_catalog.py:20
+1571	中性灰立体 · 轮廓	feature_catalog.py:20
+1572	全脸光影丰盈 · 档位	feature_catalog.py:21
+1573	额头光影丰盈	feature_catalog.py:21
+1574	面中光影丰盈	feature_catalog.py:21
+1575	面颊光影丰盈	feature_catalog.py:22
+1576	鼻基底光影丰盈	feature_catalog.py:22
+1577	眼窝 · 人物左侧	feature_catalog.py:23
+1578	眼窝 · 人物右侧	feature_catalog.py:23
+1579	眼头阴影柔化	feature_catalog.py:24
+1580	眉弓光影丰盈	feature_catalog.py:24
+1581	下巴光影丰盈	feature_catalog.py:24
+1582	嘴角光影丰盈	feature_catalog.py:24
+1583	额头	feature_catalog.py:25
+1584	面中	feature_catalog.py:25
+1585	鼻基底	feature_catalog.py:25
+1586	下巴	feature_catalog.py:25
+1587	双下巴局部收紧 · 实验	feature_catalog.py:27
+1588	双下巴阴影淡化	feature_catalog.py:27
+1589	腋下局部收紧 · 人物左侧 · 实验	feature_catalog.py:28
+1590	腋下局部收紧 · 人物右侧 · 实验	feature_catalog.py:28
+1591	丰盈 · 平整	feature_catalog.py:26
+1592	丰盈 · 提亮	feature_catalog.py:26
+1593	肤色	feature_catalogue.py:57
+1594	瑕疵	feature_catalogue.py:57
+1595	祛纹	feature_catalogue.py:57
+1596	创作	feature_catalogue.py:57
+1597	显影	feature_catalogue.py:57
+1598	调色	feature_catalogue.py:57
+1599	整张照片	feature_catalogue.py:14
+1600	打开独立调色工作台，调整全局影调与RAW显影。	feature_catalogue.py:14
+1601	当前人物	feature_catalogue.py:15
+1602	推荐参数、肤色、肤质、祛瑕、祛纹与人像补光。	feature_catalogue.py:15
+1603	身体皮肤 / 单人照片的身体轮廓	feature_catalogue.py:16
+1604	身体美肤、瑕疵，以及照片模式的瘦身、瘦腰、瘦腿和拉腿。	feature_catalogue.py:16
+1605	塑形	feature_catalogue.py:17
+1606	当前人物 / 手动形变区域	feature_catalogue.py:17
+1607	脸型预设、智能五官与液化画笔 / 悬停节点。	feature_catalogue.py:17
+1608	唇色、腮红与发色，强度默认关闭。	feature_catalogue.py:18
+1609	当前人物的衣物	feature_catalogue.py:19
+1610	淡化衣物细褶皱、调整衣物颜色。	feature_catalogue.py:19
+1611	背景区域	feature_catalogue.py:20
+1612	调整背景颜色与柔化；可查看和修正背景范围。	feature_catalogue.py:20
+1613	当前人物 / 当前蒙版	feature_catalogue.py:21
+1614	识别部位、合并或分别生成范围，补选、修边与局部调色。	feature_catalogue.py:21
+1615	手动选区 / 所选处理阶段	feature_catalogue.py:22
+1616	修饰画笔、迁移仿制、AI清理与效果擦回。	feature_catalogue.py:22
+1617	整张照片的导出取景	feature_catalogue.py:23
+1618	裁剪、水平校正和旋转；可用当前人物作为取景中心。	feature_catalogue.py:23
+1619	独立窗口中调整影调、曲线、颜色、分级、细节与RAW；应用后继续编辑，返回时可处理未应用调整。	feature_catalogue.py:28
+1620	Camera Raw 工作台 独立窗口 调色	feature_catalogue.py:28
+1621	推荐与基础美颜	feature_catalogue.py:29
+1622	基础磨皮、美白与纹理覆盖脸、耳、颈及身体皮肤；面部漏识别可用美颜范围画笔补选，祛痘检测独立。	feature_catalogue.py:29
+1623	人像 皮肤 推荐 自动美颜 漏选 刘海 发丝 下巴 羽化 手动补选 portrait beauty	feature_catalogue.py:29
+1624	肤色取样与肤色方案	feature_catalogue.py:30
+1625	先取样，再调整面部或身体的肤色匹配强度。	feature_catalogue.py:30
+1626	吸管 肤色 取色 skin tone eyedropper	feature_catalogue.py:30
+1627	皮肤质感与肤色微调	feature_catalogue.py:31
+1628	明暗、频率、光泽及肤色微调。	feature_catalogue.py:31
+1629	肤质 磨皮 哑光 水光 缎面 skin texture	feature_catalogue.py:31
+1630	面部祛瑕	feature_catalogue.py:32
+1631	面部候选瑕疵的细分、AI修复，以及质感、胡须与妆容保护。	feature_catalogue.py:32
+1632	瑕疵 痘痘 去痘 acne blemish	feature_catalogue.py:32
+1633	额头、眼周和法令纹等采用DAMO混合图层局部祛纹，保留眼球、睫毛与痣点；不追加美白。	feature_catalogue.py:33
+1634	去皱 去纹 眼下 DAMO quzhou wrinkles	feature_catalogue.py:33
+1635	光影立体与局部丰盈	feature_catalogue.py:34
+1636	通过亮暗调整视觉体积、眼袋或下颌阴影，不移动脸部边缘。	feature_catalogue.py:34
+1637	光影 丰盈 面中 额头 volume contour	feature_catalogue.py:34
+1638	几何柔光与多光源	feature_catalogue.py:35
+1639	深度和法线估计驱动当前人物补光；多灯、调色、轮廓光及可见深度遮挡。	feature_catalogue.py:35
+1640	打光 柔光 补光 灯 多光源 轮廓光 深度 法线 light relight	feature_catalogue.py:35
+1641	身体磨皮、肤色与祛瑕	feature_catalogue.py:36
+1642	身体参数作用于全部已确认或手动补选身体皮肤；可擦除AI范围、恢复并预览。	feature_catalogue.py:36
+1643	脖子 脖颈 颈部 耳朵 手臂 补选 擦除 恢复 范围 body skin neck	feature_catalogue.py:36
+1644	自动身体美型 · 照片	feature_catalogue.py:37
+1645	自动瘦身、瘦腰、瘦腿、拉腿；当前仅开放单人照片。	feature_catalogue.py:37
+1646	瘦身 瘦腰 瘦腿 长腿 拉腿 美体 身材 body shape waist legs slim	feature_catalogue.py:37
+1647	脸型预设与轮廓调整	feature_catalogue.py:38
+1648	移动脸部轮廓；人物左右按人物自身区分。	feature_catalogue.py:38
+1649	瘦脸 小脸 V脸 下巴 脸型 shoulian reshape face	feature_catalogue.py:38
+1650	手动液化与智能五官	feature_catalogue.py:39
+1651	液化画笔、冻结保护、辅助线节点及智能五官。	feature_catalogue.py:39
+1652	眼睛 鼻子 嘴巴 PS 五官 liquify push freeze thaw	feature_catalogue.py:39
+1653	唇色、腮红与发色	feature_catalogue.py:40
+1654	按人物调整唇色、腮红和发色，保留原纹理。	feature_catalogue.py:40
+1655	化妆 口红 头发 染发 makeup lips hair	feature_catalogue.py:40
+1656	衣物褶皱整理	feature_catalogue.py:41
+1657	淡化浅细褶皱；复杂折痕可在“修复”中选区AI清理。	feature_catalogue.py:41
+1658	衣服 褶皱 布料 fabric clothes	feature_catalogue.py:41
+1659	衣物改色	feature_catalogue.py:42
+1660	只调整当前人物衣物区域的颜色。	feature_catalogue.py:42
+1661	衣服 服装 换色 染色 recolor clothing	feature_catalogue.py:42
+1662	背景颜色与柔化	feature_catalogue.py:43
+1663	先查看背景范围，再调整曝光、颜色和均匀柔化。	feature_catalogue.py:43
+1664	虚化 背景 模糊 background blur	feature_catalogue.py:43
+1665	查看全图RGB明暗分布。	feature_catalogue.py:44
+1666	histogram RGB 高光 阴影	feature_catalogue.py:44
+1667	RAW显影与相机风格	feature_catalogue.py:45
+1668	选择RAW来源、白平衡、曝光补偿及相机风格。	feature_catalogue.py:45
+1669	相机 机内 配置 白平衡 camera raw develop	feature_catalogue.py:45
+1670	专业调色与显影工具	feature_catalogue.py:46
+1671	成品滤镜、实拍预览、收藏与个人风格；浮点影调、白平衡、曲线、HSL、分级和显影。	feature_catalogue.py:46
+1672	滤镜 成品 预设 收藏 人像 日系 胶片 电影 黑白 filters presets 曝光 曲线 饱和度 白平衡 色温 点颜色 分级 降噪 锐化 镜头 透视 软打样 ICC HDR 调色 curves HSL LUT color	feature_catalogue.py:46
+1673	按指定区域分别匹配颜色和影调。	feature_catalogue.py:47
+1674	参考图 追色 色彩匹配 reference match	feature_catalogue.py:47
+1675	AI部位蒙版	feature_catalogue.py:48
+1676	按人物选择面部、身体皮肤和五官等范围，合并或分别生成。	feature_catalogue.py:48
+1677	选区 部位 自动蒙版 mask selection	feature_catalogue.py:48
+1678	智能补选与蒙版修边	feature_catalogue.py:49
+1679	补全或减去范围，扩展、收缩、羽化及调整强度；部位蒙版支持渐变和颜色/亮度范围。	feature_catalogue.py:49
+1680	漏选 补全 边缘 智能选区 线性渐变 径向渐变 颜色范围 亮度范围 refine feather	feature_catalogue.py:49
+1681	手动修饰画笔	feature_catalogue.py:50
+1682	减淡、加深、修复画笔、仿制和恢复，可连续涂画。	feature_catalogue.py:50
+1683	磨皮 手工 修饰 PS dodge burn clone heal brush	feature_catalogue.py:50
+1684	选区修复与迁移仿制	feature_catalogue.py:51
+1685	补选后AI修复，或移动圆框取样做迁移、仿制。	feature_catalogue.py:51
+1686	圆框 迁移 修补 仿制 stamp healing	feature_catalogue.py:51
+1687	AI候选识别与前后对比	feature_catalogue.py:52
+1688	重扫瑕疵候选、调整阈值、恢复自动选区和对比结果。	feature_catalogue.py:52
+1689	检测 识别 阈值 对照 前后 compare threshold	feature_catalogue.py:52
+1690	衣物与背景AI清理	feature_catalogue.py:53
+1691	明确选择衣物或背景对象，再涂抹要清理的范围。	feature_catalogue.py:53
+1692	消除 去物 擦除 毛球 灰尘 remove cleanup inpaint	feature_catalogue.py:53
+1693	效果开关与局部擦回	feature_catalogue.py:54
+1694	对所选处理阶段隐藏、减弱或局部擦回。	feature_catalogue.py:54
+1695	效果管理 图层 隐藏 撤销 擦回 layers effects	feature_catalogue.py:54
+1696	裁剪、比例与水平校正	feature_catalogue.py:55
+1697	主画面实时拖动裁剪框及旋转，导出保留完整精度；编辑坐标保持原图。	feature_catalogue.py:55
+1698	裁切 构图 裁剪 校正 straighten rotate crop	feature_catalogue.py:55
+1699	脖子美白	feature_catalogue.py:76
+1700	脖颈美白	feature_catalogue.py:76
+1701	颈部美白	feature_catalogue.py:76
+1702	去眼周纹	feature_catalogue.py:74
+1703	眼周纹	feature_catalogue.py:74
+1704	去眼纹	feature_catalogue.py:74
+1705	眼纹	feature_catalogue.py:74
+1706	去皱纹	feature_catalogue.py:74
+1707	去痘	feature_catalogue.py:74
+1708	变白	feature_catalogue.py:74
+1709	局部调色：软笔刷、可编辑渐变与多组件范围。	feature_navigation_ui.py:115
+1710	flow density 流量 密度 组件 线性 径向 渐变 局部 蒙版	feature_navigation_ui.py:115
+1711	导入照片、打开或保存项目、视频快速预览、实况美颜、导出成片及批量处理。	feature_navigation_ui.py:116
+1712	import open save export project batch video 视频 预览 时间轴 文件	feature_navigation_ui.py:116
+1713	全局设置，不属于单张照片的修图参数。	feature_navigation_ui.py:117
+1714	preferences settings 全局	feature_navigation_ui.py:117
+1715	搜索功能与参数	feature_navigation_ui.py:169
+1716	存在未明确归属的功能模块，请检查导航目录。	feature_navigation_ui.py:21
+1717	搜索功能 / 参数    Ctrl+K	feature_navigation_ui.py:50
+1718	撤销    Ctrl+Z	feature_navigation_ui.py:70
+1719	重做    Ctrl+Y	feature_navigation_ui.py:71
+1720	编辑记录 · 逐笔管理	feature_navigation_ui.py:72
+1721	适合窗口	feature_navigation_ui.py:78
+1722	面部视图	feature_navigation_ui.py:78
+1723	100% 原图像素	feature_navigation_ui.py:78
+1724	显示当前部位蒙版	feature_navigation_ui.py:80
+1725	搜索文件名、评分、筛选和双图对照。	feature_navigation_ui.py:119
+1726	编辑 › 编辑记录	feature_navigation_ui.py:120
+1727	逐笔显示、隐藏、修改不透明度或删除手动记录。	feature_navigation_ui.py:120
+1728	编辑 › 撤销	feature_navigation_ui.py:121
+1729	打开编辑菜单；需主动点击撤销，不会因搜索而改动照片。	feature_navigation_ui.py:121
+1730	编辑 › 重做	feature_navigation_ui.py:122
+1731	打开编辑菜单；需主动点击重做。	feature_navigation_ui.py:122
+1732	视图 › 适合窗口	feature_navigation_ui.py:123
+1733	查看完整照片，不改变导出尺寸。	feature_navigation_ui.py:123
+1734	视图 › 面部视图	feature_navigation_ui.py:124
+1735	定位人物面部以检查细节。	feature_navigation_ui.py:124
+1736	视图 › 100% 原图像素	feature_navigation_ui.py:125
+1737	查看原图像素比例；不是屏幕DPI设置。	feature_navigation_ui.py:125
+1738	查看软件的键盘操作。	feature_navigation_ui.py:126
+1739	已定位：	feature_navigation_ui.py:164
+1740	请先松开当前画笔或拖动，再搜索功能。	feature_navigation_ui.py:166
+1741	例如：瘦脸、身体美白、脖子、吸管、眼周纹、液化、HSL、导出	feature_navigation_ui.py:174
+1742	功能 / 参数	feature_navigation_ui.py:176
+1743	所属位置	feature_navigation_ui.py:176
+1744	界面显示	feature_navigation_ui.py:88
+1745	 DPI 缩放 分辨率 高分屏 屏幕 display	feature_navigation_ui.py:88
+1746	未找到匹配功能。试试“磨皮”“液化”“脖子”或“导出”；也可清空后浏览全部模块。	feature_navigation_ui.py:193
+1747	模块	feature_navigation_ui.py:53
+1748	导入设置	feature_navigation_ui.py:89
+1749	 默认 推荐 自动美颜 import defaults	feature_navigation_ui.py:89
+1750	绘制工具；定位后点击图标启用。	feature_navigation_ui.py:99
+1751	历史 对比	feature_navigation_ui.py:127
+1752	。请展开对应菜单选择操作。	feature_navigation_ui.py:135
+1753	搜索功能或参数	feature_navigation_ui.py:172
+1754	↑↓ 选择 · Enter 定位 · Esc 关闭	feature_navigation_ui.py:181
+1755	 当前不可用：	feature_navigation_ui.py:188
+1756	定位功能	feature_navigation_ui.py:203
+1757	重复功能归属：	feature_navigation_ui.py:17
+1758	查看	feature_navigation_ui.py:53
+1759	自动保存与缓存	feature_navigation_ui.py:90
+1760	 恢复 缓存 空间 autosave recovery cache	feature_navigation_ui.py:90
+1761	操作入口；定位后点击执行。	feature_navigation_ui.py:101
+1762	已定位入口：	feature_navigation_ui.py:135
+1763	请先导入照片，再打开编辑记录。	feature_navigation_ui.py:139
+1764	请先导入照片。	feature_navigation_ui.py:188
+1765	开关 / 范围选项；定位不会自动修改。	feature_navigation_ui.py:102
+1766	正在计算，请等待完成。	feature_navigation_ui.py:188
+1767	请查看模块中的启用条件或识别提示。	feature_navigation_ui.py:188
+1768	选项	feature_navigation_ui.py:107
+1769	选择	feature_navigation_ui.py:107
+1770	面部祛瑕类型	feature_ui.py:23
+1771	身体美颜范围 / 瑕疵类型	feature_ui.py:34
+1772	面部瑕疵细分 · 当前人像	feature_ui.py:16
+1773	修复保护与质感	feature_ui.py:19
+1774	重新生成该类型预览蒙版	feature_ui.py:24
+1775	AI 应用面部细节修复	feature_ui.py:25
+1776	身体皮肤与瑕疵 · 当前人像	feature_ui.py:28
+1777	重新生成身体类型 / 范围蒙版	feature_ui.py:35
+1778	AI 应用身体祛瑕 / 修复	feature_ui.py:36
+1779	生成细节蒙版前	feature_ui.py:45
+1780	面部细节参数	feature_ui.py:59
+1781	身体参数	feature_ui.py:65
+1782	生成细节候选蒙版	feature_ui.py:54
+1783	AI 面部细节修复	feature_ui.py:61
+1784	AI 身体处理	feature_ui.py:75
+1785	AI瑕疵候选按颜色与尺度细分，并非痣/斑/汗珠专用分类网络。先预览可擦回误选；新增强度默认0。	feature_ui.py:17
+1786	到“蒙版”选择对应范围，用添加/减去画笔修改。重新生成会覆盖该类型选区，可撤销。调整强度无需重跑AI；扩大选区后需再次应用。自然鼻孔暗部不自动修复。	feature_ui.py:26
+1787	身体专项在基础美颜之上追加，全部默认0；基础磨皮与美白仍覆盖身体皮肤。此处磨皮、美白与肤色参数直接应用；祛瑕、深色点及纹身需点击下方 AI 处理。自动范围排除衣服，补选保护其他人物。	feature_ui.py:29
+1788	纹身候选使用颜色/对比规则，需预览与画笔确认，再由LaMa补全。妊娠纹、锁骨采用皮肤范围内细纹/姿态光影处理，暂无真实对应样片，标为实验。	feature_ui.py:37
+1789	 / 此类型未找到候选，可手动补选。	feature_ui.py:55
+1790	自然人像	filter_recipes.py:18
+1791	干净肤色、自然明暗与轻微暖色；保留背景层次。	filter_recipes.py:18
+1792	奶油柔肤	filter_recipes.py:20
+1793	柔暖亮部与细腻中间调；保留黑位，适合窗边和婚礼。	filter_recipes.py:20
+1794	清透白皙	filter_recipes.py:22
+1795	清爽明亮肤色、干净白色与有层次的背景。	filter_recipes.py:22
+1796	暖阳人像	filter_recipes.py:24
+1797	暖金高光、自然肤色与沉稳背景；适合逆光和傍晚。	filter_recipes.py:24
+1798	日系清透	filter_recipes.py:26
+1799	自然明亮、干净肤色、背景有层次；保留清晰黑白端点。	filter_recipes.py:26
+1800	森系青绿	filter_recipes.py:28
+1801	青绿植被与暖肤色分离；保留叶片、树干和阴影层次。	filter_recipes.py:28
+1802	蜜桃晴天	filter_recipes.py:30
+1803	浅蜜桃肤色、柔暖亮部与清爽绿色；适合花园和写真。	filter_recipes.py:30
+1804	金色胶片	filter_recipes.py:32
+1805	金黄、暖红与收敛青绿；轻颗粒、扎实黑位的旅行胶片感。	filter_recipes.py:32
+1806	复古褪色	filter_recipes.py:34
+1807	明确的褪色雾面风格，低饱和与细颗粒；适合复古街拍。	filter_recipes.py:34
+1808	冷调胶片	filter_recipes.py:36
+1809	青蓝暗部、安静色彩与自然肤色；适合城市和雨天。	filter_recipes.py:36
+1810	琥珀暮色	filter_recipes.py:38
+1811	琥珀亮部与深暖色彩，保留暗部层次；适合夕阳和室内。	filter_recipes.py:38
+1812	青橙电影	filter_recipes.py:40
+1813	青色环境与暖肤色分离，明确的电影色彩和扎实暗部。	filter_recipes.py:40
+1814	城市夜色	filter_recipes.py:42
+1815	蓝青阴影、霓虹色彩和自然肤色；适合夜景环境人像。	filter_recipes.py:42
+1816	低饱和叙事	filter_recipes.py:44
+1817	收敛环境色彩、保留肤色与明暗层次；适合纪实写真。	filter_recipes.py:44
+1818	通透风光	filter_recipes.py:46
+1819	干净的天空、植被与景物层次；适合晴天旅行。	filter_recipes.py:46
+1820	晴空海岸	filter_recipes.py:48
+1821	清澈青蓝、明亮浅色与自然肤色；适合海边度假。	filter_recipes.py:48
+1822	秋日暖棕	filter_recipes.py:50
+1823	金黄暖棕与收敛绿蓝色，背景有深浅层次。	filter_recipes.py:50
+1824	柔和黑白	filter_recipes.py:52
+1825	明亮肤色、柔和中间调与完整黑白端点；适合肖像。	filter_recipes.py:52
+1826	经典黑白	filter_recipes.py:54
+1827	深黑、清晰对比和立体层次；适合街拍与建筑。	filter_recipes.py:54
+1828	银盐颗粒	filter_recipes.py:56
+1829	银盐灰阶、柔和高光与细颗粒；适合复古肖像。	filter_recipes.py:56
+1830	双下巴 / 腋下局部形变 · 实验	form_ui.py:8
+1831	AI 补全空出区域并应用	form_ui.py:11
+1832	形变参数	form_ui.py:15
+1833	AI 局部形变补全	form_ui.py:22
+1834	按人物独立，默认0。仅移动当前人物皮肤前景，背景不参与拉伸，空出区域用LaMa补全。腋下需有可信姿态及露出皮肤，否则不应用。暂无双下巴/腋下真实对应样片，质量待验证；先轻度尝试。	form_ui.py:12
+1835	Astia · 柔和人像	fuji_profiles.py:6
+1836	Bleach Bypass · 银盐	fuji_profiles.py:6
+1837	Classic Chrome · 经典	fuji_profiles.py:6
+1838	Classic Neg · 复古	fuji_profiles.py:6
+1839	Eterna · 电影	fuji_profiles.py:6
+1840	Nostalgic Neg · 暖调	fuji_profiles.py:6
+1841	Pro Neg Hi · 高对比	fuji_profiles.py:6
+1842	Pro Neg Std · 肖像	fuji_profiles.py:6
+1843	Provia · 标准	fuji_profiles.py:6
+1844	Reala Ace · 自然	fuji_profiles.py:6
+1845	Velvia · 鲜艳	fuji_profiles.py:6
+1846	\n作者标注：CC BY-NC-SA 4.0。完整学习安装包内置已标注来源的LUT；用户另外导入的资源保存在用户目录。\n需配合机型对应的Adobe Standard Linear DCP；效果尚未与Lightroom逐像素验证。\n	fuji_profiles.py:41
+1847	此项目含旧版富士风格，请在原版导出普通照片后再导入独立版。	fuji_profiles.py:52
+1848	富士风格需要32阶、0–1范围的sRGB LUT。	fuji_profiles.py:30
+1849	来源与使用条件.txt	fuji_profiles.py:41
+1850	LUT来源：	fuji_profiles.py:41
+1851	；请选择包含全部11款sRGB文件的目录。	fuji_profiles.py:26
+1852	LUT未明确标注sRGB，请使用上游sRGB版本：	fuji_profiles.py:28
+1853	已有不同内容的同名LUT，请保留原文件后再导入：	fuji_profiles.py:32
+1854	缺少 sRGB LUT：	fuji_profiles.py:26
+1855	步骤 1/2：准备富士 RAW 基底；完成后自动套用风格。	fuji_profiles_ui.py:72
+1856	步骤 2/2：正在套用风格…	fuji_profiles_ui.py:88
+1857	应用RAW来源与调色	fuji_profiles_ui.py:93
+1858	恢复普通RAW来源前	fuji_profiles_ui.py:125
+1859	步骤 1/2：恢复普通 RAW 来源；完成后自动套用所选预设。	fuji_profiles_ui.py:127
+1860	富士风格支持RAW和普通照片；RAW自动准备线性基底。	fuji_profiles_ui.py:10
+1861	富士LUT库未加载：	fuji_profiles_ui.py:25
+1862	尚未导入富士sRGB LUT，可选择包含11个_sRGB.cube的文件夹。	fuji_profiles_ui.py:26
+1863	选择包含11种富士 sRGB .cube 的文件夹	fuji_profiles_ui.py:37
+1864	请先打开RAW照片。	fuji_profiles_ui.py:45
+1865	准备富士来源前	fuji_profiles_ui.py:66
+1866	照片已切换，来源操作已停止。	fuji_profiles_ui.py:79
+1867	RAW 基底未准备完成，滤镜未套用。请检查处理提示。	fuji_profiles_ui.py:82
+1868	基底渲染失败，滤镜未套用。	fuji_profiles_ui.py:85
+1869	富士 RAW 风格需要受支持机型的 RAW 照片。	fuji_profiles_ui.py:151
+1870	富士LUT未导入	fuji_profiles_ui.py:40
+1871	此机型尚未安装Adobe Standard Linear DCP，请先导入对应机型的基础配置。	fuji_profiles_ui.py:49
+1872	独立照片版暂不提供富士风格。普通调色与开源精选仍可使用。	fuji_profiles_ui.py:14
+1873	无法准备富士RAW	fuji_profiles_ui.py:52
+1874	 保留当前曝光，不额外添加固定亮度补偿。	fuji_profiles_ui.py:31
+1875	GPU 渲染运行库不可用，使用 CPU。	gpu_backend.py:38
+1876	未发现可用 CUDA 图形处理器。	gpu_backend.py:53
+1877	GPU 图像运算尚未实现：cv2.	gpu_backend.py:195
+1878	GPU 色彩转换尚未实现：	gpu_backend.py:229
+1879	GPU 重采样插值尚未实现：	gpu_backend.py:256
+1880	图片渲染	gpu_render.py:435
+1881	显式 CPU 渲染设置	gpu_render.py:435
+1882	GPU 运算回退：	gpu_render.py:458
+1883	GPU 渲染回退：	gpu_render.py:446
+1884	渲染业务源码正在更新，请重新启动 worker 后再验证：	gpu_render.py:299
+1885	缓存预览必须提供已定位轨迹。	gpu_video.py:41
+1886	可见身体轮廓不足	gpu_video.py:103
+1887	ICC文件过大。	icc_runtime.py:33
+1888	ICC配置格式无效。	icc_runtime.py:35
+1889	ICC输入像素无效。	icc_runtime.py:40
+1890	缺少浮点ICC运行库，请使用完整AURA运行包。	icc_runtime.py:19
+1891	ICC配置无法读取。	icc_runtime.py:46
+1892	ICC配置不支持所选转换；请选择RGB或可用的输出配置。	icc_runtime.py:49
+1893	ICC转换返回无效像素。	icc_runtime.py:54
+1894	所选镜头配置不存在。	lens_profiles.py:56
+1895	缺少Lensfun运行库。	lens_profiles.py:39
+1896	Lensfun没有找到所选镜头配置。	lens_profiles.py:59
+1897	镜头校正初始化失败。	lens_profiles.py:62
+1898	镜头配置数据库无法读取。	lens_profiles.py:51
+1899	镜头校正返回无效坐标。	lens_profiles.py:70
+1900	文件名	library_catalog.py:34
+1901	评分应为0–5	library_catalog.py:25
+1902	标记无效	library_catalog.py:26
+1903	颜色标签无效	library_catalog.py:27
+1904	未标记	library_catalog.py:22
+1905	保留	library_catalog.py:26
+1906	待剔除	library_catalog.py:26
+1907	评分	library_catalog.py:36
+1908	最低评分	library_ui.py:20
+1909	标记	library_ui.py:20
+1910	排序	library_ui.py:20
+1911	照片对照	library_ui.py:79
+1912	请选择两张照片（Ctrl＋点击多选）。	library_ui.py:55
+1913	标记未保存	library_ui.py:52
+1914	对照所选两张	library_ui.py:60
+1915	Ctrl＋点击多选；双击进入编辑。0–5评分，P保留，X待剔除，U取消标记。待剔除只作标记，原图保留。	library_ui.py:65
+1916	100%或滚轮采用同一缩放；适合时各自完整显示。拖动同步平移。	library_ui.py:91
+1917	未评分	library_ui.py:36
+1918	Lightroom参数适配；保留照片曝光、拍摄白平衡与修图。	lightroom_presets.py:39
+1919	 Adobe配置未迁移，观感会有差异。	lightroom_presets.py:40
+1920	此预设没有可迁移的有效风格；可能只包含曝光、降噪或Adobe专用配置。	lightroom_presets.py:30
+1921	用户导入的Lightroom XMP	lightroom_presets.py:42
+1922	用户提供	lightroom_presets.py:42
+1923	液化坐标与照片尺寸不一致。	liquify.py:32
+1924	液化网格尺寸无效。	liquify.py:35
+1925	液化网格数据无效。	liquify.py:36
+1926	液化位移或保护范围无效。	liquify.py:37
+1927	液化网格发生折叠，已拒绝载入。	liquify.py:39
+1928	未知液化工具。	liquify.py:66
+1929	液化项目数据过大或无效。	liquify.py:173
+1930	液化项目坐标无效。	liquify.py:176
+1931	眼角	liquify_guides.py:76
+1932	上眼睑	liquify_guides.py:76
+1933	下眼睑	liquify_guides.py:76
+1934	眉尾	liquify_guides.py:78
+1935	眉头	liquify_guides.py:78
+1936	眉弓	liquify_guides.py:78
+1937	鼻根	liquify_guides.py:78
+1938	鼻梁	liquify_guides.py:78
+1939	鼻尖	liquify_guides.py:78
+1940	鼻翼	liquify_guides.py:78
+1941	唇角	liquify_guides.py:78
+1942	上唇	liquify_guides.py:79
+1943	下唇	liquify_guides.py:79
+1944	下颌	liquify_guides.py:79
+1945	面颊外缘	liquify_guides.py:80
+1946	额头轮廓	liquify_guides.py:80
+1947	身体外缘	liquify_guides.py:99
+1948	悬停部位显示轮廓和全部节点；移开隐藏。拖动节点微调，身体轮廓包含衣物边缘。	liquify_guides_ui.py:58
+1949	节点调整前	liquify_guides_ui.py:88
+1950	蓝：五官 · 绿：人物外缘（含衣服）	liquify_guides_ui.py:11
+1951	节点调整时固定其他节点	liquify_guides_ui.py:14
+1952	请等待面部重塑完成后调整节点。	liquify_guides_ui.py:79
+1953	右侧可调整智能五官；需要拖动轮廓节点时请选择“节点”工具。	liquify_guides_ui.py:81
+1954	请先开启“显示画笔液化”，显示已保存的形变后再拖动节点。	liquify_guides_ui.py:83
+1955	该节点位于冻结保护中，请先解除保护。	liquify_guides_ui.py:87
+1956	已限制节点位移以保护冻结区域与相邻节点，可分步微调。	liquify_guides_ui.py:136
+1957	向前变形	liquify_ui.py:10
+1958	膨胀	liquify_ui.py:10
+1959	褶皱 / 收缩	liquify_ui.py:10
+1960	重建	liquify_ui.py:10
+1961	冻结	liquify_ui.py:10
+1962	解冻	liquify_ui.py:10
+1963	旋转	liquify_ui.py:10
+1964	平滑	liquify_ui.py:10
+1965	身体 / 节点	liquify_ui.py:10
+1966	左推	liquify_ui.py:10
+1967	脸部智能	liquify_ui.py:10
+1968	手动液化	liquify_ui.py:19
+1969	笔刷强度	liquify_ui.py:30
+1970	累积速度（按住）	liquify_ui.py:33
+1971	恢复画笔形变	liquify_ui.py:37
+1972	清除冻结保护	liquify_ui.py:38
+1973	液化前	liquify_ui.py:75
+1974	显示画笔液化 · 智能参数独立生效	liquify_ui.py:20
+1975	笔刷密度 / 边缘	liquify_ui.py:32
+1976	启用液化	liquify_ui.py:59
+1977	暂时关闭液化	liquify_ui.py:59
+1978	请等待面部重塑完成，再进行手动液化。	liquify_ui.py:72
+1979	向前	liquify_ui.py:26
+1980	褶皱	liquify_ui.py:26
+1981	节点	liquify_ui.py:26
+1982	脸部	liquify_ui.py:26
+1983	液化 · 	liquify_ui.py:104
+1984	显示冻结保护	liquify_ui.py:35
+1985	向前变形拖动推拉。左推：上拖向左、下拖向右，Alt 反向。膨胀、褶皱、旋转、重建可按住累积；旋转 Alt 反向。\n重建还原画笔形变；平滑整理形变，不磨皮。密度控制边缘软硬，速度控制按住的累积。\nCtrl＋滚轮调大小 · 空格平移	liquify_ui.py:43
+1986	液化作用于整张照片，保存到本图项目；美颜配置不携带液化。若继续编辑原图选区或取样，请暂时关闭液化。	liquify_ui.py:44
+1987	实况处理已取消，原件未修改。	live_beauty.py:53
+1988	暂不支持非直角视频显示变换。	live_beauty.py:59
+1989	测试版暂不支持奇数尺寸视频。	live_beauty.py:249
+1990	实况测试版最多处理15秒；普通视频请使用视频开发测试入口。	live_beauty.py:250
+1991	请使用新的输出文件夹，测试版不覆盖已有内容。	live_beauty.py:298
+1992	Apple输出为同名JPG与MOV；安卓输入JPEG/HEIC，统一输出标准JPEG MotionPhoto。\n所有视频轨道都处理并核对PTS；原音频和辅助定时数据保持。\n支持单人美肤、肤色、轻度塑形、身体美型与基础调色。无脸帧不施加面部效果，身体姿态不可靠时跳过对应美型。\n瘦腿/拉腿需要可靠完整腿部，拉腿还需要完整脚部和取景余量；背景仍可能弯曲。真实人体运动及手机相册回传仍需验证。\n输出SDR，原件未修改。\n	live_beauty.py:350
+1993	AURA 实况照片美颜测试版	live_beauty.py:357
+1994	时序强度需在0–0.6之间。	live_beauty.py:37
+1995	实况瘦脸范围为0–50。	live_beauty.py:38
+1996	背景线保护开关无效。	live_beauty.py:42
+1997	实况曝光范围为-2–2。	live_beauty.py:45
+1998	实况参数不能包含无效数字。	live_beauty.py:46
+1999	视频基础滤波缓存	live_beauty.py:93
+2000	视频轨道不可读取。	live_beauty.py:234
+2001	测试版尚未接入HDR色彩管理，请使用SDR实况原件。	live_beauty.py:236
+2002	视频中没有可解码的帧。	live_beauty.py:286
+2003	编码改变了视频帧数或时间戳，禁止导出实况。	live_beauty.py:288
+2004	工作目录校验失败。	live_beauty.py:303
+2005	检查原件	live_beauty.py:315
+2006	封面关联信息未保留。	live_beauty.py:338
+2007	完成	live_beauty.py:352
+2008	美颜参数需在0–100之间。	live_beauty.py:36
+2009	视频帧重采样	live_beauty.py:75
+2010	照片与MOV关联标识不一致或缺失；不能仅按文件名配对。	live_beauty.py:311
+2011	MOV缺少实况封面定时轨道，不能作为有效配对实况导出。	live_beauty.py:313
+2012	封装后的视频时间轴发生变化。	live_beauty.py:324
+2013	安卓实况封装校验失败。	live_beauty.py:342
+2014	肤色红润/冷暖	live_beauty.py:347
+2015	瘦脸/下颌/下巴	live_beauty.py:347
+2016	眼睛/鼻子/嘴巴	live_beauty.py:347
+2017	全局基础调色	live_beauty.py:347
+2018	自动瘦身/瘦腰/瘦腿/拉腿	live_beauty.py:347
+2019	单人；视频身体形变基于可见衣物/下半身轮廓，不推测被挡住的真实腿型；无可靠范围时不应用，背景仍可能弯曲	live_beauty.py:348
+2020	身体美肤、AI祛痘、祛纹、手动液化笔画尚未接入	live_beauty.py:348
+2021	短时插值仅在同镜头内使用；完全遮挡皮肤不涂到遮挡物上，手机相册导入仍需原机验证	live_beauty.py:348
+2022	输出SDR；安卓统一导出标准JPEG MotionPhoto，不保留厂商私有尾部协议	live_beauty.py:348
+2023	测试报告.json	live_beauty.py:349
+2024	使用说明.txt	live_beauty.py:350
+2025	实况身体美型范围为0–50：	live_beauty.py:41
+2026	实况参数范围为-50–50：	live_beauty.py:44
+2027	视频/实况像素渲染	live_beauty.py:136
+2028	视频帧缺少时间戳。	live_beauty.py:270
+2029	视频时间戳不递增。	live_beauty.py:272
+2030	测试版最多处理15秒实况短视频。	live_beauty.py:275
+2031	未在封面识别人脸，封面不施加面部美颜。	live_beauty.py:346
+2032	主视频未识别人脸，不施加面部美颜。	live_beauty.py:346
+2033	肩胯关键点不足	live_body.py:37
+2034	人物身体太小	live_body.py:40
+2035	姿态不适合当前直立美型	live_body.py:42
+2036	膝踝被遮挡或裁切，未瘦腿或拉腿	live_body.py:65
+2037	瘦身/瘦腰	live_body.py:56
+2038	躯干边缘不可靠，未瘦身/瘦腰	live_body.py:57
+2039	腿部弯曲/交叉，未瘦腿或拉腿	live_body.py:64
+2040	瘦腿	live_body.py:79
+2041	两腿边缘不能可靠分离，未瘦腿	live_body.py:80
+2042	脚部不完整，未拉腿	live_body.py:83
+2043	未找到可移动身体边缘	live_body.py:96
+2044	人体定位模型校验失败。	live_body.py:183
+2045	多人或未找到完整身体	live_body.py:220
+2046	人脸与身体归属不确定	live_body.py:223
+2047	形变过密，已跳过身体美型	live_body.py:239
+2048	脚下取景余量不足，未拉腿	live_body.py:90
+2049	人体范围缓冲区不兼容，已停止处理。	live_body.py:203
+2050	拉腿已受脚下余量限制	live_body.py:95
+2051	构图拖动前	live_crop.py:54
+2052	调整裁剪与角度	live_crop.py:107
+2053	拖边角裁剪 · 框内移动 · 框外旋转	live_crop.py:48
+2054	构图选框遮罩	live_crop.py:37
+2055	构图预览	live_crop.py:21
+2056	媒体样本不在数据块内，暂不支持此容器。	live_media.py:51
+2057	未找到完整实况视频；普通照片或未支持的厂商格式无法封装。	live_media.py:288
+2058	媒体偏移表不受支持。	live_media.py:75
+2059	媒体样本缺失。	live_media.py:88
+2060	测试版仅处理512 MB以内的实况短视频。	live_media.py:106
+2061	测试版暂不支持分片视频。	live_media.py:108
+2062	缺少唯一的MOV/MP4电影头。	live_media.py:110
+2063	当前支持一条主视频和最多一条辅助视频。	live_media.py:113
+2064	视频轨道索引无效。	live_media.py:114
+2065	不支持加密视频。	live_media.py:116
+2066	每条视频轨道都必须完成美颜，不能保留未处理的辅助视频。	live_media.py:149
+2067	音频或实况元数据校验失败。	live_media.py:191
+2068	安卓测试版暂时只接受JPEG实况容器。	live_media.py:230
+2069	缺少实况原件读取工具 ExifTool。	live_media.py:245
+2070	实况文件过大。	live_media.py:262
+2071	媒体容器尾部不完整。	live_media.py:20
+2072	媒体容器尺寸无效。	live_media.py:26
+2073	媒体结构不受支持：	live_media.py:36
+2074	编码时间基不一致，禁止封装。	live_media.py:152
+2075	测试版尚不支持HDR封面。	live_media.py:206
+2076	此HEIC封面缺少可用的SDR ICC配置；测试版暂不支持该色彩配置。	live_media.py:208
+2077	JPEG标记损坏。	live_media.py:237
+2078	元数据工作目录异常。	live_media.py:249
+2079	文件名包含不支持的换行符。	live_media.py:251
+2080	XMP格式不受支持。	live_media.py:266
+2081	媒体容器长尺寸不完整。	live_media.py:23
+2082	媒体偏移表损坏。	live_media.py:60
+2083	媒体样本数量不一致。	live_media.py:83
+2084	媒体样本越界。	live_media.py:85
+2085	实况元数据读取失败：	live_media.py:257
+2086	元数据索引损坏。	live_media.py:132
+2087	清晰度	local_develop.py:7
+2088	锐化	local_develop.py:7
+2089	阴影明度	local_develop.py:8
+2090	高光明度	local_develop.py:8
+2091	局部调色版本无效。	local_develop.py:22
+2092	范围蒙版类型无效。	local_develop.py:46
+2093	范围蒙版组合无效。	local_develop.py:53
+2094	蒙版组件无效。	local_develop.py:55
+2095	AI 柔边蒙版尺寸或精度无效。	local_develop.py:30
+2096	AI 柔边蒙版需使用专业调色。	local_develop.py:31
+2097	蒙版滤镜联动无效。	local_develop.py:34
+2098	AI 分区来源记录无效。	local_develop.py:37
+2099	渐变蒙版无效。	local_develop.py:40
+2100	渐变范围过小。	local_develop.py:44
+2101	亮度范围无效。	local_develop.py:49
+2102	蒙版组件运算无效。	local_develop.py:57
+2103	蒙版组件反转无效。	local_develop.py:58
+2104	完整局部配方需使用专业调色。	local_develop.py:27
+2105	渐变位置无效。	local_develop.py:43
+2106	未知蒙版组件。	local_develop.py:70
+2107	软笔刷路径无效。	local_develop.py:66
+2108	软笔刷参数无效。	local_develop.py:69
+2109	线性 / 径向渐变与范围蒙版	local_develop_ui.py:50
+2110	拖动创建线性渐变	local_develop_ui.py:51
+2111	拖动创建径向渐变	local_develop_ui.py:52
+2112	反转当前渐变	local_develop_ui.py:53
+2113	在照片上取范围颜色	local_develop_ui.py:58
+2114	局部影调与细节	local_develop_ui.py:60
+2115	将旧蒙版转换为专业调色…	local_develop_ui.py:61
+2116	范围蒙版调整前	local_develop_ui.py:78
+2117	调整局部范围蒙版	local_develop_ui.py:81
+2118	转换局部调色前	local_develop_ui.py:87
+2119	转换为专业局部调色	local_develop_ui.py:87
+2120	渐变蒙版前	local_develop_ui.py:90
+2121	创建渐变蒙版	local_develop_ui.py:107
+2122	反转渐变前	local_develop_ui.py:112
+2123	反转渐变	local_develop_ui.py:112
+2124	颜色范围取样前	local_develop_ui.py:120
+2125	局部颜色范围取样	local_develop_ui.py:121
+2126	无范围限制	local_develop_ui.py:11
+2127	选中蒙版后可进一步按颜色或亮度限定范围。	local_develop_ui.py:13
+2128	亮度过渡	local_develop_ui.py:57
+2129	颜色色相范围	local_develop_ui.py:57
+2130	请先在照片上取范围颜色。	local_develop_ui.py:77
+2131	当前蒙版已使用专业调色。	local_develop_ui.py:85
+2132	转换局部调色	local_develop_ui.py:86
+2133	专业调色支持更多参数，但已有曝光、色彩和处理顺序可能改变。转换可撤销，是否继续？	local_develop_ui.py:86
+2134	蒙版数量已到上限。	local_develop_ui.py:102
+2135	当前蒙版没有渐变。	local_develop_ui.py:111
+2136	范围依据调色前图像；白色为保留，局部参数保持独立，可按住对比。	local_develop_ui.py:64
+2137	手动修饰笔刷设置无效。	manual_retouch.py:16
+2138	手动修饰取样或明暗范围无效。	manual_retouch.py:23
+2139	取样变换或修复模式无效。	manual_retouch.py:25
+2140	手动笔画过多，请先保存项目。	manual_retouch.py:59
+2141	修复融合产生无效数值，请降低笔刷大小。	manual_retouch.py:145
+2142	手动修饰需要浮点图像。	manual_retouch.py:152
+2143	手动修饰笔刷参数无效。	manual_retouch.py:21
+2144	手动修饰工具无效。	manual_retouch.py:35
+2145	手动笔画显示开关无效。	manual_retouch.py:36
+2146	手动修饰笔画无效。	manual_retouch.py:40
+2147	单笔路径过长，请分几笔绘制。	manual_retouch.py:57
+2148	手动修饰坐标无效。	manual_retouch.py:45
+2149	手动修饰位置超出照片。	manual_retouch.py:47
+2150	手动修饰取样坐标无效。	manual_retouch.py:51
+2151	取样点在照片以外，请重新取样。	manual_retouch.py:53
+2152	当前部位蒙版	mask_ui.py:26
+2153	AI 部位蒙版 · 可合并 / 分别生成	mask_ui.py:18
+2154	删除当前部位蒙版	mask_ui.py:38
+2155	切换部位蒙版开关	mask_ui.py:65
+2156	部位蒙版参数	mask_ui.py:68
+2157	生成蒙版前	mask_ui.py:75
+2158	删除部位蒙版	mask_ui.py:94
+2159	尚未生成部位蒙版	mask_ui.py:15
+2160	合并生成	mask_ui.py:23
+2161	分别生成	mask_ui.py:23
+2162	添加画笔	mask_ui.py:31
+2163	减去画笔	mask_ui.py:31
+2164	局部柔化	mask_ui.py:36
+2165	扩展 / 收缩像素	mask_ui.py:36
+2166	羽化像素	mask_ui.py:36
+2167	蒙版效果强度	mask_ui.py:36
+2168	未识别到可靠人脸，无法对应人物身体；请先确认人像识别。	mask_ui.py:73
+2169	AI 正在生成部位蒙版…	mask_ui.py:77
+2170	此为旧版局部蒙版；请先在“局部影调与细节”转换为专业调色，或新建蒙版。	mask_ui.py:60
+2171	合并生成部位蒙版	mask_ui.py:85
+2172	分别生成部位蒙版	mask_ui.py:85
+2173	所有部位均对应上方所选人像，含身体皮肤。重叠或归属不明确处可用画笔补选。蒙版独立于祛痘选区。	mask_ui.py:19
+2174	显示叠加	mask_ui.py:29
+2175	Ctrl＋滚轮调画笔；空格拖动平移；Esc 返回浏览。画笔只修改当前部位蒙版。	mask_ui.py:34
+2176	 / 该人像身体归属不可靠，未生成身体蒙版。	mask_ui.py:88
+2177	 / 未检出：	mask_ui.py:86
+2178	面部轮廓过小，无法可靠重塑。	mesh_landmarks.py:12
+2179	面部网格定位无效。	mesh_landmarks.py:18
+2180	手机修补缓存位置无效。	mobile_cached_patches.py:13
+2181	移动端 LUT	mobile_project_bridge.py:81
+2182	桌面与手机合计超过300笔，需分项目保存；原项目已保留。	mobile_project_bridge.py:144
+2183	补光模型清单版本不匹配。	moge_relight.py:18
+2184	未得到可用的补光几何，照片未应用补光。	moge_relight.py:43
+2185	补光深度返回无效数值。	moge_relight.py:52
+2186	缺少 MoGe-2 Small 补光组件，请使用完整安装包。	moge_relight.py:11
+2187	补光模型路径无效。	moge_relight.py:21
+2188	几何补光	moge_relight.py:72
+2189	MoGe-2 Small 文件校验失败：	moge_relight.py:25
+2190	MoGe-2 Small 正在分析深度与表面方向…	moge_relight.py:61
+2191	CUDA · MoGe-2 Small FP16 / 合成FP32	moge_relight.py:72
+2192	正在检查补光几何一致性…	moge_relight.py:66
+2193	GPU补光分析失败，已自动改用CPU：	moge_relight.py:79
+2194	需要两条可靠的垂直参考线。	optics_analysis.py:10
+2195	完整透视需要两条垂直线和两条水平线。	optics_analysis.py:11
+2196	参考线退化，请重新选择。	optics_analysis.py:15
+2197	水平与垂直参考线夹角过小。	optics_analysis.py:25
+2198	透视校正过强，请使用较温和的参考线。	optics_analysis.py:29
+2199	未检测到可靠建筑或水平线，请使用引导线。	optics_analysis.py:36
+2200	参考线过近消失点，无法可靠校正。	optics_analysis.py:19
+2201	未检测到可靠水平线。	optics_analysis.py:46
+2202	迁移修复列表无效。	patch_repair.py:7
+2203	附近没有足够的取样区域；请缩小修复圆框。	patch_repair.py:43
+2204	迁移修复模式无效。	patch_repair.py:9
+2205	迁移显示开关无效。	patch_repair.py:10
+2206	迁移修复参数无效。	patch_repair.py:13
+2207	迁移修复坐标无效。	patch_repair.py:16
+2208	迁移修复位置超出照片。	patch_repair.py:17
+2209	确认跨照片人物	person_mapping_ui.py:26
+2210	未检测到可靠人物，本图不能同步单人人像参数。	person_mapping_ui.py:42
+2211	选择后点击确认，不会按位置自动匹配。	person_mapping_ui.py:42
+2212	请先选择目标人物；没有可靠人物的图可关闭窗口并取消勾选。	person_mapping_ui.py:45
+2213	请选择目标人物	person_mapping_ui.py:37
+2214	确认并继续	person_mapping_ui.py:51
+2215	人物身体归属	person_masks.py:37
+2216	人物轮廓模型校验失败。	person_masks.py:17
+2217	人物轮廓缓冲区不兼容，已安全停止生成。	person_masks.py:33
+2218	已取消人体识别。	photo_body.py:14
+2219	当前照片模式仅支持唯一、可靠的人体；多人或未检出时不应用。	photo_body.py:17
+2220	人脸与身体归属不能确认，未应用身体美型。	photo_body.py:19
+2221	身体美型待识别。	photo_body.py:26
+2222	当前参数会过度挤压网格，身体美型未应用。	photo_body.py:34
+2223	已应用：	photo_body.py:36
+2224	；已降低强度保护背景和边缘	photo_body.py:38
+2225	重新识别人体	photo_body_ui.py:16
+2226	身体美型参数	photo_body_ui.py:23
+2227	照片模式：首次调整识别人体，后续复用缓存。	photo_body_ui.py:10
+2228	AI 正在识别人体关键点和衣物轮廓…	photo_body_ui.py:25
+2229	照片人体识别	photo_body_ui.py:30
+2230	单人照片 · 人物与衣物共同调整；脚部不完整时跳过瘦腿/拉腿。	photo_body_ui.py:13
+2231	自动保护头脸和背景线条，强度过大时会减弱。附近背景仍可能弯曲；不使用AI补画。	photo_body_ui.py:18
+2232	RAW 显影参数无效。	photo_document.py:41
+2233	机内效果开关无效。	photo_document.py:43
+2234	机内风格参数无效。	photo_document.py:45
+2235	RAW 显影引擎无效。	photo_document.py:48
+2236	RAW亮度基准版本无效。	photo_document.py:50
+2237	RAW裁切版本无效。	photo_document.py:52
+2238	专业RAW白平衡或算法版本无效。	photo_document.py:54
+2239	请选择 TIFF、PNG 或 JPEG 导出格式。	photo_document.py:231
+2240	成片像素无效，请重新渲染后导出。	photo_document.py:233
+2241	正在读取专业浮点RAW…	photo_document.py:92
+2242	无法解码此 RAW：机型/压缩格式不受当前 LibRaw 支持，或文件不完整。请尝试相机软件或转换为 TIFF。	photo_document.py:171
+2243	HDR浮点数据请导出TIFF。	photo_document.py:239
+2244	输出色彩转换	photo_document.py:253
+2245	16 位输出量化	photo_document.py:265
+2246	8 位输出量化	photo_document.py:274
+2247	正在读取机内已渲染图像…	photo_document.py:92
+2248	正在准备 RAW 显影，保留 16 位精度…	photo_document.py:92
+2249	此版本最多支持1.1亿像素，请先裁切或另存较小副本。	photo_document.py:99
+2250	风格配置未启用，使用基础相机色彩。	photo_document.py:138
+2251	不支持多页 TIFF。	photo_document.py:174
+2252	HDR 输出转换	photo_document.py:244
+2253	照片超过1.1亿像素。	photo_document.py:180
+2254	支持8/16位 RGB TIFF，不支持浮点、灰度或透明 TIFF。	photo_document.py:204
+2255	RawTherapee · 16位 RAW；	photo_document.py:142
+2256	用户选择兼容显影 · LibRaw；未应用 DCP，相机风格和色彩可能不同。	photo_document.py:155
+2257	旧项目兼容显影 · LibRaw；保留历史基础 RAW 外观。	photo_document.py:155
+2258	RawTherapee · 机型匹配 DCP → 16位 RAW；不复刻专有机内美颜。	photo_document.py:125
+2259	未匹配到拍摄风格 DCP，使用基础相机色彩。	photo_document.py:131
+2260	。请重新导入 DCP 或选择按拍摄风格匹配。	photo_document.py:129
+2261	无可用机内预览，已回退16位 RAW。原因：	photo_document.py:135
+2262	相机配置读取失败，使用基础相机色彩。	photo_document.py:116
+2263	未找到所选机型配置：	photo_document.py:129
+2264	静态照片版	photo_edition_ui.py:5
+2265	此版本暂不提供 HEIC 和实况照片处理，请导出 JPEG / PNG / TIFF 后导入。	photo_edition_ui.py:5
+2266	此版本暂不提供视频处理。	photo_edition_ui.py:8
+2267	原图已改变，请重新导入后再预检；原编辑记录保留。	photo_library.py:90
+2268	原图已在其他软件中改变。请先保存原编辑项目，再移出视图区重新导入。	photo_library.py:98
+2269	皮肤与五官分区	photo_segmentation.py:71
+2270	MediaPipe 多类分割 + 网格区域；细边界可手动修正	photo_segmentation.py:71
+2271	分割输入必须是 RGB 照片。	photo_segmentation.py:20
+2272	分割模型类别数不匹配。	photo_segmentation.py:38
+2273	分割模型返回无效数值。	photo_segmentation.py:40
+2274	面部区域为空。	photo_segmentation.py:45
+2275	面部网格无效。	photo_segmentation.py:55
+2276	分割模型校验失败。	photo_segmentation.py:29
+2277	分割结果缓冲区不连续。	photo_segmentation.py:36
+2278	曲线通道无效	point_curves.py:6
+2279	曲线控制点无效	point_curves.py:9
+2280	启动失败，详细原因见程序目录 startup-error.log。	portable_bootstrap.py:35
+2281	LUT尺寸无效。	portable_lut.py:9
+2282	压缩LUT过大。	portable_lut.py:11
+2283	LUT校验格式无效。	portable_lut.py:12
+2284	压缩LUT尺寸不符。	portable_lut.py:17
+2285	LUT内容校验失败。	portable_lut.py:18
+2286	LUT输出范围无效。	portable_lut.py:20
+2287	LUT编码不支持。	portable_lut.py:26
+2288	压缩LUT无效。	portable_lut.py:16
+2289	LUT混合	portable_lut.py:52
+2290	GPU 运算回退	portable_self_test.py:110
+2291	已取消DAMO祛纹范围准备。	portrait_effects.py:168
+2292	选区过大，请分批修复；每批最多96个重叠图块。	portrait_patch_blend.py:28
+2293	修复图块没有完整覆盖选区，未应用结果。	portrait_patch_blend.py:46
+2294	AI 修复返回无效像素。	portrait_patch_blend.py:40
+2295	人体范围缓冲区不兼容。	preview_analysis.py:29
+2296	预览准备已取消。	preview_analysis.py:50
+2297	准备当前片段轨迹	preview_analysis.py:54
+2298	人工检查肤色、纹理、形变和整组风格；这些项目无法由当前数值检查判定合格。	production_checks.py:34
+2299	成片含无效像素或尺寸异常，请重新渲染。	production_checks.py:9
+2300	当前使用机内 8 位预览，16 位导出不能恢复 RAW 精度。	production_checks.py:16
+2301	皮肤引擎：	production_checks.py:29
+2302	当前渲染失败，不能使用旧预览交付。	production_checks.py:39
+2303	新补选区域尚未完成 AI 修复。	production_checks.py:40
+2304	形变仍待处理，请先完成生成。	production_checks.py:41
+2305	旧项目兼容模式；沿用原有皮肤处理。	production_checks.py:29
+2306	当前使用基础／线性 RAW 显影，拍摄风格未由机型配置复现。	production_checks.py:19
+2307	当前机型、ISO 和配置组合尚无 Adobe 亮度对照验证；请检查底图。	production_checks.py:23
+2308	基础 RAW 自定义色温为近似值，请检查灰色与肤色。	production_checks.py:24
+2309	输入没有嵌入 ICC，按 sRGB 解释；请核对来源色彩空间。	production_checks.py:26
+2310	多尺度与细节保护；深色点保护	production_checks.py:29
+2311	：请放大检查发丝、手指、帽檐及背景亮斑。	production_checks.py:33
+2312	已使用机型匹配配置：	production_checks.py:20
+2313	输入 ICC 已转换：	production_checks.py:27
+2314	开启。	production_checks.py:29
+2315	关闭，可手动取消误选。	production_checks.py:29
+2316	导入底图	production_review_ui.py:50
+2317	当前成片	production_review_ui.py:50
+2318	请等待当前渲染完成，再检查成片。	production_review_ui.py:13
+2319	状态	production_review_ui.py:32
+2320	检查结果	production_review_ui.py:32
+2321	完整画幅	production_review_ui.py:38
+2322	检查区域	production_review_ui.py:39
+2323	比例	production_review_ui.py:39
+2324	人像 	production_review_ui.py:64
+2325	返回编辑	production_review_ui.py:27
+2326	100% 为一原图像素对应一屏幕像素；两侧滚动同步。数值提示不代表审美合格。	production_review_ui.py:28
+2327	标记纯白／纯黑	production_review_ui.py:41
+2328	 · 检查当前完整效果，调整请返回编辑	production_review_ui.py:21
+2329	已检查	production_review_ui.py:35
+2330	请核对	production_review_ui.py:35
+2331	项目已存在，请另存新文件名。	project_io.py:16
+2332	旧皮肤引擎不支持深色点保护开关。	project_io.py:26
+2333	手动修饰开关无效。	project_io.py:33
+2334	项目文件过大或格式异常。	project_io.py:75
+2335	项目版本或修复模型不兼容。	project_io.py:77
+2336	项目皮肤引擎版本无效。	project_io.py:82
+2337	项目尺寸无效。	project_io.py:84
+2338	手动修饰项目版本无效。	project_io.py:89
+2339	项目液化记录标记无效。	project_io.py:90
+2340	项目人像列表无效。	project_io.py:97
+2341	项目检测阈值无效。	project_io.py:105
+2342	部位蒙版数量无效。	project_io.py:130
+2343	项目参数无效。	project_io.py:95
+2344	项目人像范围无效。	project_io.py:100
+2345	项目画笔参数无效。	project_io.py:109
+2346	项目蒙版异常。	project_io.py:121
+2347	部位蒙版过大。	project_io.py:139
+2348	液化笔刷参数无效。	project_io.py:160
+2349	液化密度或速度无效。	project_io.py:163
+2350	液化辅助线设置无效。	project_io.py:166
+2351	液化项目过大。	project_io.py:169
+2352	项目独立人像参数无效。	project_io.py:104
+2353	项目蒙版尺寸不一致。	project_io.py:127
+2354	部位蒙版数据无效。	project_io.py:142
+2355	AI 柔边蒙版形状无效。	project_io.py:137
+2356	部位蒙版尺寸不一致。	project_io.py:147
+2357	AI 柔边蒙版数据无效。	project_io.py:151
+2358	来源尺寸不同，无法生成保持局部编辑的对比。	raw_compare_context.py:13
+2359	来源切换后人物数量不同，无法可靠生成调色对比。	raw_compare_context.py:16
+2360	正在解码宽色域浮点RAW…	raw_develop.py:6
+2361	线性宽色域RAW · 保留浮点高光余量；相机风格可用兼容显影模式。	raw_develop.py:18
+2362	基础相机色彩（不使用 DCP）	raw_recovery.py:10
+2363	新显影的尺寸与原编辑不一致，无法可靠保留蒙版和局部修复；已保留原编辑。	raw_recovery.py:28
+2364	机内预览与 RAW 显影可能有不同的镜头校正，无法可靠保留局部编辑；已保留原编辑。	raw_recovery.py:32
+2365	当前富士 RAW 滤镜依赖线性 DCP 基底，所选显影不能保留该效果；已保留原编辑。请重试原配置，或先恢复套用前再切换。	raw_recovery.py:36
+2366	新显影的人物数量改变，无法可靠保留逐人编辑；已保留原编辑。	raw_recovery.py:39
+2367	RAW 显影未完成	raw_recovery.py:55
+2368	确认更换 RAW 显影方式	raw_recovery.py:108
+2369	切换相机配置可能改变颜色、亮度和对比度。是否使用所选配置重新显影？	raw_recovery.py:111
+2370	兼容引擎使用 LibRaw 基础显影，不应用 DCP 相机风格。颜色、亮度和白平衡可能与当前结果不同。是否继续？	raw_recovery.py:115
+2371	未知 RAW 恢复操作。	raw_recovery.py:21
+2372	新显影的人脸位置改变，无法可靠保留逐人编辑；已保留原编辑。	raw_recovery.py:47
+2373	新显影的人物顺序改变，无法可靠保留逐人局部编辑；已保留原编辑。	raw_recovery.py:48
+2374	当前图像与编辑已保留。选择一种方式继续，成功后才替换当前结果。	raw_recovery.py:59
+2375	重试	raw_recovery.py:66
+2376	选择其他配置	raw_recovery.py:67
+2377	正在读取此照片对应机型的配置…	raw_recovery.py:72
+2378	使用兼容引擎打开	raw_recovery.py:75
+2379	取消 · 保留当前编辑	raw_recovery.py:76
+2380	\n\n曝光、调色、美颜与局部编辑会尝试保留；只有显影及编辑恢复成功后才替换当前结果。若无法可靠对齐，将保留原编辑。	raw_recovery.py:108
+2381	已取消 RAW 显影，保留当前编辑。	raw_recovery.py:149
+2382	请选择配置。	raw_recovery.py:18
+2383	配置列表读取失败；仍可尝试基础相机色彩。	raw_recovery.py:105
+2384	相机配置	raw_recovery.py:70
+2385	使用所选配置	raw_recovery.py:74
+2386	已取消未完成的滤镜套用，正在尝试其他显影方式。	raw_recovery.py:142
+2387	复用已准备的 RAW 来源与色彩；正在准备当前编辑…	raw_source_cache.py:36
+2388	此 RAW 缺少有效日光白平衡增益，不能可靠应用自定义色温。请使用拍摄白平衡或机型配置。	raw_white_balance.py:16
+2389	自动恢复文件名无效。	recovery_store.py:59
+2390	恢复备份目录不在用户数据目录内。	recovery_store.py:97
+2391	恢复备份路径无效。	recovery_store.py:100
+2392	动漫晴空	reference_filter_recipes.py:17
+2393	壮壮Sight · 日系动漫感调色思路	reference_filter_recipes.py:17
+2394	清青蓝色、鲜活草地与自然肤色；中间调提亮、高光柔和收束。适合晴天户外，人物与天空的亮度仍需按照片分区调整。	reference_filter_recipes.py:18
+2395	粉蓝通透	reference_filter_recipes.py:22
+2396	LeoX香吉士 · 摩天轮通透感	reference_filter_recipes.py:22
+2397	浅青天空、柔和白色与轻暖中间调；适合旅行、建筑和高光比场景。	reference_filter_recipes.py:23
+2398	晴日胶片绿	reference_filter_recipes.py:27
+2399	蛋黄 · 日系胶片感	reference_filter_recipes.py:27
+2400	低饱和深青绿、橘暖肤色与奶蓝天空；保留扎实黑位和细颗粒。	reference_filter_recipes.py:28
+2401	阳光负片	reference_filter_recipes.py:32
+2402	白榆川Ycc · 数码仿胶片	reference_filter_recipes.py:32
+2403	偏青环境、自然亮肤与有厚度的暗部；适合有阳光的街头人像。	reference_filter_recipes.py:33
+2404	顶光柔色	reference_filter_recipes.py:37
+2405	星川明 · 顶光日系清新	reference_filter_recipes.py:37
+2406	提亮暗部肤色、清青蓝色与轻暖高光。这里只套用调色，原帖的美颜和AI追色需另做。	reference_filter_recipes.py:38
+2407	薄荷小清新	reference_filter_recipes.py:42
+2408	雨雨修图分享 · 日系小清新	reference_filter_recipes.py:42
+2409	明亮肤色、青绿植被与完整黑位；适合树荫、逆光和自然环境人像。	reference_filter_recipes.py:43
+2410	AURA原创配方（帖子风格参考）	reference_filter_recipes.py:52
+2411	小红书参考 · 	reference_filter_recipes.py:51
+2412	全图取样；构图和物体颜色占比会影响匹配。	reference_regions.py:47
+2413	未知参考图区域。	reference_regions.py:28
+2414	该区域未可靠识别或太小，请换人物、范围或取样框。	reference_regions.py:52
+2415	参考图取样框无效。	reference_regions.py:40
+2416	正在识别参考图的皮肤、头发和五官…	reference_regions.py:19
+2417	追色人物已不可用，请重新确认对应人物。	reference_regions.py:34
+2418	确认追色区域	reference_review_ui.py:13
+2419	区域暂不可用	reference_review_ui.py:11
+2420	其中一张照片未识别到人像，无法可靠区分人物部位与背景。请选择“全图”并用取样框限定范围。	reference_review_ui.py:11
+2421	参考图	reference_review_ui.py:24
+2422	当前照片	reference_review_ui.py:24
+2423	输入范围	reference_review_ui.py:50
+2424	左、上、右、下百分比，用空格分隔，例如 20 20 80 80	reference_review_ui.py:50
+2425	范围已更新。	reference_review_ui.py:56
+2426	确认追色区域前	reference_review_ui.py:94
+2427	确认参考图与目标区域	reference_review_ui.py:99
+2428	 · 区域已确认	reference_review_ui.py:99
+2429	分别拖框限制参考取样和目标应用范围；绿色为选中范围。关闭窗口保留已有参考。	reference_review_ui.py:18
+2430	人像 1	reference_review_ui.py:28
+2431	请输入四个 0–100 的数，右大于左，下大于上。	reference_review_ui.py:55
+2432	确认区域	reference_review_ui.py:102
+2433	清除取样框	reference_review_ui.py:38
+2434	输入范围…	reference_review_ui.py:39
+2435	面部皮肤（含鼻部）	region_masks.py:6
+2436	身体皮肤（含耳朵）	region_masks.py:6
+2437	眉毛	region_masks.py:7
+2438	眼睛巩膜	region_masks.py:7
+2439	虹膜和瞳孔	region_masks.py:7
+2440	嘴唇	region_masks.py:7
+2441	牙齿	region_masks.py:7
+2442	衣服	region_masks.py:7
+2443	身体部位分割	region_masks.py:276
+2444	身体分割模型校验失败。	region_masks.py:263
+2445	蒙版标识无效。	region_masks.py:309
+2446	蒙版名称无效。	region_masks.py:310
+2447	部位蒙版尺寸无效。	region_masks.py:311
+2448	蒙版开关无效。	region_masks.py:315
+2449	部位分割缓冲区不兼容，已安全停止。	region_masks.py:273
+2450	AI 柔边蒙版比例与照片不一致。	region_masks.py:314
+2451	细节蒙版人物或类型无效。	region_masks.py:318
+2452	部位蒙版参数无效。	region_masks.py:321
+2453	补光输出包含无效数值。	relight_engine.py:169
+2454	几何补光已更新 · 复用深度与法线缓存	relight_engine.py:170
+2455	正在细化面部受光方向…	relight_engine.py:86
+2456	正在更新 	relight_engine.py:156
+2457	柔面光	relight_settings.py:5
+2458	点光	relight_settings.py:5
+2459	方向光	relight_settings.py:5
+2460	后轮廓光	relight_settings.py:5
+2461	面部与身体皮肤	relight_settings.py:7
+2462	人物轮廓与衣物	relight_settings.py:7
+2463	主光	relight_settings.py:21
+2464	补光	relight_settings.py:21
+2465	补光光源记录无效。	relight_settings.py:44
+2466	光源名称无效。	relight_settings.py:47
+2467	光源类型或范围无效。	relight_settings.py:48
+2468	后轮廓光必须放在人物背后，深度应小于0。	relight_settings.py:52
+2469	灯光颜色无效。	relight_settings.py:54
+2470	几何补光记录版本无效。	relight_settings.py:59
+2471	每个人物需有1–5盏光源。	relight_settings.py:61
+2472	所选光源编号无效。	relight_settings.py:63
+2473	轮廓光	relight_settings.py:21
+2474	光源参数无效：	relight_settings.py:51
+2475	选择人物光源	relight_ui.py:23
+2476	几何柔光 · 当前人物	relight_ui.py:18
+2477	1 · 主光	relight_ui.py:28
+2478	灯位与范围	relight_ui.py:42
+2479	在照片上放置此光源	relight_ui.py:44
+2480	结束放置 · 返回浏览	relight_ui.py:45
+2481	灯面大小	relight_ui.py:46
+2482	高光与五官受光	relight_ui.py:48
+2483	暗部、高光与几何保护	relight_ui.py:50
+2484	正在后台更新补光…首次开启会分析人物深度与表面方向。	relight_ui.py:109
+2485	人物几何补光参数	relight_ui.py:110
+2486	添加光源前	relight_ui.py:121
+2487	添加人物光源	relight_ui.py:122
+2488	删除光源前	relight_ui.py:128
+2489	删除人物光源	relight_ui.py:129
+2490	重置补光前	relight_ui.py:133
+2491	重置人物补光	relight_ui.py:134
+2492	灯光颜色	relight_ui.py:149
+2493	当前光源已放置，可调整前后深度。	relight_ui.py:158
+2494	开启后在后台分析深度与表面方向；调灯复用缓存。	relight_ui.py:13
+2495	启用几何补光	relight_ui.py:20
+2496	删除	relight_ui.py:27
+2497	开启此光源	relight_ui.py:29
+2498	光源类型	relight_ui.py:30
+2499	作用范围	relight_ui.py:31
+2500	柔和程度	relight_ui.py:36
+2501	灯光颜色 #FFFFFF	relight_ui.py:38
+2502	冷暖	relight_ui.py:41
+2503	绿／洋红	relight_ui.py:41
+2504	灯色饱和度	relight_ui.py:41
+2505	灯色混合	relight_ui.py:41
+2506	横向位置	relight_ui.py:43
+2507	纵向位置	relight_ui.py:43
+2508	前后深度	relight_ui.py:43
+2509	新增高光	relight_ui.py:49
+2510	高光柔度	relight_ui.py:49
+2511	侧面填光	relight_ui.py:49
+2512	嘴唇受光	relight_ui.py:49
+2513	眉毛受光	relight_ui.py:49
+2514	轮廓光量	relight_ui.py:49
+2515	轮廓宽度	relight_ui.py:49
+2516	暗部优先	relight_ui.py:51
+2517	亮部／肤色保护	relight_ui.py:51
+2518	几何可靠性保护	relight_ui.py:51
+2519	使用可见深度遮挡	relight_ui.py:52
+2520	每个人物最多五盏光源。	relight_ui.py:120
+2521	至少保留一盏光源；可关闭其开关。	relight_ui.py:127
+2522	灯光调色前	relight_ui.py:146
+2523	2 · 补光	relight_ui.py:28
+2524	3 · 轮廓光	relight_ui.py:28
+2525	灯光颜色 	relight_ui.py:140
+2526	正深度在人物前方，负深度在背后；点选位置保持原图坐标。	relight_ui.py:47
+2527	保护只调整新增光量，不更换强度曲线。遮挡依据可见深度，不能恢复背面或消除原图阴影。	relight_ui.py:53
+2528	最多五盏灯。嘴唇和眉毛连续受光，眼球与鼻孔保持保护。柔化新增光照，原图已有阴影仍保留。	relight_ui.py:55
+2529	旧项目减光记录保留；几何补光添加光照，减光请用全局曝光。	relight_ui.py:76
+2530	旧项目保留原补光；开启或编辑几何补光时转换，可撤销。	relight_ui.py:76
+2531	自然	reshape_settings.py:18
+2532	柔和	reshape_settings.py:19
+2533	利落	reshape_settings.py:20
+2534	圆脸参考	reshape_settings.py:21
+2535	长脸参考	reshape_settings.py:22
+2536	方脸参考	reshape_settings.py:23
+2537	V形参考	reshape_settings.py:24
+2538	瘦脸 · 人物左侧	reshape_settings.py:2
+2539	瘦脸 · 人物右侧	reshape_settings.py:2
+2540	下颌宽度 · 人物左侧	reshape_settings.py:3
+2541	下颌宽度 · 人物右侧	reshape_settings.py:3
+2542	下巴宽度	reshape_settings.py:4
+2543	下巴长短	reshape_settings.py:4
+2544	眼睛大小 · 人物左侧	reshape_settings.py:5
+2545	眼睛大小 · 人物右侧	reshape_settings.py:5
+2546	眼睛宽度 · 人物左侧	reshape_settings.py:6
+2547	眼睛宽度 · 人物右侧	reshape_settings.py:6
+2548	眼睛高度 · 人物左侧	reshape_settings.py:7
+2549	眼睛高度 · 人物右侧	reshape_settings.py:7
+2550	眼睛倾斜 · 人物左侧	reshape_settings.py:8
+2551	眼睛倾斜 · 人物右侧	reshape_settings.py:8
+2552	眼距	reshape_settings.py:9
+2553	鼻子宽度	reshape_settings.py:9
+2554	鼻子长短	reshape_settings.py:9
+2555	嘴巴宽度	reshape_settings.py:10
+2556	嘴巴位置 / 高低	reshape_settings.py:10
+2557	上唇厚度	reshape_settings.py:11
+2558	下唇厚度	reshape_settings.py:11
+2559	嘴角 / 微笑	reshape_settings.py:11
+2560	脸部宽度	reshape_settings.py:12
+2561	面部重塑	reshape_ui.py:69
+2562	重新校准轮廓	reshape_ui.py:95
+2563	脸型	reshape_ui.py:101
+2564	保持原有脸型	reshape_ui.py:117
+2565	轻收脸缘	reshape_ui.py:117
+2566	柔化下颌，轻缩脸长	reshape_ui.py:117
+2567	收窄下颌，轻拉长下巴	reshape_ui.py:117
+2568	收窄两侧，轻拉长下巴	reshape_ui.py:117
+2569	缩短脸长	reshape_ui.py:117
+2570	收窄下颌	reshape_ui.py:117
+2571	收窄下巴	reshape_ui.py:117
+2572	面部重塑参数	reshape_ui.py:127
+2573	面部重塑前	reshape_ui.py:132
+2574	无 · 保持原有脸型	reshape_ui.py:67
+2575	光影塑颜	reshape_ui.py:85
+2576	眼睛	reshape_ui.py:85
+2577	鼻子	reshape_ui.py:85
+2578	左右联动	reshape_ui.py:91
+2579	请先恢复画笔形变并清除冻结保护，再调整脸型。	reshape_ui.py:123
+2580	已有画笔形变或冻结保护，请先恢复画笔形变并清除保护，再调整脸型。	reshape_ui.py:131
+2581	参考脸型 · 	reshape_ui.py:136
+2582	请先恢复画笔形变并清除冻结保护，再重新校准。	reshape_ui.py:143
+2583	圆脸适用	reshape_ui.py:57
+2584	长脸适用	reshape_ui.py:57
+2585	方脸适用	reshape_ui.py:57
+2586	 · 仅调整局部明暗	reshape_ui.py:113
+2587	自定义参数	reshape_ui.py:118
+2588	参考脸型	reshape_ui.py:71
+2589	虚线是原始轮廓，箭头表示调整方向；示意差异已放大。下方标签快速定位已有控件。	reshape_ui.py:90
+2590	首次使用会定位并复核可见边缘；遮挡处保守处理。调整数值时复用定位，松开滑块或按 Enter 后应用。	reshape_ui.py:96
+2591	校准面部轮廓	reshape_ui.py:149
+2592	正在后台更新完整图像…可继续调整参数。	responsive_render_ui.py:43
+2593	正在更新调色 · 复用已完成的美颜和识别	responsive_render_ui.py:58
+2594	调色预览 · 松开后后台更新完整图像	responsive_render_ui.py:131
+2595	参数更新失败，保留上一结果；详情见 render-error.log	responsive_render_ui.py:72
+2596	最新参数未成功生成，请重新调整参数或恢复上一编辑状态，暂不能保存旧结果。	responsive_render_ui.py:87
+2597	补光更新未完成，请查看底部状态与错误记录。	responsive_render_ui.py:70
+2598	自然融合	retouch_ui.py:14
+2599	纹理保留	retouch_ui.py:14
+2600	减淡	retouch_ui.py:12
+2601	加深	retouch_ui.py:12
+2602	修复画笔	retouch_ui.py:12
+2603	仿制图章	retouch_ui.py:12
+2604	恢复画笔	retouch_ui.py:12
+2605	手动修饰 · 画笔	retouch_ui.py:39
+2606	减淡 / 加深强度	retouch_ui.py:47
+2607	取样 · 再点击照片（或 Alt＋点击）	retouch_ui.py:52
+2608	尚未取样，请 Alt＋点击干净皮肤。	retouch_ui.py:88
+2609	手动修饰前	retouch_ui.py:138
+2610	选择画笔，在照片上按住并拖动。	retouch_ui.py:24
+2611	半径 / 原图像素	retouch_ui.py:46
+2612	对齐取样 · 多笔保持来源偏移	retouch_ui.py:53
+2613	硬度	retouch_ui.py:60
+2614	间距 / 直径百分比	retouch_ui.py:60
+2615	取样缩放 / %	retouch_ui.py:63
+2616	取样旋转 / 度	retouch_ui.py:63
+2617	水平翻转	retouch_ui.py:67
+2618	垂直翻转	retouch_ui.py:67
+2619	重置取样变换	retouch_ui.py:70
+2620	显示手动修饰效果	retouch_ui.py:71
+2621	请在照片上点击取样位置。	retouch_ui.py:89
+2622	已退出取样，返回浏览；已有修改保留。	retouch_ui.py:98
+2623	显示手动修饰	retouch_ui.py:103
+2624	隐藏手动修饰	retouch_ui.py:103
+2625	已达到手动笔画上限，请保存当前项目并导出成片。	retouch_ui.py:125
+2626	手动修饰 · 	retouch_ui.py:176
+2627	减淡提亮，加深压暗；恢复画笔仅恢复手动修饰。	retouch_ui.py:89
+2628	取样 · 开（再点退出）	retouch_ui.py:90
+2629	先 Alt＋点击取样位置，再涂画需要修复的区域。	retouch_ui.py:128
+2630	对齐取样已超出照片，请重新 Alt＋点击取样。	retouch_ui.py:133
+2631	本笔已达到路径上限，请松开鼠标并另画一笔。	retouch_ui.py:158
+2632	明暗范围	retouch_ui.py:49
+2633	修复融合	retouch_ui.py:56
+2634	左键涂画 · 右键恢复 · 每笔可撤销\nCtrl＋滚轮调大小 · 空格平移\n笔画随项目保存	retouch_ui.py:77
+2635	向上	scroll_ui.py:47
+2636	向下	scroll_ui.py:48
+2637	可上下滑动	scroll_ui.py:66
+2638	↑ 上方还有内容 · ↓ 下方还有内容	scroll_ui.py:67
+2639	↓ 可下滑	scroll_ui.py:66
+2640	↓ 下方还有内容	scroll_ui.py:67
+2641	↑ 可上滑 · 已到底	scroll_ui.py:66
+2642	全部显示	scroll_ui.py:66
+2643	↑ 上方还有内容 · 已到底	scroll_ui.py:67
+2644	全部内容已显示	scroll_ui.py:67
+2645	冷白	skin_color.py:5
+2646	粉白	skin_color.py:5
+2647	清冷	skin_color.py:5
+2648	奶油	skin_color.py:5
+2649	自然暖	skin_color.py:6
+2650	蜜桃	skin_color.py:6
+2651	小麦	skin_color.py:6
+2652	深暖	skin_color.py:6
+2653	深色点保护候选；颜色与形状规则，不代表痣／雀斑分类。	skin_detail_protection.py:36
+2654	脸部智能 · 当前人物	smart_face_ui.py:10
+2655	脸部智能参数	smart_face_ui.py:49
+2656	智能五官恢复前	smart_face_ui.py:54
+2657	恢复智能五官参数	smart_face_ui.py:56
+2658	先选上方人物。参数按人物独立；默认 0。眼睛左右按人物自身区分。可输入数值，Enter 应用。\n先调整智能参数，再用画笔细修与冻结保护。	smart_face_ui.py:13
+2659	左右眼联动	smart_face_ui.py:16
+2660	重新识别 / 校准人物	smart_face_ui.py:28
+2661	请先恢复画笔形变并清除冻结保护，再调整智能参数。	smart_face_ui.py:42
+2662	已有画笔形变或冻结保护。请先恢复画笔形变并清除保护，再调整智能参数。	smart_face_ui.py:53
+2663	嘴唇与嘴角	smart_face_ui.py:19
+2664	脸型与下颌	smart_face_ui.py:20
+2665	将当前蒙版用于身体美颜	smart_mask_ui.py:19
+2666	皮肤	smart_mask_ui.py:24
+2667	智能补选前	smart_mask_ui.py:29
+2668	应用为当前人物身体美颜范围	smart_mask_ui.py:46
+2669	当前蒙版已用于此人物身体参数；请检查范围，避免包含衣服、脸部或其他人物。	smart_mask_ui.py:46
+2670	皮肤补全 · 当前人物	smart_mask_ui.py:11
+2671	点选范围 / 原图像素	smart_mask_ui.py:15
+2672	点选添加	smart_mask_ui.py:17
+2673	点选减去	smart_mask_ui.py:17
+2674	请等待形变完成再点选。	smart_mask_ui.py:22
+2675	请先关闭实验身体形变再点选。	smart_mask_ui.py:23
+2676	请先识别人物，或切换物体点选。	smart_mask_ui.py:25
+2677	物体点选	smart_mask_ui.py:14
+2678	智能点选补全	smart_mask_ui.py:41
+2679	智能点选减去	smart_mask_ui.py:41
+2680	先选部位蒙版，再点击遗漏区域；没有蒙版时自动新建。结合人物范围、颜色和边缘补选；复杂纹理可用添加/减去画笔修正。扩展、羽化与强度在部位蒙版面板。	smart_mask_ui.py:20
+2681	智能物体选区	smart_mask_ui.py:35
+2682	请点击照片内的目标区域。	smart_selection.py:6
+2683	该点在已确认的五官、头发或其他人物保护区内。	smart_selection.py:7
+2684	该处未可靠归属当前人物，可换用物体选区或手动添加画笔。	smart_selection.py:19
+2685	这次点选未得到稳定区域，请缩小范围或手动补选。	smart_selection.py:33
+2686	*/测试报告.json	video_preview_backend.py:90
+2687	当前视频预览支持MP4、MOV和M4V。	video_preview_backend.py:75
+2688	无法确认视频时长。	video_preview_backend.py:77
+2689	预览测试版支持10分钟、2GB以内视频。	video_preview_backend.py:78
+2690	当前位置没有可读取视频帧。	video_preview_backend.py:116
+2691	导出不覆盖已有文件，请使用新文件名。	video_preview_backend.py:191
+2692	原视频已在其他软件中改变，请重新打开以刷新缓存。	video_preview_backend.py:229
+2693	当前片段没有视频帧。	video_preview_backend.py:165
+2694	生成3秒循环画面	video_preview_backend.py:186
+2695	导出时间戳改变，结果未发布。	video_preview_backend.py:220
+2696	完整导出1080p	video_preview_backend.py:212
+2697	未知视频任务。	video_preview_backend.py:258
+2698	分析视频轨迹	video_tracks.py:92
+2699	该镜头缺少可靠身体定位，不能构造身体形变。	video_tracks.py:129
+2700	该镜头没有可确认的身体边缘，不能构造身体形变。	video_tracks.py:127
+2701	光影立体与分区丰盈 · 当前人像	volume_ui.py:6
+2702	眼袋与下颌光影	volume_ui.py:9
+2703	基于 AI 皮肤和关键点的局部明暗塑形，保留纹理。光影丰盈不改变面部几何，也不生成新皮肤；全部默认0。	volume_ui.py:7
+2704	这些参数只调整明暗，不移动五官、下颌或身体轮廓。几何收紧在“塑形”中。	volume_ui.py:11
+2705	全脸0–4档；额头、面中、面颊、鼻基底、眼窝、眉弓、下巴、嘴角可单调。两侧眼窝分开，额头/面中/鼻基底/下巴另有平整与提亮。	volume_ui.py:12
+2706	扩展编辑记录无效。	workflow_extensions.py:7
+2707	扩展蒙版数量无效。	workflow_extensions.py:18
+2708	修复缓存数量无效。	workflow_extensions.py:23
+2709	修复缓存过大，请分图处理。	workflow_extensions.py:30
+2710	扩展参数过大。	workflow_extensions.py:34
+2711	扩展蒙版索引无效。	workflow_extensions.py:107
+2712	修复缓存索引无效。	workflow_extensions.py:108
+2713	富士 RAW 来源记录无效。	workflow_extensions.py:11
+2714	扩展蒙版尺寸无效。	workflow_extensions.py:20
+2715	修复缓存名称无效。	workflow_extensions.py:26
+2716	修复缓存数据无效。	workflow_extensions.py:28
+2717	扩展参数无效。	workflow_extensions.py:33
+2718	创作人物记录无效。	workflow_extensions.py:52
+2719	未知效果记录。	workflow_extensions.py:58
+2720	背景参数无效。	workflow_extensions.py:64
+2721	参考图信息无效。	workflow_extensions.py:68
+2722	参考色彩范围无效。	workflow_extensions.py:84
+2723	AI清理缓存不完整。	workflow_extensions.py:86
+2724	AI清理位置无效。	workflow_extensions.py:88
+2725	AI清理缓存尺寸不符。	workflow_extensions.py:90
+2726	AI清理来源校验无效。	workflow_extensions.py:91
+2727	扩展缓存过大。	workflow_extensions.py:112
+2728	创作人物编号无效。	workflow_extensions.py:54
+2729	追色人物编号无效。	workflow_extensions.py:71
+2730	参考图强度无效。	workflow_extensions.py:79
+2731	参考色彩统计无效。	workflow_extensions.py:83
+2732	扩展缓存数据异常。	workflow_extensions.py:115
+2733	扩展蒙版数据异常。	workflow_extensions.py:116
+2734	追色取样框无效。	workflow_extensions.py:76
+2735	扩展蒙版格式无效。	workflow_extensions.py:121
+2736	AI缓存空间限制	workflow_ui.py:33
+2737	自动保存与恢复	workflow_ui.py:25
+2738	查看自动保存	workflow_ui.py:36
+2739	正在自动保存…	workflow_ui.py:73
+2740	正在恢复自动保存与有效 AI 缓存…	workflow_ui.py:92
+2741	不保留 AI 缓存	workflow_ui.py:39
+2742	自动保存已开启	workflow_ui.py:42
+2743	自动保存已关闭	workflow_ui.py:42
+2744	保存时间	workflow_ui.py:106
+2745	版本	workflow_ui.py:106
+2746	正在为更新保存编辑，请等待保存完成。	workflow_ui.py:123
+2747	正在取消更新传输并清理临时下载，随后退出…	workflow_ui.py:126
+2748	视频正在完整导出，请完成或取消后退出。	workflow_ui.py:130
+2749	实况照片正在处理，请完成或取消后退出。	workflow_ui.py:133
+2750	正在完成参数渲染，随后保存并退出…	workflow_ui.py:135
+2751	请等待处理结束或取消处理后退出。	workflow_ui.py:136
+2752	正在完成自动保存，随后退出…	workflow_ui.py:139
+2753	自动保存编辑记录	workflow_ui.py:30
+2754	重开时复用有效 AI 缓存	workflow_ui.py:31
+2755	默认 AI 缓存限额 2 GB，可关闭或调节。超限淘汰缓存，恢复项目继续保留；原图变化后重新分析。	workflow_ui.py:35
+2756	设置未保存：	workflow_ui.py:41
+2757	自动保存失败：	workflow_ui.py:83
+2758	已自动保存 	workflow_ui.py:85
+2759	 / 自动恢复，已复用 AI 缓存	workflow_ui.py:95
+2760	选择恢复记录；缓存无效时从恢复项目重新处理。	workflow_ui.py:104
+2761	恢复所选	workflow_ui.py:120
+2762	保存失败，已停止安装；请先手动保存项目。	workflow_ui.py:143
+2763	自动保存失败	workflow_ui.py:144
+2764	建议先手动保存项目。仍要退出吗？	workflow_ui.py:144
+2765	计算设备（CPU / GPU）	workspace_ui.py:126
+2766	导入照片    Ctrl+O	workspace_ui.py:103
+2767	保存项目    Ctrl+S	workspace_ui.py:107
+2768	导出成片	workspace_ui.py:108
+2769	计算设备	workspace_ui.py:124
+2770	关于 AURA	workspace_ui.py:137
+2771	未知功能模块：	workspace_ui.py:161
+2772	独立照片版 · 不含 HEIC / 实况 / 视频	workspace_ui.py:104
+2773	计算模式在下次启动时生效。	workspace_ui.py:129
+2774	自动跟随 Windows 缩放，移动到其他显示器后同步调整。照片的 100% 查看保持原图像素比例。	workspace_ui.py:133
+2775	自动应用推荐美颜	workspace_ui.py:135
+2776	默认开启，仅影响后续新导入的照片。关闭后仍识别人像，可在“美颜”中使用推荐参数。	workspace_ui.py:136
+2777	版本 	workspace_ui.py:139
+2778	XMP曲线控制点无效。	xmp_color_style.py:37
+2779	XMP预设过大。	xmp_color_style.py:48
+2780	不接受含实体声明的XMP。	xmp_color_style.py:50
+2781	此XMP没有可映射的调色参数；可能仅包含Adobe专用配置。	xmp_color_style.py:141
+2782	独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。	xmp_color_style.py:155
+2783	XMP超过2MB；含大LUT时请保存AURA预设。	xmp_color_style.py:211
+2784	共有参数互通，不保证Adobe逐像素效果；AURA扩展保留完整配方。	xmp_color_style.py:213
+2785	未覆盖完整输入范围，已按端点值延伸。	xmp_color_style.py:40
+2786	控制点已重采样为64点。	xmp_color_style.py:43
+2787	XMP格式无效。	xmp_color_style.py:52
+2788	AURA完整配方精确恢复；共有XMP参数在其他软件中使用各自算法。	xmp_color_style.py:57
+2789	XMP包含非有限数值。	xmp_color_style.py:99
+2790	GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。	xmp_color_style.py:103
+2791	XMP黑白开关无效。	xmp_color_style.py:120
+2792	AURA XMP基底依赖无效。	xmp_color_style.py:204
+2793	AURA XMP配方无效。	xmp_color_style.py:56
+2794	AURA完整调色配方	xmp_color_style.py:57
+2795	XMP颗粒大小超范围。	xmp_color_style.py:101
+2796	超出AURA范围，已限制。	xmp_color_style.py:104
+2797	XMP HSL超范围。	xmp_color_style.py:110
+2798	XMP处理模式无效。	xmp_color_style.py:123
+2799	XMP黑白混色超范围。	xmp_color_style.py:130
+2800	XMP数值无效：	xmp_color_style.py:97
+2801	XMP透视数值无效。	xmp_color_style.py:136

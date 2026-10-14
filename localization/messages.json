@@ -1,0 +1,9296 @@
+{
+  "请使用 PortraitAISession 的 DAMO 检测实现。": [
+    "ai_engine.py:49"
+  ],
+  "修复选区尺寸不匹配。": [
+    "ai_engine.py:67"
+  ],
+  "选区过大，请分批修复；每批最多96个局部区域。": [
+    "ai_engine.py:76"
+  ],
+  "已取消 AI 修复；照片未改变。": [
+    "ai_engine.py:79"
+  ],
+  "AI 模型返回非有限像素，未应用修复。": [
+    "ai_engine.py:90"
+  ],
+  "背景补全": [
+    "ai_engine.py:26"
+  ],
+  "缺少本地 AI 模型：": [
+    "ai_engine.py:24"
+  ],
+  "模型文件校验失败：": [
+    "ai_engine.py:25"
+  ],
+  "AI 人物": [
+    "ai_region_filters.py:7"
+  ],
+  "AI 天空": [
+    "ai_region_filters.py:7"
+  ],
+  "AI 背景": [
+    "ai_region_filters.py:7"
+  ],
+  "橙": [
+    "ai_region_filters.py:9",
+    "color_workbench_masks.py:81",
+    "creative_color.py:10",
+    "develop_engine.py:9",
+    "develop_ui.py:20",
+    "filter_recipes.py:19",
+    "filter_recipes.py:21",
+    "filter_recipes.py:23",
+    "filter_recipes.py:25",
+    "filter_recipes.py:27",
+    "filter_recipes.py:29",
+    "filter_recipes.py:31",
+    "filter_recipes.py:33",
+    "filter_recipes.py:41",
+    "filter_recipes.py:45",
+    "filter_recipes.py:49",
+    "filter_recipes.py:53",
+    "filter_recipes.py:55",
+    "filter_recipes.py:57",
+    "mobile_project_bridge.py:76",
+    "open_reference_region_recipes.py:81",
+    "open_reference_region_recipes.py:10",
+    "reference_filter_recipes.py:20",
+    "reference_filter_recipes.py:25",
+    "reference_filter_recipes.py:30",
+    "reference_filter_recipes.py:35",
+    "reference_filter_recipes.py:40",
+    "reference_filter_recipes.py:45",
+    "reference_region_recipes.py:14",
+    "reference_region_recipes.py:43",
+    "reference_region_recipes.py:74",
+    "reference_region_recipes.py:110",
+    "reference_region_recipes.py:131"
+  ],
+  "黄": [
+    "ai_region_filters.py:9",
+    "ai_region_filters.py:11",
+    "creative_color.py:10",
+    "develop_engine.py:9",
+    "develop_ui.py:20",
+    "filter_recipes.py:23",
+    "filter_recipes.py:25",
+    "filter_recipes.py:27",
+    "filter_recipes.py:29",
+    "filter_recipes.py:31",
+    "filter_recipes.py:33",
+    "filter_recipes.py:39",
+    "filter_recipes.py:49",
+    "filter_recipes.py:51",
+    "library_catalog.py:27",
+    "library_catalog.py:23",
+    "library_ui.py:64",
+    "mobile_project_bridge.py:76",
+    "open_reference_region_recipes.py:82",
+    "reference_filter_recipes.py:20",
+    "reference_filter_recipes.py:25",
+    "reference_filter_recipes.py:30",
+    "reference_filter_recipes.py:35",
+    "reference_filter_recipes.py:40",
+    "reference_filter_recipes.py:45",
+    "reference_region_recipes.py:65",
+    "reference_region_recipes.py:131",
+    "reference_region_recipes.py:143"
+  ],
+  "蓝": [
+    "ai_region_filters.py:10",
+    "creative_color.py:10",
+    "curve_editor.py:23",
+    "curve_editor.py:14",
+    "develop_engine.py:9",
+    "develop_ui.py:20",
+    "filter_recipes.py:23",
+    "filter_recipes.py:27",
+    "filter_recipes.py:29",
+    "filter_recipes.py:33",
+    "filter_recipes.py:35",
+    "filter_recipes.py:37",
+    "filter_recipes.py:39",
+    "filter_recipes.py:41",
+    "filter_recipes.py:43",
+    "filter_recipes.py:45",
+    "filter_recipes.py:47",
+    "filter_recipes.py:49",
+    "filter_recipes.py:51",
+    "filter_recipes.py:53",
+    "filter_recipes.py:55",
+    "filter_recipes.py:57",
+    "library_catalog.py:27",
+    "library_catalog.py:23",
+    "library_ui.py:64",
+    "mobile_project_bridge.py:76",
+    "open_reference_region_recipes.py:85",
+    "reference_filter_recipes.py:20",
+    "reference_filter_recipes.py:25",
+    "reference_filter_recipes.py:30",
+    "reference_filter_recipes.py:35",
+    "reference_filter_recipes.py:40",
+    "reference_filter_recipes.py:45",
+    "reference_region_recipes.py:23",
+    "reference_region_recipes.py:53",
+    "reference_region_recipes.py:83",
+    "reference_region_recipes.py:95",
+    "reference_region_recipes.py:113",
+    "reference_region_recipes.py:122",
+    "reference_region_recipes.py:134"
+  ],
+  "青": [
+    "ai_region_filters.py:10",
+    "creative_color.py:10",
+    "develop_engine.py:9",
+    "develop_ui.py:20",
+    "filter_recipes.py:29",
+    "filter_recipes.py:37",
+    "filter_recipes.py:43",
+    "filter_recipes.py:49",
+    "mobile_project_bridge.py:76",
+    "open_reference_region_recipes.py:84",
+    "reference_filter_recipes.py:20",
+    "reference_filter_recipes.py:25",
+    "reference_filter_recipes.py:30",
+    "reference_filter_recipes.py:35",
+    "reference_filter_recipes.py:45",
+    "reference_region_recipes.py:23",
+    "reference_region_recipes.py:53",
+    "reference_region_recipes.py:95",
+    "reference_region_recipes.py:134"
+  ],
+  "绿": [
+    "ai_region_filters.py:11",
+    "creative_color.py:10",
+    "curve_editor.py:23",
+    "curve_editor.py:14",
+    "develop_engine.py:9",
+    "develop_ui.py:20",
+    "filter_recipes.py:21",
+    "filter_recipes.py:27",
+    "filter_recipes.py:29",
+    "filter_recipes.py:31",
+    "filter_recipes.py:33",
+    "filter_recipes.py:35",
+    "filter_recipes.py:37",
+    "filter_recipes.py:39",
+    "filter_recipes.py:41",
+    "filter_recipes.py:43",
+    "filter_recipes.py:45",
+    "filter_recipes.py:47",
+    "filter_recipes.py:51",
+    "filter_recipes.py:55",
+    "library_catalog.py:27",
+    "library_catalog.py:23",
+    "library_ui.py:64",
+    "mobile_project_bridge.py:76",
+    "open_reference_region_recipes.py:83",
+    "reference_filter_recipes.py:20",
+    "reference_filter_recipes.py:25",
+    "reference_filter_recipes.py:30",
+    "reference_filter_recipes.py:35",
+    "reference_filter_recipes.py:40",
+    "reference_filter_recipes.py:45",
+    "reference_region_recipes.py:34",
+    "reference_region_recipes.py:65",
+    "reference_region_recipes.py:95",
+    "reference_region_recipes.py:122",
+    "reference_region_recipes.py:143"
+  ],
+  "AI：自动选择 GPU / CPU": [
+    "ai_runtime.py:53"
+  ],
+  "计算模式无效。": [
+    "ai_runtime.py:16"
+  ],
+  "祛痘检测/修复": [
+    "ai_runtime.py:47",
+    "ai_runtime.py:84",
+    "damo_engine.py:177",
+    "damo_engine.py:207"
+  ],
+  "CUDA 执行接口不可用或加载失败，使用 CPU": [
+    "ai_runtime.py:130"
+  ],
+  "补光GPU法线FP16；照片合成FP32；TF32关闭": [
+    "ai_runtime.py:56"
+  ],
+  "GPU 推理失败，已重试 CPU：": [
+    "ai_runtime.py:89",
+    "ai_runtime.py:136"
+  ],
+  "GPU 模型初始化失败，使用 CPU：": [
+    "ai_runtime.py:125"
+  ],
+  "CUDA 不可用，使用 CPU": [
+    "ai_runtime.py:39"
+  ],
+  "CUDA DLL 加载失败：": [
+    "ai_runtime.py:121"
+  ],
+  "GPU 检测失败，使用 CPU：": [
+    "ai_runtime.py:40"
+  ],
+  "AI 分区照片格式无效。": [
+    "ai_scene_masks.py:90"
+  ],
+  "人物/天空分区蒙版": [
+    "ai_scene_masks.py:125"
+  ],
+  "已取消 AI 分区，保留原有蒙版。": [
+    "ai_scene_masks.py:93"
+  ],
+  "AI 正在识别人物与天空 · ": [
+    "ai_scene_masks.py:95"
+  ],
+  "GPU 分区失败，已使用 CPU：": [
+    "ai_scene_masks.py:124"
+  ],
+  "天空模型缺少输出。": [
+    "ai_scene_models.py:66"
+  ],
+  "缺少 AI 分区模型：": [
+    "ai_scene_models.py:20"
+  ],
+  "AI 分区模型校验失败：": [
+    "ai_scene_models.py:21"
+  ],
+  "天空模型图结构无效。": [
+    "ai_scene_models.py:29"
+  ],
+  "天空模型权重长度无效。": [
+    "ai_scene_models.py:44"
+  ],
+  "天空模型算子无效。": [
+    "ai_scene_models.py:34"
+  ],
+  "天空模型权重编码无效。": [
+    "ai_scene_models.py:39"
+  ],
+  "天空模型激活类型无效。": [
+    "ai_scene_models.py:54"
+  ],
+  "自动推荐开关无效。": [
+    "app_preferences.py:22"
+  ],
+  "本地人像美颜 v0.2 · AI识别与修复": [
+    "app_v2.py:20"
+  ],
+  "自动识别优先": [
+    "app_v2.py:43"
+  ],
+  "重新 AI 识别（保留手动补选 / 排除）": [
+    "app_v2.py:44"
+  ],
+  "检测阈值：降低可增加候选": [
+    "app_v2.py:45"
+  ],
+  "AI 修复当前选区": [
+    "app_v2.py:49",
+    "app_v3.py:261",
+    "app_v3.py:837"
+  ],
+  "恢复 AI 推荐参数": [
+    "app_v2.py:50"
+  ],
+  "视图": [
+    "app_v2.py:58",
+    "app_v3.py:130",
+    "feature_navigation_ui.py:76"
+  ],
+  "补选漏点 / 排除误检": [
+    "app_v2.py:62"
+  ],
+  "画笔 / 点击圈选半径（原图像素）": [
+    "app_v2.py:65"
+  ],
+  "恢复自动选区（清除手动修改）": [
+    "app_v2.py:71"
+  ],
+  "读取照片并加载本地 AI 模型…": [
+    "app_v2.py:136"
+  ],
+  "打开照片": [
+    "app_v2.py:25"
+  ],
+  "导出新副本": [
+    "app_v2.py:26"
+  ],
+  "缩放 100%": [
+    "app_v2.py:39"
+  ],
+  "打开照片后自动识别并修复。": [
+    "app_v2.py:39"
+  ],
+  "当前阈值 0.35": [
+    "app_v2.py:47"
+  ],
+  "祛痘：修复明显痘点": [
+    "app_v2.py:51"
+  ],
+  "磨皮：柔化细小不平整": [
+    "app_v2.py:51"
+  ],
+  "美白：提亮皮肤": [
+    "app_v2.py:51"
+  ],
+  "纹理：50保留 / 更高增强": [
+    "app_v2.py:51"
+  ],
+  "前后分界：左原图 / 右结果": [
+    "app_v2.py:51"
+  ],
+  "全图": [
+    "app_v2.py:59",
+    "aura_automation.py:642",
+    "aura_automation.py:651",
+    "aura_mcp.py:57",
+    "aura_mcp.py:57",
+    "creative_color_ui.py:19",
+    "creative_color_ui.py:153",
+    "creative_color_ui.py:167",
+    "creative_color_ui.py:109",
+    "reference_regions.py:6",
+    "reference_review_ui.py:9",
+    "reference_review_ui.py:30",
+    "reference_review_ui.py:45"
+  ],
+  "面部": [
+    "app_v2.py:59",
+    "app_v3.py:281",
+    "app_v3.py:147",
+    "beauty_mask_ui.py:94",
+    "beauty_mask_ui.py:61",
+    "beauty_mask_ui.py:86"
+  ],
+  "圈选": [
+    "app_v2.py:63"
+  ],
+  "画笔": [
+    "app_v2.py:63",
+    "app_v3.py:246"
+  ],
+  "橡皮": [
+    "app_v2.py:63"
+  ],
+  "移动": [
+    "app_v2.py:63"
+  ],
+  "撤销": [
+    "app_v2.py:69",
+    "color_workbench.py:54",
+    "feature_navigation_ui.py:121",
+    "liquify_ui.py:40",
+    "retouch_ui.py:75"
+  ],
+  "重做": [
+    "app_v2.py:69",
+    "app_v3.py:1261",
+    "color_workbench.py:54",
+    "feature_navigation_ui.py:122",
+    "liquify_ui.py:40",
+    "retouch_ui.py:75"
+  ],
+  "打开照片开始。检测、皮肤分割和修复均在本机完成。": [
+    "app_v2.py:79"
+  ],
+  "取消处理": [
+    "app_v2.py:81",
+    "app_v3.py:285"
+  ],
+  "有选区尚未修复": [
+    "app_v2.py:276"
+  ],
+  "请先点击「AI 修复当前选区」，再导出。": [
+    "app_v2.py:276"
+  ],
+  "有新增选区待 AI 修复": [
+    "app_v2.py:170"
+  ],
+  "当前选区已完成 AI 修复": [
+    "app_v2.py:170"
+  ],
+  " | 新选区待 AI 修复": [
+    "app_v2.py:171"
+  ],
+  " | 参数可手动微调": [
+    "app_v2.py:171"
+  ],
+  "画布呈现": [
+    "app_v2.py:243"
+  ],
+  "-AI自然美颜.png": [
+    "app_v2.py:277"
+  ],
+  "已导出新副本：": [
+    "app_v2.py:280"
+  ],
+  "本地人像美颜 v0.2": [
+    "app_v2.py:23"
+  ],
+  "离线 AI 识别与修复": [
+    "app_v2.py:24"
+  ],
+  "显示修复选区": [
+    "app_v2.py:57",
+    "app_v3.py:264",
+    "feature_navigation_ui.py:79"
+  ],
+  "滚轮：以鼠标位置缩放\n空格 + 拖动 / 中键：移动画面": [
+    "app_v2.py:61"
+  ],
+  "圈选：点击一个痘点，或从中心向外拖动\n画笔：按住左键涂抹；右键随时擦除\n橙色为 AI 候选，蓝色为手动补选": [
+    "app_v2.py:67"
+  ],
+  "打开照片即生成推荐美颜版本。参数由 AI 检测结果与皮肤亮度、粗糙度估算，可手动调整。\n模型仍可能选到痣或雀斑。\nJPEG / PNG / 8位 TIFF；RAW 请从 Lr 导出。": [
+    "app_v2.py:72"
+  ],
+  "照片": [
+    "app_v2.py:95",
+    "workflow_ui.py:106"
+  ],
+  "已取消，保留此前状态。": [
+    "app_v2.py:105"
+  ],
+  "橙：AI 选区 / 蓝：手动补选": [
+    "app_v2.py:273"
+  ],
+  "左原图 / 右结果": [
+    "app_v2.py:273",
+    "app_v3.py:270",
+    "color_workbench.py:388"
+  ],
+  "修复结果": [
+    "app_v2.py:273",
+    "color_workbench.py:388"
+  ],
+  "PNG 无损": [
+    "app_v2.py:277"
+  ],
+  "TIFF 8位": [
+    "app_v2.py:277"
+  ],
+  "处理失败": [
+    "app_v2.py:125"
+  ],
+  "显示失败": [
+    "app_v2.py:131"
+  ],
+  "橙：AI 选区 / 蓝：手动补选 / 红：已取消": [
+    "app_v3.py:82"
+  ],
+  "\n再次点击工具退出 · 空格平移 · Esc 退出": [
+    "app_v3.py:915"
+  ],
+  "应用美颜参数": [
+    "app_v3.py:1288"
+  ],
+  "身体美型已关闭。": [
+    "app_v3.py:1431",
+    "photo_body.py:24",
+    "photo_body_ui.py:10"
+  ],
+  "AURA Photo · 独立静态照片版": [
+    "app_v3.py:87"
+  ],
+  "导航器": [
+    "app_v3.py:144"
+  ],
+  "照片信息": [
+    "app_v3.py:152"
+  ],
+  "操作记录": [
+    "app_v3.py:154"
+  ],
+  "独立调色工作台": [
+    "app_v3.py:182",
+    "feature_catalogue.py:28"
+  ],
+  "直方图": [
+    "app_v3.py:185",
+    "feature_catalogue.py:44"
+  ],
+  "机内效果 / RAW 显影": [
+    "app_v3.py:187"
+  ],
+  "导入此机型 DCP 配置": [
+    "app_v3.py:191"
+  ],
+  "相机设置导入详情": [
+    "app_v3.py:193",
+    "camera_import.py:45"
+  ],
+  "成片检查": [
+    "app_v3.py:194",
+    "color_workbench.py:55",
+    "production_review_ui.py:16"
+  ],
+  "RAW 自定义色温 K": [
+    "app_v3.py:199"
+  ],
+  "RAW 绿／洋红偏色": [
+    "app_v3.py:200"
+  ],
+  "曝光补偿": [
+    "app_v3.py:202"
+  ],
+  "应用来源设置": [
+    "app_v3.py:203",
+    "app_v3.py:669"
+  ],
+  "AI 人像 · 面部与身体美颜": [
+    "app_v3.py:204"
+  ],
+  "使用推荐参数": [
+    "app_v3.py:211"
+  ],
+  "导出当前人像美颜配置": [
+    "app_v3.py:212",
+    "app_v3.py:1276"
+  ],
+  "应用美颜配置文件": [
+    "app_v3.py:213"
+  ],
+  "使用说明": [
+    "app_v3.py:216",
+    "feature_actions_ui.py:42"
+  ],
+  "人像从画面左侧向右编号。基础磨皮、美白与纹理覆盖脸、耳朵、脖子及身体皮肤；祛痘检测针对面部。": [
+    "app_v3.py:217"
+  ],
+  "基础美颜遵循皮肤范围；升级皮肤引擎避开五官细节。唇周与眼眶皮肤可处理，祛痘保护正常五官。": [
+    "app_v3.py:218"
+  ],
+  "点击数值可直接输入；Enter 应用，Esc 取消。拖动滑块时更新数值，松开后应用。": [
+    "app_v3.py:219"
+  ],
+  "配置默认应用到当前人像，仅复用参数。新照片仍需识别；本图缓存可直接复用。": [
+    "app_v3.py:220"
+  ],
+  "皮肤质感与肤色 · 当前人像": [
+    "app_v3.py:224"
+  ],
+  "分区域祛纹 · 当前人像": [
+    "app_v3.py:237"
+  ],
+  "唇纹轻修": [
+    "app_v3.py:240"
+  ],
+  "唇纹修整": [
+    "app_v3.py:241",
+    "feature_catalog.py:6"
+  ],
+  "局部修复 · 选择工具后补选": [
+    "app_v3.py:244"
+  ],
+  "大小 / 原图半径（像素）": [
+    "app_v3.py:255"
+  ],
+  "羽化": [
+    "app_v3.py:257"
+  ],
+  "迁移不透明度": [
+    "app_v3.py:258"
+  ],
+  "删除当前迁移修复": [
+    "app_v3.py:259"
+  ],
+  "识别与对比": [
+    "app_v3.py:267"
+  ],
+  "检测阈值": [
+    "app_v3.py:268"
+  ],
+  "重新 AI 识别": [
+    "app_v3.py:269",
+    "app_v3.py:855"
+  ],
+  "恢复自动选区": [
+    "app_v3.py:269",
+    "app_v3.py:1263"
+  ],
+  "皮肤质感选择": [
+    "app_v3.py:455"
+  ],
+  "人像参数微调": [
+    "app_v3.py:494"
+  ],
+  "读取原图，准备显影与 AI 检测…": [
+    "app_v3.py:532"
+  ],
+  "机内图像 · 8位（TIFF 不恢复 RAW 色阶）": [
+    "app_v3.py:804"
+  ],
+  "深色点保护调整前": [
+    "app_v3.py:863"
+  ],
+  "补选：Ctrl＋滚轮调大小": [
+    "app_v3.py:906"
+  ],
+  "吸管：点击原显影图取样，强度不自动增加": [
+    "app_v3.py:907"
+  ],
+  "液化：向前变形拖动推拉；重建、径向与平滑画笔可按住累积。右键临时重建。": [
+    "app_v3.py:908"
+  ],
+  "左推：上拖向左，下拖向右；Alt 反向。": [
+    "app_v3.py:909"
+  ],
+  "拖动结果侧辅助线节点直接微调；智能参数在右侧。": [
+    "app_v3.py:910"
+  ],
+  "手动修饰：按住涂画，Alt＋点击取样；右键恢复手动效果。": [
+    "app_v3.py:911"
+  ],
+  "\nCtrl＋滚轮缩放": [
+    "app_v3.py:916"
+  ],
+  "\nCtrl＋滚轮调大小": [
+    "app_v3.py:916"
+  ],
+  "删除迁移修复": [
+    "app_v3.py:943"
+  ],
+  "快捷键": [
+    "app_v3.py:1192",
+    "app_v3.py:134",
+    "feature_navigation_ui.py:126",
+    "feature_navigation_ui.py:126"
+  ],
+  "Ctrl＋K：搜索功能与参数\nCtrl＋Z：撤销选区或美颜参数调整\nCtrl＋Y / Ctrl＋Shift＋Z：重做\nCtrl＋O：打开照片\nCtrl＋S：保存项目\nEsc：返回浏览（搜索中关闭搜索）\n空格＋拖动 / 中键拖动：临时平移\n浏览时 Ctrl＋滚轮：缩放照片\n修复时 Ctrl＋滚轮：调整工具大小\n取消AI / 恢复AI 时 Shift＋点击：处理整块自动选区": [
+    "app_v3.py:1192"
+  ],
+  "参数微调": [
+    "app_v3.py:1256",
+    "app_v3.py:1260"
+  ],
+  "使用当前人像推荐参数": [
+    "app_v3.py:1267"
+  ],
+  "应用美颜参数前": [
+    "app_v3.py:1295"
+  ],
+  " / 8位机内源": [
+    "app_v3.py:1519"
+  ],
+  "浏览：拖动平移 · Ctrl＋滚轮缩放": [
+    "app_v3.py:92",
+    "app_v3.py:906"
+  ],
+  "读取照片时检查 GPU；GPU 不可用自动使用 CPU。": [
+    "app_v3.py:94",
+    "app_v3.py:343"
+  ],
+  "机内白平衡": [
+    "app_v3.py:96",
+    "app_v3.py:197",
+    "app_v3.py:693",
+    "app_v3.py:634",
+    "feature_actions_ui.py:328",
+    "fuji_profiles_ui.py:56"
+  ],
+  "适合": [
+    "app_v3.py:96",
+    "app_v3.py:281",
+    "app_v3.py:147",
+    "color_workbench.py:54",
+    "library_ui.py:89",
+    "production_review_ui.py:37",
+    "production_review_ui.py:39",
+    "production_review_ui.py:70"
+  ],
+  "打开照片，自动生成美颜版本。": [
+    "app_v3.py:96"
+  ],
+  "机型配置文件 · RAW16": [
+    "app_v3.py:98",
+    "app_v3.py:449",
+    "app_v3.py:189",
+    "app_v3.py:637"
+  ],
+  "按拍摄风格匹配": [
+    "app_v3.py:98",
+    "app_v3.py:190",
+    "app_v3.py:639",
+    "app_v3.py:693",
+    "app_v3.py:1450",
+    "app_v3.py:448",
+    "app_v3.py:638",
+    "raw_recovery.py:9"
+  ],
+  "尚未打开照片": [
+    "app_v3.py:100",
+    "app_v3.py:1508"
+  ],
+  "打开 RAW 或照片开始。": [
+    "app_v3.py:100"
+  ],
+  "尚未识别人像": [
+    "app_v3.py:101",
+    "app_v3.py:1508"
+  ],
+  "文件": [
+    "app_v3.py:128",
+    "feature_navigation_ui.py:116",
+    "workspace_ui.py:102"
+  ],
+  "编辑": [
+    "app_v3.py:129",
+    "feature_navigation_ui.py:68"
+  ],
+  "工具": [
+    "app_v3.py:131",
+    "feature_navigation_ui.py:48"
+  ],
+  "照片库": [
+    "app_v3.py:132",
+    "feature_navigation_ui.py:119",
+    "feature_navigation_ui.py:119",
+    "library_ui.py:15"
+  ],
+  "设置": [
+    "app_v3.py:133",
+    "camera_import.py:48",
+    "feature_navigation_ui.py:117",
+    "workspace_ui.py:116"
+  ],
+  "搜索功能  Ctrl+K": [
+    "app_v3.py:135"
+  ],
+  "拖动平移 · Ctrl＋滚轮缩放\n补选时 Ctrl＋滚轮调大小\n空格临时平移 · Esc 返回浏览": [
+    "app_v3.py:155"
+  ],
+  "人像": [
+    "app_v3.py:173",
+    "color_presets.py:22",
+    "feature_catalogue.py:57",
+    "filter_recipes.py:18",
+    "filter_recipes.py:20",
+    "filter_recipes.py:22",
+    "filter_recipes.py:24"
+  ],
+  "应用相机风格（默认）": [
+    "app_v3.py:188"
+  ],
+  "打开 RAW 后检查内嵌机内预览": [
+    "app_v3.py:192"
+  ],
+  "祛痘": [
+    "app_v3.py:207",
+    "feature_catalogue.py:74"
+  ],
+  "磨皮": [
+    "app_v3.py:207",
+    "live_beauty.py:347"
+  ],
+  "美白": [
+    "app_v3.py:207",
+    "feature_catalogue.py:74",
+    "live_beauty.py:347"
+  ],
+  "纹理": [
+    "app_v3.py:207",
+    "live_beauty.py:347",
+    "mask_ui.py:36"
+  ],
+  "保护深色点 · 当前照片（可选）": [
+    "app_v3.py:208"
+  ],
+  "无": [
+    "app_v3.py:228",
+    "develop_ui.py:197",
+    "library_catalog.py:23",
+    "library_catalog.py:27",
+    "library_catalog.py:23",
+    "library_catalog.py:23",
+    "library_catalog.py:23",
+    "library_ui.py:64",
+    "library_ui.py:64",
+    "reshape_settings.py:17",
+    "reshape_ui.py:38",
+    "reshape_ui.py:117",
+    "reshape_ui.py:134",
+    "reshape_ui.py:66"
+  ],
+  "哑光": [
+    "app_v3.py:228"
+  ],
+  "缎面": [
+    "app_v3.py:228"
+  ],
+  "水光": [
+    "app_v3.py:228"
+  ],
+  "浏览": [
+    "app_v3.py:246",
+    "liquify_ui.py:40",
+    "retouch_ui.py:75"
+  ],
+  "圆框": [
+    "app_v3.py:246"
+  ],
+  "擦除": [
+    "app_v3.py:246"
+  ],
+  "取消AI": [
+    "app_v3.py:249"
+  ],
+  "恢复AI": [
+    "app_v3.py:249"
+  ],
+  "迁移修复": [
+    "app_v3.py:252"
+  ],
+  "仿制": [
+    "app_v3.py:252",
+    "edit_records_ui.py:22"
+  ],
+  "撤销 Ctrl+Z": [
+    "app_v3.py:263"
+  ],
+  "重做 Ctrl+Y": [
+    "app_v3.py:263"
+  ],
+  "最近打开的照片会显示在这里": [
+    "app_v3.py:292"
+  ],
+  "已退出工具，返回浏览；已有修改保留。": [
+    "app_v3.py:328"
+  ],
+  "；下次启动生效，当前编辑继续保留。": [
+    "app_v3.py:337"
+  ],
+  "专业线性显影": [
+    "app_v3.py:386",
+    "app_v3.py:198",
+    "app_v3.py:635",
+    "app_v3.py:693",
+    "develop_ui.py:21"
+  ],
+  "请拖入 RAW、JPEG、PNG 或 TIFF 照片；暂不接受文件夹。": [
+    "app_v3.py:413"
+  ],
+  "导入照片（Ctrl / Shift 可多选）": [
+    "app_v3.py:429"
+  ],
+  "导入对应机型的 DCP": [
+    "app_v3.py:439"
+  ],
+  "配置已导入，请点击「应用来源设置」。": [
+    "app_v3.py:450"
+  ],
+  "\n来源：RAW 内嵌机内图像\n8位源；16位导出不恢复 RAW 色阶": [
+    "app_v3.py:645"
+  ],
+  "\n机内裁切作为默认构图；完整 RAW 画幅可在构图模块恢复。": [
+    "app_v3.py:656"
+  ],
+  "\n皮肤引擎：": [
+    "app_v3.py:657"
+  ],
+  "身体美型未启用。": [
+    "app_v3.py:798"
+  ],
+  "未定位到可靠人脸，未自动美颜。\n可手动补选修复；遮挡、模糊或极小脸仍可能漏检。": [
+    "app_v3.py:801"
+  ],
+  "面部祛纹参数": [
+    "app_v3.py:824"
+  ],
+  "绘制、取样或液化前，请先重置照片身体美型，保持编辑坐标一致。": [
+    "app_v3.py:877"
+  ],
+  "补选漏识别皮肤": [
+    "app_v3.py:913"
+  ],
+  "；右键临时擦除。松开后应用当前参数。": [
+    "app_v3.py:914"
+  ],
+  "构图": [
+    "app_v3.py:1057",
+    "app_v3.py:1327",
+    "composition_ui.py:43",
+    "composition_ui.py:86",
+    "feature_actions_ui.py:167",
+    "feature_catalogue.py:23",
+    "live_crop.py:12"
+  ],
+  "绘制、取样或液化前，请先将照片身体美型四项归零，保持编辑坐标一致。": [
+    "app_v3.py:1066"
+  ],
+  "编辑原图选区或取样前，请在“手动液化”中暂时关闭液化。": [
+    "app_v3.py:1085"
+  ],
+  "补选或取样前请在面部重塑选择“无”，并将双下巴及腋下形变暂调为0，保持原图坐标一致。": [
+    "app_v3.py:1087"
+  ],
+  "部位蒙版编辑前": [
+    "app_v3.py:1092"
+  ],
+  "手动补选": [
+    "app_v3.py:1164",
+    "beauty_mask_ui.py:86"
+  ],
+  "撤销后": [
+    "app_v3.py:1257"
+  ],
+  "后续新导入照片：": [
+    "app_v3.py:1272"
+  ],
+  "；复用参数，不复制照片选区或人物位置。": [
+    "app_v3.py:1280"
+  ],
+  "应用美颜配置到当前照片": [
+    "app_v3.py:1283"
+  ],
+  "应用配置：": [
+    "app_v3.py:1287"
+  ],
+  "旧缓存的人像设置不完整，请将该图移出视图区再重新导入；原照片未改变。": [
+    "app_v3.py:1428"
+  ],
+  "  /  已恢复缓存与参数": [
+    "app_v3.py:1460"
+  ],
+  "进入照片设置": [
+    "app_v3.py:1476"
+  ],
+  "复制当前人像美颜参数": [
+    "app_v3.py:1477"
+  ],
+  "粘贴美颜参数到当前人像": [
+    "app_v3.py:1479"
+  ],
+  "粘贴美颜参数到全部人像": [
+    "app_v3.py:1480",
+    "app_v3.py:1498"
+  ],
+  "从视图区移除（保留原文件）": [
+    "app_v3.py:1481"
+  ],
+  "已复制美颜参数（不复制 RAW 配置或选区）": [
+    "app_v3.py:1486"
+  ],
+  "已移出视图区，原文件仍保留。": [
+    "app_v3.py:1508"
+  ],
+  "选区待处理": [
+    "app_v3.py:1513"
+  ],
+  "请先点击 AI 修复当前选区。": [
+    "app_v3.py:1513"
+  ],
+  "面部重塑待处理": [
+    "app_v3.py:1514",
+    "app_v3.py:1529"
+  ],
+  "请等待校准与形变完成；取消后可点击“重新校准轮廓”重试。": [
+    "app_v3.py:1514"
+  ],
+  "TIFF · HDR浮点32位 ": [
+    "app_v3.py:1518"
+  ],
+  "TIFF · 16位 ": [
+    "app_v3.py:1518"
+  ],
+  "请等待校准与形变完成后保存；取消后可点击“重新校准轮廓”重试。": [
+    "app_v3.py:1529"
+  ],
+  "保存项目": [
+    "app_v3.py:1534"
+  ],
+  "自动 · CPU＋GPU": [
+    "app_v3.py:95",
+    "workspace_ui.py:125"
+  ],
+  "仅 CPU": [
+    "app_v3.py:95",
+    "app_v3.py:335",
+    "workspace_ui.py:125"
+  ],
+  "机内预览 · 8位": [
+    "app_v3.py:189",
+    "app_v3.py:365",
+    "app_v3.py:637",
+    "app_v3.py:693"
+  ],
+  "自动白平衡": [
+    "app_v3.py:197",
+    "app_v3.py:693",
+    "app_v3.py:634",
+    "fuji_profiles_ui.py:56"
+  ],
+  "日光白平衡": [
+    "app_v3.py:197",
+    "app_v3.py:693",
+    "app_v3.py:634",
+    "fuji_profiles_ui.py:56"
+  ],
+  "自定义色温": [
+    "app_v3.py:197",
+    "app_v3.py:693",
+    "app_v3.py:634",
+    "fuji_profiles_ui.py:56"
+  ],
+  "兼容相机风格显影": [
+    "app_v3.py:198",
+    "app_v3.py:635"
+  ],
+  "已保存计算模式：": [
+    "app_v3.py:337"
+  ],
+  "此配置文件属于另一机型，不能套用。": [
+    "app_v3.py:443"
+  ],
+  "已有同名配置。请在列表中选择，或使用不同名称的DCP。": [
+    "app_v3.py:444"
+  ],
+  "无法导入": [
+    "app_v3.py:451"
+  ],
+  "未检测到人像 · 可手动修复": [
+    "app_v3.py:483"
+  ],
+  "正在恢复已处理照片与设置…": [
+    "app_v3.py:513"
+  ],
+  "机内预览与 RAW 尺寸不同，无法保留局部修复与蒙版。请先保存项目，再重新打开照片切换来源。": [
+    "app_v3.py:552"
+  ],
+  "机内图像可能包含镜头校正，局部修复与蒙版不能保证与 RAW 对齐。请先保存项目，再重新打开照片切换来源。": [
+    "app_v3.py:553"
+  ],
+  "AI 正在确认各人物的身体皮肤…": [
+    "app_v3.py:562"
+  ],
+  "\n无颜色配置：按 sRGB 显示": [
+    "app_v3.py:646"
+  ],
+  "多尺度与细节保护": [
+    "app_v3.py:657"
+  ],
+  "旧项目兼容模式": [
+    "app_v3.py:657"
+  ],
+  "有新选区等待 AI 修复": [
+    "app_v3.py:800"
+  ],
+  "已生成美颜版本，可微调": [
+    "app_v3.py:800"
+  ],
+  "  /  补选后请执行 AI 修复": [
+    "app_v3.py:805"
+  ],
+  " / 面部重塑待校准与生成": [
+    "app_v3.py:806"
+  ],
+  " / 局部形变待处理或部位不可见：请检查实验组。": [
+    "app_v3.py:807"
+  ],
+  " / 有细节候选待处理：请点 AI 应用面部细节修复。": [
+    "app_v3.py:808"
+  ],
+  " / 身体祛瑕待处理：请点 AI 应用身体祛瑕 / 修复。": [
+    "app_v3.py:809"
+  ],
+  "  /  已保留手动取消的 AI 选区": [
+    "app_v3.py:816"
+  ],
+  "当前为旧项目兼容模式；新导入照片支持可选深色点保护。": [
+    "app_v3.py:860"
+  ],
+  "开启深色点保护": [
+    "app_v3.py:873"
+  ],
+  "关闭深色点保护": [
+    "app_v3.py:873"
+  ],
+  "圆框：按住左键拖动，固定大小沿路径连续补选；右键拖动擦除。": [
+    "app_v3.py:906"
+  ],
+  "添加当前部位蒙版；右键临时减去": [
+    "app_v3.py:906"
+  ],
+  "减去当前部位蒙版": [
+    "app_v3.py:906"
+  ],
+  "取消AI：涂抹取消局部，Shift＋点击取消整块": [
+    "app_v3.py:906"
+  ],
+  "恢复AI：涂抹恢复局部，Shift＋点击恢复整块": [
+    "app_v3.py:906"
+  ],
+  "点击新增修复；拖动＋取样圆调整复制来源，拖动修复圆调整目标。松开应用，右键删除。": [
+    "app_v3.py:906"
+  ],
+  "点击新增仿制；拖动＋取样圆调整复制来源，拖动修复圆调整目标。松开应用，右键删除。": [
+    "app_v3.py:906"
+  ],
+  "局部恢复原AI范围": [
+    "app_v3.py:913"
+  ],
+  "擦除AI和手动美颜范围": [
+    "app_v3.py:913"
+  ],
+  "美颜范围：": [
+    "app_v3.py:914"
+  ],
+  "请等待形变画面更新完成后绘制范围。": [
+    "app_v3.py:1069"
+  ],
+  "请等待脸型校准；实验身体形变需先暂时关闭。": [
+    "app_v3.py:1083"
+  ],
+  "移动取样前": [
+    "app_v3.py:1098"
+  ],
+  "单图最多500处迁移修复。": [
+    "app_v3.py:1105"
+  ],
+  "新增迁移修复": [
+    "app_v3.py:1112"
+  ],
+  "新增仿制": [
+    "app_v3.py:1112"
+  ],
+  "取消整块 AI 选区": [
+    "app_v3.py:1118"
+  ],
+  "恢复整块 AI 选区": [
+    "app_v3.py:1118"
+  ],
+  "无法保存全局设置": [
+    "app_v3.py:1271"
+  ],
+  "自动使用推荐美颜": [
+    "app_v3.py:1272"
+  ],
+  "仅识别，暂不应用美颜；可点击使用推荐参数": [
+    "app_v3.py:1272"
+  ],
+  "无法导出配置": [
+    "app_v3.py:1279"
+  ],
+  "已导出美颜配置：": [
+    "app_v3.py:1280"
+  ],
+  "无法读取配置": [
+    "app_v3.py:1286"
+  ],
+  "配置会改变已有形变的坐标基础。请先恢复画笔形变并清除冻结保护，再应用此配置。": [
+    "app_v3.py:1294"
+  ],
+  "导航图": [
+    "app_v3.py:1322"
+  ],
+  "直方图采样": [
+    "app_v3.py:1390"
+  ],
+  "照片缩略图": [
+    "app_v3.py:1410"
+  ],
+  "粘贴当前人像美颜参数": [
+    "app_v3.py:1498"
+  ],
+  "已导出：": [
+    "app_v3.py:1523"
+  ],
+  "导出 ": [
+    "app_v3.py:1523"
+  ],
+  "项目已保存：": [
+    "app_v3.py:1534"
+  ],
+  "原图内容已改变，不能可靠恢复此项目。": [
+    "app_v3.py:1551"
+  ],
+  "在独立窗口中调整影调、颜色与RAW显影，再返回人像美颜。": [
+    "app_v3.py:183"
+  ],
+  "打开调色工作台": [
+    "app_v3.py:184"
+  ],
+  "DCP 按机型校验，保留16位显影精度。相机专有美颜不属于色彩配置。": [
+    "app_v3.py:195"
+  ],
+  "白平衡": [
+    "app_v3.py:196"
+  ],
+  "专业线性模式保留宽色域与高光余量；相机DCP风格选择兼容模式。": [
+    "app_v3.py:201"
+  ],
+  "按当前人物独立调参；身体专项在“身体”模块中调整。": [
+    "app_v3.py:205"
+  ],
+  "配置应用到本图全部人像": [
+    "app_v3.py:215"
+  ],
+  "新增参数默认0。根据 AI 皮肤区域做明暗、频率与颜色调整；保留原始细节。": [
+    "app_v3.py:236"
+  ],
+  "首次开启任一祛纹参数后，自动准备该人物的 AI 修补；完成后调整各区强度直接复用缓存。默认全部为0。眼周纹包含眼下细纹，保护眼球、睫毛边缘与主体头发。": [
+    "app_v3.py:238"
+  ],
+  "唇纹轻修使用局部明暗平滑，强度默认0；不使用上述分区域AI祛纹模型。": [
+    "app_v3.py:242"
+  ],
+  "大小只用于下一处新修复；已有迁移圆框保持原尺寸。": [
+    "app_v3.py:256"
+  ],
+  "关闭工具 · 返回浏览": [
+    "app_v3.py:265"
+  ],
+  "取消AI / 恢复AI：涂抹修改局部，Shift＋点击处理整块自动选区；蓝色补选保留。\n右键临时擦除 · 补选后点 AI 修复\n羽化仅影响手动选区的修复边缘": [
+    "app_v3.py:266"
+  ],
+  "修改照片": [
+    "app_v3.py:277"
+  ],
+  "前后对比": [
+    "app_v3.py:282",
+    "color_workbench.py:62"
+  ],
+  "当前工具": [
+    "app_v3.py:331"
+  ],
+  "；再次点击该按钮或按 Esc 返回浏览。": [
+    "app_v3.py:332"
+  ],
+  "计算模式保存失败：": [
+    "app_v3.py:336"
+  ],
+  "部分照片未导入": [
+    "app_v3.py:405"
+  ],
+  "导入失败：": [
+    "app_v3.py:423"
+  ],
+  "RAW 与照片": [
+    "app_v3.py:429"
+  ],
+  "所有文件": [
+    "app_v3.py:429"
+  ],
+  "DNG 相机配置文件": [
+    "app_v3.py:439"
+  ],
+  "项目的人脸位置与当前定位不同，已拒绝把设置应用到其他人。": [
+    "app_v3.py:473"
+  ],
+  "项目的机内图像来源改变，无法可靠恢复。": [
+    "app_v3.py:549"
+  ],
+  "项目的机内/RAW 来源不匹配。": [
+    "app_v3.py:550"
+  ],
+  "项目的DCP配置文件内容已改变。": [
+    "app_v3.py:551"
+  ],
+  "原图与项目尺寸不匹配。": [
+    "app_v3.py:568"
+  ],
+  "\n16位 RAW 显影；机型严格匹配": [
+    "app_v3.py:650"
+  ],
+  "RGB 照片：保留文件中已有色彩和修饰": [
+    "app_v3.py:652"
+  ],
+  "移动复制来源": [
+    "app_v3.py:1161"
+  ],
+  "移动修复目标": [
+    "app_v3.py:1161"
+  ],
+  "添加部位蒙版": [
+    "app_v3.py:1164"
+  ],
+  "减去部位蒙版": [
+    "app_v3.py:1164"
+  ],
+  "排除选区": [
+    "app_v3.py:1164"
+  ],
+  "取消部分 AI 选区": [
+    "app_v3.py:1164"
+  ],
+  "恢复部分 AI 选区": [
+    "app_v3.py:1164"
+  ],
+  "人像美颜配置": [
+    "app_v3.py:1276",
+    "app_v3.py:1283",
+    "beauty_preset.py:22",
+    "beauty_preset.py:35"
+  ],
+  "JSON 配置": [
+    "app_v3.py:1283"
+  ],
+  "让每一张人像，自然出彩": [
+    "app_v3.py:1339"
+  ],
+  "将照片拖入此处，或 文件 → 导入照片    ·    Ctrl＋O": [
+    "app_v3.py:1340"
+  ],
+  "本功能关闭对比 · ": [
+    "app_v3.py:1349",
+    "feature_actions_ui.py:187"
+  ],
+  "PNG · 8位": [
+    "app_v3.py:1520",
+    "batch_ui.py:58",
+    "batch_ui.py:88"
+  ],
+  "JPEG · 高质量": [
+    "app_v3.py:1520"
+  ],
+  "本地美颜项目": [
+    "app_v3.py:1531",
+    "app_v3.py:1544"
+  ],
+  "AURA照片项目": [
+    "app_v3.py:1544"
+  ],
+  "安卓照片项目": [
+    "app_v3.py:1544"
+  ],
+  "原图已移动，请选择项目对应的原图": [
+    "app_v3.py:1556"
+  ],
+  "原图不匹配": [
+    "app_v3.py:1559"
+  ],
+  "所选文件内容与项目记录不符。": [
+    "app_v3.py:1559"
+  ],
+  "已启用": [
+    "app_v3.py:332"
+  ],
+  "无法切换照片": [
+    "app_v3.py:512"
+  ],
+  "\n拍摄风格：": [
+    "app_v3.py:649"
+  ],
+  "未知": [
+    "app_v3.py:649"
+  ],
+  "已应用 ": [
+    "app_v3.py:650"
+  ],
+  "RAW 原始数据 → 16 位显影": [
+    "app_v3.py:651"
+  ],
+  "打开项目": [
+    "app_v3.py:669",
+    "workspace_ui.py:106"
+  ],
+  "取样": [
+    "app_v3.py:1376"
+  ],
+  "修复": [
+    "app_v3.py:1376",
+    "feature_catalogue.py:22"
+  ],
+  "打开 ": [
+    "app_v3.py:669"
+  ],
+  " · 开": [
+    "app_v3.py:900"
+  ],
+  "圆框大小只用于下一处新修复；已建立的修复区域保持不变。": [
+    "app_v3.py:1052"
+  ],
+  "英文目录入口需要可写的本地磁盘；不会创建虚拟盘符。": [
+    "ascii_paths.py:34"
+  ],
+  "无法准备 GPU/开发工具的英文目录入口；不会创建虚拟盘符。": [
+    "ascii_paths.py:71"
+  ],
+  "MCP 修改前": [
+    "aura_automation.py:348"
+  ],
+  "MCP 蒙版前": [
+    "aura_automation.py:509"
+  ],
+  "MCP 局部蒙版": [
+    "aura_automation.py:510",
+    "aura_automation.py:498"
+  ],
+  "蒙版目标应为 selection、layer:N 或 extension:KEY。": [
+    "aura_automation.py:530"
+  ],
+  "MCP 绘制蒙版前": [
+    "aura_automation.py:535"
+  ],
+  "MCP 绘制蒙版": [
+    "aura_automation.py:556"
+  ],
+  "MCP 液化前": [
+    "aura_automation.py:580"
+  ],
+  "MCP 液化笔画": [
+    "aura_automation.py:580"
+  ],
+  "请先通过 aura_open 打开照片。": [
+    "aura_automation.py:183"
+  ],
+  "未知美颜参数。": [
+    "aura_automation.py:269"
+  ],
+  "参数版本已变化，请重新读取。": [
+    "aura_automation.py:279"
+  ],
+  "changes 必须为非空路径/值对象。": [
+    "aura_automation.py:281"
+  ],
+  "不能修改人物数量。": [
+    "aura_automation.py:304"
+  ],
+  "人物编号无效。": [
+    "aura_automation.py:306"
+  ],
+  "蒙版编号无效。": [
+    "aura_automation.py:307",
+    "aura_automation.py:504",
+    "aura_automation.py:518"
+  ],
+  "请使用 aura_layer 添加或删除蒙版。": [
+    "aura_automation.py:313"
+  ],
+  "未知 RAW 参数。": [
+    "aura_automation.py:333"
+  ],
+  "液化设置字段无效。": [
+    "aura_automation.py:337"
+  ],
+  "当前照片不是 RAW。": [
+    "aura_automation.py:342"
+  ],
+  "RAW 重新显影必须独立提交，再修改其他参数。": [
+    "aura_automation.py:344"
+  ],
+  "MCP 修改参数": [
+    "aura_automation.py:386"
+  ],
+  "参数目录查询无效。": [
+    "aura_automation.py:402"
+  ],
+  "paths 需为1–100个参数路径。": [
+    "aura_automation.py:410"
+  ],
+  "文件不存在。": [
+    "aura_automation.py:422"
+  ],
+  "输出扩展名无效。": [
+    "aura_automation.py:443"
+  ],
+  "不能覆盖原照片。": [
+    "aura_automation.py:444"
+  ],
+  "输出文件已存在，请使用新文件名。": [
+    "aura_automation.py:445"
+  ],
+  "形变尚未完成。": [
+    "aura_automation.py:451"
+  ],
+  "MCP 保存项目": [
+    "aura_automation.py:455"
+  ],
+  "修复或形变尚未完成，请先 aura_action repair / calibrate。": [
+    "aura_automation.py:461"
+  ],
+  "预览来源无效。": [
+    "aura_automation.py:473"
+  ],
+  "预览 max_edge 需为64–4096。": [
+    "aura_automation.py:485"
+  ],
+  "液化笔画无效。": [
+    "aura_automation.py:569"
+  ],
+  "液化坐标无效。": [
+    "aura_automation.py:571"
+  ],
+  "液化参数无效。": [
+    "aura_automation.py:574"
+  ],
+  "液化网格发生折叠。": [
+    "aura_automation.py:579"
+  ],
+  "部位名称无效。": [
+    "aura_automation.py:593"
+  ],
+  "未识别到可靠人物。": [
+    "aura_automation.py:594"
+  ],
+  "预设类型无效。": [
+    "aura_automation.py:601"
+  ],
+  "预设文件或动作无效。": [
+    "aura_automation.py:615"
+  ],
+  "预设过大。": [
+    "aura_automation.py:628",
+    "creative_color_ui.py:198"
+  ],
+  "调色预设格式无效。": [
+    "aura_automation.py:630",
+    "creative_color_ui.py:200"
+  ],
+  "参考追色区域属于原照片，请在目标照片重新确认。": [
+    "aura_automation.py:638",
+    "creative_color_ui.py:241"
+  ],
+  "参考图或范围无效。": [
+    "aura_automation.py:644"
+  ],
+  "追色强度无效。": [
+    "aura_automation.py:646"
+  ],
+  "MCP 参考图追色": [
+    "aura_automation.py:664"
+  ],
+  "媒体模块无效。": [
+    "aura_automation.py:669"
+  ],
+  "媒体模块正在处理，请先等待。": [
+    "aura_automation.py:672"
+  ],
+  "已有液化或冻结保护；请先恢复液化并清除保护，再改变形变坐标基础。": [
+    "aura_automation.py:322"
+  ],
+  "液化开关无效。": [
+    "aura_automation.py:339",
+    "project_io.py:157"
+  ],
+  "未知 AURA 操作：": [
+    "aura_automation.py:395"
+  ],
+  "auto_recommend 必须为 boolean。": [
+    "aura_automation.py:425"
+  ],
+  "未知动作。可用：": [
+    "aura_automation.py:434"
+  ],
+  "MCP 导出照片": [
+    "aura_automation.py:465"
+  ],
+  "裁切需为整数 [left,top,right,bottom]。": [
+    "aura_automation.py:479"
+  ],
+  "预览裁切超出照片。": [
+    "aura_automation.py:481"
+  ],
+  "蒙版键无效。": [
+    "aura_automation.py:523"
+  ],
+  "媒体参数名称无效。": [
+    "aura_automation.py:681"
+  ],
+  "媒体选项无效。": [
+    "aura_automation.py:684"
+  ],
+  "媒体文件不存在。": [
+    "aura_automation.py:718"
+  ],
+  "参数列表编号无效：": [
+    "aura_automation.py:61"
+  ],
+  "参数路径不是可编辑对象：": [
+    "aura_automation.py:72"
+  ],
+  "美颜参数超范围：": [
+    "aura_automation.py:273"
+  ],
+  "已停用参数不能启用：": [
+    "aura_automation.py:274"
+  ],
+  "蒙版请使用专用接口。": [
+    "aura_automation.py:300"
+  ],
+  "未知参数字段：": [
+    "aura_automation.py:332"
+  ],
+  "液化参数无效：": [
+    "aura_automation.py:341"
+  ],
+  "恢复": [
+    "aura_automation.py:389"
+  ],
+  "蒙版不存在。": [
+    "aura_automation.py:526"
+  ],
+  "蒙版数量已达上限。": [
+    "aura_automation.py:527",
+    "beauty_mask_ui.py:92",
+    "creative_scene_ui.py:101",
+    "feature_ui.py:44"
+  ],
+  "MCP 人像参数": [
+    "aura_automation.py:607"
+  ],
+  "现有 AURA 不支持导出 XMP。": [
+    "aura_automation.py:613"
+  ],
+  "参考图未识别到人像，请选择全图取样。": [
+    "aura_automation.py:658"
+  ],
+  "视频选项无效。": [
+    "aura_automation.py:687",
+    "aura_automation.py:698"
+  ],
+  "预览质量无效。": [
+    "aura_automation.py:688",
+    "aura_automation.py:700"
+  ],
+  "实况选项无效。": [
+    "aura_automation.py:693",
+    "aura_automation.py:708"
+  ],
+  "实况平台无效。": [
+    "aura_automation.py:694",
+    "aura_automation.py:710",
+    "aura_automation.py:724"
+  ],
+  "配对视频不存在。": [
+    "aura_automation.py:695",
+    "aura_automation.py:713"
+  ],
+  "请先打开视频。": [
+    "aura_automation.py:730",
+    "aura_automation.py:737",
+    "video_preview_backend.py:227"
+  ],
+  "请先打开封面。": [
+    "aura_automation.py:733"
+  ],
+  "未知参数路径：": [
+    "aura_automation.py:70"
+  ],
+  "参数渲染失败。": [
+    "aura_automation.py:134"
+  ],
+  "控件不存在或只读：": [
+    "aura_automation.py:287"
+  ],
+  "控件选项无效：": [
+    "aura_automation.py:296"
+  ],
+  "未知参数域：": [
+    "aura_automation.py:299"
+  ],
+  "MCP 回滚": [
+    "aura_automation.py:389"
+  ],
+  "蒙版操作无效。": [
+    "aura_automation.py:508",
+    "aura_automation.py:555"
+  ],
+  "快速预览 · 540p": [
+    "aura_automation.py:688",
+    "aura_automation.py:700"
+  ],
+  "原始清晰度 · 当前帧": [
+    "aura_automation.py:688",
+    "aura_automation.py:700"
+  ],
+  "时间位置无效。": [
+    "aura_automation.py:691",
+    "aura_automation.py:704"
+  ],
+  "iPhone 配对照片＋MOV": [
+    "aura_automation.py:694",
+    "aura_automation.py:710",
+    "aura_automation.py:724"
+  ],
+  "安卓 JPEG／HEIC 实况照片": [
+    "aura_automation.py:694",
+    "aura_automation.py:710",
+    "aura_automation.py:724"
+  ],
+  "实况输出目录已存在。": [
+    "aura_automation.py:743"
+  ],
+  "实况原件不完整。": [
+    "aura_automation.py:746"
+  ],
+  "开关必须为 boolean：": [
+    "aura_automation.py:290"
+  ],
+  "需要有限数值：": [
+    "aura_automation.py:292"
+  ],
+  "需要整数：": [
+    "aura_automation.py:293"
+  ],
+  "控件参数超范围：": [
+    "aura_automation.py:294"
+  ],
+  "需要字符串：": [
+    "aura_automation.py:295"
+  ],
+  "蒙版图必须与原图尺寸一致。": [
+    "aura_automation.py:543"
+  ],
+  "笔画无效。": [
+    "aura_automation.py:547"
+  ],
+  "笔画半径无效。": [
+    "aura_automation.py:548"
+  ],
+  "笔画坐标超出原图。": [
+    "aura_automation.py:550"
+  ],
+  "媒体动作无效。": [
+    "aura_automation.py:761"
+  ],
+  "请先更新媒体预览。": [
+    "aura_automation.py:758"
+  ],
+  "AURA 尚未开启本地控制接口。请启动更新后的 AURA。": [
+    "aura_bridge.py:138"
+  ],
+  "AURA 本地连接失败；请确认更新后的 AURA 正在运行。": [
+    "aura_bridge.py:152"
+  ],
+  "AURA 启动尚未完成；可稍后调用 aura_status，诊断见 .aura-data/automation/host-start.log。": [
+    "aura_mcp.py:110"
+  ],
+  "人物肤色": [
+    "aura_mcp.py:57",
+    "reference_regions.py:6"
+  ],
+  "面部皮肤": [
+    "aura_mcp.py:57",
+    "reference_regions.py:6"
+  ],
+  "身体皮肤": [
+    "aura_mcp.py:57",
+    "reference_regions.py:6"
+  ],
+  "衣物": [
+    "aura_mcp.py:57",
+    "creative_scene_ui.py:43",
+    "creative_scene_ui.py:70",
+    "feature_catalogue.py:19",
+    "reference_regions.py:7"
+  ],
+  "头发": [
+    "aura_mcp.py:57",
+    "reference_regions.py:7",
+    "region_masks.py:7"
+  ],
+  "整个人物": [
+    "aura_mcp.py:57",
+    "reference_regions.py:7",
+    "region_masks.py:6"
+  ],
+  "背景": [
+    "aura_mcp.py:57",
+    "color_workbench_masks.py:35",
+    "color_workbench_masks.py:150",
+    "creative_scene_ui.py:16",
+    "creative_scene_ui.py:105",
+    "creative_scene_ui.py:43",
+    "feature_actions_ui.py:111",
+    "feature_actions_ui.py:325",
+    "feature_catalogue.py:57",
+    "feature_catalogue.py:20",
+    "feature_navigation_ui.py:42",
+    "reference_regions.py:7",
+    "reference_review_ui.py:30",
+    "reference_review_ui.py:45"
+  ],
+  "预检已取消。": [
+    "batch_preflight.py:12"
+  ],
+  "全局调色": [
+    "batch_preflight.py:20",
+    "batch_ui.py:48",
+    "batch_ui.py:252",
+    "batch_ui.py:48",
+    "batch_workflow.py:93",
+    "batch_workflow.py:101",
+    "creative_color_ui.py:87"
+  ],
+  "此照片启用了 HDR，请使用 TIFF 导出。": [
+    "batch_preflight.py:43"
+  ],
+  "打光与改色": [
+    "batch_preflight.py:34",
+    "batch_ui.py:255",
+    "batch_ui.py:115",
+    "batch_workflow.py:16"
+  ],
+  "未识别到人物，无法同步人物打光与改色。": [
+    "batch_preflight.py:35"
+  ],
+  "照片的人物设置不完整，请重新导入后再同步。": [
+    "batch_preflight.py:28"
+  ],
+  "已有画笔液化，请先恢复形变与保护，再同步脸型参数。": [
+    "batch_preflight.py:33",
+    "batch_ui.py:248"
+  ],
+  "缺少此机型的滤镜显影配置，请先导入匹配配置。": [
+    "batch_preflight.py:41"
+  ],
+  " MB），请调整尺寸或目录。": [
+    "batch_preflight.py:60"
+  ],
+  "输出目录无法检查：": [
+    "batch_preflight.py:62"
+  ],
+  "输出磁盘可用空间低于保守估算（约 ": [
+    "batch_preflight.py:60"
+  ],
+  "批量同步与导出": [
+    "batch_ui.py:20",
+    "workflow_ui.py:26"
+  ],
+  "未选择（可直接导出）": [
+    "batch_ui.py:33"
+  ],
+  "正在预检文件、人物对应、调色兼容性与输出设置…": [
+    "batch_ui.py:109"
+  ],
+  "失败": [
+    "batch_ui.py:156",
+    "workflow_ui.py:142"
+  ],
+  "批量处理": [
+    "batch_ui.py:14"
+  ],
+  "请先导入要处理的照片。": [
+    "batch_ui.py:14"
+  ],
+  "对应人物": [
+    "batch_ui.py:37"
+  ],
+  "照片（Ctrl / Shift 多选）": [
+    "batch_ui.py:38"
+  ],
+  "处理状态": [
+    "batch_ui.py:38"
+  ],
+  "同步类别": [
+    "batch_ui.py:42"
+  ],
+  "导出": [
+    "batch_ui.py:56"
+  ],
+  "TIFF · 16位": [
+    "batch_ui.py:57",
+    "batch_ui.py:58",
+    "batch_ui.py:88"
+  ],
+  "准备就绪": [
+    "batch_ui.py:66"
+  ],
+  "只同步": [
+    "batch_ui.py:94"
+  ],
+  "只导出": [
+    "batch_ui.py:94"
+  ],
+  "同步并导出": [
+    "batch_ui.py:94"
+  ],
+  "预检同步与导出": [
+    "batch_ui.py:96"
+  ],
+  "继续未完成": [
+    "batch_ui.py:98",
+    "batch_ui.py:100"
+  ],
+  "重试失败项": [
+    "batch_ui.py:98",
+    "batch_ui.py:101"
+  ],
+  "检查所选照片": [
+    "batch_ui.py:98",
+    "batch_ui.py:99"
+  ],
+  "请选择一张照片进入成片检查。": [
+    "batch_ui.py:141"
+  ],
+  "数值与来源检查记录；不代表肤色、蒙版边缘或审美已通过人工检查。": [
+    "batch_ui.py:171"
+  ],
+  "正在保存当前照片的恢复记录，再继续下一张…": [
+    "batch_ui.py:178"
+  ],
+  "正在处理": [
+    "batch_ui.py:227"
+  ],
+  "恢复记录未保存": [
+    "batch_ui.py:304"
+  ],
+  "已完成": [
+    "batch_ui.py:304"
+  ],
+  "正在停止，保留已完成文件…": [
+    "batch_ui.py:104"
+  ],
+  "照片未能准备，请查看处理提示。": [
+    "batch_ui.py:148"
+  ],
+  "AURA-交付检查-": [
+    "batch_ui.py:167"
+  ],
+  "\n恢复记录保存失败，请先手动保存当前照片：": [
+    "batch_ui.py:208"
+  ],
+  "导入失败": [
+    "batch_ui.py:230"
+  ],
+  "当前照片渲染失败，未导出旧预览。": [
+    "batch_ui.py:273"
+  ],
+  "同步所选类别或直接导出；每张照片保留自身的识别范围。检查目标照片不会改变来源。": [
+    "batch_ui.py:35"
+  ],
+  "待确认": [
+    "batch_ui.py:40"
+  ],
+  "待处理": [
+    "batch_ui.py:40",
+    "production_review_ui.py:35"
+  ],
+  "镜头自动匹配与复制参数二选一；透视可独立同步。旧调色引擎不支持的参数会报告失败并保留原设置。": [
+    "batch_ui.py:52"
+  ],
+  "确认所选照片的人物对应": [
+    "batch_ui.py:54"
+  ],
+  "单人同步先确认每张照片的对应人物。液化笔画、修复取样位置和手绘蒙版保持各图独立。": [
+    "batch_ui.py:55"
+  ],
+  "长边像素，0为原尺寸": [
+    "batch_ui.py:59"
+  ],
+  "选择目录": [
+    "batch_ui.py:65"
+  ],
+  "请选择一个导出文件夹。": [
+    "batch_ui.py:74"
+  ],
+  "请选择照片。": [
+    "batch_ui.py:76"
+  ],
+  "请先选择来源照片，或使用“只导出”。": [
+    "batch_ui.py:78"
+  ],
+  "自动匹配各图镜头": [
+    "batch_ui.py:79",
+    "batch_workflow.py:23",
+    "batch_workflow.py:31",
+    "batch_workflow.py:43",
+    "batch_workflow.py:61",
+    "batch_workflow.py:65"
+  ],
+  "复制镜头校正参数": [
+    "batch_ui.py:79",
+    "batch_workflow.py:24",
+    "batch_workflow.py:31",
+    "batch_workflow.py:43",
+    "batch_workflow.py:61"
+  ],
+  "请选择镜头自动匹配或复制参数其中一种。": [
+    "batch_ui.py:79"
+  ],
+  "请选择需要同步的类别。": [
+    "batch_ui.py:80"
+  ],
+  "请先确认所选照片的人物对应，或明确勾选应用到全部人物。": [
+    "batch_ui.py:81"
+  ],
+  "来源照片未识别到人物，无法作为人像参数来源。": [
+    "batch_ui.py:82"
+  ],
+  "停止 / 关闭": [
+    "batch_ui.py:106"
+  ],
+  "预检通过": [
+    "batch_ui.py:114"
+  ],
+  "无需对应": [
+    "batch_ui.py:115"
+  ],
+  "照片准备超时，请关闭批量窗口后重新打开照片。": [
+    "batch_ui.py:146"
+  ],
+  "未完成，可继续": [
+    "batch_ui.py:202"
+  ],
+  "\n已保存交付检查记录：": [
+    "batch_ui.py:211"
+  ],
+  "\n检查记录保存失败：": [
+    "batch_ui.py:212"
+  ],
+  "批量分项同步": [
+    "batch_ui.py:269"
+  ],
+  "仍有待处理选区或形变，请先完成后再导出。": [
+    "batch_ui.py:275"
+  ],
+  "已导出": [
+    "batch_ui.py:284"
+  ],
+  "此照片启用了 HDR，请选择 TIFF 导出。": [
+    "batch_ui.py:287"
+  ],
+  "同步来源（打开窗口时的参数）：": [
+    "batch_ui.py:34"
+  ],
+  "基础美颜": [
+    "batch_ui.py:45",
+    "batch_workflow.py:9"
+  ],
+  "肤色与质感": [
+    "batch_ui.py:45",
+    "batch_workflow.py:10"
+  ],
+  "JPEG · 8位": [
+    "batch_ui.py:58",
+    "batch_ui.py:88"
+  ],
+  "批量-%Y%m%d-%H%M%S": [
+    "batch_ui.py:60"
+  ],
+  "预检失败：": [
+    "batch_ui.py:114"
+  ],
+  "全部人物": [
+    "batch_ui.py:116",
+    "reference_review_ui.py:27",
+    "reference_review_ui.py:28",
+    "reference_review_ui.py:45"
+  ],
+  "预检通过，尚未同步或导出。": [
+    "batch_ui.py:206"
+  ],
+  "预检未通过，尚未同步或导出。": [
+    "batch_ui.py:206"
+  ],
+  "身体美颜": [
+    "batch_workflow.py:11"
+  ],
+  "分区域祛纹": [
+    "batch_workflow.py:12",
+    "effect_controls.py:3",
+    "feature_catalogue.py:33"
+  ],
+  "瑕疵与保护": [
+    "batch_workflow.py:13"
+  ],
+  "光影丰盈": [
+    "batch_workflow.py:14",
+    "effect_controls.py:4"
+  ],
+  "脸型与五官": [
+    "batch_workflow.py:15"
+  ],
+  "基本影调与白平衡": [
+    "batch_workflow.py:19",
+    "batch_workflow.py:52"
+  ],
+  "曲线与HSL": [
+    "batch_workflow.py:20",
+    "batch_workflow.py:27",
+    "batch_workflow.py:53"
+  ],
+  "点颜色与分级": [
+    "batch_workflow.py:21",
+    "batch_workflow.py:28",
+    "batch_workflow.py:56",
+    "batch_workflow.py:47"
+  ],
+  "全图细节与效果": [
+    "batch_workflow.py:22",
+    "batch_workflow.py:29",
+    "batch_workflow.py:57",
+    "batch_workflow.py:48",
+    "batch_workflow.py:29"
+  ],
+  "透视与构图": [
+    "batch_workflow.py:25",
+    "batch_workflow.py:31",
+    "batch_workflow.py:61",
+    "batch_workflow.py:70"
+  ],
+  "色彩输出设置": [
+    "batch_workflow.py:26",
+    "batch_workflow.py:31",
+    "batch_workflow.py:72"
+  ],
+  "镜头与透视": [
+    "batch_workflow.py:31",
+    "batch_workflow.py:58"
+  ],
+  "镜头自动匹配与复制来源参数不能同时选择。": [
+    "batch_workflow.py:43"
+  ],
+  "目标照片没有所选人物编号，请确认人物对应关系。": [
+    "batch_workflow.py:82"
+  ],
+  "批量导出格式无效。": [
+    "batch_workflow.py:135"
+  ],
+  "导出长边需在0–16000像素范围。": [
+    "batch_workflow.py:142"
+  ],
+  "点颜色": [
+    "batch_workflow.py:47"
+  ],
+  "黑白混合": [
+    "batch_workflow.py:48"
+  ],
+  "参考追色指定了单图人物或取样框，请逐图确认区域后再应用；不能直接复制到其他照片。": [
+    "batch_workflow.py:96"
+  ],
+  "。请先在调色工作台切换为专业调色并确认效果，再重新同步。": [
+    "batch_workflow.py:49"
+  ],
+  "目标照片使用旧调色引擎，无法同步：": [
+    "batch_workflow.py:49"
+  ],
+  "当前照片没有唯一匹配的镜头配置，已保留原设置；请手动选择镜头配置后重试。": [
+    "batch_workflow.py:68"
+  ],
+  "画笔恢复自动范围": [
+    "beauty_mask_ui.py:30"
+  ],
+  "更新当前范围": [
+    "beauty_mask_ui.py:31"
+  ],
+  "恢复自动范围 · 清除手动编辑": [
+    "beauty_mask_ui.py:34"
+  ],
+  "返回浏览": [
+    "beauty_mask_ui.py:35"
+  ],
+  "补画脖颈、手臂等漏识别皮肤，再点击更新应用身体参数。面部与其他已确认人物保持保护。": [
+    "beauty_mask_ui.py:36"
+  ],
+  "补画刘海、发丝附近漏识别的可见皮肤，再点击更新应用面部参数。眼球保持保护；只作用于当前人物面部范围，不会自动去除头发。": [
+    "beauty_mask_ui.py:36"
+  ],
+  "更新美颜范围前": [
+    "beauty_mask_ui.py:57"
+  ],
+  "美颜范围编辑前": [
+    "beauty_mask_ui.py:65"
+  ],
+  "范围已绘制，尚未应用。完成后点击“更新当前范围”。": [
+    "beauty_mask_ui.py:87"
+  ],
+  "清除美颜补选前": [
+    "beauty_mask_ui.py:91"
+  ],
+  "身体": [
+    "beauty_mask_ui.py:96",
+    "beauty_mask_ui.py:131",
+    "beauty_mask_ui.py:94",
+    "beauty_mask_ui.py:133",
+    "beauty_mask_ui.py:39",
+    "beauty_mask_ui.py:61",
+    "beauty_mask_ui.py:86",
+    "feature_catalogue.py:16",
+    "gpu_render.py:576",
+    "gpu_render.py:579"
+  ],
+  "身体皮肤范围补选": [
+    "beauty_mask_ui.py:16"
+  ],
+  "美颜范围补选": [
+    "beauty_mask_ui.py:16"
+  ],
+  "画笔补选": [
+    "beauty_mask_ui.py:21"
+  ],
+  "擦除范围": [
+    "beauty_mask_ui.py:21"
+  ],
+  "画笔半径 / 原图像素": [
+    "beauty_mask_ui.py:24",
+    "mask_ui.py:33"
+  ],
+  "显示 AI 自动皮肤范围（绿色）": [
+    "beauty_mask_ui.py:26"
+  ],
+  "范围已更新": [
+    "beauty_mask_ui.py:32",
+    "beauty_mask_ui.py:44"
+  ],
+  "当前范围没有待更新的修改。": [
+    "beauty_mask_ui.py:58"
+  ],
+  "范围": [
+    "beauty_mask_ui.py:61"
+  ],
+  "请先导入并识别人物。": [
+    "beauty_mask_ui.py:63"
+  ],
+  "请等待人物形变完成后补选。": [
+    "beauty_mask_ui.py:64"
+  ],
+  "蒙版数量已达上限，请清理不需要的效果蒙版。": [
+    "beauty_mask_ui.py:66"
+  ],
+  "范围 · 恢复自动范围": [
+    "beauty_mask_ui.py:94"
+  ],
+  "范围有未应用修改 · 点击“更新当前范围”": [
+    "beauty_mask_ui.py:44"
+  ],
+  "手动更新": [
+    "beauty_mask_ui.py:61"
+  ],
+  "范围 · ": [
+    "beauty_mask_ui.py:86"
+  ],
+  "美颜": [
+    "beauty_mask_ui.py:133",
+    "creative_scene_ui.py:70",
+    "feature_catalogue.py:57",
+    "feature_catalogue.py:57",
+    "feature_catalogue.py:57",
+    "feature_catalogue.py:57",
+    "feature_catalogue.py:15",
+    "gpu_render.py:579"
+  ],
+  "显示当前人物补选范围": [
+    "beauty_mask_ui.py:25"
+  ],
+  "擦除识别范围": [
+    "beauty_mask_ui.py:86"
+  ],
+  "恢复自动范围": [
+    "beauty_mask_ui.py:86"
+  ],
+  "擦除可排除AI自动范围；恢复画笔局部恢复原自动范围。边缘自动渐淡。右键临时擦除，Ctrl＋滚轮调大小，空格平移，Esc返回浏览。": [
+    "beauty_mask_ui.py:37"
+  ],
+  "绿色为自动范围，青色为补选，红色为已擦除。": [
+    "beauty_mask_ui.py:37"
+  ],
+  "配置中没有美颜参数。": [
+    "beauty_preset.py:11"
+  ],
+  "配置文件已存在，请另存新文件名。": [
+    "beauty_preset.py:24"
+  ],
+  "配置文件过大。": [
+    "beauty_preset.py:30"
+  ],
+  "这不是受支持的人像美颜配置；照片项目请使用“打开项目”。": [
+    "beauty_preset.py:33"
+  ],
+  "配置含当前版本不支持的参数：": [
+    "beauty_preset.py:13"
+  ],
+  "美颜参数超出范围：": [
+    "beauty_preset.py:18"
+  ],
+  "明暗平整": [
+    "beauty_settings.py:5"
+  ],
+  "低频磨皮": [
+    "beauty_settings.py:5"
+  ],
+  "肤色均匀": [
+    "beauty_settings.py:5"
+  ],
+  "减淡油光": [
+    "beauty_settings.py:6"
+  ],
+  "光泽度": [
+    "beauty_settings.py:6"
+  ],
+  "皮肤清晰度": [
+    "beauty_settings.py:6"
+  ],
+  "皮肤红润（旧配置兼容）": [
+    "beauty_settings.py:7"
+  ],
+  "肤色色温": [
+    "beauty_settings.py:7"
+  ],
+  "肤色红润 / 色调": [
+    "beauty_settings.py:7"
+  ],
+  "肤色透亮": [
+    "beauty_settings.py:8"
+  ],
+  "水润柔化": [
+    "beauty_settings.py:8"
+  ],
+  "面部补光": [
+    "beauty_settings.py:9"
+  ],
+  "柔化面部阴影": [
+    "beauty_settings.py:9"
+  ],
+  "向多人共同肤色靠拢": [
+    "beauty_settings.py:9"
+  ],
+  "抬头纹": [
+    "beauty_settings.py:10"
+  ],
+  "眉间纹": [
+    "beauty_settings.py:10"
+  ],
+  "眼周纹（含眼下细纹）": [
+    "beauty_settings.py:10"
+  ],
+  "法令纹 · 人物左侧": [
+    "beauty_settings.py:11"
+  ],
+  "法令纹 · 人物右侧": [
+    "beauty_settings.py:11"
+  ],
+  "嘴周纹": [
+    "beauty_settings.py:11"
+  ],
+  "鼻背纹": [
+    "beauty_settings.py:12"
+  ],
+  "脸颊纹": [
+    "beauty_settings.py:12"
+  ],
+  "木偶纹": [
+    "beauty_settings.py:12"
+  ],
+  "已取消身体修复。": [
+    "body_details.py:115"
+  ],
+  "身体范围蒙版为空或已关闭，请检查蒙版": [
+    "body_details.py:157"
+  ],
+  "未找到可用身体皮肤，请补选范围": [
+    "body_details.py:157"
+  ],
+  "身体区域较大，请分批使用局部修复。": [
+    "body_details.py:67"
+  ],
+  "已取消身体处理。": [
+    "body_details.py:68"
+  ],
+  "RAW16：拍摄白平衡与风格导入情况见详情；机内锐化、降噪、DRO、美颜等参数仅记录，不复刻厂商处理。": [
+    "camera_import.py:38"
+  ],
+  "机内对比度": [
+    "camera_import.py:2"
+  ],
+  "机内饱和度": [
+    "camera_import.py:2"
+  ],
+  "机内锐化": [
+    "camera_import.py:2"
+  ],
+  "机内亮度": [
+    "camera_import.py:2"
+  ],
+  "图片配置／伽马": [
+    "camera_import.py:2"
+  ],
+  "图片效果": [
+    "camera_import.py:2"
+  ],
+  "动态范围优化": [
+    "camera_import.py:2"
+  ],
+  "机内 HDR": [
+    "camera_import.py:2"
+  ],
+  "高 ISO 降噪": [
+    "camera_import.py:2"
+  ],
+  "长曝光降噪": [
+    "camera_import.py:2"
+  ],
+  "机内美颜": [
+    "camera_import.py:2"
+  ],
+  "拍摄曝光补偿（EV）": [
+    "camera_import.py:10"
+  ],
+  "已包含在机内预览中": [
+    "camera_import.py:11",
+    "camera_import.py:22"
+  ],
+  "拍摄白平衡": [
+    "camera_import.py:12"
+  ],
+  "机内色温": [
+    "camera_import.py:13"
+  ],
+  "只显示相机记录，不推测自动白平衡的色温": [
+    "camera_import.py:13"
+  ],
+  "未提供": [
+    "camera_import.py:21",
+    "camera_import.py:10",
+    "camera_import.py:13",
+    "camera_import.py:31",
+    "camera_import.py:8",
+    "camera_import.py:9",
+    "camera_import.py:34"
+  ],
+  "拍摄风格": [
+    "camera_import.py:28"
+  ],
+  "默认构图使用机内裁切；RAW 完整画幅保留": [
+    "camera_import.py:29"
+  ],
+  "相机画幅／裁切": [
+    "camera_import.py:30"
+  ],
+  "方向": [
+    "camera_import.py:31"
+  ],
+  "显影时按 RAW 方向应用": [
+    "camera_import.py:31"
+  ],
+  "机内预览保留已渲染外观；8位像素，不能恢复 RAW 精度。": [
+    "camera_import.py:37"
+  ],
+  "显影引擎": [
+    "camera_import.py:7"
+  ],
+  "机型": [
+    "camera_import.py:8"
+  ],
+  "镜头": [
+    "camera_import.py:8"
+  ],
+  "光圈": [
+    "camera_import.py:9",
+    "develop_optics.py:8"
+  ],
+  "快门（秒）": [
+    "camera_import.py:9"
+  ],
+  "焦距（mm）": [
+    "camera_import.py:9"
+  ],
+  "拍摄数据已包含在 RAW 中，不重复施加": [
+    "camera_import.py:9"
+  ],
+  "拍摄曝光效果已包含在 RAW 中；保留，不重复叠加": [
+    "camera_import.py:10"
+  ],
+  "元数据未提供": [
+    "camera_import.py:10",
+    "camera_import.py:8"
+  ],
+  "使用 RAW 拍摄白平衡": [
+    "camera_import.py:11"
+  ],
+  "已记录；当前白平衡已由用户切换": [
+    "camera_import.py:11"
+  ],
+  "RAW 拍摄白平衡增益": [
+    "camera_import.py:12"
+  ],
+  "自定义白平衡": [
+    "camera_import.py:15"
+  ],
+  "已应用；基础 RAW 色温为近似值，尚未与 Adobe 校准": [
+    "camera_import.py:15"
+  ],
+  "显影白平衡增益": [
+    "camera_import.py:17"
+  ],
+  "读取本次显影实际使用的增益": [
+    "camera_import.py:17"
+  ],
+  "AURA 额外亮度补偿": [
+    "camera_import.py:20"
+  ],
+  "使用所选相机配置；不额外施加固定曝光补偿": [
+    "camera_import.py:20"
+  ],
+  "使用机型匹配 DCP 近似拍摄风格": [
+    "camera_import.py:23"
+  ],
+  "已按 RAW 裁切数据应用": [
+    "camera_import.py:29"
+  ],
+  "保持有效画幅；未额外裁切": [
+    "camera_import.py:29"
+  ],
+  "RAW 有效传感器画幅": [
+    "camera_import.py:30"
+  ],
+  "已包含在机内预览像素中": [
+    "camera_import.py:33"
+  ],
+  "参数已记录；厂商专有处理未复刻": [
+    "camera_import.py:33"
+  ],
+  "相机记录": [
+    "camera_import.py:48"
+  ],
+  "AURA 导入状态": [
+    "camera_import.py:48"
+  ],
+  "旧项目兼容，保留原显影结果": [
+    "camera_import.py:7"
+  ],
+  "当前实际显影路径": [
+    "camera_import.py:7"
+  ],
+  "已读取": [
+    "camera_import.py:8"
+  ],
+  "已记录；当前使用用户选择的配置／滤镜基底": [
+    "camera_import.py:24"
+  ],
+  "元数据未提供；不猜测设置": [
+    "camera_import.py:34"
+  ],
+  "已读取；当前为线性显影，未套用拍摄风格": [
+    "camera_import.py:25"
+  ],
+  "关闭": [
+    "camera_import.py:51",
+    "composition_ui.py:111",
+    "feature_navigation_ui.py:203",
+    "person_mapping_ui.py:53",
+    "workflow_ui.py:120",
+    "workspace_ui.py:117"
+  ],
+  "已读取；用户未启用相机风格": [
+    "camera_import.py:26"
+  ],
+  "已读取；未找到可用的机型风格配置": [
+    "camera_import.py:27"
+  ],
+  "机内预览格式不支持。": [
+    "camera_native.py:26"
+  ],
+  "保留机内已渲染效果；不推断美颜开关。": [
+    "camera_native.py:36"
+  ],
+  "机内预览超过1.1亿像素。": [
+    "camera_native.py:15",
+    "camera_native.py:25"
+  ],
+  "机内预览不是支持的8位 RGB 图像。": [
+    "camera_native.py:24"
+  ],
+  " 未标记颜色配置，按 sRGB 显示。": [
+    "camera_native.py:36"
+  ],
+  "缺少本地工具：": [
+    "camera_profiles.py:14"
+  ],
+  "相机元数据读取失败：": [
+    "camera_profiles.py:27"
+  ],
+  "DCP无效": [
+    "camera_profiles.py:41"
+  ],
+  "DCP目录无效": [
+    "camera_profiles.py:43"
+  ],
+  "DCP目录过大": [
+    "camera_profiles.py:45"
+  ],
+  "所选 DCP 文件不存在，请重新导入配置。": [
+    "camera_profiles.py:92"
+  ],
+  "DCP机型不匹配，已拒绝套用。": [
+    "camera_profiles.py:93"
+  ],
+  "，输出16位…": [
+    "camera_profiles.py:94"
+  ],
+  "RAW显影未返回16位 RGB。": [
+    "camera_profiles.py:112"
+  ],
+  "正在使用 RawTherapee 显影：": [
+    "camera_profiles.py:94"
+  ],
+  "RawTherapee 显影失败，未切换其他引擎：": [
+    "camera_profiles.py:108"
+  ],
+  "RAW显影缺少输出色彩配置。": [
+    "camera_profiles.py:111"
+  ],
+  "DCP标签无效": [
+    "camera_profiles.py:51"
+  ],
+  "线性基底 · ": [
+    "camera_profiles.py:66"
+  ],
+  "基础相机色彩": [
+    "camera_profiles.py:94"
+  ],
+  "\n导入后在「我的」点击套用；保留照片曝光、拍摄白平衡、光学校正和美颜。": [
+    "color_filters_ui.py:243"
+  ],
+  "已选 · ": [
+    "color_filters_ui.py:20"
+  ],
+  "收藏": [
+    "color_filters_ui.py:20",
+    "color_presets.py:22",
+    "color_presets.py:253"
+  ],
+  "滤镜 · 成品风格": [
+    "color_filters_ui.py:39"
+  ],
+  "滤镜强度 %": [
+    "color_filters_ui.py:45"
+  ],
+  "保存当前风格到「我的」": [
+    "color_filters_ui.py:66"
+  ],
+  "XMP 导入到滤镜库（多选）": [
+    "color_filters_ui.py:67"
+  ],
+  "查看当前滤镜来源": [
+    "color_filters_ui.py:68"
+  ],
+  "AI 分区调色（蒙版工作台）": [
+    "color_filters_ui.py:69"
+  ],
+  "删除当前个人滤镜": [
+    "color_filters_ui.py:70"
+  ],
+  " 开源精选未加载，请检查资源。": [
+    "color_filters_ui.py:72"
+  ],
+  "套用滤镜前": [
+    "color_filters_ui.py:122"
+  ],
+  "调整滤镜强度前": [
+    "color_filters_ui.py:138"
+  ],
+  "移除滤镜前": [
+    "color_filters_ui.py:153"
+  ],
+  "恢复套用前调色": [
+    "color_filters_ui.py:158"
+  ],
+  "保存个人滤镜": [
+    "color_filters_ui.py:198"
+  ],
+  "滤镜名称（最多 30 字）：": [
+    "color_filters_ui.py:198"
+  ],
+  "我的": [
+    "color_filters_ui.py:209",
+    "color_filters_ui.py:220",
+    "color_presets.py:22",
+    "color_presets.py:224",
+    "lightroom_presets.py:16"
+  ],
+  "Lightroom滤镜导入": [
+    "color_filters_ui.py:221"
+  ],
+  "滤镜来源": [
+    "color_filters_ui.py:260"
+  ],
+  "已从个人滤镜库删除；当前照片的调色仍保留。": [
+    "color_filters_ui.py:270"
+  ],
+  "正在生成当前照片的滤镜预览…": [
+    "color_filters_ui.py:303"
+  ],
+  "全部": [
+    "color_filters_ui.py:29",
+    "color_presets.py:22",
+    "color_presets.py:250",
+    "color_presets.py:253",
+    "library_catalog.py:34",
+    "library_catalog.py:35",
+    "library_ui.py:18",
+    "library_ui.py:20",
+    "portable_self_test.py:36",
+    "retouch_ui.py:13"
+  ],
+  "未套用滤镜": [
+    "color_filters_ui.py:30",
+    "color_filters_ui.py:175"
+  ],
+  "基于当前照片预览。点击滤镜套用，再微调曲线、HSL 和影调。": [
+    "color_filters_ui.py:31",
+    "color_filters_ui.py:176"
+  ],
+  "打开照片后生成滤镜预览": [
+    "color_filters_ui.py:32"
+  ],
+  "收藏当前滤镜": [
+    "color_filters_ui.py:33",
+    "color_filters_ui.py:177",
+    "color_filters_ui.py:173"
+  ],
+  "恢复套用前": [
+    "color_filters_ui.py:47"
+  ],
+  "上一页": [
+    "color_filters_ui.py:62",
+    "library_ui.py:58"
+  ],
+  "下一页": [
+    "color_filters_ui.py:64",
+    "library_ui.py:59"
+  ],
+  "请先打开照片并等待处理完成。": [
+    "color_filters_ui.py:109"
+  ],
+  "蒙版": [
+    "color_filters_ui.py:114",
+    "color_workbench.py:43",
+    "color_workbench.py:110",
+    "color_workbench.py:140",
+    "color_workbench.py:132",
+    "color_workbench_masks.py:307",
+    "creative_scene_ui.py:104",
+    "feature_catalogue.py:21",
+    "feature_navigation_ui.py:115"
+  ],
+  "套用滤镜 ": [
+    "color_filters_ui.py:126"
+  ],
+  "当前调色已微调，请重新选择滤镜后调整强度。": [
+    "color_filters_ui.py:132"
+  ],
+  "滤镜强度 ": [
+    "color_filters_ui.py:142"
+  ],
+  "当前没有可恢复的滤镜记录。": [
+    "color_filters_ui.py:147"
+  ],
+  "请先选择一个滤镜。": [
+    "color_filters_ui.py:187",
+    "color_filters_ui.py:251"
+  ],
+  "此个人滤镜已从库中删除，请先重新保存风格。": [
+    "color_filters_ui.py:189"
+  ],
+  "滤镜未保存": [
+    "color_filters_ui.py:202",
+    "color_filters_ui.py:208"
+  ],
+  "名称须为 1–30 字，个人滤镜最多 100 款。": [
+    "color_filters_ui.py:202"
+  ],
+  "个人滤镜已保存：": [
+    "color_filters_ui.py:209"
+  ],
+  "导入Lightroom滤镜（可多选）": [
+    "color_filters_ui.py:213"
+  ],
+  "\n部分预设包含未迁移内容，无法保证Lr原效果：": [
+    "color_filters_ui.py:244"
+  ],
+  "小红书参考": [
+    "color_filters_ui.py:255"
+  ],
+  "\n按帖子构思制作的AURA原创配方，并非作者预设。曝光、拍摄白平衡、天空蒙版及人像美颜需要按照片另行调整。": [
+    "color_filters_ui.py:256"
+  ],
+  "\n这是AURA的参数适配版本，Adobe配置、AI蒙版和原生渲染没有迁移。": [
+    "color_filters_ui.py:257"
+  ],
+  "请先套用要删除的个人滤镜。": [
+    "color_filters_ui.py:265"
+  ],
+  "个人滤镜库读取失败，原文件已保留。": [
+    "color_filters_ui.py:293"
+  ],
+  "取消收藏当前滤镜": [
+    "color_filters_ui.py:173"
+  ],
+  "\n点击自动准备基底": [
+    "color_filters_ui.py:182"
+  ],
+  "收藏未保存": [
+    "color_filters_ui.py:193"
+  ],
+  "滤镜导入未保存": [
+    "color_filters_ui.py:218"
+  ],
+  "\n富士sRGB LUT风格。RAW使用匹配的线性DCP；普通照片直接套用，效果受原图调色影响。": [
+    "color_filters_ui.py:258"
+  ],
+  "\nAURA原创配方，可继续调整曲线、HSL与分级。": [
+    "color_filters_ui.py:259"
+  ],
+  "滤镜未删除": [
+    "color_filters_ui.py:269"
+  ],
+  "预览未完成，可点击滤镜直接套用。": [
+    "color_filters_ui.py:278"
+  ],
+  "分类": [
+    "color_filters_ui.py:51"
+  ],
+  "搜索": [
+    "color_filters_ui.py:56",
+    "library_ui.py:19"
+  ],
+  "滤镜 ": [
+    "color_filters_ui.py:95"
+  ],
+  " · 已微调": [
+    "color_filters_ui.py:167"
+  ],
+  " 全局调色效果当前已关闭，请在效果管理中启用。": [
+    "color_filters_ui.py:171"
+  ],
+  "个人滤镜最多100款。": [
+    "color_filters_ui.py:232"
+  ],
+  "没有匹配滤镜，请换分类或搜索词。": [
+    "color_filters_ui.py:98"
+  ],
+  " 效果管理中的调色强度正在减弱滤镜。": [
+    "color_filters_ui.py:172"
+  ],
+  "\n许可：": [
+    "color_filters_ui.py:254"
+  ],
+  "点击富士 RAW 风格会自动准备基底并套用；首次需要等待。": [
+    "color_filters_ui.py:288"
+  ],
+  "当前照片 · 100% 风格预览 · 点击套用": [
+    "color_filters_ui.py:289"
+  ],
+  "滤镜预览": [
+    "color_filters_ui.py:322"
+  ],
+  "日系": [
+    "color_presets.py:22",
+    "filter_recipes.py:26",
+    "filter_recipes.py:28",
+    "filter_recipes.py:30"
+  ],
+  "日系参考": [
+    "color_presets.py:22",
+    "reference_filter_recipes.py:50"
+  ],
+  "胶片": [
+    "color_presets.py:22",
+    "filter_recipes.py:32",
+    "filter_recipes.py:34",
+    "filter_recipes.py:36",
+    "filter_recipes.py:38"
+  ],
+  "电影": [
+    "color_presets.py:22",
+    "filter_recipes.py:40",
+    "filter_recipes.py:42",
+    "filter_recipes.py:44"
+  ],
+  "风光": [
+    "color_presets.py:22",
+    "filter_recipes.py:46",
+    "filter_recipes.py:48",
+    "filter_recipes.py:50"
+  ],
+  "黑白": [
+    "color_presets.py:22",
+    "filter_recipes.py:52",
+    "filter_recipes.py:54",
+    "filter_recipes.py:56"
+  ],
+  "开源精选": [
+    "color_presets.py:22"
+  ],
+  "富士": [
+    "color_presets.py:40",
+    "color_presets.py:251",
+    "fuji_profiles_ui.py:133"
+  ],
+  "滤镜配方格式无效。": [
+    "color_presets.py:30"
+  ],
+  "滤镜记录无效。": [
+    "color_presets.py:37"
+  ],
+  "富士RAW": [
+    "color_presets.py:40",
+    "color_presets.py:251",
+    "creative_color_ui.py:231"
+  ],
+  "滤镜分类无效。": [
+    "color_presets.py:41"
+  ],
+  "滤镜强度须为 0–200。": [
+    "color_presets.py:112"
+  ],
+  "滤镜项目记录无效。": [
+    "color_presets.py:171"
+  ],
+  "滤镜原始状态无效。": [
+    "color_presets.py:173"
+  ],
+  "滤镜原始状态不完整。": [
+    "color_presets.py:175"
+  ],
+  "滤镜强度无效。": [
+    "color_presets.py:179"
+  ],
+  "滤镜参数校验无效。": [
+    "color_presets.py:180"
+  ],
+  "个人风格；保留曝光与拍摄白平衡，包含已使用的LUT。": [
+    "color_presets.py:224"
+  ],
+  "开源滤镜集格式无效。": [
+    "color_presets.py:260"
+  ],
+  "开源滤镜编号重复。": [
+    "color_presets.py:262"
+  ],
+  "滤镜名称或说明无效。": [
+    "color_presets.py:39"
+  ],
+  "RAW滤镜基底无效。": [
+    "color_presets.py:44"
+  ],
+  "滤镜来源记录无效。": [
+    "color_presets.py:51",
+    "color_presets.py:53"
+  ],
+  "滤镜来源网址无效。": [
+    "color_presets.py:54"
+  ],
+  "滤镜来源校验无效。": [
+    "color_presets.py:55"
+  ],
+  "滤镜原始参数无效。": [
+    "color_presets.py:177"
+  ],
+  "滤镜原始参数不完整。": [
+    "color_presets.py:178"
+  ],
+  "个人滤镜库超过48MB。": [
+    "color_presets.py:248"
+  ],
+  "个人滤镜库过大。": [
+    "color_presets.py:234"
+  ],
+  "个人滤镜库格式无效。": [
+    "color_presets.py:236"
+  ],
+  "个人滤镜编号重复。": [
+    "color_presets.py:239"
+  ],
+  "收藏记录无效。": [
+    "color_presets.py:241"
+  ],
+  "个人滤镜库读取失败，已保留原文件：": [
+    "color_presets.py:245"
+  ],
+  "肤色取样 / 八种肤色 · 当前人像": [
+    "color_ui.py:10"
+  ],
+  "取消肤色方案": [
+    "color_ui.py:14"
+  ],
+  "吸管取样 · 点击照片": [
+    "color_ui.py:16"
+  ],
+  "取样色 RGB · 可手动输入": [
+    "color_ui.py:17"
+  ],
+  "选择肤色前": [
+    "color_ui.py:23"
+  ],
+  "选择肤色方案": [
+    "color_ui.py:23"
+  ],
+  "未选择": [
+    "color_ui.py:26"
+  ],
+  "取样前": [
+    "color_ui.py:32"
+  ],
+  "原显影肤色取样": [
+    "color_ui.py:34"
+  ],
+  "尚未取样 · 强度默认0": [
+    "color_ui.py:8"
+  ],
+  "取样 ": [
+    "color_ui.py:18"
+  ],
+  "取样读取原显影图附近像素的中位色，分别调面部/身体强度。选颜色和取样均不自动增加强度。身体参数在身体组，调整后直接应用于当前人像已确认的身体皮肤。匹配只作有限度的色调及亮度平移，保留明暗纹理。": [
+    "color_ui.py:20"
+  ],
+  "选择颜色": [
+    "color_widgets.py:56"
+  ],
+  "应用颜色": [
+    "color_widgets.py:74"
+  ],
+  "取消": [
+    "color_widgets.py:74",
+    "reference_review_ui.py:101"
+  ],
+  "请输入 #RRGGBB，例如 #B4415F": [
+    "color_widgets.py:98"
+  ],
+  "RGB应为0–255整数": [
+    "color_widgets.py:103"
+  ],
+  "基本": [
+    "color_workbench.py:20",
+    "color_workbench.py:252",
+    "color_workbench.py:43",
+    "color_workbench.py:95",
+    "color_workbench.py:107",
+    "color_workbench.py:68"
+  ],
+  "调整已应用；可继续编辑或返回。": [
+    "color_workbench.py:194",
+    "color_workbench.py:198"
+  ],
+  "AURA · 调色工作台": [
+    "color_workbench.py:28"
+  ],
+  "曲线": [
+    "color_workbench.py:43",
+    "color_workbench.py:96"
+  ],
+  "颜色": [
+    "color_workbench.py:43",
+    "color_workbench.py:96",
+    "color_workbench.py:141"
+  ],
+  "分级": [
+    "color_workbench.py:43",
+    "color_workbench.py:97"
+  ],
+  "细节": [
+    "color_workbench.py:43",
+    "color_workbench.py:97"
+  ],
+  "效果": [
+    "color_workbench.py:43",
+    "color_workbench.py:98"
+  ],
+  "光学": [
+    "color_workbench.py:43",
+    "color_workbench.py:99"
+  ],
+  "预设": [
+    "color_workbench.py:43",
+    "color_workbench.py:100",
+    "fuji_profiles_ui.py:132"
+  ],
+  "参考": [
+    "color_workbench.py:43",
+    "color_workbench.py:131",
+    "color_workbench.py:254"
+  ],
+  "输出": [
+    "color_workbench.py:43",
+    "color_workbench.py:100",
+    "curve_editor.py:19"
+  ],
+  "兼容": [
+    "color_workbench.py:43",
+    "color_workbench.py:101"
+  ],
+  "打开调色工作台前": [
+    "color_workbench.py:149"
+  ],
+  "彩色叠加": [
+    "color_workbench.py:156",
+    "color_workbench_masks.py:26",
+    "color_workbench_masks.py:28",
+    "gpu_render.py:563",
+    "local_develop_ui.py:44"
+  ],
+  "原图滑动对比": [
+    "color_workbench.py:163",
+    "color_workbench.py:375",
+    "color_workbench.py:401",
+    "color_workbench.py:56",
+    "color_workbench.py:367",
+    "color_workbench.py:375",
+    "color_workbench.py:385",
+    "color_workbench.py:402",
+    "color_workbench.py:58",
+    "color_workbench.py:371",
+    "gpu_render.py:533"
+  ],
+  "应用调色工作台": [
+    "color_workbench.py:192",
+    "color_workbench.py:242"
+  ],
+  "尚有未应用的调整": [
+    "color_workbench.py:207"
+  ],
+  "返回": [
+    "color_workbench.py:34"
+  ],
+  "应用": [
+    "color_workbench.py:35",
+    "edit_records_ui.py:39"
+  ],
+  "请先打开照片并等待当前处理完成，再进入调色工作台。": [
+    "color_workbench.py:148"
+  ],
+  "请等待当前处理完成，再应用调整。": [
+    "color_workbench.py:181"
+  ],
+  "正在完成调色；完成后保留在工作台。": [
+    "color_workbench.py:187"
+  ],
+  "调色更新失败，尚未应用。请修正参数后重试。": [
+    "color_workbench.py:191"
+  ],
+  "请等待当前处理完成，再返回。": [
+    "color_workbench.py:203"
+  ],
+  "继续编辑": [
+    "color_workbench.py:220"
+  ],
+  "请完成当前处理或松开拖动，再返回主界面。": [
+    "color_workbench.py:228"
+  ],
+  "正在完成调色，随后返回主界面…": [
+    "color_workbench.py:235"
+  ],
+  "调色更新失败，请修正参数或取消本次调整。": [
+    "color_workbench.py:237"
+  ],
+  "原图": [
+    "color_workbench.py:272",
+    "color_workbench.py:292",
+    "color_workbench.py:402",
+    "color_workbench.py:58"
+  ],
+  "打开前": [
+    "color_workbench.py:292",
+    "color_workbench.py:402",
+    "color_workbench.py:58"
+  ],
+  "左右并排": [
+    "color_workbench.py:292",
+    "color_workbench.py:402",
+    "color_workbench.py:58"
+  ],
+  "切换到当前效果或划分对比后，可在照片上调整。": [
+    "color_workbench.py:293"
+  ],
+  "透视引导线前": [
+    "color_workbench.py:299"
+  ],
+  "照片直接调整前": [
+    "color_workbench.py:303"
+  ],
+  "照片直接调整": [
+    "color_workbench.py:360"
+  ],
+  "打开前滑动对比": [
+    "color_workbench.py:367",
+    "color_workbench.py:381",
+    "color_workbench.py:402",
+    "color_workbench.py:58"
+  ],
+  "划分对比": [
+    "color_workbench.py:367",
+    "color_workbench.py:381",
+    "color_workbench.py:402"
+  ],
+  "左：原图 / 右：当前效果": [
+    "color_workbench.py:395"
+  ],
+  "当前效果": [
+    "color_workbench.py:402",
+    "color_workbench.py:58",
+    "color_workbench_masks.py:200",
+    "creative_color_ui.py:168"
+  ],
+  "对比预览未完成，请切回原图滑动对比；详情见 color-workbench-error.log。": [
+    "color_workbench.py:460"
+  ],
+  "专业浮点调色": [
+    "color_workbench.py:484",
+    "creative_color_ui.py:82",
+    "creative_color_ui.py:83",
+    "curve_editor.py:26",
+    "develop_ui.py:120",
+    "develop_ui.py:135",
+    "develop_ui.py:144",
+    "develop_ui.py:154",
+    "develop_ui.py:223",
+    "develop_ui.py:17",
+    "develop_ui.py:96",
+    "develop_ui.py:214",
+    "develop_ui.py:29",
+    "responsive_render_ui.py:118"
+  ],
+  "左侧是原图对比区；请在右侧结果区取色或绘制，或将对比滑块移到最左。": [
+    "color_workbench.py:291"
+  ],
+  "添加透视引导线": [
+    "color_workbench.py:359"
+  ],
+  "左：打开前 / 右：当前效果 · ": [
+    "color_workbench.py:447"
+  ],
+  "调色预览暂未完成；松开后更新完整照片。": [
+    "color_workbench.py:470"
+  ],
+  "CPU · 用户设置": [
+    "color_workbench.py:492",
+    "color_workbench.py:425"
+  ],
+  "调色工作台": [
+    "color_workbench.py:32"
+  ],
+  "取消未应用调整": [
+    "color_workbench.py:36"
+  ],
+  "曝光溢出": [
+    "color_workbench.py:60"
+  ],
+  "居中": [
+    "color_workbench.py:64"
+  ],
+  "请检查尚未确认的参数输入。": [
+    "color_workbench.py:185"
+  ],
+  "如何处理未应用的调整？": [
+    "color_workbench.py:210"
+  ],
+  "已经应用的调整会保留。": [
+    "color_workbench.py:211"
+  ],
+  "应用后返回": [
+    "color_workbench.py:218"
+  ],
+  "放弃未应用调整": [
+    "color_workbench.py:219"
+  ],
+  "最多四条引导线；请先清除。": [
+    "color_workbench.py:356"
+  ],
+  " · 松开后更新完整照片": [
+    "color_workbench.py:469"
+  ],
+  "调色预览采样": [
+    "color_workbench.py:510"
+  ],
+  "色相": [
+    "color_workbench.py:309",
+    "color_workbench_masks.py:84",
+    "creative_color_ui.py:59",
+    "creative_color_ui.py:57",
+    "develop_ui.py:51"
+  ],
+  "饱和度": [
+    "color_workbench.py:309",
+    "color_workbench_masks.py:84",
+    "creative_color.py:7",
+    "creative_color_ui.py:59",
+    "creative_color_ui.py:57",
+    "develop_ui.py:51",
+    "mask_ui.py:36"
+  ],
+  "明亮度": [
+    "color_workbench.py:309",
+    "color_workbench_masks.py:84",
+    "creative_color_ui.py:56",
+    "creative_color_ui.py:59",
+    "creative_color_ui.py:57"
+  ],
+  " / 右：当前效果 · ": [
+    "color_workbench.py:448"
+  ],
+  "调色预览 · ": [
+    "color_workbench.py:469"
+  ],
+  "CPU回退：": [
+    "color_workbench.py:496",
+    "color_workbench.py:430"
+  ],
+  "调色预览采样使用CPU回退：": [
+    "color_workbench.py:510"
+  ],
+  "左：原图": [
+    "color_workbench.py:448"
+  ],
+  "左：打开前": [
+    "color_workbench.py:448"
+  ],
+  "垂直线": [
+    "color_workbench.py:358",
+    "develop_optics_ui.py:25",
+    "develop_optics_ui.py:25"
+  ],
+  "局部蒙版": [
+    "color_workbench_masks.py:24"
+  ],
+  "AI 分区": [
+    "color_workbench_masks.py:32"
+  ],
+  "笔刷与范围": [
+    "color_workbench_masks.py:62"
+  ],
+  "局部调色": [
+    "color_workbench_masks.py:67"
+  ],
+  "分区调色强度 %": [
+    "color_workbench_masks.py:73"
+  ],
+  "局部阴影与高光颜色": [
+    "color_workbench_masks.py:76"
+  ],
+  "局部 HSL 颜色": [
+    "color_workbench_masks.py:81"
+  ],
+  "AI 分区调整前": [
+    "color_workbench_masks.py:130"
+  ],
+  "AI 正在准备人物与天空分区…": [
+    "color_workbench_masks.py:155"
+  ],
+  "局部颜色调整前": [
+    "color_workbench_masks.py:176"
+  ],
+  "解除分区滤镜联动前": [
+    "color_workbench_masks.py:182"
+  ],
+  "解除分区滤镜联动": [
+    "color_workbench_masks.py:183"
+  ],
+  "重置局部调色前": [
+    "color_workbench_masks.py:188"
+  ],
+  "重置当前蒙版调色": [
+    "color_workbench_masks.py:192"
+  ],
+  "当前蒙版调色已重置，保留范围、边缘修正和不透明度。": [
+    "color_workbench_masks.py:193"
+  ],
+  "切换局部蒙版前": [
+    "color_workbench_masks.py:197"
+  ],
+  "移除蒙版最后一笔前": [
+    "color_workbench_masks.py:207"
+  ],
+  "移除蒙版最后一笔": [
+    "color_workbench_masks.py:208"
+  ],
+  "新建局部蒙版前": [
+    "color_workbench_masks.py:212"
+  ],
+  "删除蒙版组件前": [
+    "color_workbench_masks.py:221"
+  ],
+  "反转蒙版组件前": [
+    "color_workbench_masks.py:226"
+  ],
+  "反转蒙版组件": [
+    "color_workbench_masks.py:226"
+  ],
+  "亮度范围": [
+    "color_workbench_masks.py:234",
+    "color_workbench_masks.py:53",
+    "local_develop_ui.py:74",
+    "local_develop_ui.py:54",
+    "local_develop_ui.py:68"
+  ],
+  "软画笔": [
+    "color_workbench_masks.py:245",
+    "color_workbench_masks.py:48",
+    "color_workbench_masks.py:282",
+    "color_workbench_masks.py:295",
+    "color_workbench_masks.py:308",
+    "color_workbench_masks.py:53"
+  ],
+  "添加蒙版组件前": [
+    "color_workbench_masks.py:254"
+  ],
+  "添加蒙版组件": [
+    "color_workbench_masks.py:256"
+  ],
+  "颜色范围": [
+    "color_workbench_masks.py:270",
+    "color_workbench_masks.py:53",
+    "color_workbench_masks.py:238",
+    "local_develop_ui.py:121",
+    "local_develop_ui.py:74",
+    "local_develop_ui.py:54",
+    "local_develop_ui.py:68"
+  ],
+  "绘制蒙版组件前": [
+    "color_workbench_masks.py:277"
+  ],
+  "人物": [
+    "color_workbench_masks.py:35",
+    "color_workbench_masks.py:150"
+  ],
+  "天空": [
+    "color_workbench_masks.py:35",
+    "color_workbench_masks.py:150"
+  ],
+  "AI 生成可编辑蒙版": [
+    "color_workbench_masks.py:36"
+  ],
+  "AI 套用当前滤镜的分区参数": [
+    "color_workbench_masks.py:37"
+  ],
+  "重新识别分区范围（保留调色）": [
+    "color_workbench_masks.py:38"
+  ],
+  "取消识别": [
+    "color_workbench_masks.py:39"
+  ],
+  "人物、天空和背景分别生成柔边蒙版。六款“日系参考”和“开源精选 → Taro 秋日肖像”支持分区参数，均可独立微调和画笔修补。": [
+    "color_workbench_masks.py:40"
+  ],
+  "添加": [
+    "color_workbench_masks.py:48",
+    "color_workbench_masks.py:51",
+    "color_workbench_masks.py:53",
+    "color_workbench_masks.py:253",
+    "color_workbench_masks.py:277",
+    "relight_ui.py:26"
+  ],
+  "补选画笔": [
+    "color_workbench_masks.py:51"
+  ],
+  "擦除画笔": [
+    "color_workbench_masks.py:51"
+  ],
+  "减去": [
+    "color_workbench_masks.py:51",
+    "color_workbench_masks.py:53",
+    "color_workbench_masks.py:253",
+    "color_workbench_masks.py:277",
+    "local_develop_ui.py:69",
+    "local_develop_ui.py:54",
+    "local_develop_ui.py:78"
+  ],
+  "组合": [
+    "color_workbench_masks.py:53"
+  ],
+  "形状": [
+    "color_workbench_masks.py:53"
+  ],
+  "在照片上添加组件": [
+    "color_workbench_masks.py:55"
+  ],
+  "笔刷半径 / 原图像素": [
+    "color_workbench_masks.py:65",
+    "liquify_ui.py:29"
+  ],
+  "笔刷羽化": [
+    "color_workbench_masks.py:65"
+  ],
+  "流量": [
+    "color_workbench_masks.py:65",
+    "retouch_ui.py:60"
+  ],
+  "密度": [
+    "color_workbench_masks.py:65"
+  ],
+  "亮度下界": [
+    "color_workbench_masks.py:65",
+    "local_develop_ui.py:57"
+  ],
+  "亮度上界": [
+    "color_workbench_masks.py:65",
+    "local_develop_ui.py:57"
+  ],
+  "范围过渡": [
+    "color_workbench_masks.py:65"
+  ],
+  "解除当前蒙版与滤镜联动": [
+    "color_workbench_masks.py:75"
+  ],
+  "尚未创建蒙版": [
+    "color_workbench_masks.py:108"
+  ],
+  "尚无附加组件": [
+    "color_workbench_masks.py:111"
+  ],
+  "当前蒙版独立调色；不会覆盖全局参数。": [
+    "color_workbench_masks.py:115"
+  ],
+  "请至少选择人物、天空或背景中的一项。": [
+    "color_workbench_masks.py:123"
+  ],
+  "当前滤镜暂无专属分区参数；可先生成蒙版手动调色。": [
+    "color_workbench_masks.py:125"
+  ],
+  "蒙版数量已达上限，请先删除不需要的蒙版。": [
+    "color_workbench_masks.py:129",
+    "smart_mask_ui.py:28"
+  ],
+  "请先将旧蒙版转换为专业调色。": [
+    "color_workbench_masks.py:173"
+  ],
+  "仅看成片": [
+    "color_workbench_masks.py:199",
+    "color_workbench_masks.py:28"
+  ],
+  "当前蒙版尚无手动笔画。": [
+    "color_workbench_masks.py:206"
+  ],
+  "当前蒙版：原图像素笔刷；右键临时擦除，空格平移，Ctrl＋滚轮缩放。": [
+    "color_workbench_masks.py:247"
+  ],
+  "调整渐变端点": [
+    "color_workbench_masks.py:294"
+  ],
+  "黑白蒙版": [
+    "color_workbench_masks.py:28",
+    "gpu_render.py:563",
+    "local_develop_ui.py:44"
+  ],
+  "交集": [
+    "color_workbench_masks.py:53",
+    "color_workbench_masks.py:253",
+    "color_workbench_masks.py:277",
+    "local_develop_ui.py:11",
+    "local_develop_ui.py:69",
+    "local_develop_ui.py:54"
+  ],
+  "线性渐变": [
+    "color_workbench_masks.py:53",
+    "color_workbench_masks.py:298",
+    "local_develop_ui.py:106"
+  ],
+  "径向渐变": [
+    "color_workbench_masks.py:53",
+    "local_develop_ui.py:106"
+  ],
+  "照片已改变，未写入旧照片的 AI 蒙版。": [
+    "color_workbench_masks.py:133"
+  ],
+  "AI 分区套用滤镜": [
+    "color_workbench_masks.py:149"
+  ],
+  "亮度下界需小于上界。": [
+    "color_workbench_masks.py:235",
+    "local_develop_ui.py:75"
+  ],
+  "；再次点击按钮退出。": [
+    "color_workbench_masks.py:238"
+  ],
+  "检查蒙版范围": [
+    "color_workbench_masks.py:27"
+  ],
+  "撤销当前蒙版最后一笔": [
+    "color_workbench_masks.py:30"
+  ],
+  "新建蒙版": [
+    "color_workbench_masks.py:45"
+  ],
+  "删除蒙版": [
+    "color_workbench_masks.py:46"
+  ],
+  "启用当前蒙版": [
+    "color_workbench_masks.py:47",
+    "mask_ui.py:28"
+  ],
+  "删除选中组件": [
+    "color_workbench_masks.py:58"
+  ],
+  "反转选中组件": [
+    "color_workbench_masks.py:59"
+  ],
+  "可输入 1 像素半径修细边；右键临时擦除，空格拖动平移，Ctrl＋滚轮缩放。": [
+    "color_workbench_masks.py:66"
+  ],
+  "重置当前蒙版的调色": [
+    "color_workbench_masks.py:85"
+  ],
+  "显示蒙版范围": [
+    "color_workbench_masks.py:86"
+  ],
+  "渐变端点可直接拖动；参数数值提供键盘操作。添加、减去与交集按组件顺序组合。": [
+    "color_workbench_masks.py:87"
+  ],
+  "AI 重新识别分区范围": [
+    "color_workbench_masks.py:149"
+  ],
+  "AI 生成分区蒙版": [
+    "color_workbench_masks.py:149"
+  ],
+  "已更新 AI 基础范围，保留调色及附加修补组件。": [
+    "color_workbench_masks.py:152"
+  ],
+  "已有分区会复用并保留范围修补。": [
+    "color_workbench_masks.py:152"
+  ],
+  "局部调色 ": [
+    "color_workbench_masks.py:213"
+  ],
+  "在照片上": [
+    "color_workbench_masks.py:238"
+  ],
+  "蒙版不透明度": [
+    "color_workbench_masks.py:71"
+  ],
+  "边缘保护": [
+    "color_workbench_masks.py:71"
+  ],
+  "边缘扩展 / 收缩（像素）": [
+    "color_workbench_masks.py:71"
+  ],
+  "边缘羽化（像素）": [
+    "color_workbench_masks.py:71"
+  ],
+  " · 未检出：": [
+    "color_workbench_masks.py:151"
+  ],
+  "AI 识别 ": [
+    "color_workbench_masks.py:152"
+  ],
+  "复用已有蒙版": [
+    "color_workbench_masks.py:154"
+  ],
+  "点击取色": [
+    "color_workbench_masks.py:238"
+  ],
+  "渐变端点调整前": [
+    "color_workbench_masks.py:267"
+  ],
+  "AI 分区参数已套用，可在蒙版列表逐项调整。": [
+    "color_workbench_masks.py:151"
+  ],
+  "拖动绘制": [
+    "color_workbench_masks.py:238"
+  ],
+  "AI 分区范围已重新识别，保留局部调色和附加组件。": [
+    "color_workbench_masks.py:151"
+  ],
+  "AI 蒙版已生成，可独立调色和修补。": [
+    "color_workbench_masks.py:151"
+  ],
+  "色轮调整前": [
+    "color_workbench_widgets.py:46",
+    "color_workbench_widgets.py:53"
+  ],
+  "参数曲线分界前": [
+    "color_workbench_widgets.py:79"
+  ],
+  "色轮调整": [
+    "color_workbench_widgets.py:50"
+  ],
+  "色轮中心为中性 · 左右键色相 · 上下键强度": [
+    "color_workbench_widgets.py:21"
+  ],
+  "未定位到可靠面部，保留手动 AI 修复。": [
+    "complexion.py:84"
+  ],
+  "原始": [
+    "composition.py:4",
+    "composition.py:5",
+    "composition.py:20",
+    "composition_ui.py:14"
+  ],
+  "自定义": [
+    "composition.py:4",
+    "composition.py:20",
+    "composition.py:10",
+    "composition_ui.py:51",
+    "develop_ui.py:111",
+    "develop_ui.py:97",
+    "develop_ui.py:34",
+    "mobile_project_bridge.py:82",
+    "reshape_settings.py:30",
+    "reshape_settings.py:32"
+  ],
+  "相机构图范围无效。": [
+    "composition.py:9"
+  ],
+  "构图参数无效。": [
+    "composition.py:13"
+  ],
+  "固定比例开关无效。": [
+    "composition.py:14"
+  ],
+  "构图参数无效：": [
+    "composition.py:17"
+  ],
+  "导出构图与水平校正": [
+    "composition_ui.py:18"
+  ],
+  "角度": [
+    "composition_ui.py:23"
+  ],
+  "重置裁剪与角度": [
+    "composition_ui.py:26"
+  ],
+  "恢复完整画幅（保留修复）": [
+    "composition_ui.py:27"
+  ],
+  "恢复机内构图": [
+    "composition_ui.py:28",
+    "composition_ui.py:83"
+  ],
+  "在画面中沿水平参考线拖动，松开完成校正；再次点击按钮取消。": [
+    "composition_ui.py:34"
+  ],
+  "裁剪比例切换前": [
+    "composition_ui.py:41"
+  ],
+  "构图设置": [
+    "composition_ui.py:60"
+  ],
+  "恢复完整画幅，修复与蒙版保留": [
+    "composition_ui.py:80"
+  ],
+  "固定比例 · 关闭后可自由裁剪": [
+    "composition_ui.py:21"
+  ],
+  "拉线校正水平": [
+    "composition_ui.py:25"
+  ],
+  "已退出拉线校正，返回浏览；已有修改保留。": [
+    "composition_ui.py:33"
+  ],
+  "实际导出构图预览": [
+    "composition_ui.py:109"
+  ],
+  "导出构图": [
+    "composition_ui.py:75",
+    "production_review_ui.py:37",
+    "production_review_ui.py:38",
+    "production_review_ui.py:62"
+  ],
+  "显示构图辅助线": [
+    "composition_ui.py:19"
+  ],
+  "拖动边角裁剪，框内移动，框外拖动自由旋转；角度可输入两位小数。拉线校正：沿画面中的水平参考线拖动。关闭固定比例可自由调整宽高。": [
+    "composition_ui.py:29"
+  ],
+  "预览已缩小；正式导出使用完整分辨率。": [
+    "composition_ui.py:111"
+  ],
+  "导出路径已存在，请选择新文件名。": [
+    "core.py:49",
+    "photo_document.py:230"
+  ],
+  "请选择 PNG、JPEG 或 TIFF 扩展名。": [
+    "core.py:51"
+  ],
+  "缺少本地关键点模型，请运行安装脚本。": [
+    "core.py:112"
+  ],
+  "第一版只支持 8 位照片；请从 Lightroom 导出 sRGB JPEG / PNG / 8位 RGB TIFF。": [
+    "core.py:18"
+  ],
+  "请打开 JPEG、PNG 或 8位 RGB TIFF；RAW 需先从 Lightroom 导出。": [
+    "core.py:20"
+  ],
+  "请先将透明 PNG 合成到背景；此版本处理不透明照片。": [
+    "core.py:29"
+  ],
+  "暂不支持16位 TIFF；请导出8位 sRGB 副本。": [
+    "core.py:38"
+  ],
+  "请先导出不超过6000万像素的照片。": [
+    "core.py:40"
+  ],
+  "暂不支持多页照片。": [
+    "core.py:27"
+  ],
+  "暂不支持16位 PNG；请导出8位 sRGB 副本。": [
+    "core.py:33"
+  ],
+  "小脸定位模型校验失败。": [
+    "core.py:127"
+  ],
+  "红": [
+    "creative_color.py:10",
+    "creative_color_ui.py:16",
+    "curve_editor.py:23",
+    "curve_editor.py:14",
+    "develop_engine.py:9",
+    "develop_ui.py:20",
+    "filter_recipes.py:19",
+    "filter_recipes.py:31",
+    "filter_recipes.py:33",
+    "filter_recipes.py:53",
+    "library_catalog.py:27",
+    "library_catalog.py:23",
+    "library_ui.py:64",
+    "mobile_project_bridge.py:76",
+    "open_reference_region_recipes.py:80",
+    "reference_filter_recipes.py:30",
+    "reference_filter_recipes.py:35",
+    "reference_filter_recipes.py:45"
+  ],
+  "紫": [
+    "creative_color.py:10",
+    "develop_engine.py:9",
+    "develop_ui.py:20",
+    "library_catalog.py:27",
+    "library_catalog.py:23",
+    "library_ui.py:64",
+    "mobile_project_bridge.py:76",
+    "open_reference_region_recipes.py:86",
+    "reference_filter_recipes.py:35"
+  ],
+  "洋红": [
+    "creative_color.py:10",
+    "develop_engine.py:9",
+    "develop_ui.py:20",
+    "filter_recipes.py:43",
+    "mobile_project_bridge.py:76",
+    "open_reference_region_recipes.py:87",
+    "reference_filter_recipes.py:35"
+  ],
+  "曝光": [
+    "creative_color.py:5",
+    "mask_ui.py:36"
+  ],
+  "对比度": [
+    "creative_color.py:5",
+    "local_develop.py:7"
+  ],
+  "高光": [
+    "creative_color.py:5",
+    "creative_color_ui.py:47",
+    "develop_ui.py:48",
+    "develop_ui.py:45",
+    "local_develop.py:7",
+    "retouch_ui.py:13"
+  ],
+  "阴影": [
+    "creative_color.py:6",
+    "creative_color_ui.py:47",
+    "develop_ui.py:48",
+    "develop_ui.py:34",
+    "develop_ui.py:45",
+    "develop_ui.py:113",
+    "local_develop.py:7",
+    "retouch_ui.py:13"
+  ],
+  "白色色阶": [
+    "creative_color.py:6",
+    "local_develop.py:7"
+  ],
+  "黑色色阶": [
+    "creative_color.py:6",
+    "local_develop.py:7"
+  ],
+  "色温": [
+    "creative_color.py:7",
+    "mask_ui.py:36"
+  ],
+  "色调": [
+    "creative_color.py:7",
+    "mask_ui.py:36"
+  ],
+  "自然饱和度": [
+    "creative_color.py:7",
+    "local_develop.py:7"
+  ],
+  "阴影色相": [
+    "creative_color.py:8",
+    "local_develop.py:8"
+  ],
+  "阴影染色": [
+    "creative_color.py:8",
+    "local_develop.py:8"
+  ],
+  "高光色相": [
+    "creative_color.py:8",
+    "local_develop.py:8"
+  ],
+  "高光染色": [
+    "creative_color.py:8",
+    "local_develop.py:8"
+  ],
+  "LUT强度": [
+    "creative_color.py:9"
+  ],
+  "调色肤色保护": [
+    "creative_color.py:9"
+  ],
+  "未知调色参数。": [
+    "creative_color.py:20"
+  ],
+  "曲线分界需依次递增。": [
+    "creative_color.py:21"
+  ],
+  "曲线参数无效。": [
+    "creative_color.py:25"
+  ],
+  "调色算法版本无效。": [
+    "creative_color.py:37"
+  ],
+  "黑白混色参数无效。": [
+    "creative_color.py:39"
+  ],
+  "LUT文件过大；当前支持2–33阶3D .cube。": [
+    "creative_color.py:49"
+  ],
+  "LUT尺寸、点数或范围无效。": [
+    "creative_color.py:61"
+  ],
+  "所选参考区域过小或未可靠识别，请换区域或参考照片。": [
+    "creative_color.py:154"
+  ],
+  "调色模式需为整数。": [
+    "creative_color.py:23"
+  ],
+  "HSL参数无效。": [
+    "creative_color.py:27"
+  ],
+  "LUT数据无效。": [
+    "creative_color.py:32"
+  ],
+  "LUT范围无效。": [
+    "creative_color.py:34"
+  ],
+  "白平衡取样无效。": [
+    "creative_color.py:43"
+  ],
+  "请使用标准3D .cube；暂不支持1D或混合LUT。": [
+    "creative_color.py:58"
+  ],
+  "LUT行格式无效。": [
+    "creative_color.py:59"
+  ],
+  "调色参数无效：": [
+    "creative_color.py:19"
+  ],
+  "参考图匹配范围": [
+    "creative_color_ui.py:73"
+  ],
+  "全局调色与风格": [
+    "creative_color_ui.py:24"
+  ],
+  "色调曲线": [
+    "creative_color_ui.py:36"
+  ],
+  "在照片上拖动调整亮度": [
+    "creative_color_ui.py:41"
+  ],
+  "参数曲线与亮度分界": [
+    "creative_color_ui.py:42"
+  ],
+  "旧版五段曲线（项目兼容）": [
+    "creative_color_ui.py:46",
+    "feature_actions_ui.py:42"
+  ],
+  "HSL 色彩": [
+    "creative_color_ui.py:48"
+  ],
+  "在照片上取色定位 HSL": [
+    "creative_color_ui.py:55"
+  ],
+  "在照片上拖动调整颜色": [
+    "creative_color_ui.py:58"
+  ],
+  "参考图追色": [
+    "creative_color_ui.py:70",
+    "feature_catalogue.py:47"
+  ],
+  "导入参考图并分析": [
+    "creative_color_ui.py:74"
+  ],
+  "将当前效果作为参考": [
+    "creative_color_ui.py:74"
+  ],
+  "匹配颜色": [
+    "creative_color_ui.py:76"
+  ],
+  "匹配影调": [
+    "creative_color_ui.py:76"
+  ],
+  "导入 LUT（强度保持当前值）": [
+    "creative_color_ui.py:132"
+  ],
+  "恢复全局调色前": [
+    "creative_color_ui.py:135"
+  ],
+  "恢复全局调色": [
+    "creative_color_ui.py:136",
+    "creative_color_ui.py:61"
+  ],
+  "区域已更改，请重新选择参考图": [
+    "creative_color_ui.py:139"
+  ],
+  "调整参考图追色": [
+    "creative_color_ui.py:173"
+  ],
+  "导入调色预设前": [
+    "creative_color_ui.py:222"
+  ],
+  "应用调色预设": [
+    "creative_color_ui.py:237"
+  ],
+  "尚未加载 LUT": [
+    "creative_color_ui.py:18",
+    "creative_color_ui.py:110"
+  ],
+  "尚未选择参考图": [
+    "creative_color_ui.py:18",
+    "creative_color_ui.py:110"
+  ],
+  "基本影调": [
+    "creative_color_ui.py:25"
+  ],
+  "旧版阴影与高光染色": [
+    "creative_color_ui.py:25"
+  ],
+  "LUT 与肤色保护": [
+    "creative_color_ui.py:25"
+  ],
+  "旧版相对色温": [
+    "creative_color_ui.py:34"
+  ],
+  "旧版相对色调": [
+    "creative_color_ui.py:34"
+  ],
+  "黑点": [
+    "creative_color_ui.py:47"
+  ],
+  "中间调": [
+    "creative_color_ui.py:47",
+    "develop_ui.py:48",
+    "develop_ui.py:45",
+    "retouch_ui.py:13",
+    "retouch_ui.py:23"
+  ],
+  "白点": [
+    "creative_color_ui.py:47"
+  ],
+  "保存完整调色文件": [
+    "creative_color_ui.py:61"
+  ],
+  "应用完整调色文件": [
+    "creative_color_ui.py:61"
+  ],
+  "请先选择并分析参考图。": [
+    "creative_color_ui.py:172"
+  ],
+  "AURA调色.aura-style.json": [
+    "creative_color_ui.py:184"
+  ],
+  "预设无法加载": [
+    "creative_color_ui.py:213",
+    "creative_color_ui.py:207",
+    "creative_color_ui.py:219"
+  ],
+  "该追色预设包含原照片的人物或取样框，请在当前照片重新导入参考图并确认区域。": [
+    "creative_color_ui.py:213"
+  ],
+  "导入 3D .cube LUT": [
+    "creative_color_ui.py:32"
+  ],
+  "LUT无法加载": [
+    "creative_color_ui.py:131"
+  ],
+  "预设未保存": [
+    "creative_color_ui.py:192"
+  ],
+  "RAW基底记录无效。": [
+    "creative_color_ui.py:219"
+  ],
+  "完整文件包含曝光、白平衡、光学与参考图设置。滤镜库风格保留照片曝光与拍摄白平衡；仅复用风格请在“预设”保存到“我的”。": [
+    "creative_color_ui.py:62"
+  ],
+  "默认零调整；肤色保护用于染色、HSL与LUT，影调独立。支持2–33阶标准3D .cube。": [
+    "creative_color_ui.py:63"
+  ],
+  "导入后分别确认两张图的范围和对应人物，可拖框限制取样。范围错误时先用美颜补选修正，再重新确认参考图。": [
+    "creative_color_ui.py:77"
+  ],
+  "参考照片": [
+    "creative_color_ui.py:145"
+  ],
+  "AURA调色预设": [
+    "creative_color_ui.py:194"
+  ],
+  "完整调色文件；强度与恢复包含全部调色参数。光学与参考图设置独立。": [
+    "creative_color_ui.py:231"
+  ],
+  "柔光补光": [
+    "creative_portrait.py:6"
+  ],
+  "光源横向位置": [
+    "creative_portrait.py:6"
+  ],
+  "光源纵向位置": [
+    "creative_portrait.py:6"
+  ],
+  "光源柔和程度": [
+    "creative_portrait.py:7"
+  ],
+  "补光色温": [
+    "creative_portrait.py:7"
+  ],
+  "衣物细褶皱淡化": [
+    "creative_portrait.py:8"
+  ],
+  "衣物纹理保护": [
+    "creative_portrait.py:8"
+  ],
+  "衣物 AI 清理强度": [
+    "creative_portrait.py:9"
+  ],
+  "唇色强度": [
+    "creative_portrait.py:9"
+  ],
+  "腮红强度": [
+    "creative_portrait.py:9"
+  ],
+  "发色强度": [
+    "creative_portrait.py:10"
+  ],
+  "衣物改色强度": [
+    "creative_portrait.py:10"
+  ],
+  "背景曝光": [
+    "creative_portrait.py:13"
+  ],
+  "背景色温": [
+    "creative_portrait.py:13"
+  ],
+  "背景饱和度": [
+    "creative_portrait.py:13"
+  ],
+  "背景柔化": [
+    "creative_portrait.py:13"
+  ],
+  "背景 AI 清理强度": [
+    "creative_portrait.py:13"
+  ],
+  "人像创作颜色无效。": [
+    "creative_portrait.py:22"
+  ],
+  "人像创作参数无效：": [
+    "creative_portrait.py:19"
+  ],
+  "衣物整理 · 当前人物": [
+    "creative_scene_ui.py:21"
+  ],
+  "当前蒙版作为衣物范围": [
+    "creative_scene_ui.py:23"
+  ],
+  "轻妆与发色 · 当前人物": [
+    "creative_scene_ui.py:25"
+  ],
+  "衣物改色 · 当前人物": [
+    "creative_scene_ui.py:32"
+  ],
+  "改色强度": [
+    "creative_scene_ui.py:33"
+  ],
+  "衣物颜色": [
+    "creative_scene_ui.py:34"
+  ],
+  "背景精修": [
+    "creative_scene_ui.py:37",
+    "effect_controls.py:5"
+  ],
+  "查看 / 编辑背景范围": [
+    "creative_scene_ui.py:39"
+  ],
+  "当前蒙版作为背景范围": [
+    "creative_scene_ui.py:40"
+  ],
+  "衣物与背景 · 选区AI清理": [
+    "creative_scene_ui.py:42"
+  ],
+  "涂抹需要清理的区域": [
+    "creative_scene_ui.py:45"
+  ],
+  "AI 清理所选区域": [
+    "creative_scene_ui.py:46"
+  ],
+  "清除待处理选区": [
+    "creative_scene_ui.py:47"
+  ],
+  "背景精修参数": [
+    "creative_scene_ui.py:73"
+  ],
+  "检查背景范围": [
+    "creative_scene_ui.py:104"
+  ],
+  "创作选区前": [
+    "creative_scene_ui.py:109"
+  ],
+  "绘制创作清理选区": [
+    "creative_scene_ui.py:113"
+  ],
+  "清除待处理清理选区": [
+    "creative_scene_ui.py:115"
+  ],
+  "AI创作清理前": [
+    "creative_scene_ui.py:127"
+  ],
+  "光源已放置，已返回浏览；可在本面板调节补光强度。": [
+    "creative_scene_ui.py:186"
+  ],
+  "涂抹选区后执行 AI 清理": [
+    "creative_scene_ui.py:17"
+  ],
+  "唇色": [
+    "creative_scene_ui.py:26"
+  ],
+  "腮红": [
+    "creative_scene_ui.py:26"
+  ],
+  "发色": [
+    "creative_scene_ui.py:26"
+  ],
+  "强度": [
+    "creative_scene_ui.py:27",
+    "relight_ui.py:36"
+  ],
+  "RGB数值（精确输入）": [
+    "creative_scene_ui.py:29",
+    "feature_actions_ui.py:42"
+  ],
+  "选区画笔半径": [
+    "creative_scene_ui.py:44"
+  ],
+  "选择颜色前": [
+    "creative_scene_ui.py:63"
+  ],
+  "当前人物参数": [
+    "creative_scene_ui.py:70"
+  ],
+  "请先生成或选择部位蒙版。": [
+    "creative_scene_ui.py:87"
+  ],
+  " 为创作范围": [
+    "creative_scene_ui.py:91"
+  ],
+  "请完成面部形变并关闭实验身体形变后选区。": [
+    "creative_scene_ui.py:107"
+  ],
+  "请先涂抹需要清理的区域。": [
+    "creative_scene_ui.py:119"
+  ],
+  "所选区域不在已确认的目标范围。请先检查或指定背景/衣物蒙版。": [
+    "creative_scene_ui.py:122"
+  ],
+  "选区跨距过大，请缩小范围或分图清理。": [
+    "creative_scene_ui.py:126"
+  ],
+  "已清理；可调强度或在效果管理中擦回。": [
+    "creative_scene_ui.py:139"
+  ],
+  "修复来源已改变，请重新应用 AI 清理。": [
+    "creative_scene_ui.py:161"
+  ],
+  "涂抹选区后执行 AI 清理；已有结果可调强度与擦回。": [
+    "creative_scene_ui.py:161"
+  ],
+  "衣物颜色 ": [
+    "creative_scene_ui.py:35"
+  ],
+  "颜色 ": [
+    "creative_scene_ui.py:54",
+    "creative_scene_ui.py:30"
+  ],
+  "指定 ": [
+    "creative_scene_ui.py:91"
+  ],
+  "背景精修范围": [
+    "creative_scene_ui.py:103"
+  ],
+  "AI 清理 ": [
+    "creative_scene_ui.py:139"
+  ],
+  "细褶皱使用保留高频纹理的浅色差处理；复杂图案、大折痕请选区AI清理并检查。需要保留的地方可在效果管理中擦回衣物效果。": [
+    "creative_scene_ui.py:24"
+  ],
+  "默认关闭，按人物独立；使用部位蒙版调整颜色与少量明亮度，保留原纹理，不生成发型或五官。": [
+    "creative_scene_ui.py:31"
+  ],
+  "只改变当前人物衣物颜色；衣物褶皱整理在同一模块，选区AI清理在“修复”模块。": [
+    "creative_scene_ui.py:36"
+  ],
+  "先查看背景范围并修正遗漏，再调整曝光、色温或均匀柔化。主体与背景分别处理。": [
+    "creative_scene_ui.py:41"
+  ],
+  "显示待处理选区": [
+    "creative_scene_ui.py:48"
+  ],
+  "选择颜色  ": [
+    "creative_scene_ui.py:56"
+  ],
+  "妆发": [
+    "creative_scene_ui.py:70",
+    "feature_catalogue.py:18"
+  ],
+  "人像补光参数": [
+    "creative_scene_ui.py:70"
+  ],
+  "妆发参数": [
+    "creative_scene_ui.py:70"
+  ],
+  "衣物参数": [
+    "creative_scene_ui.py:70"
+  ],
+  "GPU 渲染尚未初始化；请重新启动并选择下载 GPU 编译组件，或使用 CPU。": [
+    "cuda_headers.py:16"
+  ],
+  "启用 GPU 渲染": [
+    "cuda_headers.py:45"
+  ],
+  "GPU 推理运行库已就绪。GPU 照片渲染还需首次联网下载少量 NVIDIA 编译文件，之后可离线使用。\n\n组件来自 NVIDIA 官方发布的 Python 包，按 NVIDIA CUDA 许可使用；许可全文位于程序目录 licenses/NVIDIA。\n\n是否下载并启用？选择“否”仍可使用 GPU 推理和 CPU 渲染。": [
+    "cuda_headers.py:46"
+  ],
+  "GPU 初始化文件校验失败。": [
+    "cuda_headers.py:26"
+  ],
+  "GPU 编译文件不完整。": [
+    "cuda_headers.py:37"
+  ],
+  "正在初始化 GPU": [
+    "cuda_headers.py:50"
+  ],
+  "GPU 初始化文件路径无效。": [
+    "cuda_headers.py:32"
+  ],
+  "GPU 初始化未完成": [
+    "cuda_headers.py:53"
+  ],
+  "正在从 NVIDIA 官方发布包下载编译文件，请稍候……": [
+    "cuda_headers.py:50"
+  ],
+  "已保留 CPU 渲染，可稍后重新启动重试。\n": [
+    "cuda_headers.py:53"
+  ],
+  "共享 CUDA 运行库不完整，请重新安装完整包：": [
+    "cuda_runtime.py:26"
+  ],
+  "重置曲线前": [
+    "curve_editor.py:86"
+  ],
+  "输入": [
+    "curve_editor.py:19"
+  ],
+  "255 输入": [
+    "curve_editor.py:51"
+  ],
+  "点曲线调整前": [
+    "curve_editor.py:62",
+    "curve_editor.py:63"
+  ],
+  "调整点曲线 ": [
+    "curve_editor.py:72"
+  ],
+  "删除曲线点前": [
+    "curve_editor.py:75"
+  ],
+  "曲线数值调整前": [
+    "curve_editor.py:83"
+  ],
+  "曲线坐标应为0–255，输入坐标需保持点的顺序。": [
+    "curve_editor.py:84"
+  ],
+  "点曲线通道": [
+    "curve_editor.py:13"
+  ],
+  "恢复本通道": [
+    "curve_editor.py:21"
+  ],
+  "左：暗部 → 右：亮部；上移提亮，下移压暗。点击加点，拖动调整，右键删点。": [
+    "curve_editor.py:22"
+  ],
+  "DAMO分区域祛纹": [
+    "damo_blend_engine.py:16"
+  ],
+  "DAMO祛纹输入图像无效。": [
+    "damo_blend_engine.py:73"
+  ],
+  "DAMO祛纹图层范围不一致。": [
+    "damo_blend_engine.py:88"
+  ],
+  "DAMO祛纹匀肤模型校验失败。": [
+    "damo_blend_engine.py:26"
+  ],
+  "DAMO祛纹模型返回无效混合图层。": [
+    "damo_blend_engine.py:63"
+  ],
+  "缺少本地 DAMO 祛纹匀肤模型：": [
+    "damo_blend_engine.py:25"
+  ],
+  "GPU匀肤失败，已重试CPU：": [
+    "damo_blend_engine.py:62"
+  ],
+  "皮肤引擎版本无效。": [
+    "damo_engine.py:163",
+    "damo_engine.py:89",
+    "project_io.py:23"
+  ],
+  "选区与照片尺寸不匹配。": [
+    "damo_engine.py:165",
+    "damo_engine.py:182"
+  ],
+  "选区过大，请分批修复。": [
+    "damo_engine.py:186"
+  ],
+  "深色点保护开关无效。": [
+    "damo_engine.py:90",
+    "project_io.py:25",
+    "project_io.py:80"
+  ],
+  "已取消，未应用修复。": [
+    "damo_engine.py:189",
+    "portrait_patch_blend.py:33"
+  ],
+  "DAMO模型校验失败。": [
+    "damo_engine.py:25"
+  ],
+  "AI 输出像素无效，未应用结果。": [
+    "damo_engine.py:173",
+    "damo_engine.py:200"
+  ],
+  "AI 正在分割皮肤、头发和五官…": [
+    "damo_engine.py:104"
+  ],
+  "人像美肤模型正在检测痘点与局部瑕疵…": [
+    "damo_engine.py:125"
+  ],
+  " · 当前人像": [
+    "dark_ui.py:168"
+  ],
+  "参数曲线阴影": [
+    "develop_advanced.py:10"
+  ],
+  "参数曲线暗调": [
+    "develop_advanced.py:10"
+  ],
+  "参数曲线亮调": [
+    "develop_advanced.py:10"
+  ],
+  "参数曲线高光": [
+    "develop_advanced.py:10"
+  ],
+  "阴影分界 %": [
+    "develop_advanced.py:11"
+  ],
+  "中调分界 %": [
+    "develop_advanced.py:11"
+  ],
+  "高光分界 %": [
+    "develop_advanced.py:11"
+  ],
+  "暗角中点": [
+    "develop_advanced.py:12"
+  ],
+  "暗角圆度": [
+    "develop_advanced.py:12"
+  ],
+  "暗角羽化": [
+    "develop_advanced.py:12"
+  ],
+  "暗角高光保护": [
+    "develop_advanced.py:12"
+  ],
+  "暗角模式": [
+    "develop_advanced.py:12"
+  ],
+  "颗粒粗糙度": [
+    "develop_advanced.py:13"
+  ],
+  "胶片颗粒模式": [
+    "develop_advanced.py:13"
+  ],
+  "明度细节保留": [
+    "develop_advanced.py:14"
+  ],
+  "明度对比保留": [
+    "develop_advanced.py:14"
+  ],
+  "颜色细节保留": [
+    "develop_advanced.py:14"
+  ],
+  "颜色平滑": [
+    "develop_advanced.py:14"
+  ],
+  "校准阴影偏色": [
+    "develop_advanced.py:15"
+  ],
+  "调色输出包含无效数值。": [
+    "develop_engine.py:225"
+  ],
+  "手动畸变": [
+    "develop_optics.py:5"
+  ],
+  "镜头暗角补偿": [
+    "develop_optics.py:5"
+  ],
+  "红色色差": [
+    "develop_optics.py:5"
+  ],
+  "蓝色色差": [
+    "develop_optics.py:5"
+  ],
+  "紫绿边去除": [
+    "develop_optics.py:6"
+  ],
+  "垂直透视": [
+    "develop_optics.py:6"
+  ],
+  "水平透视": [
+    "develop_optics.py:6"
+  ],
+  "微调旋转": [
+    "develop_optics.py:6"
+  ],
+  "纵横比例": [
+    "develop_optics.py:7"
+  ],
+  "变换缩放": [
+    "develop_optics.py:7"
+  ],
+  "水平位移": [
+    "develop_optics.py:7"
+  ],
+  "垂直位移": [
+    "develop_optics.py:7"
+  ],
+  "传感器倍率": [
+    "develop_optics.py:8"
+  ],
+  "焦距 mm": [
+    "develop_optics.py:8"
+  ],
+  "镜头与变换参数无效。": [
+    "develop_optics.py:23"
+  ],
+  "镜头配置名称无效。": [
+    "develop_optics.py:27"
+  ],
+  "透视矩阵无效。": [
+    "develop_optics.py:32"
+  ],
+  "透视校正模式无效。": [
+    "develop_optics.py:33"
+  ],
+  "最多四条透视引导线。": [
+    "develop_optics.py:34"
+  ],
+  "镜头开关无效。": [
+    "develop_optics.py:26"
+  ],
+  "透视引导线无效。": [
+    "develop_optics.py:37"
+  ],
+  "镜头参数超范围：": [
+    "develop_optics.py:30"
+  ],
+  "镜头校正": [
+    "develop_optics_ui.py:13"
+  ],
+  "按相机与镜头信息匹配": [
+    "develop_optics_ui.py:15"
+  ],
+  "载入镜头配置列表": [
+    "develop_optics_ui.py:17"
+  ],
+  "变换 · 透视与水平": [
+    "develop_optics_ui.py:20"
+  ],
+  "自动水平": [
+    "develop_optics_ui.py:23"
+  ],
+  "在照片上绘制引导线": [
+    "develop_optics_ui.py:26"
+  ],
+  "应用引导线校正": [
+    "develop_optics_ui.py:27"
+  ],
+  "清除引导与自动透视": [
+    "develop_optics_ui.py:28"
+  ],
+  "镜头与变换前": [
+    "develop_optics_ui.py:41"
+  ],
+  "镜头与透视变换": [
+    "develop_optics_ui.py:42"
+  ],
+  "已载入实测镜头列表；请选择实际使用的镜头。": [
+    "develop_optics_ui.py:45"
+  ],
+  "自动透视前": [
+    "develop_optics_ui.py:73"
+  ],
+  "自动透视校正": [
+    "develop_optics_ui.py:74"
+  ],
+  "引导透视前": [
+    "develop_optics_ui.py:81"
+  ],
+  "引导透视校正": [
+    "develop_optics_ui.py:81"
+  ],
+  "清除透视前": [
+    "develop_optics_ui.py:84"
+  ],
+  "新导入 RAW 自动启用唯一匹配的镜头配置；也可手动选择。": [
+    "develop_optics_ui.py:11"
+  ],
+  "启用镜头配置校正": [
+    "develop_optics_ui.py:14"
+  ],
+  "约束边缘 · 自动缩放避免黑边": [
+    "develop_optics_ui.py:22"
+  ],
+  "自动垂直校正": [
+    "develop_optics_ui.py:24"
+  ],
+  "自动完整透视": [
+    "develop_optics_ui.py:24"
+  ],
+  "请先匹配或选择镜头配置。": [
+    "develop_optics_ui.py:40"
+  ],
+  "没有唯一匹配的配置，请手动选择实际镜头。": [
+    "develop_optics_ui.py:50"
+  ],
+  "已匹配：": [
+    "develop_optics_ui.py:54"
+  ],
+  "未检测到足够可靠的水平线，请手动调整。": [
+    "develop_optics_ui.py:65"
+  ],
+  "水平线": [
+    "develop_optics_ui.py:25"
+  ],
+  "未找到唯一匹配的镜头配置；可载入列表选择实际镜头。": [
+    "develop_optics_ui.py:37"
+  ],
+  "已启用：": [
+    "develop_optics_ui.py:36"
+  ],
+  "已选择，校正关闭：": [
+    "develop_optics_ui.py:36"
+  ],
+  "色彩输出设置无效。": [
+    "develop_output.py:33"
+  ],
+  "色彩空间或呈色意图无效。": [
+    "develop_output.py:35"
+  ],
+  "请先选择软打样ICC；当前显示正常预览。": [
+    "develop_output.py:29"
+  ],
+  "输出预览开关无效。": [
+    "develop_output.py:37"
+  ],
+  "ICC路径无效。": [
+    "develop_output.py:39"
+  ],
+  "显示器ICC不可用，已暂用sRGB显示；可重新选择。": [
+    "develop_output.py:24"
+  ],
+  "软打样ICC不可用，已暂时停用；输出色彩设置保留。": [
+    "develop_output.py:28"
+  ],
+  "色彩输出与软打样": [
+    "develop_output_ui.py:13",
+    "develop_output_ui.py:34"
+  ],
+  "选择软打样 ICC": [
+    "develop_output_ui.py:17"
+  ],
+  "恢复当前照片打样预览": [
+    "develop_output_ui.py:18",
+    "develop_output_ui.py:58"
+  ],
+  "本机显示器 · 立即生效": [
+    "develop_output_ui.py:20"
+  ],
+  "使用系统显示器 ICC": [
+    "develop_output_ui.py:22"
+  ],
+  "手动选择显示器 ICC": [
+    "develop_output_ui.py:23"
+  ],
+  "显示器恢复 sRGB": [
+    "develop_output_ui.py:24"
+  ],
+  "色彩输出设置前": [
+    "develop_output_ui.py:32"
+  ],
+  "ICC设置前": [
+    "develop_output_ui.py:44"
+  ],
+  "已使用本机显示器ICC；此设置不随照片同步。": [
+    "develop_output_ui.py:52"
+  ],
+  "本机显示器已恢复 sRGB；照片的软打样与输出设置保持不变。": [
+    "develop_output_ui.py:56"
+  ],
+  "恢复打样预览前": [
+    "develop_output_ui.py:58"
+  ],
+  "显示预览和导出像素分别处理；软打样不写入照片。": [
+    "develop_output_ui.py:11"
+  ],
+  "HDR 浮点TIFF输出": [
+    "develop_output_ui.py:15"
+  ],
+  "SDR 高光映射预览": [
+    "develop_output_ui.py:15"
+  ],
+  "启用软打样": [
+    "develop_output_ui.py:15"
+  ],
+  "显示所选输出空间的超色域区域": [
+    "develop_output_ui.py:15"
+  ],
+  "HDR为浮点TIFF；当前窗口采用SDR显示。": [
+    "develop_output_ui.py:27"
+  ],
+  "ICC转换保留浮点精度；软打样只影响预览。": [
+    "develop_output_ui.py:27"
+  ],
+  "设置ICC ": [
+    "develop_output_ui.py:46"
+  ],
+  "系统未提供显示器ICC，可以手动选择。": [
+    "develop_output_ui.py:50"
+  ],
+  "ICC无法使用": [
+    "develop_output_ui.py:40"
+  ],
+  "以下设置影响本机所有照片；立即保存，不受工作台应用或取消控制，不随照片同步。": [
+    "develop_output_ui.py:21"
+  ],
+  "ICC 色彩配置": [
+    "develop_output_ui.py:36"
+  ],
+  "色温 K": [
+    "develop_settings.py:2"
+  ],
+  "白平衡偏色": [
+    "develop_settings.py:2"
+  ],
+  "中间调色相": [
+    "develop_settings.py:3"
+  ],
+  "中间调饱和度": [
+    "develop_settings.py:3"
+  ],
+  "全局分级色相": [
+    "develop_settings.py:4"
+  ],
+  "全局分级饱和度": [
+    "develop_settings.py:4"
+  ],
+  "阴影分级明度": [
+    "develop_settings.py:5"
+  ],
+  "中间调分级明度": [
+    "develop_settings.py:5"
+  ],
+  "高光分级明度": [
+    "develop_settings.py:5"
+  ],
+  "分级平衡": [
+    "develop_settings.py:6"
+  ],
+  "分级混合": [
+    "develop_settings.py:6"
+  ],
+  "暖色分级保护": [
+    "develop_settings.py:6"
+  ],
+  "曲线保色": [
+    "develop_settings.py:7",
+    "local_develop.py:8"
+  ],
+  "通道曲线保色": [
+    "develop_settings.py:7"
+  ],
+  "低饱和保护": [
+    "develop_settings.py:7"
+  ],
+  "全图纹理": [
+    "develop_settings.py:7"
+  ],
+  "全图清晰度": [
+    "develop_settings.py:7"
+  ],
+  "去朦胧": [
+    "develop_settings.py:7",
+    "local_develop.py:7"
+  ],
+  "明度降噪": [
+    "develop_settings.py:8",
+    "local_develop.py:7"
+  ],
+  "颜色降噪": [
+    "develop_settings.py:8",
+    "local_develop.py:7"
+  ],
+  "锐化量": [
+    "develop_settings.py:9"
+  ],
+  "锐化半径": [
+    "develop_settings.py:9"
+  ],
+  "锐化细节": [
+    "develop_settings.py:9"
+  ],
+  "锐化蒙版": [
+    "develop_settings.py:9"
+  ],
+  "黑白转换": [
+    "develop_settings.py:10"
+  ],
+  "红原色色相": [
+    "develop_settings.py:10"
+  ],
+  "红原色饱和度": [
+    "develop_settings.py:10"
+  ],
+  "绿原色色相": [
+    "develop_settings.py:11"
+  ],
+  "绿原色饱和度": [
+    "develop_settings.py:11"
+  ],
+  "蓝原色色相": [
+    "develop_settings.py:11"
+  ],
+  "蓝原色饱和度": [
+    "develop_settings.py:11"
+  ],
+  "后期暗角": [
+    "develop_settings.py:12"
+  ],
+  "颗粒": [
+    "develop_settings.py:12"
+  ],
+  "颗粒大小": [
+    "develop_settings.py:12"
+  ],
+  "点颜色最多8组。": [
+    "develop_settings.py:19"
+  ],
+  "点颜色记录无效。": [
+    "develop_settings.py:24"
+  ],
+  "点颜色范围无效：": [
+    "develop_settings.py:28"
+  ],
+  "白平衡 · 色温与中性取样": [
+    "develop_ui.py:32"
+  ],
+  "在照片上取中性灰 / 白": [
+    "develop_ui.py:36"
+  ],
+  "清除中性取样": [
+    "develop_ui.py:37"
+  ],
+  "自动影调": [
+    "develop_ui.py:38",
+    "develop_ui.py:223"
+  ],
+  "XMP 参数应用到当前照片": [
+    "develop_ui.py:39"
+  ],
+  "导出 XMP 调色设置": [
+    "develop_ui.py:40"
+  ],
+  "色彩分级 · 三向与全局": [
+    "develop_ui.py:41"
+  ],
+  "点颜色 · 可调颜色范围": [
+    "develop_ui.py:54"
+  ],
+  "在照片上添加颜色取样": [
+    "develop_ui.py:56"
+  ],
+  "颜色离散程度": [
+    "develop_ui.py:60"
+  ],
+  "预览受影响颜色范围": [
+    "develop_ui.py:61"
+  ],
+  "删除当前点颜色": [
+    "develop_ui.py:62"
+  ],
+  "全图质感、降噪与锐化": [
+    "develop_ui.py:63"
+  ],
+  "黑白混色": [
+    "develop_ui.py:66"
+  ],
+  "黑白转换：0关闭 / 1开启": [
+    "develop_ui.py:68"
+  ],
+  "RGB 原色校准": [
+    "develop_ui.py:70"
+  ],
+  "曲线保色、暗角与颗粒": [
+    "develop_ui.py:75"
+  ],
+  "白平衡方案前": [
+    "develop_ui.py:112"
+  ],
+  "点颜色调整前": [
+    "develop_ui.py:135"
+  ],
+  "删除点颜色前": [
+    "develop_ui.py:140"
+  ],
+  "删除点颜色": [
+    "develop_ui.py:140"
+  ],
+  "清除白平衡取样前": [
+    "develop_ui.py:147"
+  ],
+  "清除白平衡取样": [
+    "develop_ui.py:147"
+  ],
+  "调色取样前": [
+    "develop_ui.py:154"
+  ],
+  "调色取样": [
+    "develop_ui.py:170"
+  ],
+  "XMP映射结果": [
+    "develop_ui.py:197"
+  ],
+  "自动影调前": [
+    "develop_ui.py:221"
+  ],
+  "尚未取样": [
+    "develop_ui.py:18",
+    "develop_ui.py:105"
+  ],
+  "原始拍摄": [
+    "develop_ui.py:22",
+    "develop_ui.py:97",
+    "develop_ui.py:34",
+    "develop_ui.py:113"
+  ],
+  "色温参考 K": [
+    "develop_ui.py:35"
+  ],
+  "绿／洋红偏色": [
+    "develop_ui.py:35"
+  ],
+  "全局": [
+    "develop_ui.py:48"
+  ],
+  "选择分级颜色": [
+    "develop_ui.py:52"
+  ],
+  "色相变化": [
+    "develop_ui.py:59"
+  ],
+  "饱和度变化": [
+    "develop_ui.py:59"
+  ],
+  "明度变化": [
+    "develop_ui.py:59"
+  ],
+  "色相范围": [
+    "develop_ui.py:59"
+  ],
+  "饱和度范围": [
+    "develop_ui.py:59"
+  ],
+  "明度范围": [
+    "develop_ui.py:59"
+  ],
+  "高光优先": [
+    "develop_ui.py:78",
+    "develop_ui.py:79",
+    "develop_ui.py:92",
+    "develop_ui.py:95"
+  ],
+  "胶片颗粒 · 随原图比例缩放": [
+    "develop_ui.py:82"
+  ],
+  "兼容旧项目算法": [
+    "develop_ui.py:96",
+    "develop_ui.py:29"
+  ],
+  "自动": [
+    "develop_ui.py:114",
+    "develop_ui.py:34",
+    "develop_ui.py:113"
+  ],
+  "白平衡方案 ": [
+    "develop_ui.py:120"
+  ],
+  "请先在照片上添加点颜色取样。": [
+    "develop_ui.py:134"
+  ],
+  "已按中性取样校正白平衡，可继续微调冷暖。": [
+    "develop_ui.py:158"
+  ],
+  "XMP导入前": [
+    "develop_ui.py:190"
+  ],
+  "XMP参数映射 ": [
+    "develop_ui.py:196"
+  ],
+  "导出调色XMP": [
+    "develop_ui.py:203"
+  ],
+  "XMP已导出。": [
+    "develop_ui.py:208"
+  ],
+  "分级颜色前": [
+    "develop_ui.py:214"
+  ],
+  "分级颜色 · ": [
+    "develop_ui.py:215"
+  ],
+  "日光": [
+    "develop_ui.py:34",
+    "develop_ui.py:113"
+  ],
+  "阴天": [
+    "develop_ui.py:34",
+    "develop_ui.py:113"
+  ],
+  "钨丝灯": [
+    "develop_ui.py:34",
+    "develop_ui.py:113"
+  ],
+  "荧光灯": [
+    "develop_ui.py:34",
+    "develop_ui.py:113"
+  ],
+  "闪光灯": [
+    "develop_ui.py:34",
+    "develop_ui.py:113"
+  ],
+  "明度": [
+    "develop_ui.py:69",
+    "develop_ui.py:51"
+  ],
+  "颜色优先": [
+    "develop_ui.py:79",
+    "develop_ui.py:92",
+    "develop_ui.py:95"
+  ],
+  "叠色": [
+    "develop_ui.py:79",
+    "develop_ui.py:92",
+    "develop_ui.py:95"
+  ],
+  "XMP无法导入": [
+    "develop_ui.py:177"
+  ],
+  "XMP未导出": [
+    "develop_ui.py:207"
+  ],
+  "中心为中性 · 左右键调整色相 · 上下键调整强度": [
+    "develop_ui.py:47"
+  ],
+  "已定位HSL：": [
+    "develop_ui.py:162"
+  ],
+  "点颜色最多8组，请先删除不需要的取样。": [
+    "develop_ui.py:165"
+  ],
+  "\n未导入：": [
+    "develop_ui.py:197"
+  ],
+  "编辑记录": [
+    "edit_records_ui.py:12",
+    "feature_navigation_ui.py:120"
+  ],
+  "修饰记录": [
+    "edit_records_ui.py:16"
+  ],
+  "显示": [
+    "edit_records_ui.py:16",
+    "edit_records_ui.py:37"
+  ],
+  "不透明度": [
+    "edit_records_ui.py:16",
+    "edit_records_ui.py:37",
+    "retouch_ui.py:60"
+  ],
+  "编辑修饰记录前": [
+    "edit_records_ui.py:33"
+  ],
+  "已更新；Ctrl＋Z可撤销。": [
+    "edit_records_ui.py:36"
+  ],
+  "删除修饰记录": [
+    "edit_records_ui.py:36"
+  ],
+  "调整修饰记录": [
+    "edit_records_ui.py:36"
+  ],
+  "按原始顺序重放；隐藏或删除一笔后，后续修复会重新取样。": [
+    "edit_records_ui.py:15"
+  ],
+  "不透明度请输入0–100": [
+    "edit_records_ui.py:32"
+  ],
+  "删除所选": [
+    "edit_records_ui.py:39"
+  ],
+  "迁移": [
+    "edit_records_ui.py:22"
+  ],
+  "是": [
+    "edit_records_ui.py:23"
+  ],
+  "否": [
+    "edit_records_ui.py:23"
+  ],
+  "AURA Photo · 独立版说明": [
+    "edition_update_ui.py:12"
+  ],
+  "支持静态照片与 RAW 编辑。\n附带 NVIDIA GPU 推理与渲染运行库；不可用时回退 CPU。\n首次启用 GPU 渲染需同意联网初始化，之后可离线使用。\n面部定位：MediaPipe 网格适配。\n皮肤 / 人物分割：MediaPipe 多类模型。\n眼、眉、唇：网格区域，可手动修边。\n不含富士滤镜、HEIC、实况照片及视频。\n细发丝、遮挡和侧脸请检查蒙版。\n完整许可见程序目录 THIRD_PARTY_NOTICES.txt。": [
+    "edition_update_ui.py:13"
+  ],
+  "AURA Photo 0.1.0 · 独立静态照片版\n配置与缓存保存在本版目录，不读取旧版设置。\n更新方式：下载独立版 ZIP，解压到新的目录。\n本版不调用旧版安装器。": [
+    "edition_update_ui.py:9"
+  ],
+  "本版功能与模型说明": [
+    "edition_update_ui.py:10"
+  ],
+  "手机修补缓存": [
+    "effect_controls.py:3"
+  ],
+  "自动祛瑕": [
+    "effect_controls.py:3"
+  ],
+  "基础肤质 · 脸与身体": [
+    "effect_controls.py:3"
+  ],
+  "面部细节": [
+    "effect_controls.py:4"
+  ],
+  "面部肤色": [
+    "effect_controls.py:4"
+  ],
+  "身体专项": [
+    "effect_controls.py:5"
+  ],
+  "部位蒙版调色": [
+    "effect_controls.py:5"
+  ],
+  "迁移与仿制": [
+    "effect_controls.py:5"
+  ],
+  "手动修饰": [
+    "effect_controls.py:5"
+  ],
+  "全局调色与追色": [
+    "effect_controls.py:5"
+  ],
+  "人像柔光": [
+    "effect_controls.py:5"
+  ],
+  "衣物整理": [
+    "effect_controls.py:5"
+  ],
+  "轻妆与发色": [
+    "effect_controls.py:5"
+  ],
+  "调色与创作": [
+    "effect_controls.py:5"
+  ],
+  "效果开关或强度无效。": [
+    "effect_controls.py:10"
+  ],
+  "效果管理与局部擦回": [
+    "effect_ui.py:16"
+  ],
+  "所选效果强度": [
+    "effect_ui.py:20"
+  ],
+  "清除所选效果的擦回区域": [
+    "effect_ui.py:26"
+  ],
+  "擦回效果前": [
+    "effect_ui.py:61"
+  ],
+  "清除效果擦回区域": [
+    "effect_ui.py:71"
+  ],
+  "显示所选效果": [
+    "effect_ui.py:19"
+  ],
+  "擦回此效果": [
+    "effect_ui.py:22"
+  ],
+  "恢复此效果": [
+    "effect_ui.py:22"
+  ],
+  "擦回半径 / 原图像素": [
+    "effect_ui.py:24"
+  ],
+  "调整效果 · ": [
+    "effect_ui.py:39"
+  ],
+  "请等待形变完成后擦回。": [
+    "effect_ui.py:59"
+  ],
+  "请先关闭实验身体形变，再擦回效果。": [
+    "effect_ui.py:60"
+  ],
+  "局部擦回 · ": [
+    "effect_ui.py:69"
+  ],
+  "显示擦回区域": [
+    "effect_ui.py:25"
+  ],
+  "擦回只影响所选处理阶段，保留其他调整；智能脸型和液化通过原工具恢复。画笔在原图坐标记录，可跟随已完成的面部液化。": [
+    "effect_ui.py:27"
+  ],
+  "已取消，未应用面部细节。": [
+    "face_details.py:70"
+  ],
+  "面部重塑定位": [
+    "face_reshape.py:105"
+  ],
+  "复用已有 MediaPipe 网格定位": [
+    "face_reshape.py:105"
+  ],
+  "已取消面部重塑，照片未改变。": [
+    "face_reshape.py:13"
+  ],
+  "独立版使用 MediaPipe 网格定位。": [
+    "face_reshape.py:101"
+  ],
+  "本图形变范围过密，请降低强度或先调整单侧。": [
+    "face_reshape.py:195"
+  ],
+  "相邻人物的形变过密，请降低强度。": [
+    "face_reshape.py:229"
+  ],
+  "多人物形变发生过度压缩，请降低相邻人物的强度。": [
+    "face_reshape.py:263"
+  ],
+  "重置功能前": [
+    "feature_actions_ui.py:270"
+  ],
+  "正在准备首次对比；松开立即恢复，完成后会提示。": [
+    "feature_actions_ui.py:221"
+  ],
+  "当前效果已恢复；对比仍在准备，完成后会提示。": [
+    "feature_actions_ui.py:263"
+  ],
+  "重置本功能 · ": [
+    "feature_actions_ui.py:335"
+  ],
+  "当前效果已恢复。": [
+    "feature_actions_ui.py:33"
+  ],
+  "重置本功能": [
+    "feature_actions_ui.py:49"
+  ],
+  "关闭效果 · 松开恢复": [
+    "feature_actions_ui.py:218",
+    "feature_actions_ui.py:252"
+  ],
+  "对比准备中…": [
+    "feature_actions_ui.py:220"
+  ],
+  "对比未生成：": [
+    "feature_actions_ui.py:238"
+  ],
+  "对比已准备完成；按住查看，松开恢复当前效果。": [
+    "feature_actions_ui.py:250"
+  ],
+  "按住对比": [
+    "feature_actions_ui.py:258",
+    "feature_actions_ui.py:45"
+  ],
+  "笔刷设置": [
+    "feature_actions_ui.py:42",
+    "retouch_ui.py:59"
+  ],
+  "取样变换": [
+    "feature_actions_ui.py:42",
+    "retouch_ui.py:62"
+  ],
+  "RAW中性显影尺寸不同，请先统一RAW来源。": [
+    "feature_actions_ui.py:163"
+  ],
+  "重置所有光源": [
+    "feature_actions_ui.py:49"
+  ],
+  "重置此灯灯位": [
+    "feature_actions_ui.py:49"
+  ],
+  "重置此灯受光": [
+    "feature_actions_ui.py:49"
+  ],
+  "重置此灯保护": [
+    "feature_actions_ui.py:49"
+  ],
+  "清除渐变与范围": [
+    "feature_actions_ui.py:49"
+  ],
+  "身体美颜范围": [
+    "feature_catalog.py:32"
+  ],
+  "祛斑祛痘": [
+    "feature_catalog.py:2"
+  ],
+  "祛斑点候选": [
+    "feature_catalog.py:2"
+  ],
+  "祛深色点 / 痣点候选": [
+    "feature_catalog.py:3"
+  ],
+  "祛汗珠亮点": [
+    "feature_catalog.py:3"
+  ],
+  "鼻部细小瑕疵": [
+    "feature_catalog.py:4"
+  ],
+  "减淡胡须 / 唇毛": [
+    "feature_catalog.py:4"
+  ],
+  "修复质感保留": [
+    "feature_catalog.py:5"
+  ],
+  "淡化眼袋光影": [
+    "feature_catalog.py:5",
+    "volume_ui.py:10"
+  ],
+  "下颌线光影增强": [
+    "feature_catalog.py:6",
+    "volume_ui.py:10"
+  ],
+  "胡须保护": [
+    "feature_catalog.py:7"
+  ],
+  "妆容色彩保护": [
+    "feature_catalog.py:7"
+  ],
+  "身体祛瑕疵": [
+    "feature_catalog.py:8"
+  ],
+  "身体深色点候选": [
+    "feature_catalog.py:8"
+  ],
+  "纹身候选修复 · 实验": [
+    "feature_catalog.py:8"
+  ],
+  "身体质感磨皮": [
+    "feature_catalog.py:9"
+  ],
+  "身体高频纹理": [
+    "feature_catalog.py:9"
+  ],
+  "身体低频平整": [
+    "feature_catalog.py:9"
+  ],
+  "身体水润柔化": [
+    "feature_catalog.py:10"
+  ],
+  "身体美白": [
+    "feature_catalog.py:10",
+    "feature_catalogue.py:76"
+  ],
+  "身体肤色透亮": [
+    "feature_catalog.py:10"
+  ],
+  "身体肤色均匀": [
+    "feature_catalog.py:11"
+  ],
+  "身体向面部肤色靠拢": [
+    "feature_catalog.py:11"
+  ],
+  "身体红润（旧配置兼容）": [
+    "feature_catalog.py:12"
+  ],
+  "身体色温": [
+    "feature_catalog.py:12"
+  ],
+  "身体红润 / 色调": [
+    "feature_catalog.py:12"
+  ],
+  "颈纹淡化": [
+    "feature_catalog.py:13"
+  ],
+  "身体细纹 / 妊娠纹 · 实验": [
+    "feature_catalog.py:13"
+  ],
+  "锁骨光影增强 · 实验": [
+    "feature_catalog.py:13"
+  ],
+  "身体取样肤色匹配": [
+    "feature_catalog.py:14"
+  ],
+  "身体肤色方案强度": [
+    "feature_catalog.py:14"
+  ],
+  "身体向最亮面部肤色靠拢": [
+    "feature_catalog.py:14"
+  ],
+  "面部肤色方案强度": [
+    "feature_catalog.py:15"
+  ],
+  "面部取样肤色匹配": [
+    "feature_catalog.py:15"
+  ],
+  "面部向最亮肤色靠拢": [
+    "feature_catalog.py:16"
+  ],
+  "面部高频纹理增强": [
+    "feature_catalog.py:16"
+  ],
+  "肤色方案编号": [
+    "feature_catalog.py:17"
+  ],
+  "取样R": [
+    "feature_catalog.py:17"
+  ],
+  "取样G": [
+    "feature_catalog.py:17"
+  ],
+  "取样B": [
+    "feature_catalog.py:17"
+  ],
+  "自动瘦身": [
+    "feature_catalog.py:19"
+  ],
+  "自动瘦腰": [
+    "feature_catalog.py:19"
+  ],
+  "自动瘦腿": [
+    "feature_catalog.py:19"
+  ],
+  "拉腿": [
+    "feature_catalog.py:19",
+    "live_body.py:94"
+  ],
+  "中性灰立体 · 五官": [
+    "feature_catalog.py:20"
+  ],
+  "中性灰立体 · 轮廓": [
+    "feature_catalog.py:20"
+  ],
+  "全脸光影丰盈 · 档位": [
+    "feature_catalog.py:21"
+  ],
+  "额头光影丰盈": [
+    "feature_catalog.py:21"
+  ],
+  "面中光影丰盈": [
+    "feature_catalog.py:21"
+  ],
+  "面颊光影丰盈": [
+    "feature_catalog.py:22"
+  ],
+  "鼻基底光影丰盈": [
+    "feature_catalog.py:22"
+  ],
+  "眼窝 · 人物左侧": [
+    "feature_catalog.py:23"
+  ],
+  "眼窝 · 人物右侧": [
+    "feature_catalog.py:23"
+  ],
+  "眼头阴影柔化": [
+    "feature_catalog.py:24"
+  ],
+  "眉弓光影丰盈": [
+    "feature_catalog.py:24"
+  ],
+  "下巴光影丰盈": [
+    "feature_catalog.py:24"
+  ],
+  "嘴角光影丰盈": [
+    "feature_catalog.py:24"
+  ],
+  "额头": [
+    "feature_catalog.py:25"
+  ],
+  "面中": [
+    "feature_catalog.py:25"
+  ],
+  "鼻基底": [
+    "feature_catalog.py:25",
+    "liquify_guides.py:78"
+  ],
+  "下巴": [
+    "feature_catalog.py:25",
+    "liquify_guides.py:79"
+  ],
+  "双下巴局部收紧 · 实验": [
+    "feature_catalog.py:27"
+  ],
+  "双下巴阴影淡化": [
+    "feature_catalog.py:27",
+    "volume_ui.py:10"
+  ],
+  "腋下局部收紧 · 人物左侧 · 实验": [
+    "feature_catalog.py:28"
+  ],
+  "腋下局部收紧 · 人物右侧 · 实验": [
+    "feature_catalog.py:28"
+  ],
+  "丰盈 · 平整": [
+    "feature_catalog.py:26"
+  ],
+  "丰盈 · 提亮": [
+    "feature_catalog.py:26"
+  ],
+  "肤色": [
+    "feature_catalogue.py:57"
+  ],
+  "瑕疵": [
+    "feature_catalogue.py:57"
+  ],
+  "祛纹": [
+    "feature_catalogue.py:57",
+    "feature_catalogue.py:74"
+  ],
+  "创作": [
+    "feature_catalogue.py:57"
+  ],
+  "显影": [
+    "feature_catalogue.py:57"
+  ],
+  "调色": [
+    "feature_catalogue.py:57",
+    "feature_catalogue.py:14",
+    "feature_navigation_ui.py:31",
+    "feature_navigation_ui.py:42",
+    "feature_navigation_ui.py:115",
+    "workspace_ui.py:178"
+  ],
+  "整张照片": [
+    "feature_catalogue.py:14"
+  ],
+  "打开独立调色工作台，调整全局影调与RAW显影。": [
+    "feature_catalogue.py:14"
+  ],
+  "当前人物": [
+    "feature_catalogue.py:15",
+    "feature_catalogue.py:18"
+  ],
+  "推荐参数、肤色、肤质、祛瑕、祛纹与人像补光。": [
+    "feature_catalogue.py:15"
+  ],
+  "身体皮肤 / 单人照片的身体轮廓": [
+    "feature_catalogue.py:16"
+  ],
+  "身体美肤、瑕疵，以及照片模式的瘦身、瘦腰、瘦腿和拉腿。": [
+    "feature_catalogue.py:16"
+  ],
+  "塑形": [
+    "feature_catalogue.py:17"
+  ],
+  "当前人物 / 手动形变区域": [
+    "feature_catalogue.py:17"
+  ],
+  "脸型预设、智能五官与液化画笔 / 悬停节点。": [
+    "feature_catalogue.py:17"
+  ],
+  "唇色、腮红与发色，强度默认关闭。": [
+    "feature_catalogue.py:18"
+  ],
+  "当前人物的衣物": [
+    "feature_catalogue.py:19"
+  ],
+  "淡化衣物细褶皱、调整衣物颜色。": [
+    "feature_catalogue.py:19"
+  ],
+  "背景区域": [
+    "feature_catalogue.py:20"
+  ],
+  "调整背景颜色与柔化；可查看和修正背景范围。": [
+    "feature_catalogue.py:20"
+  ],
+  "当前人物 / 当前蒙版": [
+    "feature_catalogue.py:21"
+  ],
+  "识别部位、合并或分别生成范围，补选、修边与局部调色。": [
+    "feature_catalogue.py:21"
+  ],
+  "手动选区 / 所选处理阶段": [
+    "feature_catalogue.py:22"
+  ],
+  "修饰画笔、迁移仿制、AI清理与效果擦回。": [
+    "feature_catalogue.py:22"
+  ],
+  "整张照片的导出取景": [
+    "feature_catalogue.py:23"
+  ],
+  "裁剪、水平校正和旋转；可用当前人物作为取景中心。": [
+    "feature_catalogue.py:23"
+  ],
+  "独立窗口中调整影调、曲线、颜色、分级、细节与RAW；应用后继续编辑，返回时可处理未应用调整。": [
+    "feature_catalogue.py:28"
+  ],
+  "Camera Raw 工作台 独立窗口 调色": [
+    "feature_catalogue.py:28"
+  ],
+  "推荐与基础美颜": [
+    "feature_catalogue.py:29"
+  ],
+  "基础磨皮、美白与纹理覆盖脸、耳、颈及身体皮肤；面部漏识别可用美颜范围画笔补选，祛痘检测独立。": [
+    "feature_catalogue.py:29"
+  ],
+  "人像 皮肤 推荐 自动美颜 漏选 刘海 发丝 下巴 羽化 手动补选 portrait beauty": [
+    "feature_catalogue.py:29"
+  ],
+  "肤色取样与肤色方案": [
+    "feature_catalogue.py:30"
+  ],
+  "先取样，再调整面部或身体的肤色匹配强度。": [
+    "feature_catalogue.py:30"
+  ],
+  "吸管 肤色 取色 skin tone eyedropper": [
+    "feature_catalogue.py:30"
+  ],
+  "皮肤质感与肤色微调": [
+    "feature_catalogue.py:31"
+  ],
+  "明暗、频率、光泽及肤色微调。": [
+    "feature_catalogue.py:31"
+  ],
+  "肤质 磨皮 哑光 水光 缎面 skin texture": [
+    "feature_catalogue.py:31"
+  ],
+  "面部祛瑕": [
+    "feature_catalogue.py:32"
+  ],
+  "面部候选瑕疵的细分、AI修复，以及质感、胡须与妆容保护。": [
+    "feature_catalogue.py:32"
+  ],
+  "瑕疵 痘痘 去痘 acne blemish": [
+    "feature_catalogue.py:32"
+  ],
+  "额头、眼周和法令纹等采用DAMO混合图层局部祛纹，保留眼球、睫毛与痣点；不追加美白。": [
+    "feature_catalogue.py:33"
+  ],
+  "去皱 去纹 眼下 DAMO quzhou wrinkles": [
+    "feature_catalogue.py:33"
+  ],
+  "光影立体与局部丰盈": [
+    "feature_catalogue.py:34"
+  ],
+  "通过亮暗调整视觉体积、眼袋或下颌阴影，不移动脸部边缘。": [
+    "feature_catalogue.py:34"
+  ],
+  "光影 丰盈 面中 额头 volume contour": [
+    "feature_catalogue.py:34"
+  ],
+  "几何柔光与多光源": [
+    "feature_catalogue.py:35"
+  ],
+  "深度和法线估计驱动当前人物补光；多灯、调色、轮廓光及可见深度遮挡。": [
+    "feature_catalogue.py:35"
+  ],
+  "打光 柔光 补光 灯 多光源 轮廓光 深度 法线 light relight": [
+    "feature_catalogue.py:35"
+  ],
+  "身体磨皮、肤色与祛瑕": [
+    "feature_catalogue.py:36"
+  ],
+  "身体参数作用于全部已确认或手动补选身体皮肤；可擦除AI范围、恢复并预览。": [
+    "feature_catalogue.py:36"
+  ],
+  "脖子 脖颈 颈部 耳朵 手臂 补选 擦除 恢复 范围 body skin neck": [
+    "feature_catalogue.py:36"
+  ],
+  "自动身体美型 · 照片": [
+    "feature_catalogue.py:37",
+    "photo_body_ui.py:12"
+  ],
+  "自动瘦身、瘦腰、瘦腿、拉腿；当前仅开放单人照片。": [
+    "feature_catalogue.py:37"
+  ],
+  "瘦身 瘦腰 瘦腿 长腿 拉腿 美体 身材 body shape waist legs slim": [
+    "feature_catalogue.py:37"
+  ],
+  "脸型预设与轮廓调整": [
+    "feature_catalogue.py:38"
+  ],
+  "移动脸部轮廓；人物左右按人物自身区分。": [
+    "feature_catalogue.py:38"
+  ],
+  "瘦脸 小脸 V脸 下巴 脸型 shoulian reshape face": [
+    "feature_catalogue.py:38"
+  ],
+  "手动液化与智能五官": [
+    "feature_catalogue.py:39"
+  ],
+  "液化画笔、冻结保护、辅助线节点及智能五官。": [
+    "feature_catalogue.py:39"
+  ],
+  "眼睛 鼻子 嘴巴 PS 五官 liquify push freeze thaw": [
+    "feature_catalogue.py:39"
+  ],
+  "唇色、腮红与发色": [
+    "feature_catalogue.py:40"
+  ],
+  "按人物调整唇色、腮红和发色，保留原纹理。": [
+    "feature_catalogue.py:40"
+  ],
+  "化妆 口红 头发 染发 makeup lips hair": [
+    "feature_catalogue.py:40"
+  ],
+  "衣物褶皱整理": [
+    "feature_catalogue.py:41"
+  ],
+  "淡化浅细褶皱；复杂折痕可在“修复”中选区AI清理。": [
+    "feature_catalogue.py:41"
+  ],
+  "衣服 褶皱 布料 fabric clothes": [
+    "feature_catalogue.py:41"
+  ],
+  "衣物改色": [
+    "feature_catalogue.py:42"
+  ],
+  "只调整当前人物衣物区域的颜色。": [
+    "feature_catalogue.py:42"
+  ],
+  "衣服 服装 换色 染色 recolor clothing": [
+    "feature_catalogue.py:42"
+  ],
+  "背景颜色与柔化": [
+    "feature_catalogue.py:43"
+  ],
+  "先查看背景范围，再调整曝光、颜色和均匀柔化。": [
+    "feature_catalogue.py:43"
+  ],
+  "虚化 背景 模糊 background blur": [
+    "feature_catalogue.py:43"
+  ],
+  "查看全图RGB明暗分布。": [
+    "feature_catalogue.py:44"
+  ],
+  "histogram RGB 高光 阴影": [
+    "feature_catalogue.py:44"
+  ],
+  "RAW显影与相机风格": [
+    "feature_catalogue.py:45"
+  ],
+  "选择RAW来源、白平衡、曝光补偿及相机风格。": [
+    "feature_catalogue.py:45"
+  ],
+  "相机 机内 配置 白平衡 camera raw develop": [
+    "feature_catalogue.py:45"
+  ],
+  "专业调色与显影工具": [
+    "feature_catalogue.py:46"
+  ],
+  "成品滤镜、实拍预览、收藏与个人风格；浮点影调、白平衡、曲线、HSL、分级和显影。": [
+    "feature_catalogue.py:46"
+  ],
+  "滤镜 成品 预设 收藏 人像 日系 胶片 电影 黑白 filters presets 曝光 曲线 饱和度 白平衡 色温 点颜色 分级 降噪 锐化 镜头 透视 软打样 ICC HDR 调色 curves HSL LUT color": [
+    "feature_catalogue.py:46"
+  ],
+  "按指定区域分别匹配颜色和影调。": [
+    "feature_catalogue.py:47"
+  ],
+  "参考图 追色 色彩匹配 reference match": [
+    "feature_catalogue.py:47"
+  ],
+  "AI部位蒙版": [
+    "feature_catalogue.py:48"
+  ],
+  "按人物选择面部、身体皮肤和五官等范围，合并或分别生成。": [
+    "feature_catalogue.py:48"
+  ],
+  "选区 部位 自动蒙版 mask selection": [
+    "feature_catalogue.py:48"
+  ],
+  "智能补选与蒙版修边": [
+    "feature_catalogue.py:49",
+    "smart_mask_ui.py:13"
+  ],
+  "补全或减去范围，扩展、收缩、羽化及调整强度；部位蒙版支持渐变和颜色/亮度范围。": [
+    "feature_catalogue.py:49"
+  ],
+  "漏选 补全 边缘 智能选区 线性渐变 径向渐变 颜色范围 亮度范围 refine feather": [
+    "feature_catalogue.py:49"
+  ],
+  "手动修饰画笔": [
+    "feature_catalogue.py:50"
+  ],
+  "减淡、加深、修复画笔、仿制和恢复，可连续涂画。": [
+    "feature_catalogue.py:50"
+  ],
+  "磨皮 手工 修饰 PS dodge burn clone heal brush": [
+    "feature_catalogue.py:50"
+  ],
+  "选区修复与迁移仿制": [
+    "feature_catalogue.py:51"
+  ],
+  "补选后AI修复，或移动圆框取样做迁移、仿制。": [
+    "feature_catalogue.py:51"
+  ],
+  "圆框 迁移 修补 仿制 stamp healing": [
+    "feature_catalogue.py:51"
+  ],
+  "AI候选识别与前后对比": [
+    "feature_catalogue.py:52"
+  ],
+  "重扫瑕疵候选、调整阈值、恢复自动选区和对比结果。": [
+    "feature_catalogue.py:52"
+  ],
+  "检测 识别 阈值 对照 前后 compare threshold": [
+    "feature_catalogue.py:52"
+  ],
+  "衣物与背景AI清理": [
+    "feature_catalogue.py:53"
+  ],
+  "明确选择衣物或背景对象，再涂抹要清理的范围。": [
+    "feature_catalogue.py:53"
+  ],
+  "消除 去物 擦除 毛球 灰尘 remove cleanup inpaint": [
+    "feature_catalogue.py:53"
+  ],
+  "效果开关与局部擦回": [
+    "feature_catalogue.py:54",
+    "feature_navigation_ui.py:73"
+  ],
+  "对所选处理阶段隐藏、减弱或局部擦回。": [
+    "feature_catalogue.py:54"
+  ],
+  "效果管理 图层 隐藏 撤销 擦回 layers effects": [
+    "feature_catalogue.py:54"
+  ],
+  "裁剪、比例与水平校正": [
+    "feature_catalogue.py:55"
+  ],
+  "主画面实时拖动裁剪框及旋转，导出保留完整精度；编辑坐标保持原图。": [
+    "feature_catalogue.py:55"
+  ],
+  "裁切 构图 裁剪 校正 straighten rotate crop": [
+    "feature_catalogue.py:55"
+  ],
+  "脖子美白": [
+    "feature_catalogue.py:76"
+  ],
+  "脖颈美白": [
+    "feature_catalogue.py:76"
+  ],
+  "颈部美白": [
+    "feature_catalogue.py:76"
+  ],
+  "去眼周纹": [
+    "feature_catalogue.py:74"
+  ],
+  "眼周纹": [
+    "feature_catalogue.py:74",
+    "feature_catalogue.py:74",
+    "feature_catalogue.py:74"
+  ],
+  "去眼纹": [
+    "feature_catalogue.py:74"
+  ],
+  "眼纹": [
+    "feature_catalogue.py:74"
+  ],
+  "去皱纹": [
+    "feature_catalogue.py:74"
+  ],
+  "去痘": [
+    "feature_catalogue.py:74"
+  ],
+  "变白": [
+    "feature_catalogue.py:74"
+  ],
+  "局部调色：软笔刷、可编辑渐变与多组件范围。": [
+    "feature_navigation_ui.py:115"
+  ],
+  "flow density 流量 密度 组件 线性 径向 渐变 局部 蒙版": [
+    "feature_navigation_ui.py:115"
+  ],
+  "导入照片、打开或保存项目、视频快速预览、实况美颜、导出成片及批量处理。": [
+    "feature_navigation_ui.py:116"
+  ],
+  "import open save export project batch video 视频 预览 时间轴 文件": [
+    "feature_navigation_ui.py:116"
+  ],
+  "全局设置，不属于单张照片的修图参数。": [
+    "feature_navigation_ui.py:117"
+  ],
+  "preferences settings 全局": [
+    "feature_navigation_ui.py:117"
+  ],
+  "搜索功能与参数": [
+    "feature_navigation_ui.py:169"
+  ],
+  "存在未明确归属的功能模块，请检查导航目录。": [
+    "feature_navigation_ui.py:21"
+  ],
+  "搜索功能 / 参数    Ctrl+K": [
+    "feature_navigation_ui.py:50"
+  ],
+  "撤销    Ctrl+Z": [
+    "feature_navigation_ui.py:70"
+  ],
+  "重做    Ctrl+Y": [
+    "feature_navigation_ui.py:71"
+  ],
+  "编辑记录 · 逐笔管理": [
+    "feature_navigation_ui.py:72"
+  ],
+  "适合窗口": [
+    "feature_navigation_ui.py:78",
+    "feature_navigation_ui.py:123"
+  ],
+  "面部视图": [
+    "feature_navigation_ui.py:78",
+    "feature_navigation_ui.py:124"
+  ],
+  "100% 原图像素": [
+    "feature_navigation_ui.py:78",
+    "feature_navigation_ui.py:125"
+  ],
+  "显示当前部位蒙版": [
+    "feature_navigation_ui.py:80"
+  ],
+  "搜索文件名、评分、筛选和双图对照。": [
+    "feature_navigation_ui.py:119"
+  ],
+  "编辑 › 编辑记录": [
+    "feature_navigation_ui.py:120"
+  ],
+  "逐笔显示、隐藏、修改不透明度或删除手动记录。": [
+    "feature_navigation_ui.py:120"
+  ],
+  "编辑 › 撤销": [
+    "feature_navigation_ui.py:121"
+  ],
+  "打开编辑菜单；需主动点击撤销，不会因搜索而改动照片。": [
+    "feature_navigation_ui.py:121"
+  ],
+  "编辑 › 重做": [
+    "feature_navigation_ui.py:122"
+  ],
+  "打开编辑菜单；需主动点击重做。": [
+    "feature_navigation_ui.py:122"
+  ],
+  "视图 › 适合窗口": [
+    "feature_navigation_ui.py:123"
+  ],
+  "查看完整照片，不改变导出尺寸。": [
+    "feature_navigation_ui.py:123"
+  ],
+  "视图 › 面部视图": [
+    "feature_navigation_ui.py:124"
+  ],
+  "定位人物面部以检查细节。": [
+    "feature_navigation_ui.py:124"
+  ],
+  "视图 › 100% 原图像素": [
+    "feature_navigation_ui.py:125"
+  ],
+  "查看原图像素比例；不是屏幕DPI设置。": [
+    "feature_navigation_ui.py:125"
+  ],
+  "查看软件的键盘操作。": [
+    "feature_navigation_ui.py:126"
+  ],
+  "已定位：": [
+    "feature_navigation_ui.py:164",
+    "reshape_ui.py:113"
+  ],
+  "请先松开当前画笔或拖动，再搜索功能。": [
+    "feature_navigation_ui.py:166"
+  ],
+  "例如：瘦脸、身体美白、脖子、吸管、眼周纹、液化、HSL、导出": [
+    "feature_navigation_ui.py:174"
+  ],
+  "功能 / 参数": [
+    "feature_navigation_ui.py:176"
+  ],
+  "所属位置": [
+    "feature_navigation_ui.py:176"
+  ],
+  "界面显示": [
+    "feature_navigation_ui.py:88",
+    "workspace_ui.py:130"
+  ],
+  " DPI 缩放 分辨率 高分屏 屏幕 display": [
+    "feature_navigation_ui.py:88"
+  ],
+  "未找到匹配功能。试试“磨皮”“液化”“脖子”或“导出”；也可清空后浏览全部模块。": [
+    "feature_navigation_ui.py:193"
+  ],
+  "模块": [
+    "feature_navigation_ui.py:53"
+  ],
+  "导入设置": [
+    "feature_navigation_ui.py:89",
+    "workspace_ui.py:134"
+  ],
+  " 默认 推荐 自动美颜 import defaults": [
+    "feature_navigation_ui.py:89"
+  ],
+  "绘制工具；定位后点击图标启用。": [
+    "feature_navigation_ui.py:99"
+  ],
+  "历史 对比": [
+    "feature_navigation_ui.py:127"
+  ],
+  "。请展开对应菜单选择操作。": [
+    "feature_navigation_ui.py:135"
+  ],
+  "搜索功能或参数": [
+    "feature_navigation_ui.py:172"
+  ],
+  "↑↓ 选择 · Enter 定位 · Esc 关闭": [
+    "feature_navigation_ui.py:181"
+  ],
+  " 当前不可用：": [
+    "feature_navigation_ui.py:188"
+  ],
+  "定位功能": [
+    "feature_navigation_ui.py:203"
+  ],
+  "重复功能归属：": [
+    "feature_navigation_ui.py:17"
+  ],
+  "查看": [
+    "feature_navigation_ui.py:53"
+  ],
+  "自动保存与缓存": [
+    "feature_navigation_ui.py:90",
+    "workflow_ui.py:29"
+  ],
+  " 恢复 缓存 空间 autosave recovery cache": [
+    "feature_navigation_ui.py:90"
+  ],
+  "操作入口；定位后点击执行。": [
+    "feature_navigation_ui.py:101"
+  ],
+  "已定位入口：": [
+    "feature_navigation_ui.py:135"
+  ],
+  "请先导入照片，再打开编辑记录。": [
+    "feature_navigation_ui.py:139"
+  ],
+  "请先导入照片。": [
+    "feature_navigation_ui.py:188"
+  ],
+  "开关 / 范围选项；定位不会自动修改。": [
+    "feature_navigation_ui.py:102"
+  ],
+  "正在计算，请等待完成。": [
+    "feature_navigation_ui.py:188"
+  ],
+  "请查看模块中的启用条件或识别提示。": [
+    "feature_navigation_ui.py:188"
+  ],
+  "选项": [
+    "feature_navigation_ui.py:107"
+  ],
+  "选择": [
+    "feature_navigation_ui.py:107"
+  ],
+  "面部祛瑕类型": [
+    "feature_ui.py:23"
+  ],
+  "身体美颜范围 / 瑕疵类型": [
+    "feature_ui.py:34"
+  ],
+  "面部瑕疵细分 · 当前人像": [
+    "feature_ui.py:16"
+  ],
+  "修复保护与质感": [
+    "feature_ui.py:19"
+  ],
+  "重新生成该类型预览蒙版": [
+    "feature_ui.py:24"
+  ],
+  "AI 应用面部细节修复": [
+    "feature_ui.py:25"
+  ],
+  "身体皮肤与瑕疵 · 当前人像": [
+    "feature_ui.py:28"
+  ],
+  "重新生成身体类型 / 范围蒙版": [
+    "feature_ui.py:35"
+  ],
+  "AI 应用身体祛瑕 / 修复": [
+    "feature_ui.py:36"
+  ],
+  "生成细节蒙版前": [
+    "feature_ui.py:45"
+  ],
+  "面部细节参数": [
+    "feature_ui.py:59"
+  ],
+  "身体参数": [
+    "feature_ui.py:65"
+  ],
+  "生成细节候选蒙版": [
+    "feature_ui.py:54"
+  ],
+  "AI 面部细节修复": [
+    "feature_ui.py:61"
+  ],
+  "AI 身体处理": [
+    "feature_ui.py:75"
+  ],
+  "AI瑕疵候选按颜色与尺度细分，并非痣/斑/汗珠专用分类网络。先预览可擦回误选；新增强度默认0。": [
+    "feature_ui.py:17"
+  ],
+  "到“蒙版”选择对应范围，用添加/减去画笔修改。重新生成会覆盖该类型选区，可撤销。调整强度无需重跑AI；扩大选区后需再次应用。自然鼻孔暗部不自动修复。": [
+    "feature_ui.py:26"
+  ],
+  "身体专项在基础美颜之上追加，全部默认0；基础磨皮与美白仍覆盖身体皮肤。此处磨皮、美白与肤色参数直接应用；祛瑕、深色点及纹身需点击下方 AI 处理。自动范围排除衣服，补选保护其他人物。": [
+    "feature_ui.py:29"
+  ],
+  "纹身候选使用颜色/对比规则，需预览与画笔确认，再由LaMa补全。妊娠纹、锁骨采用皮肤范围内细纹/姿态光影处理，暂无真实对应样片，标为实验。": [
+    "feature_ui.py:37"
+  ],
+  " / 此类型未找到候选，可手动补选。": [
+    "feature_ui.py:55"
+  ],
+  "自然人像": [
+    "filter_recipes.py:18"
+  ],
+  "干净肤色、自然明暗与轻微暖色；保留背景层次。": [
+    "filter_recipes.py:18"
+  ],
+  "奶油柔肤": [
+    "filter_recipes.py:20"
+  ],
+  "柔暖亮部与细腻中间调；保留黑位，适合窗边和婚礼。": [
+    "filter_recipes.py:20"
+  ],
+  "清透白皙": [
+    "filter_recipes.py:22"
+  ],
+  "清爽明亮肤色、干净白色与有层次的背景。": [
+    "filter_recipes.py:22"
+  ],
+  "暖阳人像": [
+    "filter_recipes.py:24"
+  ],
+  "暖金高光、自然肤色与沉稳背景；适合逆光和傍晚。": [
+    "filter_recipes.py:24"
+  ],
+  "日系清透": [
+    "filter_recipes.py:26"
+  ],
+  "自然明亮、干净肤色、背景有层次；保留清晰黑白端点。": [
+    "filter_recipes.py:26"
+  ],
+  "森系青绿": [
+    "filter_recipes.py:28"
+  ],
+  "青绿植被与暖肤色分离；保留叶片、树干和阴影层次。": [
+    "filter_recipes.py:28"
+  ],
+  "蜜桃晴天": [
+    "filter_recipes.py:30"
+  ],
+  "浅蜜桃肤色、柔暖亮部与清爽绿色；适合花园和写真。": [
+    "filter_recipes.py:30"
+  ],
+  "金色胶片": [
+    "filter_recipes.py:32"
+  ],
+  "金黄、暖红与收敛青绿；轻颗粒、扎实黑位的旅行胶片感。": [
+    "filter_recipes.py:32"
+  ],
+  "复古褪色": [
+    "filter_recipes.py:34"
+  ],
+  "明确的褪色雾面风格，低饱和与细颗粒；适合复古街拍。": [
+    "filter_recipes.py:34"
+  ],
+  "冷调胶片": [
+    "filter_recipes.py:36"
+  ],
+  "青蓝暗部、安静色彩与自然肤色；适合城市和雨天。": [
+    "filter_recipes.py:36"
+  ],
+  "琥珀暮色": [
+    "filter_recipes.py:38"
+  ],
+  "琥珀亮部与深暖色彩，保留暗部层次；适合夕阳和室内。": [
+    "filter_recipes.py:38"
+  ],
+  "青橙电影": [
+    "filter_recipes.py:40"
+  ],
+  "青色环境与暖肤色分离，明确的电影色彩和扎实暗部。": [
+    "filter_recipes.py:40"
+  ],
+  "城市夜色": [
+    "filter_recipes.py:42"
+  ],
+  "蓝青阴影、霓虹色彩和自然肤色；适合夜景环境人像。": [
+    "filter_recipes.py:42"
+  ],
+  "低饱和叙事": [
+    "filter_recipes.py:44"
+  ],
+  "收敛环境色彩、保留肤色与明暗层次；适合纪实写真。": [
+    "filter_recipes.py:44"
+  ],
+  "通透风光": [
+    "filter_recipes.py:46"
+  ],
+  "干净的天空、植被与景物层次；适合晴天旅行。": [
+    "filter_recipes.py:46"
+  ],
+  "晴空海岸": [
+    "filter_recipes.py:48"
+  ],
+  "清澈青蓝、明亮浅色与自然肤色；适合海边度假。": [
+    "filter_recipes.py:48"
+  ],
+  "秋日暖棕": [
+    "filter_recipes.py:50"
+  ],
+  "金黄暖棕与收敛绿蓝色，背景有深浅层次。": [
+    "filter_recipes.py:50"
+  ],
+  "柔和黑白": [
+    "filter_recipes.py:52"
+  ],
+  "明亮肤色、柔和中间调与完整黑白端点；适合肖像。": [
+    "filter_recipes.py:52"
+  ],
+  "经典黑白": [
+    "filter_recipes.py:54"
+  ],
+  "深黑、清晰对比和立体层次；适合街拍与建筑。": [
+    "filter_recipes.py:54"
+  ],
+  "银盐颗粒": [
+    "filter_recipes.py:56"
+  ],
+  "银盐灰阶、柔和高光与细颗粒；适合复古肖像。": [
+    "filter_recipes.py:56"
+  ],
+  "双下巴 / 腋下局部形变 · 实验": [
+    "form_ui.py:8"
+  ],
+  "AI 补全空出区域并应用": [
+    "form_ui.py:11"
+  ],
+  "形变参数": [
+    "form_ui.py:15"
+  ],
+  "AI 局部形变补全": [
+    "form_ui.py:22"
+  ],
+  "按人物独立，默认0。仅移动当前人物皮肤前景，背景不参与拉伸，空出区域用LaMa补全。腋下需有可信姿态及露出皮肤，否则不应用。暂无双下巴/腋下真实对应样片，质量待验证；先轻度尝试。": [
+    "form_ui.py:12"
+  ],
+  "Astia · 柔和人像": [
+    "fuji_profiles.py:6"
+  ],
+  "Bleach Bypass · 银盐": [
+    "fuji_profiles.py:6"
+  ],
+  "Classic Chrome · 经典": [
+    "fuji_profiles.py:6"
+  ],
+  "Classic Neg · 复古": [
+    "fuji_profiles.py:6"
+  ],
+  "Eterna · 电影": [
+    "fuji_profiles.py:6"
+  ],
+  "Nostalgic Neg · 暖调": [
+    "fuji_profiles.py:6"
+  ],
+  "Pro Neg Hi · 高对比": [
+    "fuji_profiles.py:6"
+  ],
+  "Pro Neg Std · 肖像": [
+    "fuji_profiles.py:6"
+  ],
+  "Provia · 标准": [
+    "fuji_profiles.py:6"
+  ],
+  "Reala Ace · 自然": [
+    "fuji_profiles.py:6"
+  ],
+  "Velvia · 鲜艳": [
+    "fuji_profiles.py:6"
+  ],
+  "\n作者标注：CC BY-NC-SA 4.0。完整学习安装包内置已标注来源的LUT；用户另外导入的资源保存在用户目录。\n需配合机型对应的Adobe Standard Linear DCP；效果尚未与Lightroom逐像素验证。\n": [
+    "fuji_profiles.py:41"
+  ],
+  "此项目含旧版富士风格，请在原版导出普通照片后再导入独立版。": [
+    "fuji_profiles.py:52"
+  ],
+  "富士风格需要32阶、0–1范围的sRGB LUT。": [
+    "fuji_profiles.py:30"
+  ],
+  "来源与使用条件.txt": [
+    "fuji_profiles.py:41"
+  ],
+  "LUT来源：": [
+    "fuji_profiles.py:41"
+  ],
+  "；请选择包含全部11款sRGB文件的目录。": [
+    "fuji_profiles.py:26"
+  ],
+  "LUT未明确标注sRGB，请使用上游sRGB版本：": [
+    "fuji_profiles.py:28"
+  ],
+  "已有不同内容的同名LUT，请保留原文件后再导入：": [
+    "fuji_profiles.py:32"
+  ],
+  "缺少 sRGB LUT：": [
+    "fuji_profiles.py:26"
+  ],
+  "步骤 1/2：准备富士 RAW 基底；完成后自动套用风格。": [
+    "fuji_profiles_ui.py:72"
+  ],
+  "步骤 2/2：正在套用风格…": [
+    "fuji_profiles_ui.py:88"
+  ],
+  "应用RAW来源与调色": [
+    "fuji_profiles_ui.py:93"
+  ],
+  "恢复普通RAW来源前": [
+    "fuji_profiles_ui.py:125"
+  ],
+  "步骤 1/2：恢复普通 RAW 来源；完成后自动套用所选预设。": [
+    "fuji_profiles_ui.py:127"
+  ],
+  "富士风格支持RAW和普通照片；RAW自动准备线性基底。": [
+    "fuji_profiles_ui.py:10"
+  ],
+  "富士LUT库未加载：": [
+    "fuji_profiles_ui.py:25"
+  ],
+  "尚未导入富士sRGB LUT，可选择包含11个_sRGB.cube的文件夹。": [
+    "fuji_profiles_ui.py:26"
+  ],
+  "选择包含11种富士 sRGB .cube 的文件夹": [
+    "fuji_profiles_ui.py:37"
+  ],
+  "请先打开RAW照片。": [
+    "fuji_profiles_ui.py:45"
+  ],
+  "准备富士来源前": [
+    "fuji_profiles_ui.py:66"
+  ],
+  "照片已切换，来源操作已停止。": [
+    "fuji_profiles_ui.py:79"
+  ],
+  "RAW 基底未准备完成，滤镜未套用。请检查处理提示。": [
+    "fuji_profiles_ui.py:82"
+  ],
+  "基底渲染失败，滤镜未套用。": [
+    "fuji_profiles_ui.py:85"
+  ],
+  "富士 RAW 风格需要受支持机型的 RAW 照片。": [
+    "fuji_profiles_ui.py:151"
+  ],
+  "富士LUT未导入": [
+    "fuji_profiles_ui.py:40"
+  ],
+  "此机型尚未安装Adobe Standard Linear DCP，请先导入对应机型的基础配置。": [
+    "fuji_profiles_ui.py:49"
+  ],
+  "独立照片版暂不提供富士风格。普通调色与开源精选仍可使用。": [
+    "fuji_profiles_ui.py:14"
+  ],
+  "无法准备富士RAW": [
+    "fuji_profiles_ui.py:52"
+  ],
+  " 保留当前曝光，不额外添加固定亮度补偿。": [
+    "fuji_profiles_ui.py:31"
+  ],
+  "GPU 渲染运行库不可用，使用 CPU。": [
+    "gpu_backend.py:38"
+  ],
+  "未发现可用 CUDA 图形处理器。": [
+    "gpu_backend.py:53"
+  ],
+  "GPU 图像运算尚未实现：cv2.": [
+    "gpu_backend.py:195"
+  ],
+  "GPU 色彩转换尚未实现：": [
+    "gpu_backend.py:229"
+  ],
+  "GPU 重采样插值尚未实现：": [
+    "gpu_backend.py:256"
+  ],
+  "图片渲染": [
+    "gpu_render.py:435",
+    "gpu_render.py:437",
+    "gpu_render.py:446"
+  ],
+  "显式 CPU 渲染设置": [
+    "gpu_render.py:435"
+  ],
+  "GPU 运算回退：": [
+    "gpu_render.py:458"
+  ],
+  "GPU 渲染回退：": [
+    "gpu_render.py:446"
+  ],
+  "渲染业务源码正在更新，请重新启动 worker 后再验证：": [
+    "gpu_render.py:299"
+  ],
+  "缓存预览必须提供已定位轨迹。": [
+    "gpu_video.py:41",
+    "live_beauty.py:146"
+  ],
+  "可见身体轮廓不足": [
+    "gpu_video.py:103",
+    "live_beauty.py:225"
+  ],
+  "ICC文件过大。": [
+    "icc_runtime.py:33"
+  ],
+  "ICC配置格式无效。": [
+    "icc_runtime.py:35"
+  ],
+  "ICC输入像素无效。": [
+    "icc_runtime.py:40"
+  ],
+  "缺少浮点ICC运行库，请使用完整AURA运行包。": [
+    "icc_runtime.py:19"
+  ],
+  "ICC配置无法读取。": [
+    "icc_runtime.py:46"
+  ],
+  "ICC配置不支持所选转换；请选择RGB或可用的输出配置。": [
+    "icc_runtime.py:49"
+  ],
+  "ICC转换返回无效像素。": [
+    "icc_runtime.py:54"
+  ],
+  "所选镜头配置不存在。": [
+    "lens_profiles.py:56"
+  ],
+  "缺少Lensfun运行库。": [
+    "lens_profiles.py:39"
+  ],
+  "Lensfun没有找到所选镜头配置。": [
+    "lens_profiles.py:59"
+  ],
+  "镜头校正初始化失败。": [
+    "lens_profiles.py:62"
+  ],
+  "镜头配置数据库无法读取。": [
+    "lens_profiles.py:51"
+  ],
+  "镜头校正返回无效坐标。": [
+    "lens_profiles.py:70"
+  ],
+  "文件名": [
+    "library_catalog.py:34",
+    "library_ui.py:18",
+    "library_ui.py:20"
+  ],
+  "评分应为0–5": [
+    "library_catalog.py:25"
+  ],
+  "标记无效": [
+    "library_catalog.py:26"
+  ],
+  "颜色标签无效": [
+    "library_catalog.py:27"
+  ],
+  "未标记": [
+    "library_catalog.py:22",
+    "library_catalog.py:26",
+    "library_catalog.py:22",
+    "library_catalog.py:22",
+    "library_catalog.py:22",
+    "library_ui.py:63",
+    "library_ui.py:67",
+    "library_ui.py:20"
+  ],
+  "保留": [
+    "library_catalog.py:26",
+    "library_catalog.py:22",
+    "library_ui.py:63",
+    "library_ui.py:67",
+    "library_ui.py:20"
+  ],
+  "待剔除": [
+    "library_catalog.py:26",
+    "library_catalog.py:22",
+    "library_ui.py:63",
+    "library_ui.py:67",
+    "library_ui.py:20"
+  ],
+  "评分": [
+    "library_catalog.py:36",
+    "library_ui.py:20",
+    "library_ui.py:61"
+  ],
+  "最低评分": [
+    "library_ui.py:20"
+  ],
+  "标记": [
+    "library_ui.py:20"
+  ],
+  "排序": [
+    "library_ui.py:20"
+  ],
+  "照片对照": [
+    "library_ui.py:79"
+  ],
+  "请选择两张照片（Ctrl＋点击多选）。": [
+    "library_ui.py:55"
+  ],
+  "标记未保存": [
+    "library_ui.py:52"
+  ],
+  "对照所选两张": [
+    "library_ui.py:60"
+  ],
+  "Ctrl＋点击多选；双击进入编辑。0–5评分，P保留，X待剔除，U取消标记。待剔除只作标记，原图保留。": [
+    "library_ui.py:65"
+  ],
+  "100%或滚轮采用同一缩放；适合时各自完整显示。拖动同步平移。": [
+    "library_ui.py:91"
+  ],
+  "未评分": [
+    "library_ui.py:36"
+  ],
+  "Lightroom参数适配；保留照片曝光、拍摄白平衡与修图。": [
+    "lightroom_presets.py:39"
+  ],
+  " Adobe配置未迁移，观感会有差异。": [
+    "lightroom_presets.py:40"
+  ],
+  "此预设没有可迁移的有效风格；可能只包含曝光、降噪或Adobe专用配置。": [
+    "lightroom_presets.py:30"
+  ],
+  "用户导入的Lightroom XMP": [
+    "lightroom_presets.py:42"
+  ],
+  "用户提供": [
+    "lightroom_presets.py:42"
+  ],
+  "液化坐标与照片尺寸不一致。": [
+    "liquify.py:32"
+  ],
+  "液化网格尺寸无效。": [
+    "liquify.py:35"
+  ],
+  "液化网格数据无效。": [
+    "liquify.py:36"
+  ],
+  "液化位移或保护范围无效。": [
+    "liquify.py:37"
+  ],
+  "液化网格发生折叠，已拒绝载入。": [
+    "liquify.py:39"
+  ],
+  "未知液化工具。": [
+    "liquify.py:66"
+  ],
+  "液化项目数据过大或无效。": [
+    "liquify.py:173"
+  ],
+  "液化项目坐标无效。": [
+    "liquify.py:176"
+  ],
+  "眼角": [
+    "liquify_guides.py:76",
+    "liquify_guides.py:76",
+    "liquify_guides.py:77",
+    "liquify_guides.py:77"
+  ],
+  "上眼睑": [
+    "liquify_guides.py:76",
+    "liquify_guides.py:77"
+  ],
+  "下眼睑": [
+    "liquify_guides.py:76",
+    "liquify_guides.py:77"
+  ],
+  "眉尾": [
+    "liquify_guides.py:78",
+    "liquify_guides.py:78"
+  ],
+  "眉头": [
+    "liquify_guides.py:78",
+    "liquify_guides.py:78"
+  ],
+  "眉弓": [
+    "liquify_guides.py:78",
+    "liquify_guides.py:78",
+    "reshape_ui.py:85",
+    "reshape_ui.py:103",
+    "reshape_ui.py:105",
+    "reshape_ui.py:113"
+  ],
+  "鼻根": [
+    "liquify_guides.py:78"
+  ],
+  "鼻梁": [
+    "liquify_guides.py:78"
+  ],
+  "鼻尖": [
+    "liquify_guides.py:78"
+  ],
+  "鼻翼": [
+    "liquify_guides.py:78",
+    "liquify_guides.py:78"
+  ],
+  "唇角": [
+    "liquify_guides.py:78",
+    "liquify_guides.py:78"
+  ],
+  "上唇": [
+    "liquify_guides.py:79"
+  ],
+  "下唇": [
+    "liquify_guides.py:79"
+  ],
+  "下颌": [
+    "liquify_guides.py:79",
+    "liquify_guides.py:79"
+  ],
+  "面颊外缘": [
+    "liquify_guides.py:80",
+    "liquify_guides.py:80"
+  ],
+  "额头轮廓": [
+    "liquify_guides.py:80"
+  ],
+  "身体外缘": [
+    "liquify_guides.py:99"
+  ],
+  "悬停部位显示轮廓和全部节点；移开隐藏。拖动节点微调，身体轮廓包含衣物边缘。": [
+    "liquify_guides_ui.py:58"
+  ],
+  "节点调整前": [
+    "liquify_guides_ui.py:88"
+  ],
+  "蓝：五官 · 绿：人物外缘（含衣服）": [
+    "liquify_guides_ui.py:11"
+  ],
+  "节点调整时固定其他节点": [
+    "liquify_guides_ui.py:14"
+  ],
+  "请等待面部重塑完成后调整节点。": [
+    "liquify_guides_ui.py:79"
+  ],
+  "右侧可调整智能五官；需要拖动轮廓节点时请选择“节点”工具。": [
+    "liquify_guides_ui.py:81"
+  ],
+  "请先开启“显示画笔液化”，显示已保存的形变后再拖动节点。": [
+    "liquify_guides_ui.py:83"
+  ],
+  "该节点位于冻结保护中，请先解除保护。": [
+    "liquify_guides_ui.py:87"
+  ],
+  "已限制节点位移以保护冻结区域与相邻节点，可分步微调。": [
+    "liquify_guides_ui.py:136"
+  ],
+  "向前变形": [
+    "liquify_ui.py:10"
+  ],
+  "膨胀": [
+    "liquify_ui.py:10"
+  ],
+  "褶皱 / 收缩": [
+    "liquify_ui.py:10"
+  ],
+  "重建": [
+    "liquify_ui.py:10"
+  ],
+  "冻结": [
+    "liquify_ui.py:10"
+  ],
+  "解冻": [
+    "liquify_ui.py:10"
+  ],
+  "旋转": [
+    "liquify_ui.py:10"
+  ],
+  "平滑": [
+    "liquify_ui.py:10"
+  ],
+  "身体 / 节点": [
+    "liquify_ui.py:10"
+  ],
+  "左推": [
+    "liquify_ui.py:10"
+  ],
+  "脸部智能": [
+    "liquify_ui.py:10"
+  ],
+  "手动液化": [
+    "liquify_ui.py:19"
+  ],
+  "笔刷强度": [
+    "liquify_ui.py:30"
+  ],
+  "累积速度（按住）": [
+    "liquify_ui.py:33"
+  ],
+  "恢复画笔形变": [
+    "liquify_ui.py:37",
+    "liquify_ui.py:66"
+  ],
+  "清除冻结保护": [
+    "liquify_ui.py:38",
+    "liquify_ui.py:69"
+  ],
+  "液化前": [
+    "liquify_ui.py:75"
+  ],
+  "显示画笔液化 · 智能参数独立生效": [
+    "liquify_ui.py:20"
+  ],
+  "笔刷密度 / 边缘": [
+    "liquify_ui.py:32"
+  ],
+  "启用液化": [
+    "liquify_ui.py:59"
+  ],
+  "暂时关闭液化": [
+    "liquify_ui.py:59"
+  ],
+  "请等待面部重塑完成，再进行手动液化。": [
+    "liquify_ui.py:72"
+  ],
+  "向前": [
+    "liquify_ui.py:26"
+  ],
+  "褶皱": [
+    "liquify_ui.py:26"
+  ],
+  "节点": [
+    "liquify_ui.py:26"
+  ],
+  "脸部": [
+    "liquify_ui.py:26"
+  ],
+  "液化 · ": [
+    "liquify_ui.py:104"
+  ],
+  "显示冻结保护": [
+    "liquify_ui.py:35"
+  ],
+  "向前变形拖动推拉。左推：上拖向左、下拖向右，Alt 反向。膨胀、褶皱、旋转、重建可按住累积；旋转 Alt 反向。\n重建还原画笔形变；平滑整理形变，不磨皮。密度控制边缘软硬，速度控制按住的累积。\nCtrl＋滚轮调大小 · 空格平移": [
+    "liquify_ui.py:43"
+  ],
+  "液化作用于整张照片，保存到本图项目；美颜配置不携带液化。若继续编辑原图选区或取样，请暂时关闭液化。": [
+    "liquify_ui.py:44"
+  ],
+  "实况处理已取消，原件未修改。": [
+    "live_beauty.py:53"
+  ],
+  "暂不支持非直角视频显示变换。": [
+    "live_beauty.py:59"
+  ],
+  "测试版暂不支持奇数尺寸视频。": [
+    "live_beauty.py:249"
+  ],
+  "实况测试版最多处理15秒；普通视频请使用视频开发测试入口。": [
+    "live_beauty.py:250"
+  ],
+  "请使用新的输出文件夹，测试版不覆盖已有内容。": [
+    "live_beauty.py:298"
+  ],
+  "Apple输出为同名JPG与MOV；安卓输入JPEG/HEIC，统一输出标准JPEG MotionPhoto。\n所有视频轨道都处理并核对PTS；原音频和辅助定时数据保持。\n支持单人美肤、肤色、轻度塑形、身体美型与基础调色。无脸帧不施加面部效果，身体姿态不可靠时跳过对应美型。\n瘦腿/拉腿需要可靠完整腿部，拉腿还需要完整脚部和取景余量；背景仍可能弯曲。真实人体运动及手机相册回传仍需验证。\n输出SDR，原件未修改。\n": [
+    "live_beauty.py:350"
+  ],
+  "AURA 实况照片美颜测试版": [
+    "live_beauty.py:357"
+  ],
+  "时序强度需在0–0.6之间。": [
+    "live_beauty.py:37"
+  ],
+  "实况瘦脸范围为0–50。": [
+    "live_beauty.py:38"
+  ],
+  "背景线保护开关无效。": [
+    "live_beauty.py:42"
+  ],
+  "实况曝光范围为-2–2。": [
+    "live_beauty.py:45"
+  ],
+  "实况参数不能包含无效数字。": [
+    "live_beauty.py:46"
+  ],
+  "视频基础滤波缓存": [
+    "live_beauty.py:93"
+  ],
+  "视频轨道不可读取。": [
+    "live_beauty.py:234"
+  ],
+  "测试版尚未接入HDR色彩管理，请使用SDR实况原件。": [
+    "live_beauty.py:236"
+  ],
+  "视频中没有可解码的帧。": [
+    "live_beauty.py:286"
+  ],
+  "编码改变了视频帧数或时间戳，禁止导出实况。": [
+    "live_beauty.py:288"
+  ],
+  "工作目录校验失败。": [
+    "live_beauty.py:303"
+  ],
+  "检查原件": [
+    "live_beauty.py:315"
+  ],
+  "封面关联信息未保留。": [
+    "live_beauty.py:338"
+  ],
+  "完成": [
+    "live_beauty.py:352"
+  ],
+  "美颜参数需在0–100之间。": [
+    "live_beauty.py:36"
+  ],
+  "视频帧重采样": [
+    "live_beauty.py:75"
+  ],
+  "照片与MOV关联标识不一致或缺失；不能仅按文件名配对。": [
+    "live_beauty.py:311"
+  ],
+  "MOV缺少实况封面定时轨道，不能作为有效配对实况导出。": [
+    "live_beauty.py:313"
+  ],
+  "封装后的视频时间轴发生变化。": [
+    "live_beauty.py:324"
+  ],
+  "安卓实况封装校验失败。": [
+    "live_beauty.py:342"
+  ],
+  "肤色红润/冷暖": [
+    "live_beauty.py:347"
+  ],
+  "瘦脸/下颌/下巴": [
+    "live_beauty.py:347"
+  ],
+  "眼睛/鼻子/嘴巴": [
+    "live_beauty.py:347"
+  ],
+  "全局基础调色": [
+    "live_beauty.py:347"
+  ],
+  "自动瘦身/瘦腰/瘦腿/拉腿": [
+    "live_beauty.py:347"
+  ],
+  "单人；视频身体形变基于可见衣物/下半身轮廓，不推测被挡住的真实腿型；无可靠范围时不应用，背景仍可能弯曲": [
+    "live_beauty.py:348"
+  ],
+  "身体美肤、AI祛痘、祛纹、手动液化笔画尚未接入": [
+    "live_beauty.py:348"
+  ],
+  "短时插值仅在同镜头内使用；完全遮挡皮肤不涂到遮挡物上，手机相册导入仍需原机验证": [
+    "live_beauty.py:348"
+  ],
+  "输出SDR；安卓统一导出标准JPEG MotionPhoto，不保留厂商私有尾部协议": [
+    "live_beauty.py:348"
+  ],
+  "测试报告.json": [
+    "live_beauty.py:349"
+  ],
+  "使用说明.txt": [
+    "live_beauty.py:350"
+  ],
+  "实况身体美型范围为0–50：": [
+    "live_beauty.py:41"
+  ],
+  "实况参数范围为-50–50：": [
+    "live_beauty.py:44"
+  ],
+  "视频/实况像素渲染": [
+    "live_beauty.py:136"
+  ],
+  "视频帧缺少时间戳。": [
+    "live_beauty.py:270"
+  ],
+  "视频时间戳不递增。": [
+    "live_beauty.py:272"
+  ],
+  "测试版最多处理15秒实况短视频。": [
+    "live_beauty.py:275"
+  ],
+  "未在封面识别人脸，封面不施加面部美颜。": [
+    "live_beauty.py:346"
+  ],
+  "主视频未识别人脸，不施加面部美颜。": [
+    "live_beauty.py:346"
+  ],
+  "肩胯关键点不足": [
+    "live_body.py:37"
+  ],
+  "人物身体太小": [
+    "live_body.py:40"
+  ],
+  "姿态不适合当前直立美型": [
+    "live_body.py:42"
+  ],
+  "膝踝被遮挡或裁切，未瘦腿或拉腿": [
+    "live_body.py:65"
+  ],
+  "瘦身/瘦腰": [
+    "live_body.py:56"
+  ],
+  "躯干边缘不可靠，未瘦身/瘦腰": [
+    "live_body.py:57"
+  ],
+  "腿部弯曲/交叉，未瘦腿或拉腿": [
+    "live_body.py:64"
+  ],
+  "瘦腿": [
+    "live_body.py:79"
+  ],
+  "两腿边缘不能可靠分离，未瘦腿": [
+    "live_body.py:80"
+  ],
+  "脚部不完整，未拉腿": [
+    "live_body.py:83"
+  ],
+  "未找到可移动身体边缘": [
+    "live_body.py:96"
+  ],
+  "人体定位模型校验失败。": [
+    "live_body.py:183",
+    "preview_analysis.py:13"
+  ],
+  "多人或未找到完整身体": [
+    "live_body.py:220"
+  ],
+  "人脸与身体归属不确定": [
+    "live_body.py:223"
+  ],
+  "形变过密，已跳过身体美型": [
+    "live_body.py:239"
+  ],
+  "脚下取景余量不足，未拉腿": [
+    "live_body.py:90"
+  ],
+  "人体范围缓冲区不兼容，已停止处理。": [
+    "live_body.py:203"
+  ],
+  "拉腿已受脚下余量限制": [
+    "live_body.py:95"
+  ],
+  "构图拖动前": [
+    "live_crop.py:54"
+  ],
+  "调整裁剪与角度": [
+    "live_crop.py:107"
+  ],
+  "拖边角裁剪 · 框内移动 · 框外旋转": [
+    "live_crop.py:48"
+  ],
+  "构图选框遮罩": [
+    "live_crop.py:37"
+  ],
+  "构图预览": [
+    "live_crop.py:21"
+  ],
+  "媒体样本不在数据块内，暂不支持此容器。": [
+    "live_media.py:51"
+  ],
+  "未找到完整实况视频；普通照片或未支持的厂商格式无法封装。": [
+    "live_media.py:288"
+  ],
+  "媒体偏移表不受支持。": [
+    "live_media.py:75"
+  ],
+  "媒体样本缺失。": [
+    "live_media.py:88"
+  ],
+  "测试版仅处理512 MB以内的实况短视频。": [
+    "live_media.py:106"
+  ],
+  "测试版暂不支持分片视频。": [
+    "live_media.py:108"
+  ],
+  "缺少唯一的MOV/MP4电影头。": [
+    "live_media.py:110"
+  ],
+  "当前支持一条主视频和最多一条辅助视频。": [
+    "live_media.py:113"
+  ],
+  "视频轨道索引无效。": [
+    "live_media.py:114"
+  ],
+  "不支持加密视频。": [
+    "live_media.py:116"
+  ],
+  "每条视频轨道都必须完成美颜，不能保留未处理的辅助视频。": [
+    "live_media.py:149"
+  ],
+  "音频或实况元数据校验失败。": [
+    "live_media.py:191"
+  ],
+  "安卓测试版暂时只接受JPEG实况容器。": [
+    "live_media.py:230"
+  ],
+  "缺少实况原件读取工具 ExifTool。": [
+    "live_media.py:245"
+  ],
+  "实况文件过大。": [
+    "live_media.py:262"
+  ],
+  "媒体容器尾部不完整。": [
+    "live_media.py:20"
+  ],
+  "媒体容器尺寸无效。": [
+    "live_media.py:26"
+  ],
+  "媒体结构不受支持：": [
+    "live_media.py:36"
+  ],
+  "编码时间基不一致，禁止封装。": [
+    "live_media.py:152"
+  ],
+  "测试版尚不支持HDR封面。": [
+    "live_media.py:206"
+  ],
+  "此HEIC封面缺少可用的SDR ICC配置；测试版暂不支持该色彩配置。": [
+    "live_media.py:208"
+  ],
+  "JPEG标记损坏。": [
+    "live_media.py:237"
+  ],
+  "元数据工作目录异常。": [
+    "live_media.py:249"
+  ],
+  "文件名包含不支持的换行符。": [
+    "live_media.py:251"
+  ],
+  "XMP格式不受支持。": [
+    "live_media.py:266"
+  ],
+  "媒体容器长尺寸不完整。": [
+    "live_media.py:23"
+  ],
+  "媒体偏移表损坏。": [
+    "live_media.py:60"
+  ],
+  "媒体样本数量不一致。": [
+    "live_media.py:83"
+  ],
+  "媒体样本越界。": [
+    "live_media.py:85"
+  ],
+  "实况元数据读取失败：": [
+    "live_media.py:257"
+  ],
+  "元数据索引损坏。": [
+    "live_media.py:132"
+  ],
+  "清晰度": [
+    "local_develop.py:7"
+  ],
+  "锐化": [
+    "local_develop.py:7"
+  ],
+  "阴影明度": [
+    "local_develop.py:8"
+  ],
+  "高光明度": [
+    "local_develop.py:8"
+  ],
+  "局部调色版本无效。": [
+    "local_develop.py:22"
+  ],
+  "范围蒙版类型无效。": [
+    "local_develop.py:46"
+  ],
+  "范围蒙版组合无效。": [
+    "local_develop.py:53"
+  ],
+  "蒙版组件无效。": [
+    "local_develop.py:55"
+  ],
+  "AI 柔边蒙版尺寸或精度无效。": [
+    "local_develop.py:30"
+  ],
+  "AI 柔边蒙版需使用专业调色。": [
+    "local_develop.py:31"
+  ],
+  "蒙版滤镜联动无效。": [
+    "local_develop.py:34"
+  ],
+  "AI 分区来源记录无效。": [
+    "local_develop.py:37"
+  ],
+  "渐变蒙版无效。": [
+    "local_develop.py:40"
+  ],
+  "渐变范围过小。": [
+    "local_develop.py:44"
+  ],
+  "亮度范围无效。": [
+    "local_develop.py:49"
+  ],
+  "蒙版组件运算无效。": [
+    "local_develop.py:57"
+  ],
+  "蒙版组件反转无效。": [
+    "local_develop.py:58"
+  ],
+  "完整局部配方需使用专业调色。": [
+    "local_develop.py:27"
+  ],
+  "渐变位置无效。": [
+    "local_develop.py:43"
+  ],
+  "未知蒙版组件。": [
+    "local_develop.py:70"
+  ],
+  "软笔刷路径无效。": [
+    "local_develop.py:66"
+  ],
+  "软笔刷参数无效。": [
+    "local_develop.py:69"
+  ],
+  "线性 / 径向渐变与范围蒙版": [
+    "local_develop_ui.py:50"
+  ],
+  "拖动创建线性渐变": [
+    "local_develop_ui.py:51"
+  ],
+  "拖动创建径向渐变": [
+    "local_develop_ui.py:52"
+  ],
+  "反转当前渐变": [
+    "local_develop_ui.py:53"
+  ],
+  "在照片上取范围颜色": [
+    "local_develop_ui.py:58"
+  ],
+  "局部影调与细节": [
+    "local_develop_ui.py:60"
+  ],
+  "将旧蒙版转换为专业调色…": [
+    "local_develop_ui.py:61"
+  ],
+  "范围蒙版调整前": [
+    "local_develop_ui.py:78"
+  ],
+  "调整局部范围蒙版": [
+    "local_develop_ui.py:81"
+  ],
+  "转换局部调色前": [
+    "local_develop_ui.py:87"
+  ],
+  "转换为专业局部调色": [
+    "local_develop_ui.py:87"
+  ],
+  "渐变蒙版前": [
+    "local_develop_ui.py:90"
+  ],
+  "创建渐变蒙版": [
+    "local_develop_ui.py:107"
+  ],
+  "反转渐变前": [
+    "local_develop_ui.py:112"
+  ],
+  "反转渐变": [
+    "local_develop_ui.py:112"
+  ],
+  "颜色范围取样前": [
+    "local_develop_ui.py:120"
+  ],
+  "局部颜色范围取样": [
+    "local_develop_ui.py:121"
+  ],
+  "无范围限制": [
+    "local_develop_ui.py:11",
+    "local_develop_ui.py:74",
+    "local_develop_ui.py:54",
+    "local_develop_ui.py:68"
+  ],
+  "选中蒙版后可进一步按颜色或亮度限定范围。": [
+    "local_develop_ui.py:13"
+  ],
+  "亮度过渡": [
+    "local_develop_ui.py:57"
+  ],
+  "颜色色相范围": [
+    "local_develop_ui.py:57"
+  ],
+  "请先在照片上取范围颜色。": [
+    "local_develop_ui.py:77"
+  ],
+  "当前蒙版已使用专业调色。": [
+    "local_develop_ui.py:85"
+  ],
+  "转换局部调色": [
+    "local_develop_ui.py:86"
+  ],
+  "专业调色支持更多参数，但已有曝光、色彩和处理顺序可能改变。转换可撤销，是否继续？": [
+    "local_develop_ui.py:86"
+  ],
+  "蒙版数量已到上限。": [
+    "local_develop_ui.py:102"
+  ],
+  "当前蒙版没有渐变。": [
+    "local_develop_ui.py:111"
+  ],
+  "范围依据调色前图像；白色为保留，局部参数保持独立，可按住对比。": [
+    "local_develop_ui.py:64"
+  ],
+  "手动修饰笔刷设置无效。": [
+    "manual_retouch.py:16"
+  ],
+  "手动修饰取样或明暗范围无效。": [
+    "manual_retouch.py:23"
+  ],
+  "取样变换或修复模式无效。": [
+    "manual_retouch.py:25"
+  ],
+  "手动笔画过多，请先保存项目。": [
+    "manual_retouch.py:59"
+  ],
+  "修复融合产生无效数值，请降低笔刷大小。": [
+    "manual_retouch.py:145"
+  ],
+  "手动修饰需要浮点图像。": [
+    "manual_retouch.py:152"
+  ],
+  "手动修饰笔刷参数无效。": [
+    "manual_retouch.py:21"
+  ],
+  "手动修饰工具无效。": [
+    "manual_retouch.py:35"
+  ],
+  "手动笔画显示开关无效。": [
+    "manual_retouch.py:36"
+  ],
+  "手动修饰笔画无效。": [
+    "manual_retouch.py:40"
+  ],
+  "单笔路径过长，请分几笔绘制。": [
+    "manual_retouch.py:57"
+  ],
+  "手动修饰坐标无效。": [
+    "manual_retouch.py:45"
+  ],
+  "手动修饰位置超出照片。": [
+    "manual_retouch.py:47"
+  ],
+  "手动修饰取样坐标无效。": [
+    "manual_retouch.py:51"
+  ],
+  "取样点在照片以外，请重新取样。": [
+    "manual_retouch.py:53"
+  ],
+  "当前部位蒙版": [
+    "mask_ui.py:26"
+  ],
+  "AI 部位蒙版 · 可合并 / 分别生成": [
+    "mask_ui.py:18"
+  ],
+  "删除当前部位蒙版": [
+    "mask_ui.py:38"
+  ],
+  "切换部位蒙版开关": [
+    "mask_ui.py:65"
+  ],
+  "部位蒙版参数": [
+    "mask_ui.py:68"
+  ],
+  "生成蒙版前": [
+    "mask_ui.py:75"
+  ],
+  "删除部位蒙版": [
+    "mask_ui.py:94"
+  ],
+  "尚未生成部位蒙版": [
+    "mask_ui.py:15",
+    "mask_ui.py:46"
+  ],
+  "合并生成": [
+    "mask_ui.py:23"
+  ],
+  "分别生成": [
+    "mask_ui.py:23"
+  ],
+  "添加画笔": [
+    "mask_ui.py:31"
+  ],
+  "减去画笔": [
+    "mask_ui.py:31"
+  ],
+  "局部柔化": [
+    "mask_ui.py:36"
+  ],
+  "扩展 / 收缩像素": [
+    "mask_ui.py:36"
+  ],
+  "羽化像素": [
+    "mask_ui.py:36"
+  ],
+  "蒙版效果强度": [
+    "mask_ui.py:36"
+  ],
+  "未识别到可靠人脸，无法对应人物身体；请先确认人像识别。": [
+    "mask_ui.py:73"
+  ],
+  "AI 正在生成部位蒙版…": [
+    "mask_ui.py:77"
+  ],
+  "此为旧版局部蒙版；请先在“局部影调与细节”转换为专业调色，或新建蒙版。": [
+    "mask_ui.py:60"
+  ],
+  "合并生成部位蒙版": [
+    "mask_ui.py:85"
+  ],
+  "分别生成部位蒙版": [
+    "mask_ui.py:85"
+  ],
+  "所有部位均对应上方所选人像，含身体皮肤。重叠或归属不明确处可用画笔补选。蒙版独立于祛痘选区。": [
+    "mask_ui.py:19"
+  ],
+  "显示叠加": [
+    "mask_ui.py:29"
+  ],
+  "Ctrl＋滚轮调画笔；空格拖动平移；Esc 返回浏览。画笔只修改当前部位蒙版。": [
+    "mask_ui.py:34"
+  ],
+  " / 该人像身体归属不可靠，未生成身体蒙版。": [
+    "mask_ui.py:88"
+  ],
+  " / 未检出：": [
+    "mask_ui.py:86"
+  ],
+  "面部轮廓过小，无法可靠重塑。": [
+    "mesh_landmarks.py:12"
+  ],
+  "面部网格定位无效。": [
+    "mesh_landmarks.py:18"
+  ],
+  "手机修补缓存位置无效。": [
+    "mobile_cached_patches.py:13"
+  ],
+  "移动端 LUT": [
+    "mobile_project_bridge.py:81"
+  ],
+  "桌面与手机合计超过300笔，需分项目保存；原项目已保留。": [
+    "mobile_project_bridge.py:144"
+  ],
+  "补光模型清单版本不匹配。": [
+    "moge_relight.py:18"
+  ],
+  "未得到可用的补光几何，照片未应用补光。": [
+    "moge_relight.py:43"
+  ],
+  "补光深度返回无效数值。": [
+    "moge_relight.py:52"
+  ],
+  "缺少 MoGe-2 Small 补光组件，请使用完整安装包。": [
+    "moge_relight.py:11"
+  ],
+  "补光模型路径无效。": [
+    "moge_relight.py:21"
+  ],
+  "几何补光": [
+    "moge_relight.py:72",
+    "moge_relight.py:79"
+  ],
+  "MoGe-2 Small 文件校验失败：": [
+    "moge_relight.py:25"
+  ],
+  "MoGe-2 Small 正在分析深度与表面方向…": [
+    "moge_relight.py:61"
+  ],
+  "CUDA · MoGe-2 Small FP16 / 合成FP32": [
+    "moge_relight.py:72"
+  ],
+  "正在检查补光几何一致性…": [
+    "moge_relight.py:66"
+  ],
+  "GPU补光分析失败，已自动改用CPU：": [
+    "moge_relight.py:79"
+  ],
+  "需要两条可靠的垂直参考线。": [
+    "optics_analysis.py:10"
+  ],
+  "完整透视需要两条垂直线和两条水平线。": [
+    "optics_analysis.py:11"
+  ],
+  "参考线退化，请重新选择。": [
+    "optics_analysis.py:15"
+  ],
+  "水平与垂直参考线夹角过小。": [
+    "optics_analysis.py:25"
+  ],
+  "透视校正过强，请使用较温和的参考线。": [
+    "optics_analysis.py:29"
+  ],
+  "未检测到可靠建筑或水平线，请使用引导线。": [
+    "optics_analysis.py:36"
+  ],
+  "参考线过近消失点，无法可靠校正。": [
+    "optics_analysis.py:19"
+  ],
+  "未检测到可靠水平线。": [
+    "optics_analysis.py:46"
+  ],
+  "迁移修复列表无效。": [
+    "patch_repair.py:7"
+  ],
+  "附近没有足够的取样区域；请缩小修复圆框。": [
+    "patch_repair.py:43"
+  ],
+  "迁移修复模式无效。": [
+    "patch_repair.py:9"
+  ],
+  "迁移显示开关无效。": [
+    "patch_repair.py:10"
+  ],
+  "迁移修复参数无效。": [
+    "patch_repair.py:13"
+  ],
+  "迁移修复坐标无效。": [
+    "patch_repair.py:16"
+  ],
+  "迁移修复位置超出照片。": [
+    "patch_repair.py:17"
+  ],
+  "确认跨照片人物": [
+    "person_mapping_ui.py:26"
+  ],
+  "未检测到可靠人物，本图不能同步单人人像参数。": [
+    "person_mapping_ui.py:42"
+  ],
+  "选择后点击确认，不会按位置自动匹配。": [
+    "person_mapping_ui.py:42"
+  ],
+  "请先选择目标人物；没有可靠人物的图可关闭窗口并取消勾选。": [
+    "person_mapping_ui.py:45"
+  ],
+  "请选择目标人物": [
+    "person_mapping_ui.py:37"
+  ],
+  "确认并继续": [
+    "person_mapping_ui.py:51"
+  ],
+  "人物身体归属": [
+    "person_masks.py:37"
+  ],
+  "人物轮廓模型校验失败。": [
+    "person_masks.py:17"
+  ],
+  "人物轮廓缓冲区不兼容，已安全停止生成。": [
+    "person_masks.py:33"
+  ],
+  "已取消人体识别。": [
+    "photo_body.py:14",
+    "photo_body.py:16"
+  ],
+  "当前照片模式仅支持唯一、可靠的人体；多人或未检出时不应用。": [
+    "photo_body.py:17"
+  ],
+  "人脸与身体归属不能确认，未应用身体美型。": [
+    "photo_body.py:19"
+  ],
+  "身体美型待识别。": [
+    "photo_body.py:26"
+  ],
+  "当前参数会过度挤压网格，身体美型未应用。": [
+    "photo_body.py:34"
+  ],
+  "已应用：": [
+    "photo_body.py:36"
+  ],
+  "；已降低强度保护背景和边缘": [
+    "photo_body.py:38"
+  ],
+  "重新识别人体": [
+    "photo_body_ui.py:16"
+  ],
+  "身体美型参数": [
+    "photo_body_ui.py:23"
+  ],
+  "照片模式：首次调整识别人体，后续复用缓存。": [
+    "photo_body_ui.py:10"
+  ],
+  "AI 正在识别人体关键点和衣物轮廓…": [
+    "photo_body_ui.py:25"
+  ],
+  "照片人体识别": [
+    "photo_body_ui.py:30"
+  ],
+  "单人照片 · 人物与衣物共同调整；脚部不完整时跳过瘦腿/拉腿。": [
+    "photo_body_ui.py:13"
+  ],
+  "自动保护头脸和背景线条，强度过大时会减弱。附近背景仍可能弯曲；不使用AI补画。": [
+    "photo_body_ui.py:18"
+  ],
+  "RAW 显影参数无效。": [
+    "photo_document.py:41"
+  ],
+  "机内效果开关无效。": [
+    "photo_document.py:43"
+  ],
+  "机内风格参数无效。": [
+    "photo_document.py:45"
+  ],
+  "RAW 显影引擎无效。": [
+    "photo_document.py:48"
+  ],
+  "RAW亮度基准版本无效。": [
+    "photo_document.py:50"
+  ],
+  "RAW裁切版本无效。": [
+    "photo_document.py:52"
+  ],
+  "专业RAW白平衡或算法版本无效。": [
+    "photo_document.py:54"
+  ],
+  "请选择 TIFF、PNG 或 JPEG 导出格式。": [
+    "photo_document.py:231"
+  ],
+  "成片像素无效，请重新渲染后导出。": [
+    "photo_document.py:233"
+  ],
+  "正在读取专业浮点RAW…": [
+    "photo_document.py:92"
+  ],
+  "无法解码此 RAW：机型/压缩格式不受当前 LibRaw 支持，或文件不完整。请尝试相机软件或转换为 TIFF。": [
+    "photo_document.py:171"
+  ],
+  "HDR浮点数据请导出TIFF。": [
+    "photo_document.py:239"
+  ],
+  "输出色彩转换": [
+    "photo_document.py:253"
+  ],
+  "16 位输出量化": [
+    "photo_document.py:265"
+  ],
+  "8 位输出量化": [
+    "photo_document.py:274"
+  ],
+  "正在读取机内已渲染图像…": [
+    "photo_document.py:92"
+  ],
+  "正在准备 RAW 显影，保留 16 位精度…": [
+    "photo_document.py:92"
+  ],
+  "此版本最多支持1.1亿像素，请先裁切或另存较小副本。": [
+    "photo_document.py:99"
+  ],
+  "风格配置未启用，使用基础相机色彩。": [
+    "photo_document.py:138"
+  ],
+  "不支持多页 TIFF。": [
+    "photo_document.py:174"
+  ],
+  "HDR 输出转换": [
+    "photo_document.py:244"
+  ],
+  "照片超过1.1亿像素。": [
+    "photo_document.py:180"
+  ],
+  "支持8/16位 RGB TIFF，不支持浮点、灰度或透明 TIFF。": [
+    "photo_document.py:204"
+  ],
+  "RawTherapee · 16位 RAW；": [
+    "photo_document.py:142"
+  ],
+  "用户选择兼容显影 · LibRaw；未应用 DCP，相机风格和色彩可能不同。": [
+    "photo_document.py:155"
+  ],
+  "旧项目兼容显影 · LibRaw；保留历史基础 RAW 外观。": [
+    "photo_document.py:155"
+  ],
+  "RawTherapee · 机型匹配 DCP → 16位 RAW；不复刻专有机内美颜。": [
+    "photo_document.py:125"
+  ],
+  "未匹配到拍摄风格 DCP，使用基础相机色彩。": [
+    "photo_document.py:131"
+  ],
+  "。请重新导入 DCP 或选择按拍摄风格匹配。": [
+    "photo_document.py:129"
+  ],
+  "无可用机内预览，已回退16位 RAW。原因：": [
+    "photo_document.py:135"
+  ],
+  "相机配置读取失败，使用基础相机色彩。": [
+    "photo_document.py:116"
+  ],
+  "未找到所选机型配置：": [
+    "photo_document.py:129"
+  ],
+  "静态照片版": [
+    "photo_edition_ui.py:5",
+    "photo_edition_ui.py:8"
+  ],
+  "此版本暂不提供 HEIC 和实况照片处理，请导出 JPEG / PNG / TIFF 后导入。": [
+    "photo_edition_ui.py:5"
+  ],
+  "此版本暂不提供视频处理。": [
+    "photo_edition_ui.py:8"
+  ],
+  "原图已改变，请重新导入后再预检；原编辑记录保留。": [
+    "photo_library.py:90"
+  ],
+  "原图已在其他软件中改变。请先保存原编辑项目，再移出视图区重新导入。": [
+    "photo_library.py:98"
+  ],
+  "皮肤与五官分区": [
+    "photo_segmentation.py:71"
+  ],
+  "MediaPipe 多类分割 + 网格区域；细边界可手动修正": [
+    "photo_segmentation.py:71"
+  ],
+  "分割输入必须是 RGB 照片。": [
+    "photo_segmentation.py:20"
+  ],
+  "分割模型类别数不匹配。": [
+    "photo_segmentation.py:38"
+  ],
+  "分割模型返回无效数值。": [
+    "photo_segmentation.py:40"
+  ],
+  "面部区域为空。": [
+    "photo_segmentation.py:45"
+  ],
+  "面部网格无效。": [
+    "photo_segmentation.py:55"
+  ],
+  "分割模型校验失败。": [
+    "photo_segmentation.py:29"
+  ],
+  "分割结果缓冲区不连续。": [
+    "photo_segmentation.py:36"
+  ],
+  "曲线通道无效": [
+    "point_curves.py:6"
+  ],
+  "曲线控制点无效": [
+    "point_curves.py:9",
+    "point_curves.py:11"
+  ],
+  "启动失败，详细原因见程序目录 startup-error.log。": [
+    "portable_bootstrap.py:35"
+  ],
+  "LUT尺寸无效。": [
+    "portable_lut.py:9",
+    "portable_lut.py:34"
+  ],
+  "压缩LUT过大。": [
+    "portable_lut.py:11"
+  ],
+  "LUT校验格式无效。": [
+    "portable_lut.py:12"
+  ],
+  "压缩LUT尺寸不符。": [
+    "portable_lut.py:17"
+  ],
+  "LUT内容校验失败。": [
+    "portable_lut.py:18"
+  ],
+  "LUT输出范围无效。": [
+    "portable_lut.py:20"
+  ],
+  "LUT编码不支持。": [
+    "portable_lut.py:26"
+  ],
+  "压缩LUT无效。": [
+    "portable_lut.py:16"
+  ],
+  "LUT混合": [
+    "portable_lut.py:52",
+    "portable_lut.py:52"
+  ],
+  "GPU 运算回退": [
+    "portable_self_test.py:110"
+  ],
+  "已取消DAMO祛纹范围准备。": [
+    "portrait_effects.py:168"
+  ],
+  "选区过大，请分批修复；每批最多96个重叠图块。": [
+    "portrait_patch_blend.py:28"
+  ],
+  "修复图块没有完整覆盖选区，未应用结果。": [
+    "portrait_patch_blend.py:46"
+  ],
+  "AI 修复返回无效像素。": [
+    "portrait_patch_blend.py:40"
+  ],
+  "人体范围缓冲区不兼容。": [
+    "preview_analysis.py:29"
+  ],
+  "预览准备已取消。": [
+    "preview_analysis.py:50"
+  ],
+  "准备当前片段轨迹": [
+    "preview_analysis.py:54"
+  ],
+  "人工检查肤色、纹理、形变和整组风格；这些项目无法由当前数值检查判定合格。": [
+    "production_checks.py:34"
+  ],
+  "成片含无效像素或尺寸异常，请重新渲染。": [
+    "production_checks.py:9"
+  ],
+  "当前使用机内 8 位预览，16 位导出不能恢复 RAW 精度。": [
+    "production_checks.py:16"
+  ],
+  "皮肤引擎：": [
+    "production_checks.py:29"
+  ],
+  "当前渲染失败，不能使用旧预览交付。": [
+    "production_checks.py:39"
+  ],
+  "新补选区域尚未完成 AI 修复。": [
+    "production_checks.py:40"
+  ],
+  "形变仍待处理，请先完成生成。": [
+    "production_checks.py:41"
+  ],
+  "旧项目兼容模式；沿用原有皮肤处理。": [
+    "production_checks.py:29"
+  ],
+  "当前使用基础／线性 RAW 显影，拍摄风格未由机型配置复现。": [
+    "production_checks.py:19"
+  ],
+  "当前机型、ISO 和配置组合尚无 Adobe 亮度对照验证；请检查底图。": [
+    "production_checks.py:23"
+  ],
+  "基础 RAW 自定义色温为近似值，请检查灰色与肤色。": [
+    "production_checks.py:24"
+  ],
+  "输入没有嵌入 ICC，按 sRGB 解释；请核对来源色彩空间。": [
+    "production_checks.py:26"
+  ],
+  "多尺度与细节保护；深色点保护": [
+    "production_checks.py:29"
+  ],
+  "：请放大检查发丝、手指、帽檐及背景亮斑。": [
+    "production_checks.py:33"
+  ],
+  "已使用机型匹配配置：": [
+    "production_checks.py:20"
+  ],
+  "输入 ICC 已转换：": [
+    "production_checks.py:27"
+  ],
+  "开启。": [
+    "production_checks.py:29"
+  ],
+  "关闭，可手动取消误选。": [
+    "production_checks.py:29"
+  ],
+  "导入底图": [
+    "production_review_ui.py:50"
+  ],
+  "当前成片": [
+    "production_review_ui.py:50"
+  ],
+  "请等待当前渲染完成，再检查成片。": [
+    "production_review_ui.py:13"
+  ],
+  "状态": [
+    "production_review_ui.py:32"
+  ],
+  "检查结果": [
+    "production_review_ui.py:32"
+  ],
+  "完整画幅": [
+    "production_review_ui.py:38"
+  ],
+  "检查区域": [
+    "production_review_ui.py:39"
+  ],
+  "比例": [
+    "production_review_ui.py:39"
+  ],
+  "人像 ": [
+    "production_review_ui.py:64"
+  ],
+  "返回编辑": [
+    "production_review_ui.py:27"
+  ],
+  "100% 为一原图像素对应一屏幕像素；两侧滚动同步。数值提示不代表审美合格。": [
+    "production_review_ui.py:28"
+  ],
+  "标记纯白／纯黑": [
+    "production_review_ui.py:41"
+  ],
+  " · 检查当前完整效果，调整请返回编辑": [
+    "production_review_ui.py:21"
+  ],
+  "已检查": [
+    "production_review_ui.py:35"
+  ],
+  "请核对": [
+    "production_review_ui.py:35"
+  ],
+  "项目已存在，请另存新文件名。": [
+    "project_io.py:16"
+  ],
+  "旧皮肤引擎不支持深色点保护开关。": [
+    "project_io.py:26",
+    "project_io.py:81"
+  ],
+  "手动修饰开关无效。": [
+    "project_io.py:33",
+    "project_io.py:88"
+  ],
+  "项目文件过大或格式异常。": [
+    "project_io.py:75"
+  ],
+  "项目版本或修复模型不兼容。": [
+    "project_io.py:77"
+  ],
+  "项目皮肤引擎版本无效。": [
+    "project_io.py:82"
+  ],
+  "项目尺寸无效。": [
+    "project_io.py:84"
+  ],
+  "手动修饰项目版本无效。": [
+    "project_io.py:89"
+  ],
+  "项目液化记录标记无效。": [
+    "project_io.py:90"
+  ],
+  "项目人像列表无效。": [
+    "project_io.py:97"
+  ],
+  "项目检测阈值无效。": [
+    "project_io.py:105"
+  ],
+  "部位蒙版数量无效。": [
+    "project_io.py:130"
+  ],
+  "项目参数无效。": [
+    "project_io.py:95"
+  ],
+  "项目人像范围无效。": [
+    "project_io.py:100"
+  ],
+  "项目画笔参数无效。": [
+    "project_io.py:109"
+  ],
+  "项目蒙版异常。": [
+    "project_io.py:121"
+  ],
+  "部位蒙版过大。": [
+    "project_io.py:139"
+  ],
+  "液化笔刷参数无效。": [
+    "project_io.py:160"
+  ],
+  "液化密度或速度无效。": [
+    "project_io.py:163"
+  ],
+  "液化辅助线设置无效。": [
+    "project_io.py:166"
+  ],
+  "液化项目过大。": [
+    "project_io.py:169"
+  ],
+  "项目独立人像参数无效。": [
+    "project_io.py:104"
+  ],
+  "项目蒙版尺寸不一致。": [
+    "project_io.py:127"
+  ],
+  "部位蒙版数据无效。": [
+    "project_io.py:142"
+  ],
+  "AI 柔边蒙版形状无效。": [
+    "project_io.py:137"
+  ],
+  "部位蒙版尺寸不一致。": [
+    "project_io.py:147"
+  ],
+  "AI 柔边蒙版数据无效。": [
+    "project_io.py:151"
+  ],
+  "来源尺寸不同，无法生成保持局部编辑的对比。": [
+    "raw_compare_context.py:13"
+  ],
+  "来源切换后人物数量不同，无法可靠生成调色对比。": [
+    "raw_compare_context.py:16"
+  ],
+  "正在解码宽色域浮点RAW…": [
+    "raw_develop.py:6"
+  ],
+  "线性宽色域RAW · 保留浮点高光余量；相机风格可用兼容显影模式。": [
+    "raw_develop.py:18"
+  ],
+  "基础相机色彩（不使用 DCP）": [
+    "raw_recovery.py:10"
+  ],
+  "新显影的尺寸与原编辑不一致，无法可靠保留蒙版和局部修复；已保留原编辑。": [
+    "raw_recovery.py:28"
+  ],
+  "机内预览与 RAW 显影可能有不同的镜头校正，无法可靠保留局部编辑；已保留原编辑。": [
+    "raw_recovery.py:32"
+  ],
+  "当前富士 RAW 滤镜依赖线性 DCP 基底，所选显影不能保留该效果；已保留原编辑。请重试原配置，或先恢复套用前再切换。": [
+    "raw_recovery.py:36"
+  ],
+  "新显影的人物数量改变，无法可靠保留逐人编辑；已保留原编辑。": [
+    "raw_recovery.py:39"
+  ],
+  "RAW 显影未完成": [
+    "raw_recovery.py:55"
+  ],
+  "确认更换 RAW 显影方式": [
+    "raw_recovery.py:108"
+  ],
+  "切换相机配置可能改变颜色、亮度和对比度。是否使用所选配置重新显影？": [
+    "raw_recovery.py:111"
+  ],
+  "兼容引擎使用 LibRaw 基础显影，不应用 DCP 相机风格。颜色、亮度和白平衡可能与当前结果不同。是否继续？": [
+    "raw_recovery.py:115"
+  ],
+  "未知 RAW 恢复操作。": [
+    "raw_recovery.py:21"
+  ],
+  "新显影的人脸位置改变，无法可靠保留逐人编辑；已保留原编辑。": [
+    "raw_recovery.py:47"
+  ],
+  "新显影的人物顺序改变，无法可靠保留逐人局部编辑；已保留原编辑。": [
+    "raw_recovery.py:48"
+  ],
+  "当前图像与编辑已保留。选择一种方式继续，成功后才替换当前结果。": [
+    "raw_recovery.py:59"
+  ],
+  "重试": [
+    "raw_recovery.py:66"
+  ],
+  "选择其他配置": [
+    "raw_recovery.py:67"
+  ],
+  "正在读取此照片对应机型的配置…": [
+    "raw_recovery.py:72"
+  ],
+  "使用兼容引擎打开": [
+    "raw_recovery.py:75"
+  ],
+  "取消 · 保留当前编辑": [
+    "raw_recovery.py:76"
+  ],
+  "\n\n曝光、调色、美颜与局部编辑会尝试保留；只有显影及编辑恢复成功后才替换当前结果。若无法可靠对齐，将保留原编辑。": [
+    "raw_recovery.py:108"
+  ],
+  "已取消 RAW 显影，保留当前编辑。": [
+    "raw_recovery.py:149",
+    "raw_recovery.py:148"
+  ],
+  "请选择配置。": [
+    "raw_recovery.py:18"
+  ],
+  "配置列表读取失败；仍可尝试基础相机色彩。": [
+    "raw_recovery.py:105"
+  ],
+  "相机配置": [
+    "raw_recovery.py:70"
+  ],
+  "使用所选配置": [
+    "raw_recovery.py:74"
+  ],
+  "已取消未完成的滤镜套用，正在尝试其他显影方式。": [
+    "raw_recovery.py:142"
+  ],
+  "复用已准备的 RAW 来源与色彩；正在准备当前编辑…": [
+    "raw_source_cache.py:36"
+  ],
+  "此 RAW 缺少有效日光白平衡增益，不能可靠应用自定义色温。请使用拍摄白平衡或机型配置。": [
+    "raw_white_balance.py:16"
+  ],
+  "自动恢复文件名无效。": [
+    "recovery_store.py:59"
+  ],
+  "恢复备份目录不在用户数据目录内。": [
+    "recovery_store.py:97"
+  ],
+  "恢复备份路径无效。": [
+    "recovery_store.py:100"
+  ],
+  "动漫晴空": [
+    "reference_filter_recipes.py:17"
+  ],
+  "壮壮Sight · 日系动漫感调色思路": [
+    "reference_filter_recipes.py:17"
+  ],
+  "清青蓝色、鲜活草地与自然肤色；中间调提亮、高光柔和收束。适合晴天户外，人物与天空的亮度仍需按照片分区调整。": [
+    "reference_filter_recipes.py:18"
+  ],
+  "粉蓝通透": [
+    "reference_filter_recipes.py:22"
+  ],
+  "LeoX香吉士 · 摩天轮通透感": [
+    "reference_filter_recipes.py:22"
+  ],
+  "浅青天空、柔和白色与轻暖中间调；适合旅行、建筑和高光比场景。": [
+    "reference_filter_recipes.py:23"
+  ],
+  "晴日胶片绿": [
+    "reference_filter_recipes.py:27"
+  ],
+  "蛋黄 · 日系胶片感": [
+    "reference_filter_recipes.py:27"
+  ],
+  "低饱和深青绿、橘暖肤色与奶蓝天空；保留扎实黑位和细颗粒。": [
+    "reference_filter_recipes.py:28"
+  ],
+  "阳光负片": [
+    "reference_filter_recipes.py:32"
+  ],
+  "白榆川Ycc · 数码仿胶片": [
+    "reference_filter_recipes.py:32"
+  ],
+  "偏青环境、自然亮肤与有厚度的暗部；适合有阳光的街头人像。": [
+    "reference_filter_recipes.py:33"
+  ],
+  "顶光柔色": [
+    "reference_filter_recipes.py:37"
+  ],
+  "星川明 · 顶光日系清新": [
+    "reference_filter_recipes.py:37"
+  ],
+  "提亮暗部肤色、清青蓝色与轻暖高光。这里只套用调色，原帖的美颜和AI追色需另做。": [
+    "reference_filter_recipes.py:38"
+  ],
+  "薄荷小清新": [
+    "reference_filter_recipes.py:42"
+  ],
+  "雨雨修图分享 · 日系小清新": [
+    "reference_filter_recipes.py:42"
+  ],
+  "明亮肤色、青绿植被与完整黑位；适合树荫、逆光和自然环境人像。": [
+    "reference_filter_recipes.py:43"
+  ],
+  "AURA原创配方（帖子风格参考）": [
+    "reference_filter_recipes.py:52"
+  ],
+  "小红书参考 · ": [
+    "reference_filter_recipes.py:51"
+  ],
+  "全图取样；构图和物体颜色占比会影响匹配。": [
+    "reference_regions.py:47"
+  ],
+  "未知参考图区域。": [
+    "reference_regions.py:28"
+  ],
+  "该区域未可靠识别或太小，请换人物、范围或取样框。": [
+    "reference_regions.py:52"
+  ],
+  "参考图取样框无效。": [
+    "reference_regions.py:40"
+  ],
+  "正在识别参考图的皮肤、头发和五官…": [
+    "reference_regions.py:19"
+  ],
+  "追色人物已不可用，请重新确认对应人物。": [
+    "reference_regions.py:34"
+  ],
+  "确认追色区域": [
+    "reference_review_ui.py:13"
+  ],
+  "区域暂不可用": [
+    "reference_review_ui.py:11"
+  ],
+  "其中一张照片未识别到人像，无法可靠区分人物部位与背景。请选择“全图”并用取样框限定范围。": [
+    "reference_review_ui.py:11"
+  ],
+  "参考图": [
+    "reference_review_ui.py:24"
+  ],
+  "当前照片": [
+    "reference_review_ui.py:24"
+  ],
+  "输入范围": [
+    "reference_review_ui.py:50"
+  ],
+  "左、上、右、下百分比，用空格分隔，例如 20 20 80 80": [
+    "reference_review_ui.py:50"
+  ],
+  "范围已更新。": [
+    "reference_review_ui.py:56"
+  ],
+  "确认追色区域前": [
+    "reference_review_ui.py:94"
+  ],
+  "确认参考图与目标区域": [
+    "reference_review_ui.py:99"
+  ],
+  " · 区域已确认": [
+    "reference_review_ui.py:99"
+  ],
+  "分别拖框限制参考取样和目标应用范围；绿色为选中范围。关闭窗口保留已有参考。": [
+    "reference_review_ui.py:18"
+  ],
+  "人像 1": [
+    "reference_review_ui.py:28"
+  ],
+  "请输入四个 0–100 的数，右大于左，下大于上。": [
+    "reference_review_ui.py:55"
+  ],
+  "确认区域": [
+    "reference_review_ui.py:102"
+  ],
+  "清除取样框": [
+    "reference_review_ui.py:38"
+  ],
+  "输入范围…": [
+    "reference_review_ui.py:39"
+  ],
+  "面部皮肤（含鼻部）": [
+    "region_masks.py:6"
+  ],
+  "身体皮肤（含耳朵）": [
+    "region_masks.py:6"
+  ],
+  "眉毛": [
+    "region_masks.py:7"
+  ],
+  "眼睛巩膜": [
+    "region_masks.py:7"
+  ],
+  "虹膜和瞳孔": [
+    "region_masks.py:7"
+  ],
+  "嘴唇": [
+    "region_masks.py:7",
+    "reshape_ui.py:85",
+    "reshape_ui.py:108"
+  ],
+  "牙齿": [
+    "region_masks.py:7"
+  ],
+  "衣服": [
+    "region_masks.py:7"
+  ],
+  "身体部位分割": [
+    "region_masks.py:276"
+  ],
+  "身体分割模型校验失败。": [
+    "region_masks.py:263"
+  ],
+  "蒙版标识无效。": [
+    "region_masks.py:309"
+  ],
+  "蒙版名称无效。": [
+    "region_masks.py:310"
+  ],
+  "部位蒙版尺寸无效。": [
+    "region_masks.py:311"
+  ],
+  "蒙版开关无效。": [
+    "region_masks.py:315"
+  ],
+  "部位分割缓冲区不兼容，已安全停止。": [
+    "region_masks.py:273"
+  ],
+  "AI 柔边蒙版比例与照片不一致。": [
+    "region_masks.py:314"
+  ],
+  "细节蒙版人物或类型无效。": [
+    "region_masks.py:318"
+  ],
+  "部位蒙版参数无效。": [
+    "region_masks.py:321"
+  ],
+  "补光输出包含无效数值。": [
+    "relight_engine.py:169"
+  ],
+  "几何补光已更新 · 复用深度与法线缓存": [
+    "relight_engine.py:170"
+  ],
+  "正在细化面部受光方向…": [
+    "relight_engine.py:86"
+  ],
+  "正在更新 ": [
+    "relight_engine.py:156"
+  ],
+  "柔面光": [
+    "relight_settings.py:5",
+    "relight_ui.py:11"
+  ],
+  "点光": [
+    "relight_settings.py:5"
+  ],
+  "方向光": [
+    "relight_settings.py:5"
+  ],
+  "后轮廓光": [
+    "relight_settings.py:5",
+    "relight_ui.py:113"
+  ],
+  "面部与身体皮肤": [
+    "relight_settings.py:7",
+    "relight_ui.py:11"
+  ],
+  "人物轮廓与衣物": [
+    "relight_settings.py:7",
+    "relight_ui.py:113"
+  ],
+  "主光": [
+    "relight_settings.py:21"
+  ],
+  "补光": [
+    "relight_settings.py:21"
+  ],
+  "补光光源记录无效。": [
+    "relight_settings.py:44"
+  ],
+  "光源名称无效。": [
+    "relight_settings.py:47"
+  ],
+  "光源类型或范围无效。": [
+    "relight_settings.py:48"
+  ],
+  "后轮廓光必须放在人物背后，深度应小于0。": [
+    "relight_settings.py:52"
+  ],
+  "灯光颜色无效。": [
+    "relight_settings.py:54"
+  ],
+  "几何补光记录版本无效。": [
+    "relight_settings.py:59"
+  ],
+  "每个人物需有1–5盏光源。": [
+    "relight_settings.py:61"
+  ],
+  "所选光源编号无效。": [
+    "relight_settings.py:63"
+  ],
+  "轮廓光": [
+    "relight_settings.py:21"
+  ],
+  "光源参数无效：": [
+    "relight_settings.py:51"
+  ],
+  "选择人物光源": [
+    "relight_ui.py:23"
+  ],
+  "几何柔光 · 当前人物": [
+    "relight_ui.py:18"
+  ],
+  "1 · 主光": [
+    "relight_ui.py:28",
+    "relight_ui.py:28"
+  ],
+  "灯位与范围": [
+    "relight_ui.py:42"
+  ],
+  "在照片上放置此光源": [
+    "relight_ui.py:44"
+  ],
+  "结束放置 · 返回浏览": [
+    "relight_ui.py:45"
+  ],
+  "灯面大小": [
+    "relight_ui.py:46"
+  ],
+  "高光与五官受光": [
+    "relight_ui.py:48"
+  ],
+  "暗部、高光与几何保护": [
+    "relight_ui.py:50"
+  ],
+  "正在后台更新补光…首次开启会分析人物深度与表面方向。": [
+    "relight_ui.py:109"
+  ],
+  "人物几何补光参数": [
+    "relight_ui.py:110"
+  ],
+  "添加光源前": [
+    "relight_ui.py:121"
+  ],
+  "添加人物光源": [
+    "relight_ui.py:122"
+  ],
+  "删除光源前": [
+    "relight_ui.py:128"
+  ],
+  "删除人物光源": [
+    "relight_ui.py:129"
+  ],
+  "重置补光前": [
+    "relight_ui.py:133"
+  ],
+  "重置人物补光": [
+    "relight_ui.py:134"
+  ],
+  "灯光颜色": [
+    "relight_ui.py:149"
+  ],
+  "当前光源已放置，可调整前后深度。": [
+    "relight_ui.py:158"
+  ],
+  "开启后在后台分析深度与表面方向；调灯复用缓存。": [
+    "relight_ui.py:13"
+  ],
+  "启用几何补光": [
+    "relight_ui.py:20"
+  ],
+  "删除": [
+    "relight_ui.py:27"
+  ],
+  "开启此光源": [
+    "relight_ui.py:29"
+  ],
+  "光源类型": [
+    "relight_ui.py:30"
+  ],
+  "作用范围": [
+    "relight_ui.py:31"
+  ],
+  "柔和程度": [
+    "relight_ui.py:36"
+  ],
+  "灯光颜色 #FFFFFF": [
+    "relight_ui.py:38"
+  ],
+  "冷暖": [
+    "relight_ui.py:41"
+  ],
+  "绿／洋红": [
+    "relight_ui.py:41"
+  ],
+  "灯色饱和度": [
+    "relight_ui.py:41"
+  ],
+  "灯色混合": [
+    "relight_ui.py:41"
+  ],
+  "横向位置": [
+    "relight_ui.py:43"
+  ],
+  "纵向位置": [
+    "relight_ui.py:43"
+  ],
+  "前后深度": [
+    "relight_ui.py:43"
+  ],
+  "新增高光": [
+    "relight_ui.py:49"
+  ],
+  "高光柔度": [
+    "relight_ui.py:49"
+  ],
+  "侧面填光": [
+    "relight_ui.py:49"
+  ],
+  "嘴唇受光": [
+    "relight_ui.py:49"
+  ],
+  "眉毛受光": [
+    "relight_ui.py:49"
+  ],
+  "轮廓光量": [
+    "relight_ui.py:49"
+  ],
+  "轮廓宽度": [
+    "relight_ui.py:49"
+  ],
+  "暗部优先": [
+    "relight_ui.py:51"
+  ],
+  "亮部／肤色保护": [
+    "relight_ui.py:51"
+  ],
+  "几何可靠性保护": [
+    "relight_ui.py:51"
+  ],
+  "使用可见深度遮挡": [
+    "relight_ui.py:52"
+  ],
+  "每个人物最多五盏光源。": [
+    "relight_ui.py:120"
+  ],
+  "至少保留一盏光源；可关闭其开关。": [
+    "relight_ui.py:127"
+  ],
+  "灯光调色前": [
+    "relight_ui.py:146"
+  ],
+  "2 · 补光": [
+    "relight_ui.py:28"
+  ],
+  "3 · 轮廓光": [
+    "relight_ui.py:28"
+  ],
+  "灯光颜色 ": [
+    "relight_ui.py:140"
+  ],
+  "正深度在人物前方，负深度在背后；点选位置保持原图坐标。": [
+    "relight_ui.py:47"
+  ],
+  "保护只调整新增光量，不更换强度曲线。遮挡依据可见深度，不能恢复背面或消除原图阴影。": [
+    "relight_ui.py:53"
+  ],
+  "最多五盏灯。嘴唇和眉毛连续受光，眼球与鼻孔保持保护。柔化新增光照，原图已有阴影仍保留。": [
+    "relight_ui.py:55"
+  ],
+  "旧项目减光记录保留；几何补光添加光照，减光请用全局曝光。": [
+    "relight_ui.py:76"
+  ],
+  "旧项目保留原补光；开启或编辑几何补光时转换，可撤销。": [
+    "relight_ui.py:76"
+  ],
+  "自然": [
+    "reshape_settings.py:18",
+    "reshape_ui.py:117",
+    "reshape_ui.py:51"
+  ],
+  "柔和": [
+    "reshape_settings.py:19",
+    "reshape_ui.py:117"
+  ],
+  "利落": [
+    "reshape_settings.py:20",
+    "reshape_ui.py:117",
+    "reshape_ui.py:53"
+  ],
+  "圆脸参考": [
+    "reshape_settings.py:21",
+    "reshape_ui.py:117",
+    "reshape_ui.py:51",
+    "reshape_ui.py:57"
+  ],
+  "长脸参考": [
+    "reshape_settings.py:22",
+    "reshape_ui.py:117",
+    "reshape_ui.py:57",
+    "reshape_ui.py:55"
+  ],
+  "方脸参考": [
+    "reshape_settings.py:23",
+    "reshape_ui.py:117",
+    "reshape_ui.py:57",
+    "reshape_ui.py:53"
+  ],
+  "V形参考": [
+    "reshape_settings.py:24",
+    "reshape_ui.py:117",
+    "reshape_ui.py:57",
+    "reshape_ui.py:57",
+    "reshape_ui.py:53"
+  ],
+  "瘦脸 · 人物左侧": [
+    "reshape_settings.py:2"
+  ],
+  "瘦脸 · 人物右侧": [
+    "reshape_settings.py:2"
+  ],
+  "下颌宽度 · 人物左侧": [
+    "reshape_settings.py:3"
+  ],
+  "下颌宽度 · 人物右侧": [
+    "reshape_settings.py:3"
+  ],
+  "下巴宽度": [
+    "reshape_settings.py:4"
+  ],
+  "下巴长短": [
+    "reshape_settings.py:4"
+  ],
+  "眼睛大小 · 人物左侧": [
+    "reshape_settings.py:5"
+  ],
+  "眼睛大小 · 人物右侧": [
+    "reshape_settings.py:5"
+  ],
+  "眼睛宽度 · 人物左侧": [
+    "reshape_settings.py:6"
+  ],
+  "眼睛宽度 · 人物右侧": [
+    "reshape_settings.py:6"
+  ],
+  "眼睛高度 · 人物左侧": [
+    "reshape_settings.py:7"
+  ],
+  "眼睛高度 · 人物右侧": [
+    "reshape_settings.py:7"
+  ],
+  "眼睛倾斜 · 人物左侧": [
+    "reshape_settings.py:8"
+  ],
+  "眼睛倾斜 · 人物右侧": [
+    "reshape_settings.py:8"
+  ],
+  "眼距": [
+    "reshape_settings.py:9"
+  ],
+  "鼻子宽度": [
+    "reshape_settings.py:9"
+  ],
+  "鼻子长短": [
+    "reshape_settings.py:9"
+  ],
+  "嘴巴宽度": [
+    "reshape_settings.py:10"
+  ],
+  "嘴巴位置 / 高低": [
+    "reshape_settings.py:10"
+  ],
+  "上唇厚度": [
+    "reshape_settings.py:11"
+  ],
+  "下唇厚度": [
+    "reshape_settings.py:11"
+  ],
+  "嘴角 / 微笑": [
+    "reshape_settings.py:11"
+  ],
+  "脸部宽度": [
+    "reshape_settings.py:12"
+  ],
+  "面部重塑": [
+    "reshape_ui.py:69"
+  ],
+  "重新校准轮廓": [
+    "reshape_ui.py:95"
+  ],
+  "脸型": [
+    "reshape_ui.py:101",
+    "reshape_ui.py:85"
+  ],
+  "保持原有脸型": [
+    "reshape_ui.py:117"
+  ],
+  "轻收脸缘": [
+    "reshape_ui.py:117"
+  ],
+  "柔化下颌，轻缩脸长": [
+    "reshape_ui.py:117"
+  ],
+  "收窄下颌，轻拉长下巴": [
+    "reshape_ui.py:117"
+  ],
+  "收窄两侧，轻拉长下巴": [
+    "reshape_ui.py:117"
+  ],
+  "缩短脸长": [
+    "reshape_ui.py:117"
+  ],
+  "收窄下颌": [
+    "reshape_ui.py:117"
+  ],
+  "收窄下巴": [
+    "reshape_ui.py:117"
+  ],
+  "面部重塑参数": [
+    "reshape_ui.py:127",
+    "reshape_ui.py:144"
+  ],
+  "面部重塑前": [
+    "reshape_ui.py:132"
+  ],
+  "无 · 保持原有脸型": [
+    "reshape_ui.py:67"
+  ],
+  "光影塑颜": [
+    "reshape_ui.py:85",
+    "reshape_ui.py:103",
+    "reshape_ui.py:113"
+  ],
+  "眼睛": [
+    "reshape_ui.py:85",
+    "reshape_ui.py:108",
+    "smart_face_ui.py:15"
+  ],
+  "鼻子": [
+    "reshape_ui.py:85",
+    "reshape_ui.py:108",
+    "smart_face_ui.py:18"
+  ],
+  "左右联动": [
+    "reshape_ui.py:91"
+  ],
+  "请先恢复画笔形变并清除冻结保护，再调整脸型。": [
+    "reshape_ui.py:123"
+  ],
+  "已有画笔形变或冻结保护，请先恢复画笔形变并清除保护，再调整脸型。": [
+    "reshape_ui.py:131"
+  ],
+  "参考脸型 · ": [
+    "reshape_ui.py:136"
+  ],
+  "请先恢复画笔形变并清除冻结保护，再重新校准。": [
+    "reshape_ui.py:143"
+  ],
+  "圆脸适用": [
+    "reshape_ui.py:57"
+  ],
+  "长脸适用": [
+    "reshape_ui.py:57"
+  ],
+  "方脸适用": [
+    "reshape_ui.py:57"
+  ],
+  " · 仅调整局部明暗": [
+    "reshape_ui.py:113"
+  ],
+  "自定义参数": [
+    "reshape_ui.py:118"
+  ],
+  "参考脸型": [
+    "reshape_ui.py:71"
+  ],
+  "虚线是原始轮廓，箭头表示调整方向；示意差异已放大。下方标签快速定位已有控件。": [
+    "reshape_ui.py:90"
+  ],
+  "首次使用会定位并复核可见边缘；遮挡处保守处理。调整数值时复用定位，松开滑块或按 Enter 后应用。": [
+    "reshape_ui.py:96"
+  ],
+  "校准面部轮廓": [
+    "reshape_ui.py:149"
+  ],
+  "正在后台更新完整图像…可继续调整参数。": [
+    "responsive_render_ui.py:43"
+  ],
+  "正在更新调色 · 复用已完成的美颜和识别": [
+    "responsive_render_ui.py:58"
+  ],
+  "调色预览 · 松开后后台更新完整图像": [
+    "responsive_render_ui.py:131"
+  ],
+  "参数更新失败，保留上一结果；详情见 render-error.log": [
+    "responsive_render_ui.py:72"
+  ],
+  "最新参数未成功生成，请重新调整参数或恢复上一编辑状态，暂不能保存旧结果。": [
+    "responsive_render_ui.py:87"
+  ],
+  "补光更新未完成，请查看底部状态与错误记录。": [
+    "responsive_render_ui.py:70"
+  ],
+  "自然融合": [
+    "retouch_ui.py:14",
+    "retouch_ui.py:22",
+    "retouch_ui.py:37"
+  ],
+  "纹理保留": [
+    "retouch_ui.py:14"
+  ],
+  "减淡": [
+    "retouch_ui.py:12"
+  ],
+  "加深": [
+    "retouch_ui.py:12"
+  ],
+  "修复画笔": [
+    "retouch_ui.py:12"
+  ],
+  "仿制图章": [
+    "retouch_ui.py:12"
+  ],
+  "恢复画笔": [
+    "retouch_ui.py:12"
+  ],
+  "手动修饰 · 画笔": [
+    "retouch_ui.py:39"
+  ],
+  "减淡 / 加深强度": [
+    "retouch_ui.py:47"
+  ],
+  "取样 · 再点击照片（或 Alt＋点击）": [
+    "retouch_ui.py:52",
+    "retouch_ui.py:90"
+  ],
+  "尚未取样，请 Alt＋点击干净皮肤。": [
+    "retouch_ui.py:88"
+  ],
+  "手动修饰前": [
+    "retouch_ui.py:138"
+  ],
+  "选择画笔，在照片上按住并拖动。": [
+    "retouch_ui.py:24"
+  ],
+  "半径 / 原图像素": [
+    "retouch_ui.py:46"
+  ],
+  "对齐取样 · 多笔保持来源偏移": [
+    "retouch_ui.py:53"
+  ],
+  "硬度": [
+    "retouch_ui.py:60"
+  ],
+  "间距 / 直径百分比": [
+    "retouch_ui.py:60"
+  ],
+  "取样缩放 / %": [
+    "retouch_ui.py:63"
+  ],
+  "取样旋转 / 度": [
+    "retouch_ui.py:63"
+  ],
+  "水平翻转": [
+    "retouch_ui.py:67"
+  ],
+  "垂直翻转": [
+    "retouch_ui.py:67"
+  ],
+  "重置取样变换": [
+    "retouch_ui.py:70"
+  ],
+  "显示手动修饰效果": [
+    "retouch_ui.py:71"
+  ],
+  "请在照片上点击取样位置。": [
+    "retouch_ui.py:89"
+  ],
+  "已退出取样，返回浏览；已有修改保留。": [
+    "retouch_ui.py:98"
+  ],
+  "显示手动修饰": [
+    "retouch_ui.py:103"
+  ],
+  "隐藏手动修饰": [
+    "retouch_ui.py:103"
+  ],
+  "已达到手动笔画上限，请保存当前项目并导出成片。": [
+    "retouch_ui.py:125"
+  ],
+  "手动修饰 · ": [
+    "retouch_ui.py:176"
+  ],
+  "减淡提亮，加深压暗；恢复画笔仅恢复手动修饰。": [
+    "retouch_ui.py:89"
+  ],
+  "取样 · 开（再点退出）": [
+    "retouch_ui.py:90"
+  ],
+  "先 Alt＋点击取样位置，再涂画需要修复的区域。": [
+    "retouch_ui.py:128"
+  ],
+  "对齐取样已超出照片，请重新 Alt＋点击取样。": [
+    "retouch_ui.py:133"
+  ],
+  "本笔已达到路径上限，请松开鼠标并另画一笔。": [
+    "retouch_ui.py:158"
+  ],
+  "明暗范围": [
+    "retouch_ui.py:49"
+  ],
+  "修复融合": [
+    "retouch_ui.py:56"
+  ],
+  "左键涂画 · 右键恢复 · 每笔可撤销\nCtrl＋滚轮调大小 · 空格平移\n笔画随项目保存": [
+    "retouch_ui.py:77"
+  ],
+  "向上": [
+    "scroll_ui.py:47"
+  ],
+  "向下": [
+    "scroll_ui.py:48"
+  ],
+  "可上下滑动": [
+    "scroll_ui.py:66"
+  ],
+  "↑ 上方还有内容 · ↓ 下方还有内容": [
+    "scroll_ui.py:67"
+  ],
+  "↓ 可下滑": [
+    "scroll_ui.py:66"
+  ],
+  "↓ 下方还有内容": [
+    "scroll_ui.py:67"
+  ],
+  "↑ 可上滑 · 已到底": [
+    "scroll_ui.py:66"
+  ],
+  "全部显示": [
+    "scroll_ui.py:66"
+  ],
+  "↑ 上方还有内容 · 已到底": [
+    "scroll_ui.py:67"
+  ],
+  "全部内容已显示": [
+    "scroll_ui.py:67"
+  ],
+  "冷白": [
+    "skin_color.py:5"
+  ],
+  "粉白": [
+    "skin_color.py:5"
+  ],
+  "清冷": [
+    "skin_color.py:5"
+  ],
+  "奶油": [
+    "skin_color.py:5"
+  ],
+  "自然暖": [
+    "skin_color.py:6"
+  ],
+  "蜜桃": [
+    "skin_color.py:6"
+  ],
+  "小麦": [
+    "skin_color.py:6"
+  ],
+  "深暖": [
+    "skin_color.py:6"
+  ],
+  "深色点保护候选；颜色与形状规则，不代表痣／雀斑分类。": [
+    "skin_detail_protection.py:36"
+  ],
+  "脸部智能 · 当前人物": [
+    "smart_face_ui.py:10"
+  ],
+  "脸部智能参数": [
+    "smart_face_ui.py:49"
+  ],
+  "智能五官恢复前": [
+    "smart_face_ui.py:54"
+  ],
+  "恢复智能五官参数": [
+    "smart_face_ui.py:56",
+    "smart_face_ui.py:27"
+  ],
+  "先选上方人物。参数按人物独立；默认 0。眼睛左右按人物自身区分。可输入数值，Enter 应用。\n先调整智能参数，再用画笔细修与冻结保护。": [
+    "smart_face_ui.py:13"
+  ],
+  "左右眼联动": [
+    "smart_face_ui.py:16"
+  ],
+  "重新识别 / 校准人物": [
+    "smart_face_ui.py:28"
+  ],
+  "请先恢复画笔形变并清除冻结保护，再调整智能参数。": [
+    "smart_face_ui.py:42"
+  ],
+  "已有画笔形变或冻结保护。请先恢复画笔形变并清除保护，再调整智能参数。": [
+    "smart_face_ui.py:53"
+  ],
+  "嘴唇与嘴角": [
+    "smart_face_ui.py:19"
+  ],
+  "脸型与下颌": [
+    "smart_face_ui.py:20"
+  ],
+  "将当前蒙版用于身体美颜": [
+    "smart_mask_ui.py:19"
+  ],
+  "皮肤": [
+    "smart_mask_ui.py:24"
+  ],
+  "智能补选前": [
+    "smart_mask_ui.py:29"
+  ],
+  "应用为当前人物身体美颜范围": [
+    "smart_mask_ui.py:46"
+  ],
+  "当前蒙版已用于此人物身体参数；请检查范围，避免包含衣服、脸部或其他人物。": [
+    "smart_mask_ui.py:46"
+  ],
+  "皮肤补全 · 当前人物": [
+    "smart_mask_ui.py:11",
+    "smart_mask_ui.py:14"
+  ],
+  "点选范围 / 原图像素": [
+    "smart_mask_ui.py:15"
+  ],
+  "点选添加": [
+    "smart_mask_ui.py:17"
+  ],
+  "点选减去": [
+    "smart_mask_ui.py:17"
+  ],
+  "请等待形变完成再点选。": [
+    "smart_mask_ui.py:22"
+  ],
+  "请先关闭实验身体形变再点选。": [
+    "smart_mask_ui.py:23"
+  ],
+  "请先识别人物，或切换物体点选。": [
+    "smart_mask_ui.py:25"
+  ],
+  "物体点选": [
+    "smart_mask_ui.py:14"
+  ],
+  "智能点选补全": [
+    "smart_mask_ui.py:41"
+  ],
+  "智能点选减去": [
+    "smart_mask_ui.py:41"
+  ],
+  "先选部位蒙版，再点击遗漏区域；没有蒙版时自动新建。结合人物范围、颜色和边缘补选；复杂纹理可用添加/减去画笔修正。扩展、羽化与强度在部位蒙版面板。": [
+    "smart_mask_ui.py:20"
+  ],
+  "智能物体选区": [
+    "smart_mask_ui.py:35"
+  ],
+  "请点击照片内的目标区域。": [
+    "smart_selection.py:6"
+  ],
+  "该点在已确认的五官、头发或其他人物保护区内。": [
+    "smart_selection.py:7"
+  ],
+  "该处未可靠归属当前人物，可换用物体选区或手动添加画笔。": [
+    "smart_selection.py:19"
+  ],
+  "这次点选未得到稳定区域，请缩小范围或手动补选。": [
+    "smart_selection.py:33"
+  ],
+  "*/测试报告.json": [
+    "video_preview_backend.py:90"
+  ],
+  "当前视频预览支持MP4、MOV和M4V。": [
+    "video_preview_backend.py:75"
+  ],
+  "无法确认视频时长。": [
+    "video_preview_backend.py:77"
+  ],
+  "预览测试版支持10分钟、2GB以内视频。": [
+    "video_preview_backend.py:78"
+  ],
+  "当前位置没有可读取视频帧。": [
+    "video_preview_backend.py:116"
+  ],
+  "导出不覆盖已有文件，请使用新文件名。": [
+    "video_preview_backend.py:191"
+  ],
+  "原视频已在其他软件中改变，请重新打开以刷新缓存。": [
+    "video_preview_backend.py:229"
+  ],
+  "当前片段没有视频帧。": [
+    "video_preview_backend.py:165"
+  ],
+  "生成3秒循环画面": [
+    "video_preview_backend.py:186"
+  ],
+  "导出时间戳改变，结果未发布。": [
+    "video_preview_backend.py:220"
+  ],
+  "完整导出1080p": [
+    "video_preview_backend.py:212"
+  ],
+  "未知视频任务。": [
+    "video_preview_backend.py:258"
+  ],
+  "分析视频轨迹": [
+    "video_tracks.py:92"
+  ],
+  "该镜头缺少可靠身体定位，不能构造身体形变。": [
+    "video_tracks.py:129"
+  ],
+  "该镜头没有可确认的身体边缘，不能构造身体形变。": [
+    "video_tracks.py:127"
+  ],
+  "光影立体与分区丰盈 · 当前人像": [
+    "volume_ui.py:6"
+  ],
+  "眼袋与下颌光影": [
+    "volume_ui.py:9"
+  ],
+  "基于 AI 皮肤和关键点的局部明暗塑形，保留纹理。光影丰盈不改变面部几何，也不生成新皮肤；全部默认0。": [
+    "volume_ui.py:7"
+  ],
+  "这些参数只调整明暗，不移动五官、下颌或身体轮廓。几何收紧在“塑形”中。": [
+    "volume_ui.py:11"
+  ],
+  "全脸0–4档；额头、面中、面颊、鼻基底、眼窝、眉弓、下巴、嘴角可单调。两侧眼窝分开，额头/面中/鼻基底/下巴另有平整与提亮。": [
+    "volume_ui.py:12"
+  ],
+  "扩展编辑记录无效。": [
+    "workflow_extensions.py:7"
+  ],
+  "扩展蒙版数量无效。": [
+    "workflow_extensions.py:18"
+  ],
+  "修复缓存数量无效。": [
+    "workflow_extensions.py:23"
+  ],
+  "修复缓存过大，请分图处理。": [
+    "workflow_extensions.py:30"
+  ],
+  "扩展参数过大。": [
+    "workflow_extensions.py:34"
+  ],
+  "扩展蒙版索引无效。": [
+    "workflow_extensions.py:107"
+  ],
+  "修复缓存索引无效。": [
+    "workflow_extensions.py:108"
+  ],
+  "富士 RAW 来源记录无效。": [
+    "workflow_extensions.py:11"
+  ],
+  "扩展蒙版尺寸无效。": [
+    "workflow_extensions.py:20"
+  ],
+  "修复缓存名称无效。": [
+    "workflow_extensions.py:26"
+  ],
+  "修复缓存数据无效。": [
+    "workflow_extensions.py:28"
+  ],
+  "扩展参数无效。": [
+    "workflow_extensions.py:33"
+  ],
+  "创作人物记录无效。": [
+    "workflow_extensions.py:52"
+  ],
+  "未知效果记录。": [
+    "workflow_extensions.py:58"
+  ],
+  "背景参数无效。": [
+    "workflow_extensions.py:64"
+  ],
+  "参考图信息无效。": [
+    "workflow_extensions.py:68"
+  ],
+  "参考色彩范围无效。": [
+    "workflow_extensions.py:84"
+  ],
+  "AI清理缓存不完整。": [
+    "workflow_extensions.py:86"
+  ],
+  "AI清理位置无效。": [
+    "workflow_extensions.py:88"
+  ],
+  "AI清理缓存尺寸不符。": [
+    "workflow_extensions.py:90"
+  ],
+  "AI清理来源校验无效。": [
+    "workflow_extensions.py:91"
+  ],
+  "扩展缓存过大。": [
+    "workflow_extensions.py:112"
+  ],
+  "创作人物编号无效。": [
+    "workflow_extensions.py:54"
+  ],
+  "追色人物编号无效。": [
+    "workflow_extensions.py:71"
+  ],
+  "参考图强度无效。": [
+    "workflow_extensions.py:79"
+  ],
+  "参考色彩统计无效。": [
+    "workflow_extensions.py:83"
+  ],
+  "扩展缓存数据异常。": [
+    "workflow_extensions.py:115"
+  ],
+  "扩展蒙版数据异常。": [
+    "workflow_extensions.py:116"
+  ],
+  "追色取样框无效。": [
+    "workflow_extensions.py:76"
+  ],
+  "扩展蒙版格式无效。": [
+    "workflow_extensions.py:121"
+  ],
+  "AI缓存空间限制": [
+    "workflow_ui.py:33"
+  ],
+  "自动保存与恢复": [
+    "workflow_ui.py:25",
+    "workflow_ui.py:103"
+  ],
+  "查看自动保存": [
+    "workflow_ui.py:36"
+  ],
+  "正在自动保存…": [
+    "workflow_ui.py:73"
+  ],
+  "正在恢复自动保存与有效 AI 缓存…": [
+    "workflow_ui.py:92"
+  ],
+  "不保留 AI 缓存": [
+    "workflow_ui.py:39",
+    "workflow_ui.py:32",
+    "workflow_ui.py:18"
+  ],
+  "自动保存已开启": [
+    "workflow_ui.py:42",
+    "workflow_ui.py:19"
+  ],
+  "自动保存已关闭": [
+    "workflow_ui.py:42",
+    "workflow_ui.py:19"
+  ],
+  "保存时间": [
+    "workflow_ui.py:106"
+  ],
+  "版本": [
+    "workflow_ui.py:106"
+  ],
+  "正在为更新保存编辑，请等待保存完成。": [
+    "workflow_ui.py:123"
+  ],
+  "正在取消更新传输并清理临时下载，随后退出…": [
+    "workflow_ui.py:126"
+  ],
+  "视频正在完整导出，请完成或取消后退出。": [
+    "workflow_ui.py:130"
+  ],
+  "实况照片正在处理，请完成或取消后退出。": [
+    "workflow_ui.py:133"
+  ],
+  "正在完成参数渲染，随后保存并退出…": [
+    "workflow_ui.py:135"
+  ],
+  "请等待处理结束或取消处理后退出。": [
+    "workflow_ui.py:136"
+  ],
+  "正在完成自动保存，随后退出…": [
+    "workflow_ui.py:139"
+  ],
+  "自动保存编辑记录": [
+    "workflow_ui.py:30"
+  ],
+  "重开时复用有效 AI 缓存": [
+    "workflow_ui.py:31"
+  ],
+  "默认 AI 缓存限额 2 GB，可关闭或调节。超限淘汰缓存，恢复项目继续保留；原图变化后重新分析。": [
+    "workflow_ui.py:35"
+  ],
+  "设置未保存：": [
+    "workflow_ui.py:41"
+  ],
+  "自动保存失败：": [
+    "workflow_ui.py:83"
+  ],
+  "已自动保存 ": [
+    "workflow_ui.py:85"
+  ],
+  " / 自动恢复，已复用 AI 缓存": [
+    "workflow_ui.py:95"
+  ],
+  "选择恢复记录；缓存无效时从恢复项目重新处理。": [
+    "workflow_ui.py:104"
+  ],
+  "恢复所选": [
+    "workflow_ui.py:120"
+  ],
+  "保存失败，已停止安装；请先手动保存项目。": [
+    "workflow_ui.py:143"
+  ],
+  "自动保存失败": [
+    "workflow_ui.py:144"
+  ],
+  "建议先手动保存项目。仍要退出吗？": [
+    "workflow_ui.py:144"
+  ],
+  "计算设备（CPU / GPU）": [
+    "workspace_ui.py:126"
+  ],
+  "导入照片    Ctrl+O": [
+    "workspace_ui.py:103"
+  ],
+  "保存项目    Ctrl+S": [
+    "workspace_ui.py:107"
+  ],
+  "导出成片": [
+    "workspace_ui.py:108"
+  ],
+  "计算设备": [
+    "workspace_ui.py:124"
+  ],
+  "关于 AURA": [
+    "workspace_ui.py:137"
+  ],
+  "未知功能模块：": [
+    "workspace_ui.py:161"
+  ],
+  "独立照片版 · 不含 HEIC / 实况 / 视频": [
+    "workspace_ui.py:104"
+  ],
+  "计算模式在下次启动时生效。": [
+    "workspace_ui.py:129"
+  ],
+  "自动跟随 Windows 缩放，移动到其他显示器后同步调整。照片的 100% 查看保持原图像素比例。": [
+    "workspace_ui.py:133"
+  ],
+  "自动应用推荐美颜": [
+    "workspace_ui.py:135"
+  ],
+  "默认开启，仅影响后续新导入的照片。关闭后仍识别人像，可在“美颜”中使用推荐参数。": [
+    "workspace_ui.py:136"
+  ],
+  "版本 ": [
+    "workspace_ui.py:139"
+  ],
+  "XMP曲线控制点无效。": [
+    "xmp_color_style.py:37",
+    "xmp_color_style.py:87"
+  ],
+  "XMP预设过大。": [
+    "xmp_color_style.py:48"
+  ],
+  "不接受含实体声明的XMP。": [
+    "xmp_color_style.py:50"
+  ],
+  "此XMP没有可映射的调色参数；可能仅包含Adobe专用配置。": [
+    "xmp_color_style.py:141"
+  ],
+  "独立算法的参数映射，不保证与Lightroom相同效果；Adobe专用配置和AI蒙版不导入。": [
+    "xmp_color_style.py:155"
+  ],
+  "XMP超过2MB；含大LUT时请保存AURA预设。": [
+    "xmp_color_style.py:211"
+  ],
+  "共有参数互通，不保证Adobe逐像素效果；AURA扩展保留完整配方。": [
+    "xmp_color_style.py:213"
+  ],
+  "未覆盖完整输入范围，已按端点值延伸。": [
+    "xmp_color_style.py:40"
+  ],
+  "控制点已重采样为64点。": [
+    "xmp_color_style.py:43"
+  ],
+  "XMP格式无效。": [
+    "xmp_color_style.py:52"
+  ],
+  "AURA完整配方精确恢复；共有XMP参数在其他软件中使用各自算法。": [
+    "xmp_color_style.py:57"
+  ],
+  "XMP包含非有限数值。": [
+    "xmp_color_style.py:99"
+  ],
+  "GrainSize按0–100比例转换为AURA胶片颗粒大小，非相同物理尺度。": [
+    "xmp_color_style.py:103"
+  ],
+  "XMP黑白开关无效。": [
+    "xmp_color_style.py:120"
+  ],
+  "AURA XMP基底依赖无效。": [
+    "xmp_color_style.py:204",
+    "xmp_color_style.py:62"
+  ],
+  "AURA XMP配方无效。": [
+    "xmp_color_style.py:56"
+  ],
+  "AURA完整调色配方": [
+    "xmp_color_style.py:57"
+  ],
+  "XMP颗粒大小超范围。": [
+    "xmp_color_style.py:101"
+  ],
+  "超出AURA范围，已限制。": [
+    "xmp_color_style.py:104"
+  ],
+  "XMP HSL超范围。": [
+    "xmp_color_style.py:110"
+  ],
+  "XMP处理模式无效。": [
+    "xmp_color_style.py:123"
+  ],
+  "XMP黑白混色超范围。": [
+    "xmp_color_style.py:130"
+  ],
+  "XMP数值无效：": [
+    "xmp_color_style.py:97"
+  ],
+  "XMP透视数值无效。": [
+    "xmp_color_style.py:136"
+  ]
+}

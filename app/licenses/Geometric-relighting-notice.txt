@@ -1,0 +1,7 @@
+AURA geometric relighting
+MoGe-2 Small Normal: MIT, Ruicheng/moge-2-vits-normal @ 26b477f41595707c5db6770294c0d1721e8ed4ed
+MoGe code: microsoft/MoGe @ 74fbce054ebed49800de42d0ad0e83495065719a
+DINOv2 source bundled within MoGe: Apache-2.0 notice retained.
+utils3d-moge: MIT; SciPy dependency notices retained.
+Light transport and original-pixel compositing independently implemented by AURA.
+No Marigold or Depth Anything weights included in current release.

@@ -1,0 +1,312 @@
+2490	Before relighting reset
+2491	Reset person lighting
+2492	Light color
+2493	The current light has been placed. Adjust its depth as needed.
+2494	Enabling analyzes depth and surface directions in the background. Light adjustments reuse the cache.
+2495	Enable geometry relighting
+2496	Delete
+2497	Enable this light
+2498	Light type
+2499	Affected area
+2500	Softness
+2501	Light color #FFFFFF
+2502	Warmth
+2503	Green / magenta
+2504	Light saturation
+2505	Light color blend
+2506	Horizontal position
+2507	Vertical position
+2508	Depth
+2509	Added highlights
+2510	Highlight softness
+2511	Side fill
+2512	Lip lighting
+2513	Eyebrow lighting
+2514	Rim light amount
+2515	Rim width
+2516	Prioritize shadows
+2517	Highlight / skin protection
+2518	Geometry reliability protection
+2519	Use visible depth occlusion
+2520	Each person supports up to five lights.
+2521	Keep at least one light. You can disable it instead.
+2522	Before light color adjustment
+2523	2 · Fill light
+2524	3 · Rim light
+2525	Light color 
+2526	Positive depth is in front of the person; negative depth is behind. Clicked positions use original image coordinates.
+2527	Protection adjusts only added light, preserving the strength curve. Occlusion uses visible depth; it cannot recover hidden surfaces or remove existing shadows.
+2528	Up to five lights. Lips and eyebrows receive continuous lighting; eyeballs and nostrils remain protected. Added light is softened; existing shadows remain.
+2529	Legacy light reduction records are retained. Geometry relighting adds light; use global exposure to darken.
+2530	Legacy projects retain their original lighting. Enabling or editing geometry relighting converts it; this can be undone.
+2531	Natural
+2532	Soft
+2533	Defined
+2534	Round face reference
+2535	Long face reference
+2536	Square face reference
+2537	V-shape reference
+2538	Face slimming · Person's left
+2539	Face slimming · Person's right
+2540	Jaw width · Person's left
+2541	Jaw width · Person's right
+2542	Chin width
+2543	Chin length
+2544	Eye size · Person's left
+2545	Eye size · Person's right
+2546	Eye width · Person's left
+2547	Eye width · Person's right
+2548	Eye height · Person's left
+2549	Eye height · Person's right
+2550	Eye tilt · Person's left
+2551	Eye tilt · Person's right
+2552	Eye spacing
+2553	Nose width
+2554	Nose length
+2555	Mouth width
+2556	Mouth vertical position
+2557	Upper lip thickness
+2558	Lower lip thickness
+2559	Mouth corners / smile
+2560	Face width
+2561	Face reshaping
+2562	Recalibrate outline
+2563	Face shape
+2564	Keep original face shape
+2565	Gently narrow face edges
+2566	Soften jaw and slightly shorten face
+2567	Narrow jaw and slightly lengthen chin
+2568	Narrow sides and slightly lengthen chin
+2569	Shorten face
+2570	Narrow jaw
+2571	Narrow chin
+2572	Face reshaping parameters
+2573	Before face reshaping
+2574	None · Keep original face shape
+2575	Tone sculpting
+2576	Eyes
+2577	Nose
+2578	Link left and right
+2579	Restore brush warping and clear freeze protection before adjusting face shape.
+2580	Brush warping or freeze protection exists. Restore brush warping and clear protection before adjusting face shape.
+2581	Face shape reference · 
+2582	Restore brush warping and clear freeze protection before recalibrating.
+2583	For round faces
+2584	For long faces
+2585	For square faces
+2586	 · Adjusts local brightness only
+2587	Custom parameters
+2588	Face shape reference
+2589	Dashed lines show the original outline; arrows show the adjustment direction. Differences are exaggerated for illustration. Labels below jump to existing controls.
+2590	First use locates and checks visible edges, handling occlusion conservatively. Changes reuse this alignment. Release the slider or press Enter to apply.
+2591	Calibrate facial outline
+2592	Updating the full image in the background… You can keep adjusting controls.
+2593	Updating color · Reusing completed beauty processing and detection
+2594	Color preview · Release to update the full image in the background
+2595	Could not update parameters. Previous result retained; see render-error.log.
+2596	The latest parameters were not rendered successfully. Adjust them again or restore a previous edit state. The outdated result cannot be saved.
+2597	Relighting update incomplete. Check the status bar and error log.
+2598	Natural blend
+2599	Preserve texture
+2600	Dodge
+2601	Burn
+2602	Healing brush
+2603	Clone stamp
+2604	Restore brush
+2605	Manual retouch · Brush
+2606	Dodge / burn strength
+2607	Sample · Then click the photo (or Alt + click)
+2608	No sample yet. Alt + click clean skin.
+2609	Before manual retouch
+2610	Choose a brush, then click and drag on the photo.
+2611	Radius / source pixels
+2612	Aligned sampling · Keep source offset across strokes
+2613	Hardness
+2614	Spacing / % of diameter
+2615	Sample scale / %
+2616	Sample rotation / degrees
+2617	Flip horizontally
+2618	Flip vertically
+2619	Reset sample transform
+2620	Show manual retouch effects
+2621	Click a sample position on the photo.
+2622	Sampling ended; back to browsing. Existing edits are retained.
+2623	Show manual retouch
+2624	Hide manual retouch
+2625	The manual stroke limit has been reached. Save the project and export the result.
+2626	Manual retouch · 
+2627	Dodge brightens; burn darkens. The restore brush restores only manual retouching.
+2628	Sampling · On (click again to exit)
+2629	Alt + click a sample position, then paint the area to repair.
+2630	The aligned sample is outside the photo. Alt + click to sample again.
+2631	This stroke has reached its path limit. Release the mouse and start another stroke.
+2632	Tonal range
+2633	Healing blend
+2634	Left button: paint · Right button: restore · Undo each stroke\nCtrl + wheel: size · Space: pan\nStrokes are saved with the project
+2635	Up
+2636	Down
+2637	Scroll up or down
+2638	↑ More above · ↓ More below
+2639	↓ Scroll down
+2640	↓ More content below
+2641	↑ Scroll up · At bottom
+2642	All visible
+2643	↑ More content above · At bottom
+2644	All content is visible
+2645	Cool fair
+2646	Rosy fair
+2647	Cool
+2648	Cream
+2649	Natural warm
+2650	Peach
+2651	Wheat
+2652	Deep warm
+2653	Dark spot protection candidates use color and shape rules; they do not classify moles or freckles.
+2654	Smart face · Current person
+2655	Smart face parameters
+2656	Before smart feature reset
+2657	Reset smart facial parameters
+2658	Select the person above first. Parameters are individual and default to 0. Left and right refer to the person's own eyes. Type a value and press Enter to apply.\nAdjust smart controls first, then refine with brushes and freeze protection.
+2659	Link both eyes
+2660	Detect / calibrate person again
+2661	Restore brush warping and clear freeze protection before adjusting smart controls.
+2662	Brush warping or freeze protection exists. Restore brush warping and clear protection before adjusting smart controls.
+2663	Lips and mouth corners
+2664	Face shape and jaw
+2665	Use current mask for body beauty
+2666	Skin
+2667	Before smart selection expansion
+2668	Use as current person's body beauty region
+2669	This mask now controls the person's body adjustments. Check that it excludes clothing, the face and other people.
+2670	Complete skin selection · Current person
+2671	Click range / source pixels
+2672	Click to add
+2673	Click to subtract
+2674	Wait for warping to finish before selecting.
+2675	Disable experimental body warping before selecting.
+2676	Detect a person first, or switch to object selection.
+2677	Object selection
+2678	Expand smart selection
+2679	Subtract smart selection
+2680	Select a region mask, then click a missing area. A mask is created automatically if none exists. Selection uses the person's area, color and edges. Refine complex textures with add/subtract brushes. Expansion, feathering and strength are in the region mask panel.
+2681	Smart object selection
+2682	Click the target area inside the photo.
+2683	This point lies in a protected facial feature, hair or another person's region.
+2684	This area was not reliably associated with the current person. Try object selection or the manual add brush.
+2685	This click did not produce a stable region. Reduce the range or add it manually.
+2686	*/测试报告.json
+2687	Video preview currently supports MP4, MOV and M4V.
+2688	Could not determine video duration.
+2689	This preview version supports videos up to 10 minutes and 2 GB.
+2690	No readable video frame at this position.
+2691	Export does not overwrite existing files. Use a new filename.
+2692	The source video was changed by another application. Reopen it to refresh the cache.
+2693	This segment contains no video frames.
+2694	Generate a 3-second loop
+2695	Export timestamps changed. The result was not published.
+2696	Full 1080p export
+2697	Unknown video task.
+2698	Analyze video tracks
+2699	This shot lacks reliable body alignment. Body warping cannot be constructed.
+2700	This shot has no confirmed body edges. Body warping cannot be constructed.
+2701	Tone sculpting and regional volume · Current person
+2702	Eye bag and jaw shading
+2703	Local tone sculpting based on AI skin regions and landmarks, preserving texture. Tonal volume does not change facial geometry or generate new skin. All values default to 0.
+2704	These controls change only light and shade. They do not move facial features, the jaw or body outlines. Geometric tightening is under Reshape.
+2705	Full face has levels 0–4. Adjust forehead, midface, cheeks, nasal base, eye sockets, brow ridge, chin and mouth corners individually. Eye sockets are separate; forehead, midface, nasal base and chin also have smoothing and brightening controls.
+2706	Invalid extended edit record.
+2707	Invalid extended mask count.
+2708	Invalid repair cache count.
+2709	The repair cache is too large. Process photos separately.
+2710	Extended parameters are too large.
+2711	Invalid extended mask index.
+2712	Invalid repair cache index.
+2713	Invalid Fujifilm RAW source record.
+2714	Invalid extended mask dimensions.
+2715	Invalid repair cache name.
+2716	Invalid repair cache data.
+2717	Invalid extended parameters.
+2718	Invalid creative person record.
+2719	Unknown effect record.
+2720	Invalid background parameters.
+2721	Invalid reference image information.
+2722	Invalid reference color range.
+2723	Incomplete AI cleanup cache.
+2724	Invalid AI cleanup position.
+2725	AI cleanup cache size mismatch.
+2726	Invalid AI cleanup source verification.
+2727	The extended cache is too large.
+2728	Invalid creative person index.
+2729	Invalid color match person index.
+2730	Invalid reference image strength.
+2731	Invalid reference color statistics.
+2732	Invalid extended cache data.
+2733	Invalid extended mask data.
+2734	Invalid color match sampling box.
+2735	Invalid extended mask format.
+2736	AI cache storage limit
+2737	Autosave and recovery
+2738	View autosaves
+2739	Autosaving…
+2740	Restoring autosave and valid AI cache…
+2741	Do not retain AI cache
+2742	Autosave enabled
+2743	Autosave disabled
+2744	Saved at
+2745	Version
+2746	Saving edits for the update. Wait for saving to finish.
+2747	Canceling the update transfer and clearing temporary downloads, then exiting…
+2748	A full video export is running. Finish or cancel it before exiting.
+2749	A Live Photo is being processed. Finish or cancel it before exiting.
+2750	Finishing parameter rendering, then saving and exiting…
+2751	Wait for processing to finish or cancel it before exiting.
+2752	Finishing autosave, then exiting…
+2753	Autosave edit records
+2754	Reuse valid AI cache when reopening
+2755	The default AI cache limit is 2 GB; disable or adjust it here. Older cache is evicted when full, while recovery projects are retained. Changed source photos are analyzed again.
+2756	Settings were not saved: 
+2757	Autosave failed: 
+2758	Autosaved 
+2759	 / Automatically recovered; AI cache reused
+2760	Choose a recovery record. If its cache is invalid, processing resumes from the recovery project.
+2761	Restore selected
+2762	Saving failed and installation stopped. Save the project manually first.
+2763	Autosave failed
+2764	We recommend saving the project manually first. Exit anyway?
+2765	Compute device (CPU / GPU)
+2766	Import photos    Ctrl+O
+2767	Save project    Ctrl+S
+2768	Export result
+2769	Compute device
+2770	About AURA
+2771	Unknown feature module: 
+2772	Standalone photo edition · No HEIC / Live Photos / video
+2773	The compute mode takes effect on the next launch.
+2774	Follows Windows scaling automatically, including when moving between displays. The 100% photo view retains the original pixel ratio.
+2775	Apply recommended beauty automatically
+2776	Enabled by default; affects newly imported photos only. When disabled, people are still detected. Recommended settings remain available under Beauty.
+2777	Version 
+2778	Invalid XMP curve control points.
+2779	The XMP preset is too large.
+2780	XMP with entity declarations is not accepted.
+2781	This XMP contains no color parameters that can be mapped. It may contain only Adobe-specific profiles.
+2782	Parameters are mapped to independent algorithms; results may differ from Lightroom. Adobe-specific profiles and AI masks are not imported.
+2783	XMP exceeds 2 MB. Save an AURA preset when using large LUTs.
+2784	Shared parameters are interoperable, but Adobe pixel-level results are not guaranteed. The AURA extension retains the complete recipe.
+2785	The curve does not cover the full input range. Endpoint values were extended.
+2786	Control points resampled to 64 points.
+2787	Invalid XMP format.
+2788	The full AURA recipe is restored exactly. Shared XMP parameters use each application's own algorithms.
+2789	XMP contains non-finite values.
+2790	GrainSize is converted proportionally from 0–100 to AURA grain size, not to the same physical scale.
+2791	Invalid XMP black-and-white setting.
+2792	Invalid AURA XMP base dependency.
+2793	Invalid AURA XMP recipe.
+2794	Complete AURA color recipe
+2795	XMP grain size is out of range.
+2796	Outside the AURA range; clamped.
+2797	XMP HSL values are out of range.
+2798	Invalid XMP processing mode.
+2799	XMP black-and-white mix is out of range.
+2800	Invalid XMP value: 
+2801	Invalid XMP perspective value.

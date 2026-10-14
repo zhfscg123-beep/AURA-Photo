@@ -1,0 +1,20 @@
+﻿AURA Photo 0.1.0 — Source and rebuild information
+
+Application
+Application Python files are present beside the launcher. Runtime imports resolve inside this folder; no original AURA installation is required. The launcher's complete C# source is source/Launcher.cs. Build on Windows with .NET Framework 4.x C# compiler:
+  csc /target:winexe /platform:x64 /reference:System.Windows.Forms.dll /win32icon:assets/aura.ico /out:"AURA Photo.exe" source/Launcher.cs
+Run runtime/python.exe portable_bootstrap.py --self-test --report output.json for the local smoke check; optional --input PHOTO --relight --raw-input RAW adds actual processing checks. Test paths should be writable. Never distribute user data or test photos.
+
+RawTherapee 5.13
+The supplied official rawtherapee-5.13.tar.xz contains the complete release source and CMake build scripts. The shipped AboutThisBuild file records commit 1924179107995b01b73cdc7f4fe91e44fc8227a7 and GCC 16.1.0. See upstream README, CMakeLists.txt and https://rawpedia.rawtherapee.com/Windows .
+Use an MSYS2 UCRT64 toolchain and package versions recorded in licenses/msys2/*/.BUILDINFO and .PKGINFO. Configure the release source with CMake and BUILD_GUI=OFF to build the CLI; install dependencies required by the release CMakeLists. Use the original release's AboutThisBuild/CMake metadata when reproducing build options.
+Each of the 39 dependency source packages in third-party-sources includes its PKGBUILD, patches, upstream archive or Git pack. Extract one package, review its PKGBUILD and run MSYS2 makepkg-mingw with the matching toolchain/dependencies. Upstream license files are also copied to licenses/msys2.
+This is a corresponding-source bundle and a documented rebuild route, not a claim that every package has been rebuilt here or that a newly built binary will be byte-identical. Exact byte matching was performed against official prebuilt MSYS2 packages.
+
+rawpy / LibRaw
+rawpy-0.27.1.tar.gz is the Python release source. For its Windows build workflow use the additional rawpy Git source at a39c2e7a44911889c3360891012f862f904ba551. Place LibRaw-b860248a89d9082b8e0a1e202e516f46af9adb29 source in external/LibRaw and LibRaw-cmake-6e26c9e73677dc04f9eb236a97c6a4dc225ba7e8 in external/LibRaw-cmake, removing the enclosing GitHub tarball directory. Follow that commit's .github workflow and build scripts (vcpkg revision/tag 2026.07.29). Keep GPL demosaic packs disabled as in the supplied runtime.
+The LGPL LibRaw DLL remains separate and replaceable. Use a compatible ABI or rebuild the rawpy extension from these sources to link a modified LibRaw. No code signing check prevents replacement.
+
+Other sources
+certifi's full corresponding source is included. Other permissively licensed Python packages retain their metadata, source Python modules and license notices. Native framework/compiler development headers were omitted where not needed for this application's runtime; this portable app is not a general C++ extension SDK.
+The source archive index and checksums are licenses/source-checksums.json. Official source URLs and pinned revisions are recorded in licenses/primary-sources.json and rawtherapee-dependencies.json. No non-distributable user assets are required to build the launcher.

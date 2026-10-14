@@ -1,0 +1,390 @@
+390	Cannot overwrite the original photo.
+391	Output already exists. Use a new filename.
+392	Reshaping is not complete.
+393	MCP save project
+394	Repair or reshaping is pending. Run aura_action repair / calibrate first.
+395	Invalid preview source.
+396	Preview max_edge must be 64–4096.
+397	Invalid liquify stroke.
+398	Invalid liquify coordinates.
+399	Invalid liquify parameters.
+400	The liquify mesh has folded over.
+401	Invalid part name.
+402	No reliable person detected.
+403	Invalid preset type.
+404	Invalid preset file or action.
+405	Preset is too large.
+406	Invalid color preset format.
+407	Reference color regions belong to the original photo. Confirm them again on the target photo.
+408	Invalid reference image or region.
+409	Invalid color-match strength.
+410	MCP reference color match
+411	Invalid media module.
+412	The media module is busy. Please wait.
+413	Liquify or freeze protection already exists. Restore liquify and clear protection before changing the coordinate basis.
+414	Invalid liquify toggle.
+415	Unknown AURA operation: 
+416	auto_recommend must be a boolean.
+417	Unknown action. Available: 
+418	MCP export photo
+419	Crop must be integer [left,top,right,bottom].
+420	Preview crop is outside the photo.
+421	Invalid mask key.
+422	Invalid media parameter name.
+423	Invalid media option.
+424	Media file does not exist.
+425	Invalid parameter list index: 
+426	Parameter path is not editable: 
+427	Retouch parameter out of range: 
+428	Retired parameter cannot be enabled: 
+429	Use the dedicated mask interface.
+430	Unknown parameter field: 
+431	Invalid liquify parameter: 
+432	Restore
+433	Mask does not exist.
+434	Maximum mask count reached.
+435	MCP portrait settings
+436	This AURA version does not support XMP export.
+437	No person detected in the reference. Select full-image sampling.
+438	Invalid video option.
+439	Invalid preview quality.
+440	Invalid Live Photo option.
+441	Invalid Live Photo platform.
+442	Paired video does not exist.
+443	Open a video first.
+444	Open a cover image first.
+445	Unknown parameter path: 
+446	Parameter rendering failed.
+447	Control missing or read-only: 
+448	Invalid control option: 
+449	Unknown parameter domain: 
+450	MCP rollback
+451	Invalid mask operation.
+452	Quick preview · 540p
+453	Original resolution · Current frame
+454	Invalid time position.
+455	iPhone paired photo + MOV
+456	Android JPEG / HEIC Motion Photo
+457	Live Photo output directory already exists.
+458	Live Photo originals are incomplete.
+459	Toggle must be boolean: 
+460	A finite number is required: 
+461	An integer is required: 
+462	Control value out of range: 
+463	A string is required: 
+464	Mask dimensions must match the original image.
+465	Invalid stroke.
+466	Invalid stroke radius.
+467	Stroke coordinates are outside the original image.
+468	Invalid media action.
+469	Update the media preview first.
+470	AURA's local control interface is not enabled. Start the updated AURA app.
+471	Local AURA connection failed. Make sure the updated app is running.
+472	AURA is still starting. Try aura_status later; diagnostics: .aura-data/automation/host-start.log.
+473	Person skin tone
+474	Face skin
+475	Body skin
+476	Clothing
+477	Hair
+478	Whole person
+479	Background
+480	Preflight canceled.
+481	Global color
+482	HDR is enabled for this photo. Export as TIFF.
+483	Lighting and recoloring
+484	No person detected; person lighting and recoloring cannot be synchronized.
+485	Person settings are incomplete. Reimport this photo before synchronizing.
+486	Brush liquify already exists. Restore warps and protection before synchronizing face shape.
+487	The filter's development profile for this camera is missing. Import a matching profile first.
+488	 MB). Adjust output size or directory.
+489	Could not check output directory: 
+490	Available disk space is below the conservative estimate (about 
+491	Batch sync and export
+492	None selected (export directly)
+493	Checking files, person mapping, color compatibility and output settings…
+494	Failed
+495	Batch processing
+496	Import the photos you want to process first.
+497	Matching person
+498	Photos (Ctrl / Shift to select multiple)
+499	Status
+500	Categories to sync
+501	Export
+502	TIFF · 16-bit
+503	Ready
+504	Sync only
+505	Export only
+506	Sync and export
+507	Preflight sync and export
+508	Resume unfinished
+509	Retry failed
+510	Check selected photo
+511	Select a photo to inspect.
+512	Numerical and source checks only; skin tone, mask edges and appearance still require visual review.
+513	Saving recovery data for the current photo before continuing…
+514	Processing
+515	Recovery data not saved
+516	Completed
+517	Stopping; completed files will be retained…
+518	Photo could not be prepared. Check processing messages.
+519	AURA-delivery-check-
+520	\nRecovery data could not be saved. Save the current photo manually first: 
+521	Import failed
+522	Current photo rendering failed. An outdated preview was not exported.
+523	Sync selected categories or export directly. Each photo retains its own detected regions. Inspecting a target does not change the source.
+524	Needs confirmation
+525	Pending
+526	Choose either automatic lens matching or copying lens parameters. Perspective can be synchronized independently. Unsupported legacy-engine parameters report a failure and retain previous settings.
+527	Confirm person mapping for selected photos
+528	For single-person sync, confirm the corresponding person in each photo first. Liquify strokes, repair sample locations and hand-painted masks remain independent.
+529	Long edge in pixels; 0 keeps original size
+530	Choose folder
+531	Choose an export folder.
+532	Select photos.
+533	Choose a source photo first, or use “Export only”.
+534	Match each photo's lens automatically
+535	Copy lens correction parameters
+536	Choose either automatic lens matching or copying parameters.
+537	Select categories to synchronize.
+538	Confirm person mapping first, or explicitly select applying to all people.
+539	No person detected in the source photo; it cannot supply portrait settings.
+540	Stop / Close
+541	Preflight passed
+542	Mapping not required
+543	Photo preparation timed out. Close Batch and reopen the photo.
+544	Unfinished; can resume
+545	\nDelivery check record saved: 
+546	\nCould not save check record: 
+547	Batch category sync
+548	Selections or reshaping are still pending. Finish them before exporting.
+549	Exported
+550	HDR is enabled for this photo. Choose TIFF export.
+551	Sync source (settings when this window opened): 
+552	Basic retouch
+553	Skin tone and texture
+554	JPEG · 8-bit
+555	Batch-%Y%m%d-%H%M%S
+556	Preflight failed: 
+557	All people
+558	Preflight passed. Nothing has been synchronized or exported yet.
+559	Preflight failed. Nothing has been synchronized or exported.
+560	Body retouch
+561	Regional wrinkle reduction
+562	Blemishes and protection
+563	Tonal volume
+564	Face shape and features
+565	Basic tones and white balance
+566	Curves and HSL
+567	Point Color and grading
+568	Global detail and effects
+569	Perspective and composition
+570	Color output settings
+571	Lens and perspective
+572	Automatic lens matching and copying source lens parameters cannot both be selected.
+573	The target photo has no person with this index. Confirm person mapping.
+574	Invalid batch export format.
+575	Export long edge must be 0–16000 pixels.
+576	Point Color
+577	Black & White Mix
+578	Reference color matching specifies a person or sampling box from one photo. Confirm regions separately on each target; they cannot be copied directly.
+579	. Switch to professional color processing in the color workspace and check the result before synchronizing again.
+580	The target uses the legacy color engine and cannot synchronize: 
+581	No unique lens profile matched this photo. Previous settings were retained. Select a lens profile manually and retry.
+582	Brush: restore automatic area
+583	Update current area
+584	Restore automatic area · Clear manual edits
+585	Back to Browse
+586	Paint missed neck, arm or other body skin, then click Update to apply body settings. Faces and other confirmed people remain protected.
+587	Paint visible skin missed near bangs or fine hair, then click Update to apply face settings. Eyeballs stay protected. Only this person's face region is affected; hair is not removed automatically.
+588	Before retouch area update
+589	Before retouch area edit
+590	Area painted but not applied. Click “Update current area” when finished.
+591	Before clearing added retouch selection
+592	Body
+593	Add body skin areas
+594	Add retouch areas
+595	Add with brush
+596	Erase area
+597	Brush radius / original pixels
+598	Show automatic AI skin area (green)
+599	Area updated
+600	There are no pending area changes.
+601	Area
+602	Import a photo and detect people first.
+603	Wait for person reshaping to finish before adding areas.
+604	Maximum mask count reached. Remove unused effect masks.
+605	Area · Restore automatic area
+606	Area changes not applied · Click “Update current area”
+607	Manual update
+608	Area · 
+609	Beauty
+610	Show added area for this person
+611	Erase detected area
+612	Restore automatic area
+613	Erase excludes automatic AI areas; Restore paints back the original automatic area. Edges fade automatically. Right-click temporarily erases; Ctrl + wheel changes size; Space pans; Esc returns to Browse.
+614	Green: automatic area; cyan: added area; red: erased area.
+615	Preset contains no retouch parameters.
+616	Preset file exists. Save with a new filename.
+617	Preset file is too large.
+618	This is not a supported portrait retouch preset. Use “Open project” for photo projects.
+619	Preset contains unsupported parameters: 
+620	Retouch parameter out of range: 
+621	Even out tones
+622	Low-frequency smoothing
+623	Even skin tone
+624	Reduce shine
+625	Luster
+626	Skin clarity
+627	Rosy skin (legacy preset)
+628	Skin temperature
+629	Skin rosiness / tint
+630	Skin luminosity
+631	Dewy softness
+632	Face fill light
+633	Soften facial shadows
+634	Bring skin tones closer across people
+635	Forehead lines
+636	Frown lines
+637	Eye wrinkles (including under-eye lines)
+638	Nasolabial fold · Person's left
+639	Nasolabial fold · Person's right
+640	Perioral lines
+641	Nose bridge lines
+642	Cheek lines
+643	Marionette lines
+644	Body repair canceled.
+645	Body mask is empty or disabled. Check the mask.
+646	No usable body skin found. Add skin areas manually.
+647	The body area is large. Use local repair in batches.
+648	Body processing canceled.
+649	RAW16: see details for as-shot white balance and style import. Camera sharpening, noise reduction, DRO and beautification settings are recorded but proprietary processing is not reproduced.
+650	Camera contrast
+651	Camera saturation
+652	Camera sharpening
+653	Camera brightness
+654	Picture profile / gamma
+655	Picture effect
+656	Dynamic range optimization
+657	Camera HDR
+658	High-ISO noise reduction
+659	Long-exposure noise reduction
+660	Camera beautification
+661	As-shot exposure compensation (EV)
+662	Already included in the camera preview
+663	As-shot white balance
+664	Camera color temperature
+665	Shows the camera record only; does not infer auto white balance temperature
+666	Not provided
+667	As-shot style
+668	Camera crop is the default composition; full RAW frame retained
+669	Camera frame / crop
+670	Orientation
+671	RAW orientation applied during development
+672	Camera preview retains the rendered look. It contains 8-bit pixels and cannot restore RAW precision.
+673	Development engine
+674	Camera model
+675	Lens
+676	Aperture
+677	Shutter (seconds)
+678	Focal length (mm)
+679	Capture data is already in RAW; not applied again
+680	As-shot exposure is already reflected in RAW; retained without applying it twice
+681	Metadata not provided
+682	Using as-shot RAW white balance
+683	Recorded; the user has changed white balance
+684	As-shot RAW white balance multipliers
+685	Custom white balance
+686	Applied; base RAW temperature is approximate and has not been calibrated against Adobe
+687	Development white balance multipliers
+688	Actual multipliers used for this development
+689	Additional AURA brightness compensation
+690	Using the selected camera profile; no extra fixed exposure compensation
+691	Using a camera-matched DCP to approximate the as-shot style
+692	Applied using RAW crop data
+693	Active frame retained; no extra crop
+694	RAW active sensor frame
+695	Already included in camera preview pixels
+696	Setting recorded; proprietary camera processing not reproduced
+697	Camera record
+698	AURA import status
+699	Legacy project compatibility; original development retained
+700	Actual development path in use
+701	Read
+702	Recorded; using the user-selected profile / filter base
+703	Metadata unavailable; settings are not guessed
+704	Read; linear development is active, with no as-shot style applied
+705	Close
+706	Read; camera style was not enabled by the user
+707	Read; no usable camera-style profile found
+708	Unsupported camera preview format.
+709	Retains the rendered camera look; does not infer the beautification toggle.
+710	Camera preview exceeds 110 million pixels.
+711	Camera preview is not a supported 8-bit RGB image.
+712	 No color profile tagged; displayed as sRGB.
+713	Local tool missing: 
+714	Camera metadata reading failed: 
+715	Invalid DCP
+716	Invalid DCP directory
+717	DCP directory is too large
+718	The selected DCP is missing. Import the profile again.
+719	DCP camera model mismatch; profile was not applied.
+720	, producing 16-bit output…
+721	RAW development did not return 16-bit RGB.
+722	Developing with RawTherapee: 
+723	RawTherapee development failed; no other engine was substituted: 
+724	RAW development output has no color profile.
+725	Invalid DCP tag
+726	Linear base · 
+727	Base camera color
+728	\nApply from My Presets after import. Photo exposure, as-shot white balance, optical corrections and retouching are retained.
+729	Selected · 
+730	Favorites
+731	Filters · Finished looks
+732	Filter strength %
+733	Save current look to My Presets
+734	Import XMP filters (multiple selection)
+735	View current filter source
+736	AI regional color (mask workspace)
+737	Delete current personal filter
+738	 Open-source selections failed to load. Check resources.
+739	Before applying filter
+740	Before changing filter strength
+741	Before removing filter
+742	Restore pre-filter color settings
+743	Save personal filter
+744	Filter name (up to 30 characters):
+745	My Presets
+746	Lightroom filter import
+747	Filter source
+748	Deleted from your filter library. The photo's current color adjustments are retained.
+749	Generating filter previews for this photo…
+750	All
+751	No filter applied
+752	Previewed on the current photo. Click a filter to apply, then fine-tune curves, HSL and tones.
+753	Open a photo to generate filter previews
+754	Favorite current filter
+755	Restore before filter
+756	Previous page
+757	Next page
+758	Open a photo and wait for processing to finish first.
+759	Mask
+760	Apply filter 
+761	Color settings have been fine-tuned. Select a filter again before changing its strength.
+762	Filter strength 
+763	No filter history is available to restore.
+764	Select a filter first.
+765	This personal filter has been removed from the library. Save the look again first.
+766	Filter not saved
+767	Names must be 1–30 characters. Up to 100 personal filters are allowed.
+768	Personal filter saved: 
+769	Import Lightroom filters (multiple selection)
+770	\nSome preset features were not migrated; the original Lightroom look cannot be guaranteed: 
+771	Xiaohongshu reference
+772	\nAn original AURA recipe inspired by the post, not the author's preset. Adjust exposure, as-shot white balance, sky masks and portrait retouching for each photo.
+773	\nThis is AURA's parameter adaptation. Adobe profiles, AI masks and native rendering were not migrated.
+774	Apply the personal filter you want to delete first.
+775	Could not read the personal filter library. Original file retained.
+776	Unfavorite current filter
+777	\nClick to prepare the base automatically
+778	Favorites not saved
+779	Filter import not saved

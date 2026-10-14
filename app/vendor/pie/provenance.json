@@ -1,0 +1,9 @@
+{
+  "project": "https://github.com/matt-baugh/pytorch-poisson-image-editing",
+  "license": "MIT",
+  "upstream_blob": "ac4e5aa8269a1aa81422ebeca77362a0f9b8d2ba",
+  "license_blob": "9027d0e8222476419a6e283331d9c74a762b0d58",
+  "upstream_sha256": "4832accba987c899b88cdf8605ad2bd21ea8b4c26ab7fd36f6cbad0a7cfdd25d",
+  "local_sha256": "576ba4e27fbdf9c0a87d7790dcc444d9767ad64a1f7b4a0fa83819a01ad09507",
+  "adaptation": "Only blend_dst_numpy; AURA NumPy DST/mirror-correlation adapters replace SciPy. No Photoshop code used."
+}

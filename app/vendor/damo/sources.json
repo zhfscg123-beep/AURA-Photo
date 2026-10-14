@@ -1,0 +1,44 @@
+{
+  "wheel": "modelscope-1.40.1-py3-none-any.whl",
+  "files": [
+    {
+      "upstream_file": "modelscope/models/cv/skin_retouching/weights_init.py",
+      "sha256_original": "5feb5da62e7a97cca5e60488c96d76c48074ca7521526dca0a91498880381e5b",
+      "local_file": "weights_init.py",
+      "import_modified": false
+    },
+    {
+      "upstream_file": "modelscope/models/cv/skin_retouching/detection_model/detection_module.py",
+      "sha256_original": "23fce16544465ef41232ce652fecc95a71db3bb81af575d4aefc472a4e45a2ec",
+      "local_file": "detection_model/detection_module.py",
+      "import_modified": false
+    },
+    {
+      "upstream_file": "modelscope/models/cv/skin_retouching/detection_model/detection_unet_in.py",
+      "sha256_original": "e3b02ff03941aabc967c0fa66c39a00a56e84fbbe98f15c52de6bdf5555a9168",
+      "local_file": "detection_model/detection_unet_in.py",
+      "import_modified": false
+    },
+    {
+      "upstream_file": "modelscope/models/cv/skin_retouching/inpainting_model/gconv.py",
+      "sha256_original": "fca8ece60d31dabf3d6eda186657efd72328f94aafe7b11fe130259ee873bd20",
+      "local_file": "inpainting_model/gconv.py",
+      "import_modified": false
+    },
+    {
+      "upstream_file": "modelscope/models/cv/skin_retouching/inpainting_model/inpainting_unet.py",
+      "sha256_original": "bc151c88dabac96ef2a17f31c6dc979688d65c4f0f0f8dde73e1c2e845f462dd",
+      "local_file": "inpainting_model/inpainting_unet.py",
+      "import_modified": true
+    },
+    {
+      "upstream_file": "modelscope/models/cv/skin_retouching/unet_deploy.py",
+      "sha256_original": "5fa3b9a4ba599908025057d64fe3b44ad71f6bb8614c8d13618a4cd5bbe7936b",
+      "local_file": "unet_deploy.py",
+      "import_modified": false,
+      "modification": "Removed process-wide warning suppression only",
+      "local_sha256": "152bf598860ff5d236f20e05ecefaafcb2cadfe3d181966ed6ceee5ad9d08103"
+    }
+  ],
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "file": "third-party-sources/certifi-2026.7.22.tar.gz",
+    "sha256": "741e2c3b351ddf169a738da9f2c048608ff7f2c5cc02f1ebc6b118bb090d5d55",
+    "bytes": 138112
+  },
+  {
+    "file": "third-party-sources/LibRaw-b860248a89d9082b8e0a1e202e516f46af9adb29.tar.gz",
+    "sha256": "a140269cc6a2541eb4a415c5e771934eb6e6917d4dfe778002d3f48dc0f92009",
+    "bytes": 604676
+  },
+  {
+    "file": "third-party-sources/LibRaw-cmake-6e26c9e73677dc04f9eb236a97c6a4dc225ba7e8.tar.gz",
+    "sha256": "2cddbf57f2f93bbf4ebe53e60c315b0eb40b8627809c110d7680c888fa808082",
+    "bytes": 14152
+  },
+  {
+    "file": "third-party-sources/mingw-w64-brotli-1.2.0-1.src.tar.zst",
+    "sha256": "2f0f93875aac21990d20f1eaf0ad8b970eb6f186c663c77ae47aaaf9e5711fcf",
+    "bytes": 644113
+  },
+  {
+    "file": "third-party-sources/mingw-w64-curl-8.21.0-2.src.tar.zst",
+    "sha256": "1f393077535ab17389e1fec0a685f83bff3e8fcae0e11d8fc40df227881d704c",
+    "bytes": 2892112
+  },
+  {
+    "file": "third-party-sources/mingw-w64-exiv2-0.28.8-1.src.tar.zst",
+    "sha256": "1599a4d6d4a4fd28038b845d1a677f028646d120130d72151ed23931cc707a36",
+    "bytes": 46005181
+  },
+  {
+    "file": "third-party-sources/mingw-w64-expat-2.8.2-1.src.tar.zst",
+    "sha256": "e81ebe8069473b2ca011a01bdb95ab01a58b46395d37f9af3e74d9bd1b2648ea",
+    "bytes": 518070
+  },
+  {
+    "file": "third-party-sources/mingw-w64-fftw-3.3.11-1.src.tar.zst",
+    "sha256": "3d3f5489e62f1045aff687389500ffb65744c7e76970af879eccde1f887b3b58",
+    "bytes": 4229778
+  },
+  {
+    "file": "third-party-sources/mingw-w64-gcc-16.1.0-5.src.tar.zst",
+    "sha256": "947166ed372d28ab8ffa25a66bc5e37a60a42e96a686424ce58cad304fcaea15",
+    "bytes": 102479270
+  },
+  {
+    "file": "third-party-sources/mingw-w64-gettext-1.0-1.src.tar.zst",
+    "sha256": "cca0d0c8f60353faccc5ad40405240014e4a7ccc8b1c6ca9f4626aef3097d26e",
+    "bytes": 10267655
+  },
+  {
+    "file": "third-party-sources/mingw-w64-glib2-2.88.2-1.src.tar.zst",
+    "sha256": "6952af7120b5d44a21623e7e3ae10ef27202ecb53ce6b119a0a8bf5e7dcf4dd7",
+    "bytes": 5787551
+  },
+  {
+    "file": "third-party-sources/mingw-w64-glibmm-2.66.8-4.src.tar.zst",
+    "sha256": "053c8d684a78a635255f170d52b5d8aec1c3c875974cf3046abf589375039e09",
+    "bytes": 8599403
+  },
+  {
+    "file": "third-party-sources/mingw-w64-highway-1.4.0-3.src.tar.zst",
+    "sha256": "ce2cbf7c1c2af92796a35250a3e3e5669968446656dc78b278d89ac650ed14bb",
+    "bytes": 3691338
+  },
+  {
+    "file": "third-party-sources/mingw-w64-jbigkit-2.1-5.src.tar.zst",
+    "sha256": "402e264e13ffd10424d3217e83076d9e1e3ab0db16303a33d42a4bd4cda4088b",
+    "bytes": 443510
+  },
+  {
+    "file": "third-party-sources/mingw-w64-lcms2-2.19.1-1.src.tar.zst",
+    "sha256": "83414d0d95c5cb2548d3050670694e9efc64304a52190f42bcad951efa038b41",
+    "bytes": 5709029
+  },
+  {
+    "file": "third-party-sources/mingw-w64-lensfun-0.3.4-8.src.tar.zst",
+    "sha256": "c0aa9ab50f1568b02ab72ecb7e45b03ac36f692e6a4bbf75fa6f5177bf2d21ee",
+    "bytes": 1054480
+  },
+  {
+    "file": "third-party-sources/mingw-w64-lerc-4.1.1-1.src.tar.zst",
+    "sha256": "697824f8dba0b297949b294d7f850a21dfa817802cf91f3a73b6192a7c234f46",
+    "bytes": 4056783
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libdeflate-1.25-1.src.tar.zst",
+    "sha256": "53b756599ad6e44975bfe3224475a395e6b1c1c22783ae1216c5553fbfb8d746",
+    "bytes": 199257
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libffi-3.7.1-1.src.tar.zst",
+    "sha256": "63fe5ddb3317b6468dd2694b7c4586d71e6629b2b5fccde363bbf6cd39d6cf8d",
+    "bytes": 1515896
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libiconv-1.19-1.src.tar.zst",
+    "sha256": "74428280c17094da5b702c29b2e1a0abae59556ea5dfdd65705cc8ccc1e000fb",
+    "bytes": 5131029
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libidn2-2.3.8-4.src.tar.zst",
+    "sha256": "cd83e8514fbeb6a4499299b88691b9b9ecc3114cca1e2be4f6c54aab6ae9ddd0",
+    "bytes": 2147337
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libinih-62-1.src.tar.zst",
+    "sha256": "b2fbefca355c079496774abfa65f2bee680f02d2952411e3abe68fb4823cb88f",
+    "bytes": 23537
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libjpeg-turbo-3.2.0-1.src.tar.zst",
+    "sha256": "98bfbef730e79ca74c88842eb27730db11429dbae4d95e0f5d7859e316026a74",
+    "bytes": 2536411
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libjxl-0.12.0-1.src.tar.zst",
+    "sha256": "2f2e1c4537d8824898a713fa3e7d475e66223b0b1b20141dfa73b26da5bc4a54",
+    "bytes": 1700775
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libpng-1.6.58-1.src.tar.zst",
+    "sha256": "9e985fc4cef509ec689f982dc6a948e9a8ee5184db25d65e9dd4c21872092348",
+    "bytes": 1081411
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libpsl-0.21.5-3.src.tar.zst",
+    "sha256": "102b4ab4c60322162e808c5c81f545438c346c659e8fb63e0851066f07a0e76b",
+    "bytes": 6829368
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libsigc++-2.12.2-1.src.tar.zst",
+    "sha256": "614cf241a8206dbebb31e735da49b2f17335ef519118f983401d28d3ad6bb9d4",
+    "bytes": 5317920
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libssh2-1.11.1-2.src.tar.zst",
+    "sha256": "bb78f8354441190221ece18a96c09f631fe02648f5dd7d1e247ae8d00a9fea5f",
+    "bytes": 1094498
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libsystre-1.0.2-2.src.tar.zst",
+    "sha256": "5cc1e1e671f9f9a4d305a8e393a54eeadeeaaa38e87f3a83a193435787ef8791",
+    "bytes": 3201
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libtiff-4.7.2-1.src.tar.zst",
+    "sha256": "11f3bdc23a154a5cea2f8fffeab3e2a118bd773d2769e1dcea926ff02f2cf3e2",
+    "bytes": 4077229
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libtre-0.9.0-2.src.tar.zst",
+    "sha256": "57ee4f3b992e4ebe9b43fc8b5a0a66000ee40defc1089b727799330778344301",
+    "bytes": 840641
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libunistring-1.4.2-1.src.tar.zst",
+    "sha256": "a5bafb360d5c13c5c52ef071d5a8288ce2345346b902f20ed6e9322766ec60eb",
+    "bytes": 4770800
+  },
+  {
+    "file": "third-party-sources/mingw-w64-libwebp-1.6.0-1.src.tar.zst",
+    "sha256": "c8c63f98e018a7595d22e8a3e65b7caf83345fed666866a6e67d153b16f48141",
+    "bytes": 2589761
+  },
+  {
+    "file": "third-party-sources/mingw-w64-nghttp2-1.69.0-1.src.tar.zst",
+    "sha256": "816b561141fb1e075b8f317107ab72010fb8dc74cd6b0002576b3c32666a95df",
+    "bytes": 1698743
+  },
+  {
+    "file": "third-party-sources/mingw-w64-nghttp3-1.17.0-1.src.tar.zst",
+    "sha256": "e24bb3b9e6f5f5bfcdbfe058ea7da97ea1ec75059714af319048723f817c0fab",
+    "bytes": 414197
+  },
+  {
+    "file": "third-party-sources/mingw-w64-ngtcp2-1.24.0-1.src.tar.zst",
+    "sha256": "f168f5c32ff8413ad14fcdc4a2f3ce56fafb2aa7022b9dde55e38214815825b3",
+    "bytes": 705735
+  },
+  {
+    "file": "third-party-sources/mingw-w64-openssl-3.6.3-1.src.tar.zst",
+    "sha256": "b8e8625cf89996d32c3d6c4db8a98c46de6558f5a4e7e98ae1287ec2d6a97e51",
+    "bytes": 54849304
+  },
+  {
+    "file": "third-party-sources/mingw-w64-pcre2-10.47-1.src.tar.zst",
+    "sha256": "d1af57f4346ec9542f1d191c94c470340f6268bfa732718f6db1b89d75fd6502",
+    "bytes": 2144801
+  },
+  {
+    "file": "third-party-sources/mingw-w64-winpthreads-14.0.0.r220.gd999af622-1.src.tar.zst",
+    "sha256": "9743facee4a25c6bb44e856ed8182f7e4c652812481656e68aa57b9070992451",
+    "bytes": 52471595
+  },
+  {
+    "file": "third-party-sources/mingw-w64-xz-5.8.3-1.src.tar.zst",
+    "sha256": "a6096b17f7144d3ec4a35f70ebdc0819df0f6ed331f53b04d2a4452d5b66ed55",
+    "bytes": 1550386
+  },
+  {
+    "file": "third-party-sources/mingw-w64-zlib-1.3.2-2.src.tar.zst",
+    "sha256": "eef69dea52357e01b272d6fd6dc4d7c0773f71260cb7bcde6047c8c383518db3",
+    "bytes": 1326375
+  },
+  {
+    "file": "third-party-sources/mingw-w64-zstd-1.5.7-2.src.tar.zst",
+    "sha256": "306797282df799e95d550e6d0bb4b0a7b848027b8e13893a24236e060837c217",
+    "bytes": 2402010
+  },
+  {
+    "file": "third-party-sources/rawpy-0.27.1.tar.gz",
+    "sha256": "3194d64ff690ac945e1a43237edae8a18f1f493751924de1ae2bcef473c0fb79",
+    "bytes": 561347
+  },
+  {
+    "file": "third-party-sources/rawpy-git-a39c2e7a44911889c3360891012f862f904ba551.tar.gz",
+    "sha256": "26f25fc03c0f1cbe78750a4cf38acb2ef904bee4aa70ced24488cb1e84833ebc",
+    "bytes": 76019034
+  },
+  {
+    "file": "third-party-sources/rawtherapee-5.13.tar.xz",
+    "sha256": "23bdff4b1817e1274c11a94b11d21cac59e9c1b1d209795d3194710ee73e77bf",
+    "bytes": 19063124
+  }
+]

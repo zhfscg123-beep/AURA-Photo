@@ -1,0 +1,107 @@
+{
+  "version": "0.1.0",
+  "edition": "AURA Photo standalone",
+  "active_models": [
+    {
+      "file": "face_landmarker.task",
+      "purpose": "Face geometry and protected features",
+      "sha256": "64184e229b263107bc2b804c6625db1341ff2bb731874b0bcc2fe6544e0bc9ff",
+      "license": "Apache-2.0; bundled model cards checked",
+      "source": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task"
+    },
+    {
+      "file": "damo_local.pth",
+      "bytes": 227618450,
+      "purpose": "Pixelwise blemish detection + portrait-specific gated-convolution inpainting",
+      "sha256": "c9e1388b19d9334c90db08308c86de208f535920ee381ae8a9cb63484a78351a",
+      "source": "https://www.modelscope.cn/api/v1/models/damo/cv_unet_skin-retouching/repo?Revision=master&FilePath=joint_20210926.pth",
+      "checksum_source": "https://www.modelscope.cn/api/v1/models/damo/cv_unet_skin-retouching/repo/files?Revision=master&Recursive=true",
+      "license": "Model card Apache License 2.0; ModelScope source Apache-2.0",
+      "code_source": "ModelScope 1.40.1 wheel, reviewed five neural modules; relative import modified, see vendor/damo/sources.json",
+      "load": "torch.load weights_only=True, CPU, strict state dictionaries",
+      "normalization": "RGB [-1,1]; 768px detection; keep-mask 1 unchanged / 0 repair"
+    },
+    {
+      "file": "face_detection_yunet_2023mar.onnx",
+      "bytes": 232589,
+      "purpose": "Small-face candidate localization; MediaPipe confirms cropped landmarks",
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+      "source": "https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet",
+      "license": "MIT; Copyright Shiqi Yu; licenses/YuNet-MIT.txt"
+    },
+    {
+      "file": "lama_fp32.onnx",
+      "sha256": "1faef5301d78db7dda502fe59966957ec4b79dd64e16f03ed96913c7a4eb68d6",
+      "source": "https://huggingface.co/Carve/LaMa-ONNX/blob/main/lama_fp32.onnx",
+      "license": "Apache-2.0 model card / exporter; original LaMa Apache-2.0",
+      "decision": "Active LaMa neural background completion",
+      "purpose": "Selected local image repair and cleanup"
+    },
+    {
+      "file": "selfie_multiclass_256x256.tflite",
+      "bytes": 16371837,
+      "purpose": "Semantic body skin intersected with per-pose ownership",
+      "sha256": "c6748b1253a99067ef71f7e26ca71096cd449baefa8f101900ea23016507e0e0",
+      "source": "https://storage.googleapis.com/mediapipe-models/image_segmenter/selfie_multiclass_256x256/float32/latest/selfie_multiclass_256x256.tflite",
+      "gcs_generation": "1682480017063560",
+      "gcs_md5": "6ca6a40d84bcb910420a1a43a295100a",
+      "license": "Apache-2.0, official Model Card Multiclass Segmentation",
+      "model_card": "https://storage.googleapis.com/mediapipe-assets/Model%20Card%20Multiclass%20Segmentation.pdf",
+      "limitation": "Low-resolution boundaries may need manual correction. No identity by itself."
+    },
+    {
+      "file": "pose_landmarker_full.task",
+      "bytes": 9398198,
+      "sha256": "5134a3aad27a58b93da0088d431f366da362b44e3ccfbe3462b3827a839011b1",
+      "source": "https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/1/pose_landmarker_full.task",
+      "gcs_md5": "83879689d373d143be094c972355e48e",
+      "purpose": "Per-pose silhouette + 33 landmarks, matched to existing face IDs; ambiguous pixels remain unassigned",
+      "license": "Apache-2.0; official BlazePose GHUM 3D model card",
+      "model_card": "https://storage.googleapis.com/mediapipe-assets/Model%20Card%20BlazePose%20GHUM%203D.pdf",
+      "limitations": "Pose model optimized for single-person cropped fitness images. Task supports num_poses, but overlaps/small/occluded people require correction."
+    },
+    {
+      "file": "damo_blend.pth",
+      "bytes": 53646276,
+      "sha256": "760d0c0b95c4e0a692165677fe2b82dbdf8fbbd4a3780ca966599c627b082993",
+      "purpose": "Current-input learned blend maps for protected regional facial wrinkle controls",
+      "source": "https://www.modelscope.cn/api/v1/models/damo/cv_unet_skin-retouching/repo?Revision=72b82f86fb9720b0e2adf05be0a0ea47cc6f329d&FilePath=pytorch_model.pt",
+      "license": "Official DAMO model card Apache-2.0; ModelScope architecture Apache-2.0",
+      "code_source": "ModelScope 1.40.1 wheel; vendor/damo/unet_deploy.py",
+      "normalization": "RGB [-1,1], 512px learned blend map; source-resolution FP32 compositing",
+      "limitations": "Regional application, not a wrinkle-specific retrained model. No extra whitening or generative identity edits."
+    },
+    {
+      "file": "relight/moge-small/model.pt",
+      "bytes": 140550416,
+      "sha256": "79a16621928c2bf0ed04659218c55c01075e950507f40bb3332fb4c873d3e1dc",
+      "purpose": "MoGe-2 Small joint depth and surface normal estimation for independent AURA geometric relighting",
+      "source": "https://huggingface.co/Ruicheng/moge-2-vits-normal",
+      "revision": "26b477f41595707c5db6770294c0d1721e8ed4ed",
+      "license": "MIT",
+      "limitations": "Estimated visible geometry; no ground-truth accuracy claim. Flip consistency is not calibrated uncertainty."
+    },
+    {
+      "file": "scene/skysegsmall_sim-opt-fp16.param",
+      "purpose": "Sky U2Net-small graph",
+      "bytes": 29420,
+      "sha256": "7af3523130445db42d94503558c08ce991932f843b92e4e921c99d732768895e",
+      "source": "https://github.com/xiongzhu666/Sky-Segmentation-and-Post-processing/blob/1f7811b32b64ddc957269defff84bc87a3f0b74f/skysegsmall_sim-opt-fp16.param",
+      "license": "MIT"
+    },
+    {
+      "file": "scene/skysegsmall_sim-opt-fp16.bin",
+      "purpose": "Sky U2Net-small weights, FP16 storage / FP32 inference",
+      "bytes": 2257156,
+      "sha256": "ff1e18f71dc0a0cf8a56b634c59f68d296deffd015cbed27a6d5e302f991faf2",
+      "source": "https://github.com/xiongzhu666/Sky-Segmentation-and-Post-processing/blob/1f7811b32b64ddc957269defff84bc87a3f0b74f/skysegsmall_sim-opt-fp16.bin",
+      "license": "MIT"
+    }
+  ],
+  "excluded_weights": [
+    "face_parsing.onnx",
+    "face_parsing_resnet34.onnx",
+    "scene/person-lraspp.pth",
+    "spiga_wflw.pt"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "CUDA": "https://docs.nvidia.com/cuda/eula/index.html",
+  "cuDNN": "https://docs.nvidia.com/deeplearning/cudnn/backend/latest/reference/eula.html",
+  "checked": "2026-10-13"
+}

@@ -1,0 +1,440 @@
+1630	Facial blemish repair
+1631	Classify facial blemish candidates, apply AI repair, and protect texture, beard and makeup.
+1632	blemishes acne spots repair
+1633	Forehead, eye and nasolabial wrinkles use local DAMO blend layers, protecting eyeballs, eyelashes and moles without extra whitening.
+1634	wrinkle reduction under-eye DAMO
+1635	Tonal sculpting and local volume
+1636	Adjust perceived volume, eye-bag shading and jaw shadows through light and dark, without moving facial edges.
+1637	lighting volume midface forehead contour
+1638	Geometric soft light and multiple lights
+1639	Estimated depth and normals drive lighting for the current person: multiple lights, color, rim light and visible-depth occlusion.
+1640	lighting soft fill lights multiple rim depth normals relight
+1641	Body smoothing, skin tone and blemishes
+1642	Body controls affect all confirmed or manually added body skin. Erase, restore and preview AI areas.
+1643	neck ears arms add erase restore area body skin
+1644	Automatic body reshaping · Photo
+1645	Automatically slim body, waist and legs, or lengthen legs. Currently available for single-person photos only.
+1646	body shape waist legs slim lengthen
+1647	Face presets and contour adjustment
+1648	Move facial contours. Left and right refer to the person's own sides.
+1649	face slimming small V chin shape reshape
+1650	Manual liquify and smart features
+1651	Liquify brushes, freeze protection, guide nodes and smart facial features.
+1652	eyes nose mouth facial features liquify push freeze thaw
+1653	Lip color, blush and hair color
+1654	Adjust lip color, blush and hair color for each person while preserving texture.
+1655	makeup lipstick hair dye lips
+1656	Clothing wrinkle refinement
+1657	Reduce fine, shallow wrinkles. Use selected-area AI cleanup in Repair for complex creases.
+1658	clothing wrinkles fabric
+1659	Clothing recolor
+1660	Adjust color only within the current person's clothing area.
+1661	clothes garments recolor dye clothing
+1662	Background color and softness
+1663	Inspect the background area first, then adjust exposure, color and uniform softness.
+1664	background blur softness
+1665	Inspect the whole image's RGB tonal distribution.
+1666	histogram RGB highlights shadows
+1667	RAW development and camera style
+1668	Choose RAW source, white balance, exposure compensation and camera style.
+1669	camera profile white balance RAW develop
+1670	Professional color and development tools
+1671	Finished filters, photo previews, favorites and personal looks; floating-point tones, white balance, curves, HSL, grading and development.
+1672	filters presets favorites portrait Japanese film cinema black white exposure curves saturation white balance temperature point color grading noise sharpening lens perspective proof ICC HDR HSL LUT
+1673	Match colors and tones separately within specified regions.
+1674	reference color matching
+1675	AI part masks
+1676	Select face, body skin and facial features per person; create merged or separate areas.
+1677	selection body parts automatic mask
+1678	Smart selection and mask refinement
+1679	Add or subtract areas, expand, contract, feather and adjust strength. Part masks support gradients and color / luminance ranges.
+1680	missed selection fill edge smart linear radial gradient color luminance range refine feather
+1681	Manual retouch brushes
+1682	Continuously paint Dodge, Burn, Heal, Clone and Restore.
+1683	smoothing manual retouch dodge burn clone heal brush
+1684	Selection repair and patch cloning
+1685	Add selections for AI repair, or move circular sample areas for patching and cloning.
+1686	circle patch clone stamp healing
+1687	AI candidate detection and comparison
+1688	Rescan blemish candidates, adjust threshold, restore automatic selection and compare results.
+1689	detection threshold before after compare
+1690	Clothing and background AI cleanup
+1691	Choose Clothing or Background explicitly, then paint the area to clean.
+1692	remove object erase lint dust cleanup inpaint
+1693	Effect toggles and local erase-back
+1694	Hide, weaken or locally erase back a selected processing stage.
+1695	effect management layers hide undo erase back
+1696	Crop, aspect ratio and straightening
+1697	Drag crop bounds and rotate live in the main view. Export retains full precision; editing coordinates remain tied to the original.
+1698	composition crop straighten rotate
+1699	Neck whitening
+1700	Neck whitening
+1701	Neck whitening
+1702	Reduce eye wrinkles
+1703	Eye wrinkles
+1704	Reduce eye lines
+1705	Eye lines
+1706	Reduce wrinkles
+1707	Remove blemishes
+1708	Whiten
+1709	Local color: soft brushes, editable gradients and composite regions.
+1710	flow density component linear radial gradient local mask
+1711	Import photos, open or save projects, preview video, retouch Live Photos, export and batch-process.
+1712	import open save export project batch video preview timeline file
+1713	Global settings, independent of individual photo edits.
+1714	global preferences settings
+1715	Search features and parameters
+1716	Some feature modules have no assigned navigation location. Check the navigation catalog.
+1717	Search features / parameters    Ctrl+K
+1718	Undo    Ctrl+Z
+1719	Redo    Ctrl+Y
+1720	Edit history · Manage individual strokes
+1721	Fit to window
+1722	Face view
+1723	100% original pixels
+1724	Show current part mask
+1725	Search filenames, rate, filter and compare two photos.
+1726	Edit › Edit history
+1727	Show, hide, change opacity or delete individual manual records.
+1728	Edit › Undo
+1729	Open the Edit menu. Undo requires a separate click; searching does not change the photo.
+1730	Edit › Redo
+1731	Open the Edit menu. Click Redo explicitly to apply it.
+1732	View › Fit to window
+1733	View the whole photo without changing export dimensions.
+1734	View › Face view
+1735	Locate a person's face to inspect detail.
+1736	View › 100% original pixels
+1737	View at original pixel scale. This is not a screen DPI setting.
+1738	View keyboard shortcuts.
+1739	Located: 
+1740	Release the active brush or drag before searching.
+1741	Try: slim face, body whitening, neck, eyedropper, eye wrinkles, liquify, HSL, export
+1742	Feature / Parameter
+1743	Location
+1744	Display
+1745	 DPI scaling resolution high-density screen display
+1746	No matching feature. Try “smoothing”, “liquify”, “neck” or “export”, or clear the query to browse modules.
+1747	Modules
+1748	Import settings
+1749	 defaults recommendations automatic retouch import
+1750	Drawing tool; locate it, then click its icon to enable.
+1751	history comparison
+1752	. Expand the corresponding menu to choose an action.
+1753	Search features or parameters
+1754	↑↓ Select · Enter Locate · Esc Close
+1755	 Currently unavailable: 
+1756	Locate feature
+1757	Duplicate feature assignment: 
+1758	View
+1759	Autosave and cache
+1760	 recovery cache storage autosave
+1761	Action entry; locate it, then click to run.
+1762	Entry located: 
+1763	Import a photo before opening edit history.
+1764	Import a photo first.
+1765	Toggle / range option; locating it does not change its value.
+1766	Processing. Please wait.
+1767	Check the module's requirements or detection messages.
+1768	Options
+1769	Select
+1770	Facial blemish type
+1771	Body retouch area / Blemish type
+1772	Facial blemish categories · Current person
+1773	Repair protection and texture
+1774	Regenerate preview mask for this type
+1775	AI apply facial detail repair
+1776	Body skin and blemishes · Current person
+1777	Regenerate body type / area mask
+1778	AI apply body blemish repair
+1779	Before generating detail mask
+1780	Facial detail settings
+1781	Body settings
+1782	Generate detail candidate mask
+1783	AI facial detail repair
+1784	AI body processing
+1785	AI blemish candidates are grouped by color and scale, not by a dedicated mole / spot / sweat classifier. Preview first and erase false selections. New strengths default to 0.
+1786	Select the corresponding area in Masks and edit with Add / Subtract brushes. Regeneration replaces that type's selection and can be undone. Strength changes reuse AI results; enlarged selections need another application. Natural dark nostril areas are not repaired automatically.
+1787	Body-specific controls add to basic retouching and default to 0. Basic smoothing and whitening still cover body skin. These smoothing, whitening and tone controls apply directly; blemish, dark-spot and tattoo repair require the AI button below. Automatic areas exclude clothing; manual additions protect other people.
+1788	Tattoo candidates use color / contrast rules. Confirm them with preview and brushes before LaMa fills them. Stretch-mark and collarbone controls use fine-line / pose-based lighting within skin. They remain experimental because matching real samples have not been validated.
+1789	 / No candidates found for this type. Add selections manually.
+1790	Natural Portrait
+1791	Clean skin tone, natural tones and subtle warmth, with background depth retained.
+1792	Creamy Skin
+1793	Soft warm highlights and delicate midtones, with blacks retained. Suits window light and weddings.
+1794	Clear and Fair
+1795	Fresh, bright skin, clean whites and a background with depth.
+1796	Sunlit Portrait
+1797	Warm golden highlights, natural skin and a balanced background. Suits backlight and evening scenes.
+1798	Japanese Clarity
+1799	Natural brightness, clean skin and background depth, with clear black and white endpoints.
+1800	Forest Greens
+1801	Separates teal-green foliage from warm skin, retaining detail in leaves, trunks and shadows.
+1802	Peach Sunshine
+1803	Light peach skin, softly warm highlights and fresh greens. Suits gardens and portraits.
+1804	Golden Film
+1805	Golden yellows, warm reds and restrained teal greens, with light grain and solid blacks for a travel-film look.
+1806	Vintage Fade
+1807	A pronounced faded matte look with low saturation and fine grain. Suits vintage street photography.
+1808	Cool Film
+1809	Teal-blue shadows, quiet colors and natural skin. Suits city and rainy-day scenes.
+1810	Amber Dusk
+1811	Amber highlights and deep warm colors with retained shadow depth. Suits sunsets and interiors.
+1812	Teal and Orange Cinema
+1813	Separates teal surroundings from warm skin, with cinematic color and solid shadows.
+1814	City at Night
+1815	Blue-teal shadows, neon colors and natural skin. Suits nighttime environmental portraits.
+1816	Muted Story
+1817	Restrained environmental colors with retained skin tones and tonal depth. Suits documentary portraits.
+1818	Clear Landscape
+1819	Clean skies, foliage and scenic depth. Suits sunny travel photos.
+1820	Clear Coast
+1821	Clear cyan blues, bright light tones and natural skin. Suits seaside holidays.
+1822	Autumn Browns
+1823	Golden warm browns and restrained greens and blues, with background tonal depth.
+1824	Soft Monochrome
+1825	Bright skin, soft midtones and complete black and white endpoints. Suits portraits.
+1826	Classic Monochrome
+1827	Deep blacks, crisp contrast and dimensional tones. Suits street photography and architecture.
+1828	Silver Grain
+1829	Silver-film grays, soft highlights and fine grain. Suits vintage portraits.
+1830	Local double-chin / underarm reshaping · Experimental
+1831	AI fill exposed areas and apply
+1832	Reshaping settings
+1833	AI local warp fill
+1834	Independent per person and defaults to 0. Moves only the current person's skin foreground; the background is not stretched, and LaMa fills exposed areas. Underarms require reliable pose and exposed skin. No matching real double-chin / underarm samples have been validated; start gently.
+1835	Astia · Soft portrait
+1836	Bleach Bypass · Silver
+1837	Classic Chrome · Classic
+1838	Classic Neg · Vintage
+1839	Eterna · Cinema
+1840	Nostalgic Neg · Warm
+1841	Pro Neg Hi · High contrast
+1842	Pro Neg Std · Portrait
+1843	Provia · Standard
+1844	Reala Ace · Natural
+1845	Velvia · Vivid
+1846	\nAuthor's license: CC BY-NC-SA 4.0. The complete learning package includes attributed LUTs; user-imported resources stay in the user directory.\nRequires a camera-matched Adobe Standard Linear DCP. Results have not been verified pixel-by-pixel against Lightroom.\n
+1847	This project contains a legacy Fujifilm look. Export a normal photo from the original edition before importing it here.
+1848	Fujifilm looks require a 32-point sRGB LUT with a 0–1 domain.
+1849	Source-and-terms.txt
+1850	LUT source: 
+1851	; select a folder containing all 11 sRGB files.
+1852	LUT is not explicitly marked sRGB. Use the upstream sRGB version: 
+1853	A different LUT with this name already exists. Preserve the original before importing: 
+1854	Missing sRGB LUT: 
+1855	Step 1/2: preparing the Fujifilm RAW base; the look applies automatically afterward.
+1856	Step 2/2: applying the look…
+1857	Apply RAW source and color
+1858	Before restoring normal RAW source
+1859	Step 1/2: restoring the normal RAW source; the selected preset applies automatically afterward.
+1860	Fujifilm looks support RAW and ordinary photos. RAW prepares a linear base automatically.
+1861	Fujifilm LUT library not loaded: 
+1862	No Fujifilm sRGB LUTs imported. Choose a folder containing 11 _sRGB.cube files.
+1863	Choose folder containing 11 Fujifilm sRGB .cube files
+1864	Open a RAW photo first.
+1865	Before preparing Fujifilm source
+1866	Photo changed. Source operation stopped.
+1867	RAW base preparation did not finish; filter not applied. Check processing messages.
+1868	Base rendering failed; filter not applied.
+1869	Fujifilm RAW looks require RAW from a supported camera.
+1870	Fujifilm LUTs not imported
+1871	Adobe Standard Linear DCP is not installed for this camera. Import its matching base profile first.
+1872	Fujifilm looks are unavailable in the standalone photo edition. Ordinary color tools and open-source selections remain available.
+1873	Could not prepare Fujifilm RAW
+1874	 Current exposure is retained; no extra fixed brightness compensation.
+1875	GPU rendering libraries unavailable. Using CPU.
+1876	No usable CUDA GPU found.
+1877	GPU image operation not implemented: cv2.
+1878	GPU color conversion not implemented: 
+1879	GPU resampling interpolation not implemented: 
+1880	Photo rendering
+1881	Explicit CPU rendering preference
+1882	GPU operation fallback: 
+1883	GPU rendering fallback: 
+1884	Rendering source is being updated. Restart the worker before validation: 
+1885	Cached preview requires located tracks.
+1886	Insufficient visible body outline
+1887	ICC file is too large.
+1888	Invalid ICC profile format.
+1889	Invalid ICC input pixels.
+1890	Floating-point ICC runtime missing. Use the complete AURA package.
+1891	Could not read ICC profile.
+1892	ICC profile does not support this conversion. Choose an RGB or supported output profile.
+1893	ICC conversion returned invalid pixels.
+1894	Selected lens profile does not exist.
+1895	Lensfun runtime missing.
+1896	Lensfun could not find the selected lens profile.
+1897	Lens correction initialization failed.
+1898	Could not read lens profile database.
+1899	Lens correction returned invalid coordinates.
+1900	Filename
+1901	Rating must be 0–5
+1902	Invalid flag
+1903	Invalid color label
+1904	Unflagged
+1905	Pick
+1906	Reject
+1907	Rating
+1908	Minimum rating
+1909	Flag
+1910	Sort
+1911	Photo comparison
+1912	Select two photos (Ctrl + click for multiple selection).
+1913	Flag not saved
+1914	Compare selected pair
+1915	Ctrl + click selects multiple photos; double-click edits. 0–5 rates, P picks, X rejects, U clears flags. Rejecting only marks the photo; originals are retained.
+1916	100% and wheel zoom use the same scale for both photos. Fit shows each whole image. Dragging pans both together.
+1917	Unrated
+1918	Lightroom parameter adaptation; retains photo exposure, as-shot white balance and retouching.
+1919	 Adobe profiles were not migrated; appearance may differ.
+1920	This preset has no transferable look settings. It may contain only exposure, noise reduction or Adobe-specific profiles.
+1921	User-imported Lightroom XMP
+1922	Provided by user
+1923	Liquify coordinates do not match photo dimensions.
+1924	Invalid liquify grid dimensions.
+1925	Invalid liquify grid data.
+1926	Invalid liquify displacement or protection area.
+1927	Liquify grid has folded over; loading rejected.
+1928	Unknown liquify tool.
+1929	Liquify project data is too large or invalid.
+1930	Invalid liquify project coordinates.
+1931	Eye corner
+1932	Upper eyelid
+1933	Lower eyelid
+1934	Brow tail
+1935	Brow head
+1936	Brow arch
+1937	Nose root
+1938	Nose bridge
+1939	Nose tip
+1940	Nose wing
+1941	Lip corner
+1942	Upper lip
+1943	Lower lip
+1944	Jaw
+1945	Outer cheek edge
+1946	Forehead outline
+1947	Body outline
+1948	Hover over a part to show its contour and nodes; move away to hide. Drag nodes to fine-tune. Body contours include clothing edges.
+1949	Before node adjustment
+1950	Blue: features · Green: person outline (including clothing)
+1951	Keep other nodes fixed during adjustment
+1952	Wait for face reshaping to finish before moving nodes.
+1953	Adjust smart features on the right. Choose Nodes to drag contour points.
+1954	Enable “Show brush liquify” to display saved warps before moving nodes.
+1955	This node is frozen. Remove protection first.
+1956	Node movement limited to protect frozen areas and adjacent nodes. Adjust in small steps.
+1957	Forward Warp
+1958	Bloat
+1959	Pucker / Contract
+1960	Reconstruct
+1961	Freeze
+1962	Thaw
+1963	Twirl
+1964	Smooth
+1965	Body / Nodes
+1966	Push Left
+1967	Face-aware
+1968	Manual liquify
+1969	Brush strength
+1970	Build-up rate (hold)
+1971	Restore brush warps
+1972	Clear freeze protection
+1973	Before liquify
+1974	Show brush liquify · Smart controls work independently
+1975	Brush density / edge
+1976	Enable liquify
+1977	Temporarily disable liquify
+1978	Wait for face reshaping to finish before manual liquify.
+1979	Forward
+1980	Pucker
+1981	Nodes
+1982	Face
+1983	Liquify · 
+1984	Show freeze protection
+1985	Drag Forward Warp to push or pull. Push Left: drag up for left, down for right; Alt reverses. Hold Bloat, Pucker, Twirl or Reconstruct to build the effect; Alt reverses Twirl.\nReconstruct restores brush warps. Smooth smooths warps, not skin. Density controls edge hardness; rate controls build-up while holding.\nCtrl + wheel changes size · Space pans
+1986	Liquify affects the whole photo and is saved in this photo's project, not retouch presets. Temporarily disable liquify before editing original-image selections or sampling.
+1987	Live Photo processing canceled. Originals unchanged.
+1988	Non-right-angle video display transforms are not supported yet.
+1989	The test edition does not support odd video dimensions.
+1990	The Live Photo test edition supports up to 15 seconds. Use the video development test tool for ordinary video.
+1991	Choose a new output folder. The test edition does not overwrite existing content.
+1992	Apple output uses matching JPG and MOV files. Android accepts JPEG / HEIC and outputs standard JPEG Motion Photo.\nAll video tracks are processed and PTS checked; original audio and timed auxiliary data are retained.\nSupports single-person skin retouch, tone, mild shaping, body reshaping and basic color. Frames without a face skip facial effects; unreliable poses skip corresponding body reshaping.\nLeg slimming / lengthening requires reliably visible full legs. Lengthening also needs complete feet and framing margin. Backgrounds may still bend. Real body motion and phone-gallery round trips need validation.\nSDR output; originals unchanged.\n
+1993	AURA Live Photo Retouching Test Edition
+1994	Temporal strength must be 0–0.6.
+1995	Live Photo face slimming must be 0–50.
+1996	Invalid background-line protection toggle.
+1997	Live Photo exposure must be -2 to 2.
+1998	Live Photo settings cannot contain invalid numbers.
+1999	Video base-filter cache
+2000	Video track is unreadable.
+2001	The test edition does not support HDR color management. Use SDR Live Photo originals.
+2002	No decodable frames in video.
+2003	Encoding changed frame count or timestamps. Live Photo export blocked.
+2004	Working directory validation failed.
+2005	Check originals
+2006	Cover association metadata was not retained.
+2007	Done
+2008	Retouch settings must be 0–100.
+2009	Video frame resampling
+2010	Photo and MOV association IDs differ or are missing. Filenames alone cannot establish pairing.
+2011	MOV lacks the Live Photo cover timing track and cannot be exported as a valid paired Live Photo.
+2012	The packaged video's timeline changed.
+2013	Android Motion Photo packaging validation failed.
+2014	Skin rosiness / warmth
+2015	Face slimming / jaw / chin
+2016	Eyes / nose / mouth
+2017	Basic global color
+2018	Auto body / waist / leg slimming / leg lengthening
+2019	Single person only. Video body warps use visible clothing / lower-body outlines without inferring hidden leg shape. Unreliable regions are skipped; backgrounds may still bend.
+2020	Body skin retouch, AI blemish repair, wrinkle reduction and manual liquify strokes are not integrated yet
+2021	Short temporal interpolation stays within a shot. Fully occluded skin is not painted onto occluders. Phone-gallery import still requires testing on the original device.
+2022	SDR output. Android exports standard JPEG Motion Photo without proprietary vendor tail formats.
+2023	Test-report.json
+2024	Instructions.txt
+2025	Live Photo body reshaping must be 0–50: 
+2026	Live Photo parameter must be -50 to 50: 
+2027	Video / Live Photo pixel rendering
+2028	Video frame has no timestamp.
+2029	Video timestamps are not increasing.
+2030	The test edition supports Live Photo clips up to 15 seconds.
+2031	No face detected in the cover; facial retouching was not applied to it.
+2032	No face detected in the main video; facial retouching was not applied.
+2033	Insufficient shoulder / hip landmarks
+2034	Person's body is too small
+2035	Pose unsuitable for current upright body shaping
+2036	Knees / ankles are occluded or cropped; leg slimming and lengthening skipped
+2037	Body / waist slimming
+2038	Torso edges unreliable; body / waist slimming skipped
+2039	Legs bent or crossed; slimming and lengthening skipped
+2040	Slim legs
+2041	Leg edges cannot be separated reliably; slimming skipped
+2042	Feet incomplete; leg lengthening skipped
+2043	No movable body edge found
+2044	Body landmark model checksum failed.
+2045	Multiple people or no complete body found
+2046	Face-to-body ownership uncertain
+2047	Warp too dense; body reshaping skipped
+2048	Insufficient margin below feet; leg lengthening skipped
+2049	Body-area buffer is incompatible. Processing stopped.
+2050	Leg lengthening limited by margin below feet
+2051	Before crop drag
+2052	Adjust crop and angle
+2053	Drag edges to crop · Inside to move · Outside to rotate
+2054	Crop selection overlay
+2055	Composition preview
+2056	Media sample lies outside a data block. This container is not supported yet.
+2057	No complete Live Photo video found. Ordinary photos and unsupported vendor formats cannot be packaged.
+2058	Unsupported media offset table.
+2059	Media samples missing.
+2060	The test edition supports Live Photo clips up to 512 MB.
+2061	Fragmented video is not supported by the test edition.
+2062	No unique MOV / MP4 movie header found.
+2063	One main video track and at most one auxiliary video track are supported.
+2064	Invalid video track index.
+2065	Encrypted video is not supported.
+2066	All video tracks must be retouched; an auxiliary track cannot remain unprocessed.
+2067	Audio or Live Photo metadata validation failed.
+2068	The Android test edition accepts only JPEG Motion Photo containers.
+2069	ExifTool is missing; Live Photo originals cannot be read.

@@ -1,0 +1,25 @@
+{
+  "sky_commit": "1f7811b32b64ddc957269defff84bc87a3f0b74f",
+  "files": [
+    {
+      "file": "scene/skysegsmall_sim-opt-fp16.param",
+      "purpose": "Sky U2Net-small graph",
+      "bytes": 29420,
+      "sha256": "7af3523130445db42d94503558c08ce991932f843b92e4e921c99d732768895e",
+      "source": "https://github.com/xiongzhu666/Sky-Segmentation-and-Post-processing/blob/1f7811b32b64ddc957269defff84bc87a3f0b74f/skysegsmall_sim-opt-fp16.param",
+      "license": "MIT"
+    },
+    {
+      "file": "scene/skysegsmall_sim-opt-fp16.bin",
+      "purpose": "Sky U2Net-small weights, FP16 storage / FP32 inference",
+      "bytes": 2257156,
+      "sha256": "ff1e18f71dc0a0cf8a56b634c59f68d296deffd015cbed27a6d5e302f991faf2",
+      "source": "https://github.com/xiongzhu666/Sky-Segmentation-and-Post-processing/blob/1f7811b32b64ddc957269defff84bc87a3f0b74f/skysegsmall_sim-opt-fp16.bin",
+      "license": "MIT"
+    }
+  ],
+  "inference": "Local PyTorch FP32 sky inference; person masks use separately listed MediaPipe model.",
+  "licenses": [
+    "licenses/Sky-U2Net-small-MIT.txt"
+  ]
+}

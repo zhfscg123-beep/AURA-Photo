@@ -1,0 +1,430 @@
+1200	Inspect and refine the background area first, then adjust exposure, temperature or uniform softness. Subject and background are processed separately.
+1201	Show pending selection
+1202	Choose color  
+1203	Makeup
+1204	Portrait fill-light settings
+1205	Makeup settings
+1206	Clothing settings
+1207	GPU rendering is not initialized. Restart and choose to download GPU compiler components, or use CPU rendering.
+1208	Enable GPU rendering
+1209	GPU inference libraries are ready. GPU photo rendering requires a small, one-time download of NVIDIA compiler files; rendering can then work offline.\n\nThese files come from NVIDIA's official Python package and are subject to the NVIDIA CUDA license. Full terms are in licenses/NVIDIA beside the app.\n\nDownload and enable them? Choosing No keeps GPU inference and CPU rendering available.
+1210	GPU initialization file checksum failed.
+1211	GPU compiler files are incomplete.
+1212	Initializing GPU
+1213	Invalid GPU initialization file path.
+1214	GPU initialization incomplete
+1215	Downloading compiler files from NVIDIA's official package. Please wait…
+1216	CPU rendering remains available. Restart later to retry.\n
+1217	Shared CUDA runtime is incomplete. Reinstall the complete package: 
+1218	Before resetting curve
+1219	Input
+1220	255 Input
+1221	Before point curve adjustment
+1222	Adjust point curve 
+1223	Before deleting curve point
+1224	Before numeric curve adjustment
+1225	Curve coordinates must be 0–255; input coordinates must remain ordered.
+1226	Point curve channel
+1227	Reset this channel
+1228	Left: shadows → Right: highlights. Move up to brighten, down to darken. Click to add points, drag to adjust, right-click to delete.
+1229	DAMO regional wrinkle reduction
+1230	Invalid DAMO wrinkle-reduction input image.
+1231	DAMO wrinkle-reduction layer regions do not match.
+1232	DAMO wrinkle / skin-evening model checksum failed.
+1233	DAMO wrinkle model returned an invalid blend layer.
+1234	Local DAMO wrinkle / skin-evening model missing: 
+1235	GPU skin evening failed; retried on CPU: 
+1236	Invalid skin engine version.
+1237	Selection and photo dimensions do not match.
+1238	Selection is too large. Repair in batches.
+1239	Invalid dark-spot protection toggle.
+1240	Canceled. No repair applied.
+1241	DAMO model checksum failed.
+1242	AI output contains invalid pixels. Result not applied.
+1243	Segmenting skin, hair and facial features…
+1244	Portrait model is detecting blemishes and local imperfections…
+1245	 · Current person
+1246	Parametric curve shadows
+1247	Parametric curve darks
+1248	Parametric curve lights
+1249	Parametric curve highlights
+1250	Shadow boundary %
+1251	Midtone boundary %
+1252	Highlight boundary %
+1253	Vignette midpoint
+1254	Vignette roundness
+1255	Vignette feather
+1256	Vignette highlight protection
+1257	Vignette mode
+1258	Grain roughness
+1259	Film grain mode
+1260	Luminance detail retention
+1261	Luminance contrast retention
+1262	Color detail retention
+1263	Color smoothing
+1264	Calibration shadow tint
+1265	Color output contains invalid values.
+1266	Manual distortion
+1267	Lens vignetting compensation
+1268	Red chromatic aberration
+1269	Blue chromatic aberration
+1270	Purple / green defringe
+1271	Vertical perspective
+1272	Horizontal perspective
+1273	Fine rotation
+1274	Aspect ratio
+1275	Transform scale
+1276	Horizontal shift
+1277	Vertical shift
+1278	Sensor crop factor
+1279	Focal length (mm)
+1280	Invalid lens and transform parameters.
+1281	Invalid lens profile name.
+1282	Invalid perspective matrix.
+1283	Invalid perspective correction mode.
+1284	Up to four perspective guides are allowed.
+1285	Invalid lens toggle.
+1286	Invalid perspective guide.
+1287	Lens parameter out of range: 
+1288	Lens correction
+1289	Match camera and lens metadata
+1290	Load lens profile list
+1291	Transform · Perspective and level
+1292	Auto level
+1293	Draw guides on photo
+1294	Apply guided correction
+1295	Clear guides and auto perspective
+1296	Before lens and transform adjustment
+1297	Lens and perspective transform
+1298	Measured lens profiles loaded. Select the lens you used.
+1299	Before auto perspective
+1300	Auto perspective correction
+1301	Before guided perspective
+1302	Guided perspective correction
+1303	Before clearing perspective
+1304	New RAW imports enable a uniquely matched lens profile automatically. Manual selection is also available.
+1305	Enable lens profile correction
+1306	Constrain edges · Auto-scale to avoid black borders
+1307	Auto vertical correction
+1308	Auto full perspective
+1309	Match or select a lens profile first.
+1310	No unique profile match. Select the actual lens manually.
+1311	Matched: 
+1312	No sufficiently reliable horizontal line found. Adjust manually.
+1313	Horizontal line
+1314	No unique lens profile found. Load the list and select the actual lens.
+1315	Enabled: 
+1316	Selected, correction off: 
+1317	Invalid color output settings.
+1318	Invalid color space or rendering intent.
+1319	Select a soft-proof ICC first. Normal preview is currently shown.
+1320	Invalid output preview toggle.
+1321	Invalid ICC path.
+1322	Monitor ICC unavailable. Displaying in sRGB temporarily; you can choose another profile.
+1323	Soft-proof ICC unavailable; proofing temporarily disabled. Output color settings retained.
+1324	Color output and soft proofing
+1325	Choose soft-proof ICC
+1326	Reset this photo's proof preview
+1327	Local monitor · Applies immediately
+1328	Use system monitor ICC
+1329	Choose monitor ICC manually
+1330	Reset monitor to sRGB
+1331	Before color output settings
+1332	Before ICC settings
+1333	Local monitor ICC applied. This setting is not synchronized with photos.
+1334	Local monitor reset to sRGB. Photo proofing and output settings are unchanged.
+1335	Before resetting proof preview
+1336	Display preview and exported pixels are processed separately. Soft proofing is not written into the photo.
+1337	HDR floating-point TIFF output
+1338	SDR highlight-mapped preview
+1339	Enable soft proofing
+1340	Show out-of-gamut areas for selected output space
+1341	HDR exports as floating-point TIFF. This window uses SDR display.
+1342	ICC conversion retains floating-point precision. Soft proofing affects only the preview.
+1343	Set ICC 
+1344	No system monitor ICC available. Choose one manually.
+1345	ICC unavailable
+1346	These settings affect all photos on this computer and save immediately. They are independent of workspace Apply / Cancel and are not synchronized with photos.
+1347	ICC color profile
+1348	Temperature (K)
+1349	White balance tint
+1350	Midtone hue
+1351	Midtone saturation
+1352	Global grading hue
+1353	Global grading saturation
+1354	Shadow grading luminance
+1355	Midtone grading luminance
+1356	Highlight grading luminance
+1357	Grading balance
+1358	Grading blending
+1359	Warm-color grading protection
+1360	Curve color preservation
+1361	Channel curve color preservation
+1362	Low-saturation protection
+1363	Global texture
+1364	Global clarity
+1365	Dehaze
+1366	Luminance noise reduction
+1367	Color noise reduction
+1368	Sharpening amount
+1369	Sharpening radius
+1370	Sharpening detail
+1371	Sharpening mask
+1372	Black & White conversion
+1373	Red primary hue
+1374	Red primary saturation
+1375	Green primary hue
+1376	Green primary saturation
+1377	Blue primary hue
+1378	Blue primary saturation
+1379	Post-crop vignette
+1380	Grain
+1381	Grain size
+1382	Up to eight Point Color samples are allowed.
+1383	Invalid Point Color record.
+1384	Invalid Point Color range: 
+1385	White balance · Temperature and neutral sampling
+1386	Sample neutral gray / white on photo
+1387	Clear neutral sample
+1388	Auto tone
+1389	Apply XMP settings to current photo
+1390	Export XMP color settings
+1391	Color grading · Three-way and global
+1392	Point Color · Adjustable color ranges
+1393	Add color sample on photo
+1394	Color spread
+1395	Preview affected color range
+1396	Delete current Point Color
+1397	Global texture, noise reduction and sharpening
+1398	Black & White Mix
+1399	Black & White: 0 off / 1 on
+1400	RGB primary calibration
+1401	Curve color preservation, vignette and grain
+1402	Before white balance preset
+1403	Before Point Color adjustment
+1404	Before deleting Point Color
+1405	Delete Point Color
+1406	Before clearing white balance sample
+1407	Clear white balance sample
+1408	Before color sampling
+1409	Color sampling
+1410	XMP mapping result
+1411	Before auto tone
+1412	No sample yet
+1413	As shot
+1414	Temperature reference (K)
+1415	Green / magenta tint
+1416	Global
+1417	Choose grading color
+1418	Hue shift
+1419	Saturation shift
+1420	Luminance shift
+1421	Hue range
+1422	Saturation range
+1423	Luminance range
+1424	Highlight priority
+1425	Film grain · Scales with original image
+1426	Legacy project algorithm
+1427	Auto
+1428	White balance preset 
+1429	Add a Point Color sample on the photo first.
+1430	White balance corrected from the neutral sample. Fine-tune warmth as needed.
+1431	Before XMP import
+1432	XMP parameter mapping 
+1433	Export color XMP
+1434	XMP exported.
+1435	Before grading color
+1436	Grading color · 
+1437	Daylight
+1438	Cloudy
+1439	Tungsten
+1440	Fluorescent
+1441	Flash
+1442	Luminance
+1443	Color priority
+1444	Paint overlay
+1445	Could not import XMP
+1446	XMP not exported
+1447	Center is neutral · Left/right changes hue · Up/down changes strength
+1448	HSL located: 
+1449	Up to eight Point Color samples are allowed. Delete unused samples first.
+1450	\nNot imported: 
+1451	Edit history
+1452	Retouch record
+1453	Visible
+1454	Opacity
+1455	Before editing retouch record
+1456	Updated. Ctrl + Z to undo.
+1457	Delete retouch record
+1458	Adjust retouch record
+1459	Replayed in original order. Hiding or deleting a stroke causes later repairs to sample again.
+1460	Enter opacity from 0 to 100
+1461	Delete selected
+1462	Patch
+1463	Yes
+1464	No
+1465	AURA Photo · Standalone Edition
+1466	Supports static photos and RAW editing.\nIncludes NVIDIA GPU inference and rendering libraries, with CPU fallback.\nFirst use of GPU rendering requires consent to online initialization; subsequent use can be offline.\nFace landmarks: MediaPipe mesh adapter.\nSkin / subject segmentation: MediaPipe multiclass model.\nEyes, brows and lips: mesh regions with manual refinement.\nFujifilm filters, HEIC, Live Photos and video are not included.\nCheck masks around fine hair, occlusion and side profiles.\nFull licenses: THIRD_PARTY_NOTICES.txt in the application folder.
+1467	AURA Photo 0.1.0 · Standalone Photo Edition\nSettings and caches stay in this edition's folder. Original AURA settings are not read.\nTo update, extract a new standalone ZIP into a new folder.\nThis edition does not invoke the original installer.
+1468	Edition features and models
+1469	Mobile repair cache
+1470	Automatic blemish repair
+1471	Basic skin texture · Face and body
+1472	Facial detail
+1473	Face skin tone
+1474	Body-specific controls
+1475	Part-mask color
+1476	Patch and clone
+1477	Manual retouch
+1478	Global color and matching
+1479	Portrait soft light
+1480	Clothing refinement
+1481	Makeup and hair color
+1482	Color and creative effects
+1483	Invalid effect toggle or strength.
+1484	Effects and local erase-back
+1485	Selected effect strength
+1486	Clear erase-back area for selected effect
+1487	Before effect erase-back
+1488	Clear effect erase-back area
+1489	Show selected effect
+1490	Erase back this effect
+1491	Restore this effect
+1492	Erase-back radius / original pixels
+1493	Adjust effect · 
+1494	Wait for reshaping to finish before erasing back.
+1495	Disable experimental body reshaping before erasing back effects.
+1496	Local erase-back · 
+1497	Show erase-back area
+1498	Erase-back affects only the selected processing stage and preserves other adjustments. Restore smart face shaping and liquify with their original tools. Strokes use original-image coordinates and can follow completed face liquify.
+1499	Canceled. Facial detail changes not applied.
+1500	Face reshaping landmarks
+1501	Reusing existing MediaPipe mesh landmarks
+1502	Face reshaping canceled. Photo unchanged.
+1503	The standalone edition uses MediaPipe mesh landmarks.
+1504	Reshaping regions are too dense. Reduce strength or adjust one side first.
+1505	Neighboring people's warps are too dense. Reduce strength.
+1506	Multi-person reshaping is overcompressing regions. Reduce strength for adjacent people.
+1507	Before feature reset
+1508	Preparing the first comparison. Release to restore immediately; you will be notified when ready.
+1509	Current effect restored. Comparison is still preparing; you will be notified when ready.
+1510	Reset this feature · 
+1511	Current effect restored.
+1512	Reset this feature
+1513	Effect off · Release to restore
+1514	Preparing comparison…
+1515	Comparison not generated: 
+1516	Comparison ready. Hold to view; release to restore the current effect.
+1517	Hold to compare
+1518	Brush settings
+1519	Sample transform
+1520	Neutral RAW development dimensions differ. Use the same RAW source first.
+1521	Reset all lights
+1522	Reset this light's position
+1523	Reset this light's illumination
+1524	Reset this light's protection
+1525	Clear gradients and ranges
+1526	Body retouch area
+1527	Spot and blemish repair
+1528	Spot candidates
+1529	Dark-spot / mole candidates
+1530	Sweat highlight reduction
+1531	Small nose imperfections
+1532	Reduce beard / upper-lip hair
+1533	Repair texture retention
+1534	Soften eye-bag shading
+1535	Enhance jawline shading
+1536	Beard protection
+1537	Makeup color protection
+1538	Body blemish repair
+1539	Body dark-spot candidates
+1540	Tattoo candidate repair · Experimental
+1541	Body texture smoothing
+1542	Body high-frequency texture
+1543	Body low-frequency evening
+1544	Body dewy softness
+1545	Body whitening
+1546	Body skin luminosity
+1547	Even body skin tone
+1548	Match body toward face skin tone
+1549	Body rosiness (legacy preset)
+1550	Body temperature
+1551	Body rosiness / tint
+1552	Reduce neck lines
+1553	Body fine lines / stretch marks · Experimental
+1554	Enhance collarbone shading · Experimental
+1555	Match body to sampled skin tone
+1556	Body skin-tone preset strength
+1557	Match body toward brightest face tone
+1558	Face skin-tone preset strength
+1559	Match face to sampled skin tone
+1560	Match face toward brightest skin tone
+1561	Enhance facial high-frequency texture
+1562	Skin-tone preset index
+1563	Sample R
+1564	Sample G
+1565	Sample B
+1566	Auto slim body
+1567	Auto slim waist
+1568	Auto slim legs
+1569	Lengthen legs
+1570	Dodge & burn contour · Features
+1571	Dodge & burn contour · Outline
+1572	Full-face tonal volume · Level
+1573	Forehead tonal volume
+1574	Midface tonal volume
+1575	Cheek tonal volume
+1576	Nasal-base tonal volume
+1577	Eye socket · Person's left
+1578	Eye socket · Person's right
+1579	Soften inner-eye shadow
+1580	Brow-bone tonal volume
+1581	Chin tonal volume
+1582	Mouth-corner tonal volume
+1583	Forehead
+1584	Midface
+1585	Nasal base
+1586	Chin
+1587	Local double-chin tightening · Experimental
+1588	Soften double-chin shadow
+1589	Local underarm tightening · Person's left · Experimental
+1590	Local underarm tightening · Person's right · Experimental
+1591	Volume · Evenness
+1592	Volume · Brightness
+1593	Skin tone
+1594	Blemishes
+1595	Wrinkles
+1596	Creative
+1597	Develop
+1598	Color
+1599	Whole photo
+1600	Open the separate color workspace for global tones and RAW development.
+1601	Current person
+1602	Recommended settings, skin tone, texture, blemishes, wrinkles and portrait lighting.
+1603	Body skin / Body outline in single-person photos
+1604	Body skin and blemish retouching, plus photo-mode body, waist and leg slimming and leg lengthening.
+1605	Shape
+1606	Current person / Manual warp area
+1607	Face-shape presets, smart features, liquify brushes and hover nodes.
+1608	Lip color, blush and hair color; strength defaults to off.
+1609	Current person's clothing
+1610	Reduce fine clothing wrinkles and adjust clothing color.
+1611	Background area
+1612	Adjust background color and softness; inspect and refine its mask.
+1613	Current person / Current mask
+1614	Detect body parts, create merged or separate masks, add missing areas, refine edges and adjust local color.
+1615	Manual selection / Selected processing stage
+1616	Retouch brushes, patch cloning, AI cleanup and effect erase-back.
+1617	Export framing for the whole photo
+1618	Crop, straighten and rotate. Use the current person as the framing center.
+1619	Adjust tones, curves, color, grading, detail and RAW in a separate window. Apply to keep editing; handle pending changes when returning.
+1620	Camera Raw workspace separate window color
+1621	Recommendations and basic retouch
+1622	Basic smoothing, whitening and texture cover face, ears, neck and body skin. Add missed facial skin with the retouch-area brush. Blemish detection is separate.
+1623	portrait skin recommendations automatic beauty missed selection bangs hair chin feather manual selection
+1624	Skin sampling and tone presets
+1625	Sample first, then adjust skin-tone matching strength for the face or body.
+1626	eyedropper skin tone color sampling
+1627	Skin texture and tone refinement
+1628	Fine-tune tones, frequency, luster and skin color.
+1629	skin texture smoothing matte dewy satin

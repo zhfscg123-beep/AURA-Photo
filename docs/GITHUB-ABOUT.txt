@@ -1,0 +1,11 @@
+GitHub About — 中文
+Windows 本地人像编辑软件，支持 RAW、美颜、局部修复、调色与补光，提供 GPU/CPU 和中英文界面。源码可见；个人非商业使用及免费分享获准，商业与批量分发须授权。
+
+GitHub About — English
+Local Windows portrait editor with RAW, retouching, repair, color and relighting; GPU/CPU and Chinese/English UI. Source available for personal noncommercial use and free sharing; commercial use and bulk distribution require permission.
+
+Suggested topics
+photo-editor, portrait-retouching, raw-processing, image-processing, windows, python, gpu, source-available
+
+项目 README：README.md（中文）、README.en.md（英文）。
+上述说明不替代 LICENSE；第三方组件继续遵守各自许可。

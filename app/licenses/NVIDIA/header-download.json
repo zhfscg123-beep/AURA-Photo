@@ -1,0 +1,8 @@
+{
+  "package": "nvidia-cuda-runtime",
+  "version": "13.0.96",
+  "filename": "nvidia_cuda_runtime-13.0.96-py3-none-win_amd64.whl",
+  "url": "https://files.pythonhosted.org/packages/b7/94/6b867483bec07da24ffa32736c79fabb94ef3a7af4d787a9d4a974868576/nvidia_cuda_runtime-13.0.96-py3-none-win_amd64.whl",
+  "sha256": "f79298c8a098cec150a597c8eba58ecdab96e3bdc4b9bc4f9983635031740492",
+  "bytes": 2927037
+}

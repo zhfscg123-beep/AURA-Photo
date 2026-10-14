@@ -1,0 +1,35 @@
+安装与语言
+保持安装 EXE 与所有 BIN 文件在同一目录，运行安装程序。安装时可选择简体中文或 English，首次启动采用所选语言。
+设置 → 语言可即时切换并保留照片与编辑状态；下次启动记住选择。更新保留已在应用中修改的语言偏好。
+本版具有独立目录、快捷方式和卸载项，不覆盖原版 AURA。后续独立版更新复用安装目录；请先保存并退出 AURA Photo。
+AURA Photo 0.2.0 — Windows 独立静态照片版（GPU + CPU）
+
+启动
+完整解压 ZIP 到可写目录，双击 AURA Photo.exe。无需安装 Python、CUDA Toolkit 或原版 AURA。不要在 ZIP 浏览窗口中直接启动 EXE。
+这是独立便携目录，不覆盖原版，不运行原版更新器。配置、恢复记录和 GPU 缓存保存在本目录 .aura-photo-data。照片另存导出，保留原图。
+关闭程序后可移动整个目录。中文路径通过少量本机目录联接适配 CUDA；联接位置为盘符根目录 .aura-photo-paths 或本机 LocalAppData/AURA-Photo/path-links，里面不另存照片。
+
+GPU
+已附带 NVIDIA CUDA 13、cuDNN、PyTorch GPU、ONNX Runtime GPU 和 CuPy 运行库，同时保留 CPU 环境。
+首次启动 GPU 版时，会询问是否从 NVIDIA 官方发布的 Python 包下载 GPU 渲染所需编译文件（约数 MB）；文件经过固定 SHA-256 校验，之后可离线渲染。初始化不上传照片。下载地址及校验值见 licenses/NVIDIA/header-download.json。
+选择“否”或下载失败时，仍可使用 GPU 模型推理与 CPU 照片渲染；下次启动可重试。重新分发时不要把本机下载生成的 .aura-photo-data 打入 ZIP。
+需要兼容 CUDA 13 的 NVIDIA 显卡及驱动；不包含显卡驱动。本机测试配置：RTX 5060 Ti 16 GB、驱动 610.88。其他显卡尚未逐一测试。
+没有可用 GPU 时回退 CPU；也可双击 Launch CPU.cmd 强制使用 CPU。MediaPipe 面部与人体定位在 CPU 上运行，部分 ONNX 算子也使用 CPU，属于正常分工。
+
+功能范围
+支持静态照片、RAW 显影、美颜、局部修复、形变、调色、几何补光及 JPEG/PNG/TIFF 导出。
+RAW 使用 RawTherapee 5.13，保留拍摄白平衡、镜头配置匹配与手动调整。默认用户曝光为 0，不额外添加固定 +0.35 EV。
+本版不附带相机 DCP 集合，默认使用相机色彩矩阵；因此 RAW 默认色彩与原版含 DCP 的结果可能不同。可自行导入有权使用的配置文件。
+本版暂不提供富士滤镜、HEIC、实况照片或视频。
+使用可分发模型替换了原面部分割和定位依赖。倾斜人脸改用局部重定位；基础美白包含眉部，纹理处理仍保护眉毛。细发丝、遮挡和侧脸边界请检查蒙版，可手动修边。
+
+分发材料
+第三方声明见 THIRD_PARTY_NOTICES.txt。许可证、版本、模型来源和哈希位于 licenses 与 models-manifest.json；对应开源源码位于 third-party-sources，构建说明见 SOURCE_BUILD_INSTRUCTIONS.txt。
+保留这些文件一起分发。本 ZIP 不包含个人照片、测试导出、原版配置或本地恢复记录。
+第三方许可证不等于整个 AURA 项目的统一开源授权；项目自身的对外授权方案由项目所有者另行确定。
+
+
+AURA license / AURA 项目许可
+GitHub: zhfscg123-beep — https://github.com/zhfscg123-beep
+See LICENSE-AURA.txt. Personal noncommercial use and free sharing are permitted; commercial use and defined bulk distribution require prior written permission. Third-party and GitHub platform rights are preserved.
+详见 LICENSE-AURA.txt：允许个人非商业使用和免费分享，不限个人分享下载次数；商业使用与所定义的批量分发须另行书面授权。第三方许可与 GitHub 平台权利保留。

@@ -1,0 +1,33 @@
+AURA Photo 0.2.0 — 源码发布隐私检查 / Source release privacy review
+日期 / Date: 2026-10-13
+
+范围 / Scope
+检查准备发布的全部源文件（包含隐藏许可文件）、图片/PDF 元数据、源码 ZIP 文件名与内容、源码清单和校验值。
+Reviewed the source snapshot including hidden license files, image/PDF metadata, source ZIP entries and contents, and file manifests/checksums.
+
+已处理 / Remediation
+旧演示入口中存在本机样片的硬编码绝对路径。现已改为打开文件选择框；取消选择时不读取文件。修复同步到安装包中的对应源码。
+A legacy demo entry contained a machine-specific absolute sample-photo path. It now opens a file picker and does nothing when selection is cancelled. The packaged application source includes the same fix.
+
+发布前检查工具现检查所有 UTF-8 文本及常见敏感文件名，扩展了令牌、私钥、用户目录、绝对照片路径、含口令 URL 和签名 URL 检测；.gitignore 补充私有状态、凭据、抓包及本地输出目录规则。
+The source preflight scans UTF-8 text and common private-state filenames, with expanded checks for tokens, private keys, user paths, absolute photo paths, password-bearing URLs and signed URLs. Ignore rules cover additional private state, credentials, captures and local outputs.
+
+发现与保留 / Findings and retained content
+- 未发现已识别格式的实际访问令牌、私钥、含口令连接或私有签名下载地址。
+- 未包含个人照片、偏好、恢复文件、浏览器 Cookie、会话数据库或 Git 历史。
+- 图标未发现个人 EXIF/GPS/作者元数据；模型 PDF 为上游模型说明，其元数据未发现本机个人信息。
+- 第三方许可中的公开作者、邮箱及版权声明保留；文档安装路径示例、软件版本号及代码中的矩阵运算等误报已区分。
+- 用户明确选择公开的 GitHub 署名 zhfscg123-beep 保留；没有新增联系邮箱。
+
+No actual credentials matching the reviewed patterns, personal photos, preferences, recovery data, browser cookies, session databases or Git history were found in this snapshot. Icons contained no personal EXIF/GPS/author metadata; the upstream model PDFs showed no local personal metadata. Public third-party attribution and the owner's authorized GitHub identity remain intact. Documentation examples, dependency versions and code operators were distinguished from private information.
+
+已检查的通信入口 / Reviewed communication entry points
+本地控制接口绑定 127.0.0.1，使用运行时随机令牌；访问令牌不是写死在源码中的常量，客户端绕过系统代理。GPU 头文件初始化从记录的官方地址下载，并核对 SHA-256。此次审阅未在这些入口发现将照片自动发送给外部服务的逻辑。
+The local control endpoint binds to 127.0.0.1 and uses a runtime-generated token; its client bypasses system proxies. GPU header initialization downloads from the recorded official source and verifies SHA-256. No automatic external photo-upload logic was found in these reviewed entry points.
+
+局限 / Limits
+这是一项对当前发布快照的静态检查及定向验证，不是完整渗透测试，也不能保证发现所有混淆凭据、未来提交或运行时数据泄露。自动扫描结果需人工判断；第三方公开声明不应仅因包含邮箱而删除。
+This is a static snapshot review with targeted validation, not a complete penetration test or a guarantee against all obfuscated credentials, future commits or runtime data exposure. Automated matches require review; public third-party notices should not be removed merely because they contain contact information.
+
+继续发布前可运行 / Repeat the source preflight before future releases:
+python tools/verify_source.py

@@ -1,0 +1,390 @@
+0	Use the DAMO detector in PortraitAISession.
+1	Repair mask dimensions do not match.
+2	The selection is too large. Repair in batches of up to 96 local regions.
+3	AI repair canceled. The photo is unchanged.
+4	The AI model returned invalid pixels. No repair was applied.
+5	Background fill
+6	Local AI model missing: 
+7	Model checksum failed: 
+8	AI Subject
+9	AI Sky
+10	AI Background
+11	Orange
+12	Yellow
+13	Blue
+14	Cyan
+15	Green
+16	AI: Automatic GPU / CPU
+17	Invalid compute mode.
+18	Blemish detection / repair
+19	CUDA execution is unavailable or failed to load. Using CPU.
+20	GPU lighting normals: FP16; compositing: FP32; TF32 off
+21	GPU inference failed; retried on CPU: 
+22	GPU model initialization failed. Using CPU: 
+23	CUDA unavailable. Using CPU.
+24	CUDA DLL loading failed: 
+25	GPU detection failed. Using CPU: 
+26	Invalid image format for AI masking.
+27	Subject / sky masks
+28	AI masking canceled. Previous masks retained.
+29	Detecting subjects and sky · 
+30	GPU masking failed. Using CPU: 
+31	Sky model output missing.
+32	AI masking model missing: 
+33	AI masking model checksum failed: 
+34	Invalid sky model graph.
+35	Invalid sky model weight length.
+36	Invalid sky model operator.
+37	Invalid sky model weight encoding.
+38	Invalid sky model activation type.
+39	Invalid automatic recommendation setting.
+40	Local Portrait Retouching v0.2 · AI Detection and Repair
+41	Prefer automatic detection
+42	Run AI detection again (keep manual additions / exclusions)
+43	Detection threshold: lower to find more candidates
+44	AI repair selection
+45	Restore AI recommendations
+46	View
+47	Add missed spots / exclude false detections
+48	Brush / circle radius (original pixels)
+49	Restore automatic selection (clear manual changes)
+50	Reading photo and loading local AI models…
+51	Open photo
+52	Export a new copy
+53	Zoom 100%
+54	Automatically detect and repair after opening a photo.
+55	Current threshold: 0.35
+56	Blemishes: repair visible spots
+57	Smoothing: soften minor unevenness
+58	Whitening: brighten skin
+59	Texture: 50 preserves / higher enhances
+60	Before / after split: original left, result right
+61	Full image
+62	Face
+63	Circle
+64	Brush
+65	Eraser
+66	Move
+67	Undo
+68	Redo
+69	Open a photo to begin. Detection, skin segmentation and repair run locally.
+70	Cancel processing
+71	Selection not yet repaired
+72	Click “AI repair selection” before exporting.
+73	New selection awaiting AI repair
+74	Current selection repaired
+75	 | New selection awaiting AI repair
+76	 | Fine-tune parameters manually
+77	Canvas display
+78	-AI-natural-retouch.png
+79	New copy exported: 
+80	Local Portrait Retouching v0.2
+81	Offline AI detection and repair
+82	Show repair selection
+83	Wheel: zoom at pointer\nSpace + drag / middle button: pan
+84	Circle: click a spot or drag outward from its center\nBrush: drag with left button; right button erases\nOrange: AI candidates; blue: manual additions
+85	Opening a photo creates a recommended retouch. Parameters estimate skin brightness and roughness from AI detection; you can adjust them.\nThe model may still select moles or freckles.\nJPEG / PNG / 8-bit TIFF; export RAW from Lightroom first.
+86	Photos
+87	Canceled. Previous state retained.
+88	Orange: AI selection / Blue: manual additions
+89	Original left / Result right
+90	Repair result
+91	PNG lossless
+92	TIFF 8-bit
+93	Processing failed
+94	Display failed
+95	Orange: AI selection / Blue: manual additions / Red: excluded
+96	\nClick the tool again to exit · Space to pan · Esc to exit
+97	Apply retouch settings
+98	Body reshaping disabled.
+99	AURA Photo · Standalone Photo Edition
+100	Navigator
+101	Photo information
+102	History
+103	Color workspace
+104	Histogram
+105	Camera look / RAW development
+106	Import DCP for this camera
+107	Imported camera settings
+108	Output checks
+109	RAW custom temperature (K)
+110	RAW green / magenta tint
+111	Exposure compensation
+112	Apply source settings
+113	AI Portrait · Face and Body
+114	Use recommended settings
+115	Export this person's retouch preset
+116	Apply a retouch preset
+117	Help
+118	People are numbered from left to right. Basic smoothing, whitening and texture cover the face, ears, neck and body skin. Blemish detection targets the face.
+119	Basic retouching follows the skin mask; the updated skin engine protects facial details. Skin around the lips and eyes can be processed, while blemish repair protects normal features.
+120	Click a value to type directly. Enter applies; Esc cancels. Sliders update their value while dragging and apply on release.
+121	Presets apply to the current person by default and reuse parameters only. New photos still require detection; this photo can reuse cached results.
+122	Skin texture and tone · Current person
+123	Regional wrinkle reduction · Current person
+124	Gentle lip-line smoothing
+125	Lip-line smoothing
+126	Local repair · Select a tool to add areas
+127	Size / original-image radius (pixels)
+128	Feather
+129	Patch opacity
+130	Delete selected patch repair
+131	Detection and comparison
+132	Detection threshold
+133	Run AI detection again
+134	Restore automatic selection
+135	Skin finish selection
+136	Fine-tune portrait settings
+137	Reading original image; preparing RAW development and AI detection…
+138	Camera image · 8-bit (TIFF cannot restore RAW tonal depth)
+139	Before dark-spot protection change
+140	Add selection: Ctrl + wheel changes size
+141	Eyedropper: sample the original developed image; strength is not raised automatically
+142	Liquify: drag Forward Warp to push or pull. Hold Reconstruct, Radial or Smooth brushes to build the effect. Right-click temporarily reconstructs.
+143	Push Left: drag up to push left, down to push right. Alt reverses.
+144	Drag guide nodes on the result side to fine-tune; smart controls are on the right.
+145	Manual retouch: hold to paint; Alt + click samples. Right-click restores manual effects.
+146	\nCtrl + wheel to zoom
+147	\nCtrl + wheel to change size
+148	Delete patch repair
+149	Keyboard shortcuts
+150	Ctrl + K: search features and parameters\nCtrl + Z: undo selection or retouch changes\nCtrl + Y / Ctrl + Shift + Z: redo\nCtrl + O: open photo\nCtrl + S: save project\nEsc: return to Browse (close search while searching)\nSpace + drag / middle-button drag: temporary pan\nCtrl + wheel in Browse: zoom\nCtrl + wheel in Repair: change tool size\nExclude AI / Restore AI: Shift + click affects the entire automatic region
+151	Fine-tune parameters
+152	Use recommendations for this person
+153	Before applying retouch settings
+154	 / 8-bit camera source
+155	Browse: drag to pan · Ctrl + wheel to zoom
+156	GPU is checked when loading a photo. CPU is used if GPU is unavailable.
+157	As-shot white balance
+158	Fit
+159	Open a photo to create an automatic retouch.
+160	Camera profile · RAW16
+161	Match as-shot style
+162	No photo open
+163	Open a RAW file or photo to begin.
+164	No person detected yet
+165	File
+166	Edit
+167	Tools
+168	Library
+169	Settings
+170	Search  Ctrl+K
+171	Drag to pan · Ctrl + wheel to zoom\nCtrl + wheel changes selection size\nSpace temporarily pans · Esc returns to Browse
+172	Portrait
+173	Apply camera style (default)
+174	Open a RAW file to check its embedded camera preview
+175	Blemishes
+176	Smoothing
+177	Whitening
+178	Texture
+179	Protect dark spots · Current photo (optional)
+180	None
+181	Matte
+182	Satin
+183	Dewy
+184	Browse
+185	Circle
+186	Erase
+187	Exclude AI
+188	Restore AI
+189	Patch repair
+190	Clone
+191	Undo Ctrl+Z
+192	Redo Ctrl+Y
+193	Recently opened photos appear here
+194	Tool closed; returned to Browse. Edits retained.
+195	; takes effect next launch. Current edits are retained.
+196	Professional linear development
+197	Drop RAW, JPEG, PNG or TIFF photos here. Folders are not supported yet.
+198	Import photos (Ctrl / Shift for multiple selection)
+199	Import a DCP for this camera model
+200	Profile imported. Click “Apply source settings”.
+201	\nSource: embedded camera image from RAW\n8-bit source; 16-bit export cannot restore RAW tonal depth
+202	\nCamera crop is the default composition. Restore the full RAW frame in Crop.
+203	\nSkin engine: 
+204	Body reshaping is not enabled.
+205	No reliable face found; automatic retouching was not applied.\nYou can add repair selections manually. Occluded, blurred or very small faces may be missed.
+206	Facial wrinkle settings
+207	Reset photo body reshaping before painting, sampling or liquifying to keep editing coordinates aligned.
+208	Add missed skin
+209	; right-click temporarily erases. Current settings apply on release.
+210	Composition
+211	Set all four photo body reshaping controls to zero before painting, sampling or liquifying to keep coordinates aligned.
+212	Temporarily disable Liquify before editing original-image selections or sampling.
+213	Before selecting or sampling, set face reshaping to None and temporarily set double-chin and underarm reshaping to 0 to keep original coordinates aligned.
+214	Before body-part mask edit
+215	Manual selection
+216	After undo
+217	New photos imported next: 
+218	; reuses parameters, not selections or person positions.
+219	Apply retouch preset to this photo
+220	Apply preset: 
+221	Cached person settings are incomplete. Remove the photo from the workspace and import it again. The original is unchanged.
+222	  /  Cache and settings restored
+223	Open photo settings
+224	Copy this person's retouch settings
+225	Paste retouch settings to this person
+226	Paste retouch settings to all people
+227	Remove from workspace (keep original)
+228	Retouch settings copied (RAW settings and selections excluded)
+229	Removed from workspace. Original file retained.
+230	Selection awaiting processing
+231	Click “AI repair selection” first.
+232	Face reshaping pending
+233	Wait for calibration and reshaping to finish. After canceling, click “Recalibrate contour” to retry.
+234	TIFF · HDR 32-bit float 
+235	TIFF · 16-bit 
+236	Wait for calibration and reshaping before saving. After canceling, click “Recalibrate contour” to retry.
+237	Save project
+238	Auto · CPU + GPU
+239	CPU only
+240	Camera preview · 8-bit
+241	Auto white balance
+242	Daylight white balance
+243	Custom temperature
+244	Camera-style compatible development
+245	Compute mode saved: 
+246	This profile belongs to another camera model and cannot be applied.
+247	A profile with this name already exists. Select it from the list or use a differently named DCP.
+248	Import failed
+249	No person detected · Manual repair available
+250	Restoring processed photo and settings…
+251	The camera preview and RAW dimensions differ, so local repairs and masks cannot be retained. Save the project, then reopen the photo to switch sources.
+252	The camera image may include lens correction, so local repairs and masks may not align with RAW. Save the project, then reopen the photo to switch sources.
+253	Identifying body skin for each person…
+254	\nNo color profile: displayed as sRGB
+255	Multiscale processing and detail protection
+256	Legacy project compatibility mode
+257	New selection awaiting AI repair
+258	Retouched version ready to fine-tune
+259	  /  Run AI repair after adding selections
+260	 / Face reshaping awaiting calibration and rendering
+261	 / Local reshaping pending or part not visible: check experimental controls.
+262	 / Detail candidates pending: click “AI apply facial detail repair”.
+263	 / Body blemishes pending: click “AI apply body blemish repair”.
+264	  /  Manually excluded AI selections retained
+265	This is legacy project compatibility mode. Newly imported photos support optional dark-spot protection.
+266	Enable dark-spot protection
+267	Disable dark-spot protection
+268	Circle: drag with the left button to add a fixed-size selection along the path; right-drag erases.
+269	Add to current part mask; right-click temporarily subtracts
+270	Subtract from current part mask
+271	Exclude AI: paint a local exclusion; Shift + click excludes the whole region
+272	Restore AI: paint a local restoration; Shift + click restores the whole region
+273	Click to add a repair. Drag the + source circle to change the sample, or the repair circle to change the target. Release to apply; right-click deletes.
+274	Click to add a clone. Drag the + source circle to change the sample, or the repair circle to change the target. Release to apply; right-click deletes.
+275	Locally restore the original AI mask
+276	Erase AI and manual retouch areas
+277	Retouch area: 
+278	Wait for the reshaped view to finish updating before painting a mask.
+279	Wait for face calibration. Temporarily disable experimental body reshaping first.
+280	Before moving sample source
+281	A photo can contain up to 500 patch repairs.
+282	Add patch repair
+283	Add clone
+284	Exclude entire AI region
+285	Restore entire AI region
+286	Could not save global settings
+287	Automatically apply recommended retouch
+288	Detect only; use “Recommended settings” to apply retouching
+289	Could not export preset
+290	Retouch preset exported: 
+291	Could not read preset
+292	This preset changes the coordinate basis of existing warps. Restore brush warps and clear freeze protection before applying it.
+293	Navigator image
+294	Histogram sampling
+295	Photo thumbnail
+296	Paste retouch settings to current person
+297	Exported: 
+298	Export 
+299	Project saved: 
+300	The original image has changed. This project cannot be restored reliably.
+301	Adjust tones, colors and RAW development in a separate workspace, then return to portrait retouching.
+302	Open color workspace
+303	DCP profiles are checked against the camera model and retain 16-bit development. Proprietary camera beautification is not a color profile.
+304	White balance
+305	Professional linear mode preserves wide gamut and highlight headroom. Use compatible mode for camera DCP styles.
+306	Adjust each person separately. Dedicated body controls are in Body.
+307	Apply preset to all people in this photo
+308	New controls default to 0. Adjust brightness, frequency and color within AI skin regions while retaining original details.
+309	Enabling any wrinkle control prepares AI repair for that person. Once ready, regional strength changes reuse the cache. All controls default to 0. Eye wrinkles include under-eye lines while protecting eyeballs, lash edges and main hair areas.
+310	Gentle lip-line smoothing uses local tonal smoothing and defaults to 0. It does not use the regional AI wrinkle model above.
+311	Size applies only to the next repair. Existing patch circles keep their original size.
+312	Close tool · Browse
+313	Exclude AI / Restore AI: paint locally; Shift + click affects the whole automatic region. Blue manual additions are retained.\nRight-click temporarily erases · Run AI repair after adding selections\nFeather affects only manual selection repair edges
+314	Edit photo
+315	Before / after
+316	Current tool
+317	; click the button again or press Esc to return to Browse.
+318	Could not save compute mode: 
+319	Some photos were not imported
+320	Import failed: 
+321	RAW and photos
+322	All files
+323	DNG camera profiles
+324	Project face positions differ from current detection. Settings were not applied to other people.
+325	The project's embedded camera image source has changed and cannot be restored reliably.
+326	The project's camera-image / RAW source does not match.
+327	The project's DCP profile contents have changed.
+328	Original image dimensions do not match the project.
+329	\n16-bit RAW development; strict camera-model matching
+330	RGB photo: retain existing color and retouching
+331	Move sample source
+332	Move repair target
+333	Add part mask
+334	Subtract part mask
+335	Exclude selection
+336	Exclude part of AI selection
+337	Restore part of AI selection
+338	Portrait retouch preset
+339	JSON preset
+340	Bring out your natural best
+341	Drop a photo here, or File → Import photos    ·    Ctrl+O
+342	Compare with this effect off · 
+343	PNG · 8-bit
+344	JPEG · High quality
+345	Local retouch project
+346	AURA photo project
+347	Android photo project
+348	Original moved: select the original image for this project
+349	Original image mismatch
+350	The selected file does not match the project record.
+351	Enabled
+352	Could not switch photos
+353	\nAs-shot style: 
+354	Unknown
+355	Applied 
+356	RAW sensor data → 16-bit development
+357	Open project
+358	Sample
+359	Repair
+360	Open 
+361	 · On
+362	Circle size applies only to the next repair. Existing repair areas are unchanged.
+363	ASCII path access requires a writable local drive. No virtual drive letters are created.
+364	Could not prepare ASCII path access for GPU / developer tools. No virtual drive letters are created.
+365	Before MCP changes
+366	Before MCP mask
+367	MCP local mask
+368	Mask target must be selection, layer:N or extension:KEY.
+369	Before MCP mask painting
+370	MCP mask painting
+371	Before MCP liquify
+372	MCP liquify stroke
+373	Open a photo with aura_open first.
+374	Unknown retouch parameter.
+375	Parameter revision changed. Read the parameters again.
+376	changes must be a nonempty path/value object.
+377	The number of people cannot be changed.
+378	Invalid person index.
+379	Invalid mask index.
+380	Use aura_layer to add or delete masks.
+381	Unknown RAW parameter.
+382	Invalid liquify setting field.
+383	The current photo is not RAW.
+384	Submit RAW redevelopment separately before changing other parameters.
+385	MCP parameter changes
+386	Invalid parameter catalog query.
+387	paths must contain 1–100 parameter paths.
+388	File does not exist.
+389	Invalid output extension.

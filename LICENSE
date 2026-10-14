@@ -1,0 +1,166 @@
+AURA 非商业使用与个人免费分享许可 1.0
+日期：2026-10-13
+公开署名及许可方身份：GitHub 用户 zhfscg123-beep
+账号主页：https://github.com/zhfscg123-beep
+
+这是自定义的源码可见许可，不是 MIT、Apache、GPL，也不是符合 OSI 定义的开源许可。
+
+1. 适用范围及第三方权利
+“许可方”指以以上账号发布本许可、且对相关内容有权授予许可的人。“软件”仅指 AURA 项目中由许可方有权许可、可受著作权保护且未另行标注许可证的代码、文档和资源及其受保护的衍生部分，包括它们的源代码和可执行形式。本许可不主张许可方拥有全部 AI 生成内容或第三方内容的专有权利，也不限制法律允许的使用或不受保护的内容。
+第三方代码、模型、运行库、数据和工具始终适用其自己的许可证；本许可的商业、分发和部署限制不适用于这些第三方内容。完整索引见 THIRD_PARTY_NOTICES.txt、licenses、vendor 及模型来源清单（源码仓库中位于 app/ 下）。如与第三方原许可冲突，就相应第三方内容以原许可为准。
+本许可不削减 GPL/LGPL 等已授予的运行、复制、修改、再分发、获取对应源码、替换库或为调试修改而进行逆向工程的权利；也不为行使这些权利增设本项目的许可费用。仅分离、使用或再分发第三方组件时，应按该组件的适用许可处理。不能仅因组件被一起打包就把本许可强加给组件。
+
+2. 允许的个人使用与分享
+在遵守本许可及适用第三方许可的前提下，许可方授予自然人以个人身份进行非商业使用、学习、研究、测试、复制、修改，以及免费分享原版或修改版的非独占许可。
+个人可以通过自己的帖子、个人网页、社交账号、网盘链接或 GitHub 分享，向不特定公众免费转载也可以；不按下载次数、浏览量、接收人数或个人备份份数设置上限。平台自行展示、且分享者未因该软件分享取得分成的广告，不会单独使个人分享成为商业使用。
+转载和修改版须保留本许可、适用版权和第三方声明以及随所分发第三方组件依法必须提供的材料或获取方式；修改版须清楚标明修改及非官方身份。接收者对本许可覆盖部分直接依本许可取得同样权利。不得冒充官方、删去许可，或以重新命名、编译、修改等方式规避限制。将官方安装器所需的 EXE 与 BIN 一起分享，或将它们压入同一归档，不属于第 4 条的捆绑分发。
+
+3. 须另行授权的商业使用
+未经许可方另行书面授权，不得将本许可覆盖的软件用于销售、出租、收费下载、收费访问、收费部署、收费图像处理服务，或集成进商业产品、商业服务及商业经营流程。摄影工作室为收费业务处理客户照片、企业在经营活动中使用、提供付费在线修图服务，均属于此范围。
+通过该软件的分发或使用直接获取推广佣金、广告分成或其他商业对价，也须另行授权；不能仅以向最终用户免费为由豁免。个人无商业目的的免费使用和分享按第 2 条处理。
+
+4. 须另行授权的批量分发与集中部署
+本条按行为而非下载数量界定。以下对本许可覆盖软件的行为，即使免费或非营利，也须许可方另行书面授权：
+（a）将软件纳入软件站、应用目录或软件合集的批量收录、批量分发业务；普通个人免费分享不因帖子公开或下载量大而归入此类。
+（b）建立自动抓取、自动同步或系统化复制本软件发布文件的下载镜像，或以程序批量向多个平台、站点或账号发布。个人自己设备上的备份、单次正常下载，以及仅为个人学习测试而运行的构建流程不在此限。
+（c）组织向多名成员或多台设备统一安装、预装、集中推送或部署本软件。个人自行在其个人设备上非商业使用不受设备数量限制；多人各自独立按第 2 条取得和使用软件，不因其属于同一组织而自动成为集中部署。
+（d）将软件捆绑于其他产品、设备、软件套装或服务中向第三方分发、预装或交付。第 2 条允许的单独原版/修改版分享及完整官方安装包转载不因此被禁止。
+仅分享指向官方发布页面的链接不属于上述受限行为。
+
+5. GitHub 平台及法定权利
+公开 GitHub 仓库依其适用服务条款和平台功能允许的查看及平台内 Fork 等权利不受本许可限制。单纯的平台内 Fork 不认定为第 4 条所称镜像或批量分发；基于 Fork 另行开展的商业服务、站外自动镜像或集中部署，仍按其具体行为适用本许可。
+法律不允许通过合同或著作权许可排除的权利不受影响。用户原有照片、编辑参数及其输出图片不因使用软件而自动适用本许可；这不免除商业处理行为依第 3 条取得授权的要求。
+
+6. 授权身份与联系方式
+商业使用或第 4 条行为应事先取得许可方明确的书面授权，并约定用途、范围、期限等条件。识别授权方时以本许可注明的 GitHub 账号及该账号明确公布的授权渠道为依据；本许可不提供邮箱，也不代表 GitHub 是授权方。账号的转让或控制权变化本身不转移软件权利，不使无权者自动有权授权。点赞、关注、Fork、Star、下载及未获明确回复的留言均不构成额外授权。
+本许可不授予将 AURA 名称或标识用于表示官方认可、合作或背书的权利。
+
+7. 终止与保留权利
+超出本许可范围的行为未获本许可授权。收到许可方明确的违规通知后，应停止违规行为；如在首次此类通知后 30 日内完全纠正该次违规，本许可项下因此丧失的许可恢复，但不因此免除此前行为的责任。接收者各自合规取得的许可不因他人的违规而自动终止。
+许可方保留未明确授予的权利，并可为其有权许可的部分另行提供商业许可。后续版本的条款变更不自动改写先前版本已经授予的权利。
+
+8. 免责声明及文本
+在适用法律允许范围内，软件按现状提供，不附带明示或默示担保；许可方不对因使用软件造成的损失承担法律允许排除的责任。不能依法排除的责任不受本条影响。
+中文与英文一并提供；解释存在差异时以中文为准，但不得据此削减第三方许可或适用法律赋予的权利。
+
+
+========================================================================
+
+AURA Noncommercial Use and Personal Free Sharing License 1.0
+Date: 2026-10-13
+Public attribution and licensor identity: GitHub user zhfscg123-beep
+Account: https://github.com/zhfscg123-beep
+
+This is a custom source-available license, not MIT, Apache, GPL, or an
+OSI-conforming open-source license.
+
+1. Scope and third-party rights
+The Licensor is the person publishing this license under the account above
+who has authority to license the relevant material. Software means only
+copyright-protectable AURA code, documentation, resources and protected
+derivative portions that the Licensor may license and that do not carry a
+different license, in source or executable form. This license does not claim
+exclusive rights in all AI-generated or third-party material, restrict
+unprotected material, or override uses permitted by law.
+Third-party code, models, runtimes, data and tools remain under their own
+licenses. This license's commercial-use, distribution and deployment
+restrictions do not apply to them. See THIRD_PARTY_NOTICES.txt, licenses,
+vendor and model provenance (under app/ in the source repository). The
+applicable third-party license controls for that third-party material.
+Nothing here reduces rights granted by GPL, LGPL or other applicable licenses
+to run, copy, modify, redistribute, obtain corresponding source, replace
+libraries or reverse engineer to debug modifications, or adds an AURA license
+fee for exercising those rights. Separately using or redistributing third-party
+components follows their own licenses. Packaging components together does not
+make this license apply to them.
+
+2. Personal use and free sharing
+Subject to this license and applicable third-party licenses, the Licensor
+grants natural persons acting in a personal capacity a nonexclusive license
+to use, study, research, test, copy and modify the Software noncommercially,
+and to share original or modified versions without charge.
+Individuals may share through personal posts, websites, social accounts,
+file-sharing links or GitHub, including free sharing with the public. There
+is no cap based on downloads, views, recipients or personal backup copies.
+Platform advertisements from which the sharer receives no revenue attributable
+to sharing the Software do not by themselves make personal sharing commercial.
+Keep this license, applicable copyright and third-party notices and the
+materials or source-access arrangements required for the components actually
+distributed. Clearly identify modifications and unofficial versions.
+Recipients obtain the same rights directly under this license for its covered
+portions. Do not impersonate official releases, remove notices or evade the
+restrictions by renaming, compiling or modifying the Software. Sharing the
+official installer EXE and required BIN files together, including in one
+archive, is not prohibited bundling under section 4.
+
+3. Commercial uses requiring separate permission
+Prior written permission is required to sell, rent, charge for downloads or
+access, provide paid deployment or image processing, or integrate the covered
+Software into commercial products, services or business operations. This
+includes a photography studio processing photos for paid work, a business
+using it in its operations and a paid online photo-editing service.
+Direct promotional commissions, advertising revenue or other commercial
+consideration attributable to distributing or using the Software also require
+permission, even if end users receive it free. Noncommercial personal use and
+free sharing remain governed by section 2.
+
+4. Bulk distribution and centralized deployment requiring permission
+This section defines conduct, not download counts. Prior written permission
+is required for the following conduct involving the covered Software, even
+when free of charge or nonprofit:
+(a) Inclusion in the bulk-listing or bulk-distribution operations of software
+download sites, application catalogs or software collections. An ordinary
+personal free-sharing post does not qualify merely because it is public or
+popular.
+(b) Automated scraping, synchronization or systematic replication of release
+files as a download mirror, or programmatic publication to multiple platforms,
+sites or accounts. Personal device backups, an ordinary one-off download and
+build workflows used only for personal study or testing are excluded.
+(c) Organization-managed installation, preinstallation, centralized delivery
+or deployment to multiple members or devices. Personal noncommercial use on
+an individual's own devices has no device-count cap. People independently
+obtaining and using the Software under section 2 are not centralized deployment
+merely because they belong to the same organization.
+(d) Bundling the Software with other products, devices, software collections
+or services for distribution, preinstallation or delivery to third parties.
+Standalone sharing of original or modified versions and complete official
+installers permitted by section 2 is not prohibited by this provision.
+Merely linking to an official release page is not restricted conduct above.
+
+5. GitHub and statutory rights; photographs
+Rights to view and fork public GitHub repositories within the service, and
+other rights granted by its applicable terms and functionality, are preserved.
+A platform fork alone is not a mirror or bulk distribution under section 4.
+Separate commercial services, off-platform automated mirrors or centralized
+deployment using a fork remain subject to the applicable conduct restrictions.
+Rights that cannot lawfully be excluded are preserved. Existing user photos,
+editing parameters and output images do not automatically become subject to
+this license. Commercial processing still requires permission under section 3.
+
+6. Authorization identity and contact
+Obtain express prior written permission for commercial use or section 4 conduct,
+specifying its purpose, scope and duration. Identify the Licensor through the
+GitHub account above and authorization channels expressly announced by it.
+No email address is provided. GitHub is not the Licensor. Transfer of an account
+or a change in its control does not itself transfer software rights or empower
+an otherwise unauthorized person to license them. Likes, follows, forks, stars,
+downloads and unanswered messages are not additional permission.
+This license grants no right to use AURA names or marks to imply official
+endorsement, affiliation or partnership.
+
+7. Termination and reserved rights
+Conduct outside this license's scope is not authorized by it. Stop violations
+on express notice from the Licensor. Rights lost under this license because of
+a violation are reinstated if that violation is fully cured within 30 days of
+the first such notice, without releasing liability for past conduct. Compliant
+recipients' own rights are not automatically terminated by someone else's breach.
+The Licensor reserves rights not expressly granted and may separately license
+material it has authority to license commercially. Later terms do not
+automatically rewrite rights already granted for earlier versions.
+
+8. Disclaimer and languages
+To the extent permitted by applicable law, the Software is provided as is,
+without express or implied warranties; the Licensor disclaims liability to
+the extent lawfully excludable. Non-excludable liability is unaffected.
+Chinese and English texts are provided. The Chinese text controls differences
+in interpretation, without reducing third-party or mandatory statutory rights.
